@@ -638,7 +638,7 @@ function hideLogin(){
   var ov=document.getElementById('loginOverlay');
   ov.classList.add('hidden');
   setTimeout(function(){ov.style.display='none';},300);
-  document.getElementById('logoutBtn').style.display='';
+  document.getElementById('logoutBtn').style.display='block';
   applyAuthMode();
 }
 function checkSavedAuth(){
