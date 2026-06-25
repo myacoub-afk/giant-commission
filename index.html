@@ -237,7 +237,8 @@ main{flex:1;padding:0 0 calc(var(--safe-bot) + 80px)}
   <!-- MY NUMBERS TAB -->
   <div id="tabMy">
     <div class="id-wrap" id="idWrap">
-      <div class="id-card">
+      <div class="loading-wrap" id="loadingSpinner"><div class="loader"></div><span>Loading…</span></div>
+      <div class="id-card" id="idCard" style="display:none">
         <div class="id-label">Find your numbers</div>
         <div class="id-input-row">
           <input class="id-input" id="idInput" type="search" placeholder="Type your name or employee code…" autocomplete="off" autocorrect="off" spellcheck="false">
@@ -245,7 +246,7 @@ main{flex:1;padding:0 0 calc(var(--safe-bot) + 80px)}
         </div>
         <div class="id-match" id="idMatch"></div>
         <div class="id-hint" id="idHint">Your selection is remembered on this device.</div>
-      </div>
+      </div><!-- /id-card -->
     </div>
 
     <div id="myContent" style="display:none">
@@ -330,14 +331,23 @@ var chk='<span class="chk">✓</span>';
 // ── data loading ──
 function loadData(){
   fetch('data.json?v='+Date.now())
-    .then(function(r){return r.json();})
-    .then(function(d){DATA=d;init();})
-    .catch(function(){showError();});
+    .then(function(r){
+      if(!r.ok){showError('Server returned '+r.status+'. Make sure data.json is published.');throw new Error('bad status');}
+      return r.json();
+    })
+    .then(function(d){
+      if(!d||!d.rows||!d.rows.length){showError('data.json has no rep data. Re-publish from the live dashboard.');return;}
+      DATA=d;init();
+    })
+    .catch(function(e){if(e.message!=='bad status')showError('Could not load: '+e.message);});
 }
-function showError(){
-  document.getElementById('idWrap').innerHTML='<div class="state-card"><div class="state-ic">⚠️</div><div class="state-h">Couldn't load data</div><div class="state-p">Check your connection and refresh the page.</div></div>';
+function showError(msg){
+  document.getElementById('idWrap').innerHTML='<div class="state-card"><div class="state-ic">⚠️</div><div class="state-h">Couldn\'t load data</div><div class="state-p">'+(msg||'Check your connection and refresh.')+'</div></div>';
 }
 function init(){
+  // show search card, hide spinner
+  var sp=document.getElementById('loadingSpinner');if(sp)sp.style.display='none';
+  var ic=document.getElementById('idCard');if(ic)ic.style.display='';
   document.getElementById('hPeriod').textContent=DATA.meta.period||'—';
   if(DATA.meta.mimNote){
     ['mimNote','mimNoteTeam'].forEach(function(id){
@@ -356,7 +366,7 @@ var idInput=document.getElementById('idInput');
 var idMatch=document.getElementById('idMatch');
 idInput.addEventListener('input',function(){
   var q=this.value.trim().toLowerCase();
-  if(!q||!DATA){idMatch.classList.remove('show');return;}
+  if(!q||!DATA||!DATA.rows){idMatch.classList.remove('show');return;}
   var hits=DATA.rows.filter(function(d){
     return d.name.toLowerCase().indexOf(q)>-1||d.code.toLowerCase().indexOf(q)>-1||
            (d.lastName&&d.lastName.toLowerCase().indexOf(q)>-1);
