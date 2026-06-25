@@ -537,13 +537,16 @@ function renderTeam(){
            (d.lastName&&d.lastName.toLowerCase().indexOf(teamTerm)>-1)||d.code.indexOf(teamTerm)>-1);
   });
   var maxP=DATA.stats.max_total||1;
+  var isAdmin=authMode==='admin';
   document.getElementById('resultsMeta').textContent=list.length+' rep'+(list.length===1?'':'s');
   document.getElementById('standingsWrap').innerHTML=list.map(function(d){
     var isMe=me&&d.code===me.code;
     var full=d.name+(d.lastName?' '+d.lastName:'');
     var gates=d.hint_gate&&d.mim_gate;
     var w=Math.max(4,Math.round(d.total/maxP*100));
-    return '<div class="standing-item'+(isMe?' me':'')+'">'+
+    var clickStyle=isAdmin?'cursor:pointer':'';
+    var tap=isAdmin?' title="Tap to view breakdown"':'';
+    return '<div class="standing-item'+(isMe?' me':'')+'" data-code="'+d.code+'" style="'+clickStyle+'"'+tap+'>'+
       '<div class="si-rank '+(d.rank<=3?'top3':'')+'">'+d.rank+'</div>'+
       '<div class="si-info">'+
         '<div class="si-name">'+(isMe?'⭐ ':'')+esc(full)+'</div>'+
@@ -553,12 +556,34 @@ function renderTeam(){
       '<div class="si-right">'+
         '<div class="si-pay">'+fmt(d.total)+'</div>'+
         '<div class="si-gate '+(gates?'pass':'fail')+'">'+(gates?'Gates ✓':'Gates ✗')+'</div>'+
+        (isAdmin?'<div style="font-size:10px;color:var(--mute);margin-top:3px">View ›</div>':'')+
       '</div>'+
     '</div>';
   }).join('');
 }
 document.getElementById('teamSearch').addEventListener('input',function(){
   teamTerm=this.value.trim().toLowerCase();renderTeam();
+});
+document.getElementById('standingsWrap').addEventListener('click',function(e){
+  if(authMode!=='admin') return;
+  var item=e.target.closest('.standing-item');
+  if(!item) return;
+  var code=item.getAttribute('data-code');
+  if(!code||!DATA) return;
+  var d=DATA.rows.find(function(r){return r.code===code;});
+  if(!d) return;
+  // switch to My Numbers tab
+  activeTab='my';
+  document.querySelectorAll('.tab').forEach(function(t){t.classList.toggle('active',t.dataset.tab==='my');});
+  document.getElementById('tabMy').style.display='';
+  document.getElementById('tabTeam').style.display='none';
+  // load rep into the my-numbers view without changing auth or localStorage
+  me=d;
+  renderOwn(d);
+  document.getElementById('myContent').style.display='block';
+  document.getElementById('noMatch').style.display='none';
+  // scroll to top
+  window.scrollTo({top:0,behavior:'smooth'});
 });
 
 // ── tabs ──
@@ -592,6 +617,14 @@ document.getElementById('installX').addEventListener('click',function(){
 // ── auth ──
 var ADMIN_PASSCODE='Giant2026';
 var authMode=null;
+function applyAuthMode(){
+  var isRep=authMode==='rep';
+  // Search box inside My Numbers: hide for reps
+  var idWrap=document.getElementById('idWrap');
+  if(idWrap) idWrap.style.display=isRep?'none':'';
+  // Re-render team so clickability reflects auth mode
+  renderTeam();
+}
 function showLogin(){
   var ov=document.getElementById('loginOverlay');
   ov.style.display='';ov.classList.remove('hidden');
@@ -606,6 +639,7 @@ function hideLogin(){
   ov.classList.add('hidden');
   setTimeout(function(){ov.style.display='none';},300);
   document.getElementById('logoutBtn').style.display='';
+  applyAuthMode();
 }
 function checkSavedAuth(){
   var mode=localStorage.getItem('giant_auth_mode');
@@ -621,6 +655,10 @@ function doLogout(){
   localStorage.removeItem('giant_auth_mode');
   localStorage.removeItem('giant_rep_code');
   authMode=null;me=null;
+  // restore hidden elements before showing login
+  var idWrap=document.getElementById('idWrap');
+  if(idWrap) idWrap.style.display='';
+  document.querySelectorAll('.tab').forEach(function(t){t.style.display='';});
   var ii=document.getElementById('idInput');if(ii)ii.value='';
   var mc=document.getElementById('myContent');if(mc)mc.style.display='none';
   showLogin();
