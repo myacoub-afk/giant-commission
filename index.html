@@ -513,7 +513,7 @@ function renderQualify(d){
     '<div class="qualify-needs">'+(locked?esc(reason):'Earning '+fmt2(d.tier_comm))+'</div></div></div>'+
     '<div class="gate-row">'+
     gateEl('MRC',d.mrc_gap===0,fmt(d.mrc),'+'+fmt(d.mrc_gap),d.mrc,T1.mrc,false)+
-    gateEl('Acc',d.acc_gap===0,fmt(d.acc),'+'+fmt(d.acc_gap),d.acc,T1.acc,true)+
+    gateEl('Acc',d.acc_gap===0,fmt2(d.acc),'+'+fmt2(d.acc_gap),d.acc,T1.acc,true)+
     gateEl('HINT',d.hint_gap===0,d.hint,'+'+d.hint_gap,d.hint,T1.hint,false)+
     gateEl('MIM',d.mim_gap===0,d.mim,'+'+d.mim_gap,d.mim,T1.mim,false)+
     '</div>';
