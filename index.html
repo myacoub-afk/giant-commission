@@ -663,10 +663,10 @@ function hideLogin(){
 function checkSavedAuth(){
   var mode=localStorage.getItem('giant_auth_mode');
   var code=localStorage.getItem('giant_rep_code');
-  if(mode==='admin'){authMode='admin';hideLogin();return true;}
+  if(mode==='admin'){authMode='admin';trackLogin('ADMIN','Admin','','admin_return');hideLogin();return true;}
   if(mode==='rep'&&code&&DATA&&DATA.rows){
     var d=DATA.rows.find(function(r){return r.code===code;});
-    if(d){authMode='rep';hideLogin();selectRep(d);return true;}
+    if(d){authMode='rep';trackLogin(d.code,d.name+(d.lastName?' '+d.lastName:''),d.store,'rep_return');hideLogin();selectRep(d);return true;}
   }
   return false;
 }
