@@ -398,16 +398,51 @@ var chk='<span class="chk">✓</span>';
 
 // ── data loading ──
 function loadData(){
-  fetch('data.json?v='+Date.now())
-    .then(function(r){
-      if(!r.ok){showError('Server returned '+r.status+'. Make sure data.json is published.');throw new Error('bad status');}
-      return r.json();
-    })
-    .then(function(d){
-      if(!d||!d.rows||!d.rows.length){showError('data.json has no rep data. Re-publish from the live dashboard.');return;}
-      DATA=d;init();
-    })
-    .catch(function(e){if(e.message!=='bad status')showError('Could not load: '+e.message);});
+  var v='?v='+Date.now();
+  Promise.all([
+    fetch('data.json'+v).then(function(r){return r.ok?r.json():null;}).catch(function(){return null;}),
+    fetch('mim.json'+v).then(function(r){return r.ok?r.json():null;}).catch(function(){return null;})
+  ]).then(function(results){
+    var d=results[0],m=results[1];
+    if(!d||!d.rows||!d.rows.length){showError('Could not load commission data. Please try again.');return;}
+    // merge MIM data into rows
+    if(m&&m.rows&&m.rows.length){
+      var mimMap={};
+      m.rows.forEach(function(r){mimMap[r.code]=r;});
+      var mtdMap=m.mtdMap||{};
+      d.rows.forEach(function(row){
+        var mim=mimMap[row.code];
+        if(mim){
+          row.mim=mim.postpaid||0;
+          row.in_mim=true;
+          row.store=mim.store||row.store;
+          row.lastName=mim.lastName||row.lastName||'';
+          row.mim_spiff=row.mim*20;
+          var mtdLines=mtdMap[row.code]||0;
+          row.mtd_lines=mtdLines;
+          var mg=Object.keys(mtdMap).length>0?(mtdLines>=1):(row.mim>=1);
+          row.mim_gate=mg;
+          var gates=row.hint_gate&&mg;
+          var TIERS2=[{t:1,mrc:500,acc:900,pm:.08,pa:.10},{t:2,mrc:750,acc:1200,pm:.09,pa:.12},
+            {t:3,mrc:1000,acc:1500,pm:.10,pa:.15},{t:4,mrc:1500,acc:2000,pm:.12,pa:.20}];
+          var ti={t:0,pm:0,pa:0};
+          TIERS2.forEach(function(x){if(row.mrc>=x.mrc&&row.acc>=x.acc)ti=x;});
+          row.tier=ti.t;
+          row.tier_comm=gates&&ti.t>0?Math.round((row.mrc*ti.pm+row.acc*ti.pa)*100)/100:0;
+          row.total=Math.round((row.tier_comm+row.hint_spiff+row.mim_spiff)*100)/100;
+          row.mim_gap=Math.max(0,1-(Object.keys(mtdMap).length>0?mtdLines:row.mim));
+          row.qualifies=row.mrc_gap===0&&row.acc_gap===0&&row.hint_gap===0&&row.mim_gap===0;
+        }
+      });
+      d.rows.sort(function(a,b){return b.total-a.total;});
+      d.rows.forEach(function(r,i){r.rank=i+1;});
+      d.stats.total_payout=Math.round(d.rows.reduce(function(s,r){return s+r.total;},0)*100)/100;
+      d.stats.qualified=d.rows.filter(function(r){return r.tier_comm>0;}).length;
+      d.stats.max_total=Math.max.apply(null,d.rows.map(function(r){return r.total;}));
+      if(m.meta&&m.meta.mimNote)d.meta.mimNote=m.meta.mimNote;
+    }
+    DATA=d;init();
+  }).catch(function(e){showError('Could not load: '+e.message);});
 }
 function showError(msg){
   document.getElementById('idWrap').innerHTML='<div class="state-card"><div class="state-ic">⚠️</div><div class="state-h">Couldn\'t load data</div><div class="state-p">'+(msg||'Check your connection and refresh.')+'</div></div>';
