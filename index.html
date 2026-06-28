@@ -271,6 +271,7 @@ main{flex:1;padding:0 0 calc(var(--safe-bot) + 80px)}
   <div class="tabs">
     <button class="tab active" data-tab="my">My Numbers</button>
     <button class="tab" data-tab="team">Team</button>
+    <button class="tab" data-tab="monthly">Monthly</button>
   </div>
 </header>
 
@@ -349,7 +350,16 @@ main{flex:1;padding:0 0 calc(var(--safe-bot) + 80px)}
     <div class="standings-wrap" id="standingsWrap"></div>
   </div>
 
-  <!-- disclaimer -->
+  <!-- MONTHLY TAB -->
+  <div id="tabMonthly" style="display:none">
+    <div class="search-wrap" style="padding-top:12px">
+      <div style="display:flex;gap:8px;align-items:center;padding:0 4px">
+        <select id="monthSelect" style="flex:1;font-family:var(--body);font-size:14px;border:1.5px solid var(--line);border-radius:11px;padding:9px 12px;background:#fff;color:var(--navy);-webkit-appearance:none"></select>
+      </div>
+    </div>
+    <div class="results-meta" id="monthMeta"></div>
+    <div class="standings-wrap" id="monthlyWrap"></div>
+  </div>
   <div style="margin:20px 16px 8px;padding:12px 14px;background:#FBEAE8;border:1px solid #F2D2CC;
     border-left:4px solid #C0392B;border-radius:11px;font-size:12px;color:#7B241C;line-height:1.5">
     <strong>Disclaimer:</strong> Cancelled lines and commission charge backs are not removed in this amount.
@@ -666,6 +676,8 @@ document.querySelectorAll('.tab').forEach(function(t){
     document.querySelectorAll('.tab').forEach(function(x){x.classList.toggle('active',x===t);});
     document.getElementById('tabMy').style.display=activeTab==='my'?'':'none';
     document.getElementById('tabTeam').style.display=activeTab==='team'?'':'none';
+    document.getElementById('tabMonthly').style.display=activeTab==='monthly'?'':'none';
+    if(activeTab==='monthly'&&!MONTHLY) loadMonthly();
   });
 });
 
@@ -687,7 +699,95 @@ document.getElementById('installX').addEventListener('click',function(){
   localStorage.setItem('giant_install_dismissed','1');
 });
 
-// ── auth ──
+// ── monthly leaderboard ──
+var MONTHLY = null;
+var currentMonth = null;
+
+function loadMonthly(){
+  fetch('monthly.json?v='+Date.now())
+    .then(function(r){return r.ok?r.json():null;})
+    .catch(function(){return null;})
+    .then(function(m){
+      if(!m) return;
+      MONTHLY=m;
+      // populate month selector
+      var sel=document.getElementById('monthSelect');
+      var months=Object.keys(m).sort().reverse();
+      sel.innerHTML=months.map(function(k){
+        var d=new Date(k+'-01');
+        var label=d.toLocaleDateString('en-US',{month:'long',year:'numeric'});
+        return '<option value="'+k+'">'+label+'</option>';
+      }).join('');
+      if(months.length){currentMonth=months[0];renderMonthly();}
+    });
+}
+
+function renderMonthly(){
+  if(!MONTHLY||!currentMonth||!MONTHLY[currentMonth]) return;
+  var m=MONTHLY[currentMonth];
+  var repsObj=m.reps||{};
+  // aggregate periods per rep
+  var list=Object.keys(repsObj).map(function(code){
+    var r=repsObj[code];
+    var total=0,tier_comm=0,hint_spiff=0,mim_spiff=0,mrc=0,acc=0,hint=0,mim=0;
+    Object.values(r.periods||{}).forEach(function(p){
+      total+=p.total||0;tier_comm+=p.tier_comm||0;
+      hint_spiff+=p.hint_spiff||0;mim_spiff+=p.mim_spiff||0;
+      mrc+=p.mrc||0;acc+=p.acc||0;hint+=p.hint||0;mim+=p.mim||0;
+    });
+    return {code:code,name:r.name,lastName:r.lastName||'',store:r.store||'',
+      total:Math.round(total*100)/100,tier_comm:Math.round(tier_comm*100)/100,
+      hint_spiff:Math.round(hint_spiff*100)/100,mim_spiff:Math.round(mim_spiff*100)/100,
+      mrc:Math.round(mrc*100)/100,acc:Math.round(acc*100)/100,hint:Math.round(hint),mim:Math.round(mim)};
+  });
+  list.sort(function(a,b){return b.total-a.total;});
+  var maxTotal=list.length?list[0].total:1;
+  document.getElementById('monthMeta').textContent=list.length+' rep'+(list.length===1?'':'s')+' · Updated '+m.updated;
+  var isAdmin=authMode==='admin';
+  document.getElementById('monthlyWrap').innerHTML=list.map(function(d,i){
+    var rank=i+1;
+    var isMe=me&&d.code===me.code;
+    var full=d.name+(d.lastName?' '+d.lastName:'');
+    var rankEmoji=rank===1?'🏆':rank===2?'🥈':rank===3?'🥉':rank<=7?(rank+'🔥'):rank<=10?(rank+'⭐'):String(rank);
+    var w=Math.max(4,Math.round(d.total/maxTotal*100));
+    var clickStyle=isAdmin?'cursor:pointer':'';
+    return '<div class="standing-item'+(isMe?' me':'')+'" data-code="'+d.code+'" style="'+clickStyle+'" data-monthly="1">'+
+      '<div class="si-rank '+(rank<=3?'top3':'')+'">'+rankEmoji+'</div>'+
+      '<div class="si-info">'+
+        '<div class="si-name">'+(isMe?'⭐ ':'')+esc(full)+'</div>'+
+        '<div class="si-meta">'+esc(d.store)+'</div>'+
+        '<div class="si-bar"><i style="width:'+w+'%"></i></div>'+
+      '</div>'+
+      '<div class="si-right">'+
+        '<div class="si-pay">'+fmt(d.total)+'</div>'+
+        '<div style="font-size:11px;color:var(--mute);margin-top:3px">Tier: '+fmt(d.tier_comm)+'</div>'+
+      '</div>'+
+    '</div>';
+  }).join('');
+}
+
+document.getElementById('monthSelect').addEventListener('change',function(){
+  currentMonth=this.value;renderMonthly();
+});
+
+// wire monthly standings click for admin
+document.getElementById('monthlyWrap').addEventListener('click',function(e){
+  if(authMode!=='admin') return;
+  var item=e.target.closest('.standing-item');
+  if(!item||!item.dataset.monthly) return;
+  var code=item.getAttribute('data-code');
+  if(!code||!DATA) return;
+  var d=DATA.rows.find(function(r){return r.code===code;});
+  if(!d) return;
+  activeTab='my';
+  document.querySelectorAll('.tab').forEach(function(t){t.classList.toggle('active',t.dataset.tab==='my');});
+  document.getElementById('tabMy').style.display='';
+  document.getElementById('tabTeam').style.display='none';
+  document.getElementById('tabMonthly').style.display='none';
+  me=d;renderOwn(d);
+  document.getElementById('myContent').style.display='block';
+  window.scrollTo({top:0,behavior:'smooth'});
+});
 var ADMIN_PASSCODE='Giant2026';
 var authMode=null;
 function applyAuthMode(){
