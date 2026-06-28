@@ -618,7 +618,7 @@ function renderTeam(){
     var w=Math.max(4,Math.round(d.total/maxP*100));
     var clickStyle=isAdmin?'cursor:pointer':'';
     var tap=isAdmin?' title="Tap to view breakdown"':'';
-    var rankEmoji = d.rank===1?'🏆':d.rank===2?'🥈':d.rank===3?'🥉':d.rank===4?'🥇':d.rank<=7?'🔥':d.rank<=10?'⭐':'';
+    var rankEmoji = d.rank===1?'🏆':d.rank===2?'🥈':d.rank===3?'🥉':d.rank<=7?'🔥':d.rank<=10?'⭐':String(d.rank);
     return '<div class="standing-item'+(isMe?' me':'')+'" data-code="'+d.code+'" style="'+clickStyle+'"'+tap+'>'+
       '<div class="si-rank '+(d.rank<=3?'top3':'')+'">'+rankEmoji+'</div>'+
       '<div class="si-info">'+
