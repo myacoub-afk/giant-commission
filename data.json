@@ -1,13 +1,13 @@
 {
   "meta": {
     "period": "Jun 27, 2026 - Jul 3, 2026",
-    "published": "Jun 28, 7:34 PM",
+    "published": "Jun 28, 7:57 PM",
     "autoPublished": true
   },
   "mrc": {
     "aue96179": {
       "name": "JOHANNA",
-      "mrc": 1007,
+      "mrc": 1047,
       "hint": 2
     },
     "bnz46755": {
@@ -82,7 +82,7 @@
     },
     "pxa12423": {
       "name": "GUADALUPE",
-      "mrc": 1294,
+      "mrc": 1336,
       "hint": 1
     },
     "qdg71647": {
@@ -1298,7 +1298,7 @@
     },
     "oan05226": {
       "name": "JENIFER",
-      "acc": 856.72,
+      "acc": 941.7,
       "hint": 1,
       "store": "NATIONS FORD",
       "repName": "JENIFER"
@@ -3284,7 +3284,7 @@
       "name": "GUADALUPE",
       "lastName": "",
       "store": "CENTRAL",
-      "mrc": 1294,
+      "mrc": 1336,
       "acc": 1464.86,
       "hint": 1,
       "mim": 0,
@@ -3293,10 +3293,10 @@
       "hint_gate": true,
       "mim_gate": true,
       "tier": 2,
-      "tier_comm": 292.24,
+      "tier_comm": 296.02,
       "hint_spiff": 10,
       "mim_spiff": 0,
-      "total": 302.24,
+      "total": 306.02,
       "mrc_gap": 0,
       "acc_gap": 0,
       "hint_gap": 0,
@@ -3311,7 +3311,7 @@
       "name": "JOHANNA",
       "lastName": "",
       "store": "NATIONS FORD",
-      "mrc": 1007,
+      "mrc": 1047,
       "acc": 1208.26,
       "hint": 2,
       "mim": 0,
@@ -3320,10 +3320,10 @@
       "hint_gate": true,
       "mim_gate": true,
       "tier": 2,
-      "tier_comm": 235.62,
+      "tier_comm": 239.22,
       "hint_spiff": 20,
       "mim_spiff": 0,
-      "total": 255.62,
+      "total": 259.22,
       "mrc_gap": 0,
       "acc_gap": 0,
       "hint_gap": 0,
@@ -3388,6 +3388,33 @@
       "close_order": 3
     },
     {
+      "code": "oan05226",
+      "name": "JENIFER",
+      "lastName": "",
+      "store": "NATIONS FORD",
+      "mrc": 708,
+      "acc": 941.7,
+      "hint": 1,
+      "mim": 0,
+      "mtd_lines": 14,
+      "in_mim": false,
+      "hint_gate": true,
+      "mim_gate": true,
+      "tier": 1,
+      "tier_comm": 150.81,
+      "hint_spiff": 10,
+      "mim_spiff": 0,
+      "total": 160.81,
+      "mrc_gap": 0,
+      "acc_gap": 0,
+      "hint_gap": 0,
+      "mim_gap": 0,
+      "qualifies": true,
+      "needs": "Qualifies for Tier 1",
+      "rank": 5,
+      "close_order": 4
+    },
+    {
       "code": "xdm79487",
       "name": "Bayron",
       "lastName": "",
@@ -3411,7 +3438,7 @@
       "mim_gap": 0,
       "qualifies": false,
       "needs": "+$533.06 acc",
-      "rank": 5,
+      "rank": 6,
       "close_order": 13
     },
     {
@@ -3438,7 +3465,7 @@
       "mim_gap": 0,
       "qualifies": false,
       "needs": "+$205 MRC, +$825.02 acc",
-      "rank": 6,
+      "rank": 7,
       "close_order": 61
     },
     {
@@ -3465,7 +3492,7 @@
       "mim_gap": 0,
       "qualifies": false,
       "needs": "+$218 MRC, +$729.03 acc",
-      "rank": 7,
+      "rank": 8,
       "close_order": 46
     },
     {
@@ -3492,7 +3519,7 @@
       "mim_gap": 0,
       "qualifies": false,
       "needs": "+$63 MRC, +$568.11 acc",
-      "rank": 8,
+      "rank": 9,
       "close_order": 27
     },
     {
@@ -3519,7 +3546,7 @@
       "mim_gap": 0,
       "qualifies": false,
       "needs": "+$127 MRC, +$437.17 acc",
-      "rank": 9,
+      "rank": 10,
       "close_order": 18
     },
     {
@@ -3546,7 +3573,7 @@
       "mim_gap": 0,
       "qualifies": false,
       "needs": "+$207 MRC, +$440.04 acc",
-      "rank": 10,
+      "rank": 11,
       "close_order": 19
     },
     {
@@ -3573,7 +3600,7 @@
       "mim_gap": 0,
       "qualifies": false,
       "needs": "+$97 MRC, +$705.06 acc",
-      "rank": 11,
+      "rank": 12,
       "close_order": 41
     },
     {
@@ -3600,7 +3627,7 @@
       "mim_gap": 0,
       "qualifies": false,
       "needs": "+$295 MRC, +$501.50 acc",
-      "rank": 12,
+      "rank": 13,
       "close_order": 22
     },
     {
@@ -3627,7 +3654,7 @@
       "mim_gap": 0,
       "qualifies": false,
       "needs": "+$390 MRC, +$875.01 acc",
-      "rank": 13,
+      "rank": 14,
       "close_order": 69
     },
     {
@@ -3654,7 +3681,7 @@
       "mim_gap": 0,
       "qualifies": false,
       "needs": "+$315.14 acc",
-      "rank": 14,
+      "rank": 15,
       "close_order": 12
     },
     {
@@ -3681,35 +3708,8 @@
       "mim_gap": 0,
       "qualifies": false,
       "needs": "+$52.19 acc",
-      "rank": 15,
-      "close_order": 7
-    },
-    {
-      "code": "oan05226",
-      "name": "JENIFER",
-      "lastName": "",
-      "store": "NATIONS FORD",
-      "mrc": 708,
-      "acc": 856.72,
-      "hint": 1,
-      "mim": 0,
-      "mtd_lines": 14,
-      "in_mim": false,
-      "hint_gate": true,
-      "mim_gate": true,
-      "tier": 0,
-      "tier_comm": 0,
-      "hint_spiff": 10,
-      "mim_spiff": 0,
-      "total": 10,
-      "mrc_gap": 0,
-      "acc_gap": 43.28,
-      "hint_gap": 0,
-      "mim_gap": 0,
-      "qualifies": false,
-      "needs": "+$43.28 acc",
       "rank": 16,
-      "close_order": 6
+      "close_order": 7
     },
     {
       "code": "ghh23682",
@@ -5221,7 +5221,7 @@
       "qualifies": false,
       "needs": "+$120 MRC",
       "rank": 72,
-      "close_order": 5
+      "close_order": 6
     },
     {
       "code": "uiz98042",
@@ -9757,7 +9757,7 @@
       "qualifies": false,
       "needs": "+1 HINT",
       "rank": 240,
-      "close_order": 4
+      "close_order": 5
     },
     {
       "code": "pfh58082",
@@ -10977,14 +10977,14 @@
   ],
   "stats": {
     "reps": 285,
-    "qualified": 4,
-    "total_payout": 1743.9,
+    "qualified": 5,
+    "total_payout": 1902.09,
     "total_spiffs": 860,
-    "below_acc": 279,
+    "below_acc": 278,
     "below_mrc": 269,
     "no_hint": 212,
     "no_mim": 285,
-    "max_total": 302.24,
+    "max_total": 306.02,
     "closest_name": "JOHANNA",
     "closest_needs": "Qualifies for Tier 1"
   }
