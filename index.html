@@ -405,7 +405,10 @@ function loadData(){
   ]).then(function(results){
     var d=results[0],m=results[1];
     if(!d||!d.rows||!d.rows.length){showError('Could not load commission data. Please try again.');return;}
-    // merge MIM data into rows
+    // always apply mimNote from mim.json regardless of whether rows exist
+    if(m&&m.meta&&m.meta.mimNote)d.meta.mimNote=m.meta.mimNote;
+    else d.meta.mimNote='';
+    // merge MIM rep data if available
     if(m&&m.rows&&m.rows.length){
       var mimMap={};
       m.rows.forEach(function(r){mimMap[r.code]=r;});
@@ -439,10 +442,7 @@ function loadData(){
       d.stats.total_payout=Math.round(d.rows.reduce(function(s,r){return s+r.total;},0)*100)/100;
       d.stats.qualified=d.rows.filter(function(r){return r.tier_comm>0;}).length;
       d.stats.max_total=Math.max.apply(null,d.rows.map(function(r){return r.total;}));
-      if(m&&m.meta&&m.meta.mimNote)d.meta.mimNote=m.meta.mimNote;
-      else d.meta.mimNote='';
     }
-    if(!m)d.meta.mimNote='';
     DATA=d;init();
   }).catch(function(e){showError('Could not load: '+e.message);});
 }
