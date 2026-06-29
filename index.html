@@ -714,7 +714,7 @@ function loadMonthly(){
       var sel=document.getElementById('monthSelect');
       var months=Object.keys(m).sort().reverse();
       sel.innerHTML=months.map(function(k){
-        var d=new Date(k+'-01');
+        var d=new Date(k+'-02');
         var label=d.toLocaleDateString('en-US',{month:'long',year:'numeric'});
         return '<option value="'+k+'">'+label+'</option>';
       }).join('');
