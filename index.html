@@ -14,6 +14,16 @@ function gtag(){dataLayer.push(arguments);}
 gtag('js',new Date());
 gtag('config','G-TP4EHE8JQ5');
 </script>
+<!-- OneSignal Push Notifications -->
+<script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" defer></script>
+<script>
+  window.OneSignalDeferred = window.OneSignalDeferred || [];
+  OneSignalDeferred.push(async function(OneSignal) {
+    await OneSignal.init({
+      appId: "36dcf980-4b90-4a83-bd7f-4e3c8a9827cb",
+    });
+  });
+</script>
 <title>Giant Commission</title>
 <link rel="manifest" href="manifest.json">
 <link rel="apple-touch-icon" href="icon-192.png">
@@ -831,7 +841,7 @@ function checkSavedAuth(){
   if(mode==='admin'){authMode='admin';trackLogin('ADMIN','Admin','','admin_return');hideLogin();return true;}
   if(mode==='rep'&&code&&DATA&&DATA.rows){
     var d=DATA.rows.find(function(r){return r.code===code;});
-    if(d){authMode='rep';trackLogin(d.code,d.name+(d.lastName?' '+d.lastName:''),d.store,'rep_return');hideLogin();selectRep(d);return true;}
+    if(d){authMode='rep';trackLogin(d.code,d.name+(d.lastName?' '+d.lastName:''),d.store,'rep_return');setupPushForRep(d.code);hideLogin();selectRep(d);return true;}
   }
   return false;
 }
@@ -847,6 +857,25 @@ function doLogout(){
   var mc=document.getElementById('myContent');if(mc)mc.style.display='none';
   showLogin();
 }
+// ── push notifications ──
+function setupPushForRep(code){
+  if(typeof OneSignalDeferred==='undefined') return;
+  OneSignalDeferred.push(async function(OneSignal){
+    try{
+      // tag this device with the rep's NTID so we can target them
+      await OneSignal.login(code);
+      await OneSignal.User.addTag('ntid',code);
+      // prompt for permission if not already asked
+      var permission=await OneSignal.Notifications.permission;
+      if(!permission){
+        setTimeout(function(){
+          OneSignal.Notifications.requestPermission();
+        },2000); // small delay so it doesn't feel jarring right after login
+      }
+    }catch(e){console.log('OneSignal setup error:',e);}
+  });
+}
+
 document.getElementById('loginBtn').addEventListener('click',function(){
   var code=document.getElementById('loginInput').value.trim();
   if(!code){document.getElementById('loginErr').textContent='Please enter your employee ID.';return;}
@@ -857,6 +886,7 @@ document.getElementById('loginBtn').addEventListener('click',function(){
   localStorage.setItem('giant_auth_mode','rep');
   localStorage.setItem('giant_rep_code',d.code);
   trackLogin(d.code,d.name+(d.lastName?' '+d.lastName:''),d.store,'rep');
+  setupPushForRep(d.code);
   hideLogin();
   selectRep(d);
 });
