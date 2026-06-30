@@ -21,7 +21,10 @@ gtag('config','G-TP4EHE8JQ5');
   OneSignalDeferred.push(async function(OneSignal) {
     await OneSignal.init({
       appId: "36dcf980-4b90-4a83-bd7f-4e3c8a9827cb",
+      autoResubscribe: true,
+      promptOptions: { autoPrompt: false },
     });
+    OneSignal.Notifications.setDefaultUrl && OneSignal.Notifications.setDefaultUrl('https://giant-commission.pages.dev');
   });
 </script>
 <title>Giant Commission</title>
