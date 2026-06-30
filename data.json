@@ -1,7 +1,7 @@
 {
   "meta": {
     "period": "Jun 27, 2026 - Jul 3, 2026",
-    "published": "Jun 30, 3:30 PM",
+    "published": "Jun 30, 3:32 PM",
     "autoPublished": true
   },
   "mrc": {
@@ -777,7 +777,7 @@
     },
     "leu33419": {
       "name": "MARCO",
-      "mrc": 186,
+      "mrc": 241,
       "hint": 1
     },
     "lrm02308": {
@@ -852,8 +852,8 @@
     },
     "tyo48742": {
       "name": "rode",
-      "mrc": 891,
-      "hint": 1
+      "mrc": 941,
+      "hint": 2
     },
     "uyr50973": {
       "name": "JARLIN",
@@ -1417,7 +1417,7 @@
     },
     "byj10806": {
       "name": "Daniela",
-      "mrc": 412,
+      "mrc": 422,
       "hint": 1
     },
     "cbs70284": {
@@ -2831,7 +2831,7 @@
     "tyo48742": {
       "name": "rode",
       "acc": 1239.59,
-      "hint": 1,
+      "hint": 2,
       "store": "1024 BROAD",
       "repName": "rode"
     },
@@ -4326,7 +4326,7 @@
       "qualifies": true,
       "needs": "Qualifies for Tier 1",
       "rank": 7,
-      "close_order": 10
+      "close_order": 11
     },
     {
       "code": "vgg78307",
@@ -4356,6 +4356,33 @@
       "close_order": 156
     },
     {
+      "code": "tyo48742",
+      "name": "rode",
+      "lastName": "Caba",
+      "store": "1024 BROAD",
+      "mrc": 941,
+      "acc": 1239.59,
+      "hint": 2,
+      "mim": 0,
+      "mtd_lines": 3,
+      "in_mim": true,
+      "hint_gate": true,
+      "mim_gate": true,
+      "tier": 2,
+      "tier_comm": 233.44,
+      "hint_spiff": 20,
+      "mim_spiff": 0,
+      "total": 253.44,
+      "mrc_gap": 0,
+      "acc_gap": 0,
+      "hint_gap": 0,
+      "mim_gap": 0,
+      "qualifies": true,
+      "needs": "Qualifies for Tier 1",
+      "rank": 9,
+      "close_order": 9
+    },
+    {
       "code": "opt62984",
       "name": "abdullah",
       "lastName": "Hamdan",
@@ -4379,7 +4406,7 @@
       "mim_gap": 0,
       "qualifies": true,
       "needs": "Qualifies for Tier 1",
-      "rank": 9,
+      "rank": 10,
       "close_order": 8
     },
     {
@@ -4406,35 +4433,8 @@
       "mim_gap": 0,
       "qualifies": true,
       "needs": "Qualifies for Tier 1",
-      "rank": 10,
-      "close_order": 2
-    },
-    {
-      "code": "tyo48742",
-      "name": "rode",
-      "lastName": "Caba",
-      "store": "1024 BROAD",
-      "mrc": 891,
-      "acc": 1239.59,
-      "hint": 1,
-      "mim": 0,
-      "mtd_lines": 3,
-      "in_mim": true,
-      "hint_gate": true,
-      "mim_gate": true,
-      "tier": 2,
-      "tier_comm": 228.94,
-      "hint_spiff": 10,
-      "mim_spiff": 0,
-      "total": 238.94,
-      "mrc_gap": 0,
-      "acc_gap": 0,
-      "hint_gap": 0,
-      "mim_gap": 0,
-      "qualifies": true,
-      "needs": "Qualifies for Tier 1",
       "rank": 11,
-      "close_order": 11
+      "close_order": 2
     },
     {
       "code": "inb98999",
@@ -4677,7 +4677,7 @@
       "qualifies": true,
       "needs": "Qualifies for Tier 1",
       "rank": 20,
-      "close_order": 9
+      "close_order": 10
     },
     {
       "code": "rre81618",
@@ -6763,7 +6763,7 @@
       "name": "MARCO",
       "lastName": "Salvador",
       "store": "HIGHSTOWN",
-      "mrc": 186,
+      "mrc": 241,
       "acc": 136.95,
       "hint": 1,
       "mim": 1,
@@ -6776,12 +6776,12 @@
       "hint_spiff": 10,
       "mim_spiff": 20,
       "total": 30,
-      "mrc_gap": 314,
+      "mrc_gap": 259,
       "acc_gap": 763.05,
       "hint_gap": 0,
       "mim_gap": 0,
       "qualifies": false,
-      "needs": "+$314 MRC, +$763.05 acc",
+      "needs": "+$259 MRC, +$763.05 acc",
       "rank": 98,
       "close_order": 61
     },
@@ -8977,7 +8977,7 @@
       "name": "Daniela",
       "lastName": "Rivera",
       "store": "KENDALL",
-      "mrc": 412,
+      "mrc": 422,
       "acc": 244.9,
       "hint": 1,
       "mim": 0,
@@ -8990,12 +8990,12 @@
       "hint_spiff": 10,
       "mim_spiff": 0,
       "total": 10,
-      "mrc_gap": 88,
+      "mrc_gap": 78,
       "acc_gap": 655.1,
       "hint_gap": 0,
       "mim_gap": 0,
       "qualifies": false,
-      "needs": "+$88 MRC, +$655.10 acc",
+      "needs": "+$78 MRC, +$655.10 acc",
       "rank": 180,
       "close_order": 118
     },
@@ -13728,8 +13728,8 @@
   "stats": {
     "reps": 355,
     "qualified": 14,
-    "total_payout": 12596.47,
-    "total_spiffs": 9440,
+    "total_payout": 12610.97,
+    "total_spiffs": 9450,
     "below_acc": 336,
     "below_mrc": 305,
     "no_hint": 235,
