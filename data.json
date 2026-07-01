@@ -1,7 +1,7 @@
 {
   "meta": {
     "period": "Jun 27, 2026 - Jul 3, 2026",
-    "published": "Jul 1, 9:30 AM",
+    "published": "Jul 1, 10:00 AM",
     "autoPublished": true
   },
   "mrc": {
@@ -1067,7 +1067,7 @@
     },
     "dxu32635": {
       "name": "Hael",
-      "mrc": 857,
+      "mrc": 912,
       "hint": 0
     },
     "gqe94673": {
@@ -1317,7 +1317,7 @@
     },
     "ohl37571": {
       "name": "amir",
-      "mrc": 931,
+      "mrc": 951,
       "hint": 0
     },
     "pfh58082": {
@@ -1562,7 +1562,7 @@
     },
     "nkq42630": {
       "name": "amado",
-      "mrc": 510,
+      "mrc": 555,
       "hint": 2
     },
     "nnq24664": {
@@ -4729,6 +4729,33 @@
       "close_order": 15
     },
     {
+      "code": "nkq42630",
+      "name": "amado",
+      "lastName": "Machado",
+      "store": "HOMESTEAD",
+      "mrc": 555,
+      "acc": 1179.74,
+      "hint": 2,
+      "mim": 0,
+      "mtd_lines": 37,
+      "in_mim": true,
+      "hint_gate": true,
+      "mim_gate": true,
+      "tier": 1,
+      "tier_comm": 162.37,
+      "hint_spiff": 20,
+      "mim_spiff": 0,
+      "total": 182.37,
+      "mrc_gap": 0,
+      "acc_gap": 0,
+      "hint_gap": 0,
+      "mim_gap": 0,
+      "qualifies": true,
+      "needs": "Qualifies for Tier 1",
+      "rank": 21,
+      "close_order": 12
+    },
+    {
       "code": "kix04441",
       "name": "zeila",
       "lastName": "Hernanadez",
@@ -4752,35 +4779,8 @@
       "mim_gap": 0,
       "qualifies": false,
       "needs": "+$387 MRC, +$900.00 acc, +1 HINT",
-      "rank": 21,
-      "close_order": 207
-    },
-    {
-      "code": "nkq42630",
-      "name": "amado",
-      "lastName": "Machado",
-      "store": "HOMESTEAD",
-      "mrc": 510,
-      "acc": 1179.74,
-      "hint": 2,
-      "mim": 0,
-      "mtd_lines": 37,
-      "in_mim": true,
-      "hint_gate": true,
-      "mim_gate": true,
-      "tier": 1,
-      "tier_comm": 158.77,
-      "hint_spiff": 20,
-      "mim_spiff": 0,
-      "total": 178.77,
-      "mrc_gap": 0,
-      "acc_gap": 0,
-      "hint_gap": 0,
-      "mim_gap": 0,
-      "qualifies": true,
-      "needs": "Qualifies for Tier 1",
       "rank": 22,
-      "close_order": 12
+      "close_order": 207
     },
     {
       "code": "rre81618",
@@ -11942,7 +11942,7 @@
       "name": "Hael",
       "lastName": "Keswani",
       "store": "EDGEWOOD",
-      "mrc": 857,
+      "mrc": 912,
       "acc": 739.82,
       "hint": 0,
       "mim": 0,
@@ -12941,7 +12941,7 @@
       "name": "amir",
       "lastName": "Abuali",
       "store": "COTTMAN",
-      "mrc": 931,
+      "mrc": 951,
       "acc": 1243.31,
       "hint": 0,
       "mim": 0,
@@ -13831,7 +13831,7 @@
   "stats": {
     "reps": 357,
     "qualified": 17,
-    "total_payout": 13619.16,
+    "total_payout": 13622.76,
     "total_spiffs": 9710,
     "below_acc": 335,
     "below_mrc": 290,
