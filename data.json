@@ -1,7 +1,7 @@
 {
   "meta": {
     "period": "Jun 27, 2026 - Jul 3, 2026",
-    "published": "Jul 1, 11:30 PM",
+    "published": "Jul 2, 9:00 AM",
     "autoPublished": true
   },
   "mrc": {
@@ -2790,6 +2790,13 @@
       "store": "PATTERSON",
       "repName": "ASHLEY"
     },
+    "yll49251": {
+      "name": "JACK",
+      "acc": 414.86,
+      "hint": 1,
+      "store": "PETERS CREEK",
+      "repName": "JACK"
+    },
     "soi27276": {
       "name": "GUADALUPE",
       "acc": 678.77,
@@ -2803,13 +2810,6 @@
       "hint": 0,
       "store": "PATTERSON",
       "repName": "TAYLOR"
-    },
-    "yll49251": {
-      "name": "JACK",
-      "acc": 414.86,
-      "hint": 1,
-      "store": "PETERS CREEK",
-      "repName": "JACK"
     },
     "scj96881": {
       "name": "Crystal",
@@ -3098,12 +3098,12 @@
       "store": "111 COORS ( JUMBO)",
       "repName": "Hector"
     },
-    "bvg22735": {
-      "name": "Dominic",
-      "acc": 0,
-      "hint": 0,
-      "store": "111 COORS ( JUMBO)",
-      "repName": "Dominic"
+    "may13895": {
+      "name": "ADRIAN",
+      "acc": 661.01,
+      "hint": 1,
+      "store": "ZUNI",
+      "repName": "ADRIAN"
     },
     "icr12183": {
       "name": "Ariana",
@@ -3132,6 +3132,13 @@
       "hint": 0,
       "store": "SAN MATEO",
       "repName": "Fransisco"
+    },
+    "bvg22735": {
+      "name": "Dominic",
+      "acc": 0,
+      "hint": 0,
+      "store": "SAN MATEO",
+      "repName": "Dominic"
     },
     "kmk24835": {
       "name": "Karla",
@@ -3244,13 +3251,6 @@
       "hint": 1,
       "store": "BROADWAY",
       "repName": "Roxanne"
-    },
-    "may13895": {
-      "name": "ADRIAN",
-      "acc": 661.01,
-      "hint": 1,
-      "store": "ZUNI",
-      "repName": "ADRIAN"
     },
     "hcw68692": {
       "name": "Frida",
@@ -9763,6 +9763,33 @@
       "close_order": 64
     },
     {
+      "code": "may13895",
+      "name": "ADRIAN",
+      "lastName": "Aragon",
+      "store": "ZUNI",
+      "mrc": 835,
+      "acc": 661.01,
+      "hint": 1,
+      "mim": 0,
+      "mtd_lines": 15,
+      "in_mim": true,
+      "hint_gate": true,
+      "mim_gate": true,
+      "tier": 0,
+      "tier_comm": 0,
+      "hint_spiff": 10,
+      "mim_spiff": 0,
+      "total": 10,
+      "mrc_gap": 0,
+      "acc_gap": 238.99,
+      "hint_gap": 0,
+      "mim_gap": 0,
+      "qualifies": false,
+      "needs": "+$238.99 acc",
+      "rank": 206,
+      "close_order": 77
+    },
+    {
       "code": "uxz24260",
       "name": "Armando",
       "lastName": "Rascon",
@@ -9786,7 +9813,7 @@
       "mim_gap": 0,
       "qualifies": false,
       "needs": "+$231 MRC, +$701.55 acc",
-      "rank": 206,
+      "rank": 207,
       "close_order": 209
     },
     {
@@ -9813,7 +9840,7 @@
       "mim_gap": 0,
       "qualifies": false,
       "needs": "+$359 MRC, +$737.19 acc",
-      "rank": 207,
+      "rank": 208,
       "close_order": 221
     },
     {
@@ -9840,7 +9867,7 @@
       "mim_gap": 0,
       "qualifies": false,
       "needs": "+$405 MRC, +$900.00 acc",
-      "rank": 208,
+      "rank": 209,
       "close_order": 252
     },
     {
@@ -9867,7 +9894,7 @@
       "mim_gap": 0,
       "qualifies": false,
       "needs": "+$310 MRC, +$805.00 acc",
-      "rank": 209,
+      "rank": 210,
       "close_order": 237
     },
     {
@@ -9894,7 +9921,7 @@
       "mim_gap": 0,
       "qualifies": false,
       "needs": "+$115 MRC, +$525.08 acc",
-      "rank": 210,
+      "rank": 211,
       "close_order": 170
     },
     {
@@ -9921,35 +9948,8 @@
       "mim_gap": 0,
       "qualifies": false,
       "needs": "+$683.08 acc",
-      "rank": 211,
-      "close_order": 122
-    },
-    {
-      "code": "may13895",
-      "name": "ADRIAN",
-      "lastName": "Aragon",
-      "store": "ZUNI",
-      "mrc": 835,
-      "acc": 661.01,
-      "hint": 1,
-      "mim": 0,
-      "mtd_lines": 15,
-      "in_mim": true,
-      "hint_gate": true,
-      "mim_gate": true,
-      "tier": 0,
-      "tier_comm": 0,
-      "hint_spiff": 10,
-      "mim_spiff": 0,
-      "total": 10,
-      "mrc_gap": 0,
-      "acc_gap": 238.99,
-      "hint_gap": 0,
-      "mim_gap": 0,
-      "qualifies": false,
-      "needs": "+$238.99 acc",
       "rank": 212,
-      "close_order": 77
+      "close_order": 122
     },
     {
       "code": "bdi51841",
@@ -12355,33 +12355,6 @@
       "close_order": 258
     },
     {
-      "code": "bvg22735",
-      "name": "Dominic",
-      "lastName": "Aragon",
-      "store": "111 COORS ( JUMBO)",
-      "mrc": 0,
-      "acc": 0,
-      "hint": 0,
-      "mim": 0,
-      "mtd_lines": 0,
-      "in_mim": true,
-      "hint_gate": false,
-      "mim_gate": false,
-      "tier": 0,
-      "tier_comm": 0,
-      "hint_spiff": 0,
-      "mim_spiff": 0,
-      "total": 0,
-      "mrc_gap": 500,
-      "acc_gap": 900,
-      "hint_gap": 1,
-      "mim_gap": 1,
-      "qualifies": false,
-      "needs": "+$500 MRC, +$900.00 acc, +1 HINT, +1 MIM",
-      "rank": 302,
-      "close_order": 351
-    },
-    {
       "code": "icr12183",
       "name": "Ariana",
       "lastName": "",
@@ -12405,7 +12378,7 @@
       "mim_gap": 0,
       "qualifies": false,
       "needs": "+$75 MRC, +$740.05 acc, +1 HINT",
-      "rank": 303,
+      "rank": 302,
       "close_order": 302
     },
     {
@@ -12432,8 +12405,35 @@
       "mim_gap": 0,
       "qualifies": false,
       "needs": "+$330 MRC, +$791.04 acc, +1 HINT",
-      "rank": 304,
+      "rank": 303,
       "close_order": 316
+    },
+    {
+      "code": "bvg22735",
+      "name": "Dominic",
+      "lastName": "Aragon",
+      "store": "SAN MATEO",
+      "mrc": 0,
+      "acc": 0,
+      "hint": 0,
+      "mim": 0,
+      "mtd_lines": 0,
+      "in_mim": true,
+      "hint_gate": false,
+      "mim_gate": false,
+      "tier": 0,
+      "tier_comm": 0,
+      "hint_spiff": 0,
+      "mim_spiff": 0,
+      "total": 0,
+      "mrc_gap": 500,
+      "acc_gap": 900,
+      "hint_gap": 1,
+      "mim_gap": 1,
+      "qualifies": false,
+      "needs": "+$500 MRC, +$900.00 acc, +1 HINT, +1 MIM",
+      "rank": 304,
+      "close_order": 351
     },
     {
       "code": "ozi95799",
