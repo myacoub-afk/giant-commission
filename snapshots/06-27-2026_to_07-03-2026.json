@@ -1,7 +1,7 @@
 {
   "meta": {
     "period": "Jun 27, 2026 - Jul 3, 2026",
-    "published": "Jul 2, 9:00 AM",
+    "published": "Jul 2, 9:30 AM",
     "autoPublished": true
   },
   "mrc": {
@@ -1477,7 +1477,7 @@
     },
     "cbs70284": {
       "name": "Miguel",
-      "mrc": 313,
+      "mrc": 343,
       "hint": 0
     },
     "cqr03918": {
@@ -4183,6 +4183,13 @@
       "store": "HOMESTEAD",
       "repName": "ALFREDO"
     },
+    "cbs70284": {
+      "name": "Miguel",
+      "acc": 264.92,
+      "hint": 0,
+      "store": "HOMESTEAD",
+      "repName": "Miguel"
+    },
     "eaa64615": {
       "name": "ivan",
       "acc": 1134.74,
@@ -4196,13 +4203,6 @@
       "hint": 1,
       "store": "HOMESTEAD",
       "repName": "yanet"
-    },
-    "cbs70284": {
-      "name": "Miguel",
-      "acc": 264.92,
-      "hint": 0,
-      "store": "HOMESTEAD",
-      "repName": "Miguel"
     },
     "bmp86855": {
       "name": "Rachel",
@@ -9011,7 +9011,7 @@
       "name": "Miguel",
       "lastName": "Ospino",
       "store": "HOMESTEAD",
-      "mrc": 313,
+      "mrc": 343,
       "acc": 264.92,
       "hint": 0,
       "mim": 1,
@@ -9024,12 +9024,12 @@
       "hint_spiff": 0,
       "mim_spiff": 20,
       "total": 20,
-      "mrc_gap": 187,
+      "mrc_gap": 157,
       "acc_gap": 635.08,
       "hint_gap": 1,
       "mim_gap": 0,
       "qualifies": false,
-      "needs": "+$187 MRC, +$635.08 acc, +1 HINT",
+      "needs": "+$157 MRC, +$635.08 acc, +1 HINT",
       "rank": 178,
       "close_order": 194
     },
