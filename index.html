@@ -411,8 +411,8 @@ var DATA=null;
 var me=null;
 var activeTab='my';
 var teamTerm='';
-var T1={mrc:500,acc:900,hint:1,mim:1};
-var TIERS=[{t:1,mrc:500,acc:900,pm:.08,pa:.10},{t:2,mrc:750,acc:1200,pm:.09,pa:.12},
+var T1={mrc:500,acc:700,hint:1,mim:1};
+var TIERS=[{t:1,mrc:500,acc:700,pm:.08,pa:.10},{t:2,mrc:750,acc:1200,pm:.09,pa:.12},
            {t:3,mrc:1000,acc:1500,pm:.10,pa:.15},{t:4,mrc:1500,acc:2000,pm:.12,pa:.20}];
 var fmt=function(n){return '$'+Math.round(n).toLocaleString();};
 var fmt2=function(n){return '$'+n.toLocaleString(undefined,{minimumFractionDigits:2,maximumFractionDigits:2});};
@@ -452,13 +452,13 @@ function loadData(){
         var mg=hasMtd?(mtdLines>=1):(row.mim>=1);
         row.mim_gate=mg;
         var gates=row.hint_gate&&mg;
-        var TIERS2=[{t:1,mrc:500,acc:900,pm:.08,pa:.10},{t:2,mrc:750,acc:1200,pm:.09,pa:.12},
+        var TIERS2=[{t:1,mrc:500,acc:700,pm:.08,pa:.10},{t:2,mrc:750,acc:1200,pm:.09,pa:.12},
           {t:3,mrc:1000,acc:1500,pm:.10,pa:.15},{t:4,mrc:1500,acc:2000,pm:.12,pa:.20}];
         var ti={t:0,pm:0,pa:0};
         TIERS2.forEach(function(x){if(row.mrc>=x.mrc&&row.acc>=x.acc)ti=x;});
         row.tier=ti.t;
         row.tier_comm=gates&&ti.t>0?Math.round((row.mrc*ti.pm+row.acc*ti.pa)*100)/100:0;
-        row.hint_spiff=row.hint*10;
+        row.hint_spiff=row.hint*15;
         row.mim_spiff=(row.mim||0)*20;
         row.total=Math.round((row.tier_comm+row.hint_spiff+row.mim_spiff)*100)/100;
         row.mim_gap=Math.max(0,1-(hasMtd?mtdLines:(row.mim||0)));
@@ -477,7 +477,7 @@ function loadData(){
         var mg=mtdLines>=1;
         row.mim_gate=mg;
         var gates=row.hint_gate&&mg;
-        var TIERS2=[{t:1,mrc:500,acc:900,pm:.08,pa:.10},{t:2,mrc:750,acc:1200,pm:.09,pa:.12},
+        var TIERS2=[{t:1,mrc:500,acc:700,pm:.08,pa:.10},{t:2,mrc:750,acc:1200,pm:.09,pa:.12},
           {t:3,mrc:1000,acc:1500,pm:.10,pa:.15},{t:4,mrc:1500,acc:2000,pm:.12,pa:.20}];
         var ti={t:0,pm:0,pa:0};
         TIERS2.forEach(function(x){if(row.mrc>=x.mrc&&row.acc>=x.acc)ti=x;});
