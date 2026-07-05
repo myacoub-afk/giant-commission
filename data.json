@@ -1,7 +1,7 @@
 {
   "meta": {
     "period": "Jul 4, 2026 - Jul 10, 2026",
-    "published": "Jul 5, 7:04 PM",
+    "published": "Jul 5, 7:34 PM",
     "autoPublished": true
   },
   "mrc": {
@@ -32,7 +32,7 @@
     },
     "fju17533": {
       "name": "Damaris",
-      "mrc": 465,
+      "mrc": 536,
       "hint": 1
     },
     "hlt40846": {
@@ -77,7 +77,7 @@
     },
     "pxa12423": {
       "name": "GUADALUPE",
-      "mrc": 1319,
+      "mrc": 1384,
       "hint": 0
     },
     "qdg71647": {
@@ -1197,19 +1197,19 @@
     }
   },
   "emp": {
+    "fju17533": {
+      "name": "Damaris",
+      "acc": 472.4,
+      "hint": 1,
+      "store": "NATIONS FORD",
+      "repName": "Damaris"
+    },
     "oan05226": {
       "name": "JENIFER",
       "acc": 632.23,
       "hint": 1,
       "store": "NATIONS FORD",
       "repName": "JENIFER"
-    },
-    "fju17533": {
-      "name": "Damaris",
-      "acc": 450.41,
-      "hint": 1,
-      "store": "NATIONS FORD",
-      "repName": "Damaris"
     },
     "aue96179": {
       "name": "JOHANNA",
@@ -1318,7 +1318,7 @@
     },
     "pxa12423": {
       "name": "GUADALUPE",
-      "acc": 1440.83,
+      "acc": 1545.81,
       "hint": 0,
       "store": "CENTRAL",
       "repName": "GUADALUPE"
@@ -3236,7 +3236,7 @@
       "qualifies": false,
       "needs": "+$144 MRC, +1 MIM",
       "rank": 5,
-      "close_order": 10
+      "close_order": 11
     },
     {
       "code": "cjt96540",
@@ -3347,6 +3347,33 @@
       "close_order": 49
     },
     {
+      "code": "fju17533",
+      "name": "Damaris",
+      "lastName": "",
+      "store": "NATIONS FORD",
+      "mrc": 536,
+      "acc": 472.4,
+      "hint": 1,
+      "mim": 0,
+      "mtd_lines": 0,
+      "in_mim": false,
+      "hint_gate": true,
+      "mim_gate": false,
+      "tier": 0,
+      "tier_comm": 0,
+      "hint_spiff": 15,
+      "mim_spiff": 0,
+      "total": 15,
+      "mrc_gap": 0,
+      "acc_gap": 227.6,
+      "hint_gap": 0,
+      "mim_gap": 1,
+      "qualifies": false,
+      "needs": "+$227.60 acc, +1 MIM",
+      "rank": 10,
+      "close_order": 7
+    },
+    {
       "code": "oan05226",
       "name": "JENIFER",
       "lastName": "",
@@ -3370,35 +3397,8 @@
       "mim_gap": 1,
       "qualifies": false,
       "needs": "+$67.77 acc, +1 MIM",
-      "rank": 10,
-      "close_order": 5
-    },
-    {
-      "code": "fju17533",
-      "name": "Damaris",
-      "lastName": "",
-      "store": "NATIONS FORD",
-      "mrc": 465,
-      "acc": 450.41,
-      "hint": 1,
-      "mim": 0,
-      "mtd_lines": 0,
-      "in_mim": false,
-      "hint_gate": true,
-      "mim_gate": false,
-      "tier": 0,
-      "tier_comm": 0,
-      "hint_spiff": 15,
-      "mim_spiff": 0,
-      "total": 15,
-      "mrc_gap": 35,
-      "acc_gap": 249.59,
-      "hint_gap": 0,
-      "mim_gap": 1,
-      "qualifies": false,
-      "needs": "+$35 MRC, +$249.59 acc, +1 MIM",
       "rank": 11,
-      "close_order": 16
+      "close_order": 5
     },
     {
       "code": "bnz46755",
@@ -3722,7 +3722,7 @@
       "qualifies": false,
       "needs": "+$492.08 acc, +1 MIM",
       "rank": 23,
-      "close_order": 7
+      "close_order": 8
     },
     {
       "code": "opt62984",
@@ -3749,7 +3749,7 @@
       "qualifies": false,
       "needs": "+$80 MRC, +$106.50 acc, +1 MIM",
       "rank": 24,
-      "close_order": 15
+      "close_order": 16
     },
     {
       "code": "zkx15047",
@@ -4289,7 +4289,7 @@
       "qualifies": false,
       "needs": "+$65 MRC, +1 MIM",
       "rank": 44,
-      "close_order": 9
+      "close_order": 10
     },
     {
       "code": "pxk45101",
@@ -4478,7 +4478,7 @@
       "qualifies": false,
       "needs": "+$390 MRC, +$70.14 acc, +1 MIM",
       "rank": 51,
-      "close_order": 13
+      "close_order": 14
     },
     {
       "code": "wut89019",
@@ -4532,7 +4532,7 @@
       "qualifies": false,
       "needs": "+$180 MRC, +1 MIM",
       "rank": 53,
-      "close_order": 11
+      "close_order": 12
     },
     {
       "code": "eaa64615",
@@ -4640,7 +4640,7 @@
       "qualifies": false,
       "needs": "+$90.62 acc, +1 HINT, +1 MIM",
       "rank": 57,
-      "close_order": 14
+      "close_order": 15
     },
     {
       "code": "nmt86860",
@@ -4971,15 +4971,15 @@
       "name": "GUADALUPE",
       "lastName": "",
       "store": "CENTRAL",
-      "mrc": 1319,
-      "acc": 1440.83,
+      "mrc": 1384,
+      "acc": 1545.81,
       "hint": 0,
       "mim": 0,
       "mtd_lines": 0,
       "in_mim": false,
       "hint_gate": false,
       "mim_gate": false,
-      "tier": 2,
+      "tier": 3,
       "tier_comm": 0,
       "hint_spiff": 0,
       "mim_spiff": 0,
@@ -6503,7 +6503,7 @@
       "qualifies": false,
       "needs": "+$232 MRC, +1 HINT, +1 MIM",
       "rank": 126,
-      "close_order": 12
+      "close_order": 13
     },
     {
       "code": "wqw08817",
@@ -9311,7 +9311,7 @@
       "qualifies": false,
       "needs": "+1 HINT, +1 MIM",
       "rank": 230,
-      "close_order": 8
+      "close_order": 9
     },
     {
       "code": "dnz05534",
@@ -10454,7 +10454,7 @@
     "total_payout": 990,
     "total_spiffs": 990,
     "below_acc": 268,
-    "below_mrc": 263,
+    "below_mrc": 262,
     "no_hint": 217,
     "no_mim": 272,
     "max_total": 60,
