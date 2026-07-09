@@ -1,7 +1,7 @@
 {
   "meta": {
     "period": "Jul 4, 2026 - Jul 10, 2026",
-    "published": "Jul 9, 9:50 AM",
+    "published": "Jul 9, 10:20 AM",
     "autoPublished": true
   },
   "mrc": {
@@ -267,7 +267,7 @@
     },
     "hul69122": {
       "name": "anil",
-      "mrc": 550,
+      "mrc": 600,
       "hint": 1
     },
     "ifg69036": {
@@ -292,7 +292,7 @@
     },
     "itv97881": {
       "name": "Tabitha",
-      "mrc": 65,
+      "mrc": 121,
       "hint": 0
     },
     "iud71090": {
@@ -387,7 +387,7 @@
     },
     "mhi60598": {
       "name": "jose",
-      "mrc": 269,
+      "mrc": 334,
       "hint": 0
     },
     "mll13960": {
@@ -397,7 +397,7 @@
     },
     "mma98553": {
       "name": "Erica",
-      "mrc": 204,
+      "mrc": 217,
       "hint": 0
     },
     "mty92600": {
@@ -592,7 +592,7 @@
     },
     "xbn24151": {
       "name": "Alexis",
-      "mrc": 260,
+      "mrc": 328,
       "hint": 0
     },
     "xij94019": {
@@ -642,7 +642,7 @@
     },
     "yvc60991": {
       "name": "Josant",
-      "mrc": 952,
+      "mrc": 985,
       "hint": 2
     },
     "yvs34647": {
@@ -687,7 +687,7 @@
     },
     "zvj50317": {
       "name": "Jean",
-      "mrc": 331,
+      "mrc": 351,
       "hint": 0
     },
     "fnx88145": {
@@ -1112,7 +1112,7 @@
     },
     "lop30847": {
       "name": "OMAR",
-      "mrc": 927,
+      "mrc": 982,
       "hint": 0
     },
     "oax94730": {
@@ -1207,7 +1207,7 @@
     },
     "fhp17230": {
       "name": "lisa",
-      "mrc": 630,
+      "mrc": 690,
       "hint": 0
     },
     "fsm61397": {
@@ -1272,7 +1272,7 @@
     },
     "krz41716": {
       "name": "mamoudou",
-      "mrc": 575,
+      "mrc": 660,
       "hint": 2
     },
     "kyn72180": {
@@ -1497,7 +1497,7 @@
     },
     "hld91310": {
       "name": "YASSINE",
-      "mrc": 168,
+      "mrc": 188,
       "hint": 0
     },
     "iyu13880": {
@@ -1637,7 +1637,7 @@
     },
     "uiz98042": {
       "name": "ALFREDO",
-      "mrc": 170,
+      "mrc": 245,
       "hint": 0
     },
     "uke21848": {
@@ -4203,19 +4203,19 @@
       "store": "HOMESTEAD",
       "repName": "Sofia"
     },
+    "uiz98042": {
+      "name": "ALFREDO",
+      "acc": 519.86,
+      "hint": 0,
+      "store": "HOMESTEAD",
+      "repName": "ALFREDO"
+    },
     "cbs70284": {
       "name": "Miguel",
       "acc": 379.89,
       "hint": 1,
       "store": "HOMESTEAD",
       "repName": "Miguel"
-    },
-    "uiz98042": {
-      "name": "ALFREDO",
-      "acc": 349.89,
-      "hint": 0,
-      "store": "HOMESTEAD",
-      "repName": "ALFREDO"
     },
     "bmp86855": {
       "name": "Rachel",
@@ -4299,7 +4299,7 @@
       "name": "Josant",
       "lastName": "Feliz",
       "store": "LONGWOOD",
-      "mrc": 952,
+      "mrc": 985,
       "acc": 1476.48,
       "hint": 2,
       "mim": 25,
@@ -4308,10 +4308,10 @@
       "hint_gate": true,
       "mim_gate": true,
       "tier": 2,
-      "tier_comm": 262.86,
+      "tier_comm": 265.83,
       "hint_spiff": 30,
       "mim_spiff": 500,
-      "total": 792.86,
+      "total": 795.83,
       "mrc_gap": 0,
       "acc_gap": 0,
       "hint_gap": 0,
@@ -4920,7 +4920,7 @@
       "name": "jose",
       "lastName": "Lopez",
       "store": "VINE",
-      "mrc": 269,
+      "mrc": 334,
       "acc": 301.92,
       "hint": 0,
       "mim": 11,
@@ -4933,12 +4933,12 @@
       "hint_spiff": 0,
       "mim_spiff": 220,
       "total": 220,
-      "mrc_gap": 231,
+      "mrc_gap": 166,
       "acc_gap": 398.08,
       "hint_gap": 1,
       "mim_gap": 0,
       "qualifies": false,
-      "needs": "+$231 MRC, +$398.08 acc, +1 HINT",
+      "needs": "+$166 MRC, +$398.08 acc, +1 HINT",
       "rank": 26,
       "close_order": 150
     },
@@ -5129,7 +5129,7 @@
       "qualifies": false,
       "needs": "+$283 MRC, +$280.07 acc, +1 HINT",
       "rank": 33,
-      "close_order": 134
+      "close_order": 135
     },
     {
       "code": "bdi51841",
@@ -5534,7 +5534,7 @@
       "qualifies": false,
       "needs": "+$435 MRC, +$297.10 acc, +1 HINT",
       "rank": 48,
-      "close_order": 136
+      "close_order": 137
     },
     {
       "code": "hpn05750",
@@ -5561,7 +5561,7 @@
       "qualifies": false,
       "needs": "+$79 MRC, +$349.05 acc, +1 HINT",
       "rank": 49,
-      "close_order": 143
+      "close_order": 144
     },
     {
       "code": "kvr00316",
@@ -6047,7 +6047,7 @@
       "qualifies": false,
       "needs": "+$267 MRC, +$228.80 acc, +1 HINT",
       "rank": 67,
-      "close_order": 130
+      "close_order": 131
     },
     {
       "code": "xkm82888",
@@ -6297,8 +6297,8 @@
       "name": "ALFREDO",
       "lastName": "Granado",
       "store": "HOMESTEAD",
-      "mrc": 170,
-      "acc": 349.89,
+      "mrc": 245,
+      "acc": 519.86,
       "hint": 0,
       "mim": 4,
       "mtd_lines": 0,
@@ -6310,14 +6310,14 @@
       "hint_spiff": 0,
       "mim_spiff": 80,
       "total": 80,
-      "mrc_gap": 330,
-      "acc_gap": 350.11,
+      "mrc_gap": 255,
+      "acc_gap": 180.14,
       "hint_gap": 1,
       "mim_gap": 0,
       "qualifies": false,
-      "needs": "+$330 MRC, +$350.11 acc, +1 HINT",
+      "needs": "+$255 MRC, +$180.14 acc, +1 HINT",
       "rank": 77,
-      "close_order": 144
+      "close_order": 126
     },
     {
       "code": "ifg69036",
@@ -6351,7 +6351,7 @@
       "name": "anil",
       "lastName": "Narine",
       "store": "RINEHART",
-      "mrc": 550,
+      "mrc": 600,
       "acc": 256.99,
       "hint": 1,
       "mim": 3,
@@ -6648,7 +6648,7 @@
       "name": "Erica",
       "lastName": "Woody",
       "store": "NOVA 3",
-      "mrc": 204,
+      "mrc": 217,
       "acc": 184.92,
       "hint": 0,
       "mim": 3,
@@ -6661,12 +6661,12 @@
       "hint_spiff": 0,
       "mim_spiff": 60,
       "total": 60,
-      "mrc_gap": 296,
+      "mrc_gap": 283,
       "acc_gap": 515.08,
       "hint_gap": 1,
       "mim_gap": 0,
       "qualifies": false,
-      "needs": "+$296 MRC, +$515.08 acc, +1 HINT",
+      "needs": "+$283 MRC, +$515.08 acc, +1 HINT",
       "rank": 90,
       "close_order": 186
     },
@@ -6938,7 +6938,7 @@
       "qualifies": false,
       "needs": "+$110 MRC, +$341.47 acc, +1 HINT",
       "rank": 100,
-      "close_order": 142
+      "close_order": 143
     },
     {
       "code": "tnl36939",
@@ -7404,7 +7404,7 @@
       "name": "Alexis",
       "lastName": "Ruiz",
       "store": "BABCOCK",
-      "mrc": 260,
+      "mrc": 328,
       "acc": 274.92,
       "hint": 0,
       "mim": 2,
@@ -7417,12 +7417,12 @@
       "hint_spiff": 0,
       "mim_spiff": 40,
       "total": 40,
-      "mrc_gap": 240,
+      "mrc_gap": 172,
       "acc_gap": 425.08,
       "hint_gap": 1,
       "mim_gap": 0,
       "qualifies": false,
-      "needs": "+$240 MRC, +$425.08 acc, +1 HINT",
+      "needs": "+$172 MRC, +$425.08 acc, +1 HINT",
       "rank": 118,
       "close_order": 156
     },
@@ -7539,7 +7539,7 @@
       "name": "OMAR",
       "lastName": "Alsunna",
       "store": "COLLINS",
-      "mrc": 927,
+      "mrc": 982,
       "acc": 1027.48,
       "hint": 0,
       "mim": 2,
@@ -8214,7 +8214,7 @@
       "name": "mamoudou",
       "lastName": "Ba",
       "store": "WOODLAND 6117",
-      "mrc": 575,
+      "mrc": 660,
       "acc": 359.95,
       "hint": 2,
       "mim": 0,
@@ -8396,7 +8396,7 @@
       "qualifies": false,
       "needs": "+$127 MRC, +$284.09 acc, +1 HINT",
       "rank": 154,
-      "close_order": 135
+      "close_order": 136
     },
     {
       "code": "uaa67856",
@@ -8585,7 +8585,7 @@
       "qualifies": false,
       "needs": "+$64 MRC, +$223.16 acc, +1 HINT",
       "rank": 161,
-      "close_order": 128
+      "close_order": 129
     },
     {
       "code": "may13895",
@@ -8612,7 +8612,7 @@
       "qualifies": false,
       "needs": "+$60 MRC, +$225.01 acc, +1 HINT",
       "rank": 162,
-      "close_order": 129
+      "close_order": 130
     },
     {
       "code": "xei58440",
@@ -8855,7 +8855,7 @@
       "qualifies": false,
       "needs": "+$175 MRC, +$315.11 acc, +1 HINT",
       "rank": 171,
-      "close_order": 139
+      "close_order": 140
     },
     {
       "code": "wic89545",
@@ -9125,7 +9125,7 @@
       "qualifies": false,
       "needs": "+$81 MRC, +$241.14 acc, +1 MIM",
       "rank": 181,
-      "close_order": 131
+      "close_order": 132
     },
     {
       "code": "blv17592",
@@ -9287,7 +9287,7 @@
       "qualifies": false,
       "needs": "+$90 MRC, +$257.07 acc, +1 MIM",
       "rank": 187,
-      "close_order": 133
+      "close_order": 134
     },
     {
       "code": "zkx15047",
@@ -9530,7 +9530,7 @@
       "qualifies": false,
       "needs": "+$270 MRC, +$300.13 acc, +1 MIM",
       "rank": 196,
-      "close_order": 138
+      "close_order": 139
     },
     {
       "code": "ozi95799",
@@ -10016,7 +10016,7 @@
       "qualifies": false,
       "needs": "+$22 MRC, +$328.04 acc, +1 MIM",
       "rank": 214,
-      "close_order": 140
+      "close_order": 141
     },
     {
       "code": "bro38612",
@@ -10070,7 +10070,7 @@
       "qualifies": false,
       "needs": "+$190.33 acc, +1 HINT, +1 MIM",
       "rank": 216,
-      "close_order": 126
+      "close_order": 127
     },
     {
       "code": "iwy09279",
@@ -10097,7 +10097,7 @@
       "qualifies": false,
       "needs": "+$220.17 acc, +1 HINT, +1 MIM",
       "rank": 217,
-      "close_order": 127
+      "close_order": 128
     },
     {
       "code": "ijd66494",
@@ -11130,7 +11130,7 @@
       "name": "Tabitha",
       "lastName": "Velez",
       "store": "LEE ROAD",
-      "mrc": 65,
+      "mrc": 121,
       "acc": 74.99,
       "hint": 0,
       "mim": 0,
@@ -11143,12 +11143,12 @@
       "hint_spiff": 0,
       "mim_spiff": 0,
       "total": 0,
-      "mrc_gap": 435,
+      "mrc_gap": 379,
       "acc_gap": 625.01,
       "hint_gap": 1,
       "mim_gap": 1,
       "qualifies": false,
-      "needs": "+$435 MRC, +$625.01 acc, +1 HINT, +1 MIM",
+      "needs": "+$379 MRC, +$625.01 acc, +1 HINT, +1 MIM",
       "rank": 256,
       "close_order": 310
     },
@@ -11177,7 +11177,7 @@
       "qualifies": false,
       "needs": "+$297.38 acc, +1 HINT, +1 MIM",
       "rank": 257,
-      "close_order": 137
+      "close_order": 138
     },
     {
       "code": "nkg02575",
@@ -11670,7 +11670,7 @@
       "name": "Jean",
       "lastName": "Bastien",
       "store": "HIAWASSEE",
-      "mrc": 331,
+      "mrc": 351,
       "acc": 378.94,
       "hint": 0,
       "mim": 0,
@@ -11683,12 +11683,12 @@
       "hint_spiff": 0,
       "mim_spiff": 0,
       "total": 0,
-      "mrc_gap": 169,
+      "mrc_gap": 149,
       "acc_gap": 321.06,
       "hint_gap": 1,
       "mim_gap": 1,
       "qualifies": false,
-      "needs": "+$169 MRC, +$321.06 acc, +1 HINT, +1 MIM",
+      "needs": "+$149 MRC, +$321.06 acc, +1 HINT, +1 MIM",
       "rank": 276,
       "close_order": 246
     },
@@ -12014,7 +12014,7 @@
       "qualifies": false,
       "needs": "+$335.13 acc, +1 HINT, +1 MIM",
       "rank": 288,
-      "close_order": 141
+      "close_order": 142
     },
     {
       "code": "min54438",
@@ -12993,7 +12993,7 @@
       "name": "lisa",
       "lastName": "Levy",
       "store": "PENN",
-      "mrc": 630,
+      "mrc": 690,
       "acc": 246.92,
       "hint": 0,
       "mim": 0,
@@ -13148,7 +13148,7 @@
       "qualifies": false,
       "needs": "+$245.14 acc, +1 HINT, +1 MIM",
       "rank": 330,
-      "close_order": 132
+      "close_order": 133
     },
     {
       "code": "llg28193",
@@ -13614,7 +13614,7 @@
       "name": "YASSINE",
       "lastName": "Yaagoubi",
       "store": "BOYNTON",
-      "mrc": 168,
+      "mrc": 188,
       "acc": 316.98,
       "hint": 0,
       "mim": 0,
@@ -13627,12 +13627,12 @@
       "hint_spiff": 0,
       "mim_spiff": 0,
       "total": 0,
-      "mrc_gap": 332,
+      "mrc_gap": 312,
       "acc_gap": 383.02,
       "hint_gap": 1,
       "mim_gap": 1,
       "qualifies": false,
-      "needs": "+$332 MRC, +$383.02 acc, +1 HINT, +1 MIM",
+      "needs": "+$312 MRC, +$383.02 acc, +1 HINT, +1 MIM",
       "rank": 348,
       "close_order": 251
     },
@@ -14045,7 +14045,7 @@
   "stats": {
     "reps": 363,
     "qualified": 23,
-    "total_payout": 21300.02,
+    "total_payout": 21302.99,
     "total_spiffs": 15760,
     "below_acc": 334,
     "below_mrc": 271,
