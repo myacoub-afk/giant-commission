@@ -1,7 +1,7 @@
 {
   "meta": {
     "period": "Jul 4, 2026 - Jul 10, 2026",
-    "published": "Jul 8, 10:50 PM",
+    "published": "Jul 9, 9:20 AM",
     "autoPublished": true
   },
   "mrc": {
@@ -1002,7 +1002,7 @@
     },
     "taa92298": {
       "name": "YOLANDA",
-      "mrc": 333,
+      "mrc": 391,
       "hint": 0
     },
     "upv82015": {
@@ -1452,7 +1452,7 @@
     },
     "byj10806": {
       "name": "Daniela",
-      "mrc": 410,
+      "mrc": 425,
       "hint": 0
     },
     "cbs70284": {
@@ -2560,10 +2560,17 @@
     },
     "gbn62354": {
       "name": "angie",
-      "acc": 1489.65,
+      "acc": 1451.66,
       "hint": 4,
       "store": "CLEARLAKE 1",
       "repName": "angie"
+    },
+    "jvg23788": {
+      "name": "TABITHA",
+      "acc": 144.95,
+      "hint": 0,
+      "store": "CLEARLAKE 1",
+      "repName": "TABITHA"
     },
     "xnp16921": {
       "name": "Gaige",
@@ -2578,13 +2585,6 @@
       "hint": 1,
       "store": "CLEARLAKE 2",
       "repName": "Mario"
-    },
-    "jvg23788": {
-      "name": "TABITHA",
-      "acc": 106.96,
-      "hint": 0,
-      "store": "CLEARLAKE 2",
-      "repName": "TABITHA"
     },
     "opt62984": {
       "name": "abdullah",
@@ -3113,7 +3113,7 @@
     },
     "taa92298": {
       "name": "YOLANDA",
-      "acc": 298.4,
+      "acc": 313.4,
       "hint": 0,
       "store": "SAN MATEO",
       "repName": "YOLANDA"
@@ -6406,7 +6406,7 @@
       "lastName": "Rezazadeh",
       "store": "CLEARLAKE 1",
       "mrc": 1035,
-      "acc": 1489.65,
+      "acc": 1451.66,
       "hint": 5,
       "mim": 0,
       "mtd_lines": 0,
@@ -10151,7 +10151,7 @@
       "qualifies": false,
       "needs": "+$110 MRC, +$558.03 acc, +1 HINT, +1 MIM",
       "rank": 219,
-      "close_order": 290
+      "close_order": 291
     },
     {
       "code": "hlt40846",
@@ -10205,7 +10205,7 @@
       "qualifies": false,
       "needs": "+$135 MRC, +$560.02 acc, +1 HINT, +1 MIM",
       "rank": 221,
-      "close_order": 291
+      "close_order": 292
     },
     {
       "code": "jib09598",
@@ -10259,7 +10259,7 @@
       "qualifies": false,
       "needs": "+$266 MRC, +$570.00 acc, +1 HINT, +1 MIM",
       "rank": 223,
-      "close_order": 294
+      "close_order": 295
     },
     {
       "code": "bkj36099",
@@ -10610,7 +10610,7 @@
       "qualifies": false,
       "needs": "+$410 MRC, +$585.03 acc, +1 HINT, +1 MIM",
       "rank": 236,
-      "close_order": 299
+      "close_order": 300
     },
     {
       "code": "qak82247",
@@ -10826,7 +10826,7 @@
       "qualifies": false,
       "needs": "+$291 MRC, +$575.04 acc, +1 HINT, +1 MIM",
       "rank": 244,
-      "close_order": 297
+      "close_order": 298
     },
     {
       "code": "zss92083",
@@ -11531,6 +11531,33 @@
       "close_order": 285
     },
     {
+      "code": "jvg23788",
+      "name": "TABITHA",
+      "lastName": "",
+      "store": "CLEARLAKE 1",
+      "mrc": 180,
+      "acc": 144.95,
+      "hint": 0,
+      "mim": 0,
+      "mtd_lines": 0,
+      "in_mim": false,
+      "hint_gate": false,
+      "mim_gate": false,
+      "tier": 0,
+      "tier_comm": 0,
+      "hint_spiff": 0,
+      "mim_spiff": 0,
+      "total": 0,
+      "mrc_gap": 320,
+      "acc_gap": 555.05,
+      "hint_gap": 1,
+      "mim_gap": 1,
+      "qualifies": false,
+      "needs": "+$320 MRC, +$555.05 acc, +1 HINT, +1 MIM",
+      "rank": 271,
+      "close_order": 290
+    },
+    {
       "code": "xnp16921",
       "name": "Gaige",
       "lastName": "",
@@ -11554,35 +11581,8 @@
       "mim_gap": 1,
       "qualifies": false,
       "needs": "+$390 MRC, +$588.02 acc, +1 HINT, +1 MIM",
-      "rank": 271,
-      "close_order": 300
-    },
-    {
-      "code": "jvg23788",
-      "name": "TABITHA",
-      "lastName": "",
-      "store": "CLEARLAKE 2",
-      "mrc": 180,
-      "acc": 106.96,
-      "hint": 0,
-      "mim": 0,
-      "mtd_lines": 0,
-      "in_mim": false,
-      "hint_gate": false,
-      "mim_gate": false,
-      "tier": 0,
-      "tier_comm": 0,
-      "hint_spiff": 0,
-      "mim_spiff": 0,
-      "total": 0,
-      "mrc_gap": 320,
-      "acc_gap": 593.04,
-      "hint_gap": 1,
-      "mim_gap": 1,
-      "qualifies": false,
-      "needs": "+$320 MRC, +$593.04 acc, +1 HINT, +1 MIM",
       "rank": 272,
-      "close_order": 302
+      "close_order": 301
     },
     {
       "code": "sfc65094",
@@ -11798,7 +11798,7 @@
       "qualifies": false,
       "needs": "+$435 MRC, +$570.04 acc, +1 HINT, +1 MIM",
       "rank": 280,
-      "close_order": 295
+      "close_order": 296
     },
     {
       "code": "yll49251",
@@ -12183,8 +12183,8 @@
       "name": "YOLANDA",
       "lastName": "Trejo",
       "store": "SAN MATEO",
-      "mrc": 333,
-      "acc": 298.4,
+      "mrc": 391,
+      "acc": 313.4,
       "hint": 0,
       "mim": 0,
       "mtd_lines": 0,
@@ -12196,12 +12196,12 @@
       "hint_spiff": 0,
       "mim_spiff": 0,
       "total": 0,
-      "mrc_gap": 167,
-      "acc_gap": 401.6,
+      "mrc_gap": 109,
+      "acc_gap": 386.6,
       "hint_gap": 1,
       "mim_gap": 1,
       "qualifies": false,
-      "needs": "+$167 MRC, +$401.60 acc, +1 HINT, +1 MIM",
+      "needs": "+$109 MRC, +$386.60 acc, +1 HINT, +1 MIM",
       "rank": 295,
       "close_order": 252
     },
@@ -12473,7 +12473,7 @@
       "qualifies": false,
       "needs": "+$204 MRC, +$575.05 acc, +1 HINT, +1 MIM",
       "rank": 305,
-      "close_order": 298
+      "close_order": 299
     },
     {
       "code": "ksh18171",
@@ -12878,7 +12878,7 @@
       "qualifies": false,
       "needs": "+$364 MRC, +$571.39 acc, +1 HINT, +1 MIM",
       "rank": 320,
-      "close_order": 296
+      "close_order": 297
     },
     {
       "code": "ysu27551",
@@ -13391,7 +13391,7 @@
       "qualifies": false,
       "needs": "+$321 MRC, +$563.15 acc, +1 HINT, +1 MIM",
       "rank": 339,
-      "close_order": 293
+      "close_order": 294
     },
     {
       "code": "cqr03918",
@@ -13499,7 +13499,7 @@
       "qualifies": false,
       "needs": "+$186 MRC, +$562.00 acc, +1 HINT, +1 MIM",
       "rank": 343,
-      "close_order": 292
+      "close_order": 293
     },
     {
       "code": "ovq51933",
@@ -13742,7 +13742,7 @@
       "qualifies": false,
       "needs": "+$294 MRC, +$590.00 acc, +1 HINT, +1 MIM",
       "rank": 352,
-      "close_order": 301
+      "close_order": 302
     },
     {
       "code": "sgl51473",
@@ -13911,7 +13911,7 @@
       "name": "Daniela",
       "lastName": "Rivera",
       "store": "KENDALL",
-      "mrc": 410,
+      "mrc": 425,
       "acc": 564.85,
       "hint": 0,
       "mim": 0,
@@ -13924,12 +13924,12 @@
       "hint_spiff": 0,
       "mim_spiff": 0,
       "total": 0,
-      "mrc_gap": 90,
+      "mrc_gap": 75,
       "acc_gap": 135.15,
       "hint_gap": 1,
       "mim_gap": 1,
       "qualifies": false,
-      "needs": "+$90 MRC, +$135.15 acc, +1 HINT, +1 MIM",
+      "needs": "+$75 MRC, +$135.15 acc, +1 HINT, +1 MIM",
       "rank": 359,
       "close_order": 227
     },
