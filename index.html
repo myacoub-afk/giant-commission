@@ -618,7 +618,7 @@ function renderBreakdown(d){
     html+='<div class="bd-line"><div class="bd-l"><span class="bd-locked">Locked</span></div><div class="bd-amt">$0.00</div></div>';
   }
   html+='<div class="bd-sec-hdr">Spiffs</div>';
-  html+='<div class="bd-line"><div class="bd-l">HINT sales<span class="bd-calc">'+d.hint+' × $10</span></div><div class="bd-amt">'+fmt2(d.hint_spiff)+'</div></div>';
+  html+='<div class="bd-line"><div class="bd-l">HINT sales<span class="bd-calc">'+d.hint+' × $15</span></div><div class="bd-amt">'+fmt2(d.hint_spiff)+'</div></div>';
   html+='<div class="bd-line"><div class="bd-l">MIM lines<span class="bd-calc">'+d.mim+' × $20</span></div><div class="bd-amt">'+fmt2(d.mim_spiff)+'</div></div>';
   html+='<div class="bd-total-row"><div class="bd-total-lbl">Total payout</div><div class="bd-total-amt">'+fmt2(d.total)+'</div></div>';
   document.getElementById('bdCard').innerHTML=html;
