@@ -548,9 +548,9 @@ function init(){
 
   if(DATA.meta.mimNote){
     ['mimNote','mimNoteTeam'].forEach(function(id){
-      var el=document.getElementById(id);el.classList.add('show');});
-    document.getElementById('mimNoteTxt').textContent=DATA.meta.mimNote;
-    document.getElementById('mimNoteTxtTeam').textContent=DATA.meta.mimNote;
+      var el=document.getElementById(id);if(el)el.classList.add('show');});
+    var mnt=document.getElementById('mimNoteTxt');if(mnt)mnt.textContent=DATA.meta.mimNote;
+    var mntt=document.getElementById('mimNoteTxtTeam');if(mntt)mntt.textContent=DATA.meta.mimNote;
   }
   if(!checkSavedAuth()){
     // login overlay stays visible
