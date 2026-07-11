@@ -1,7 +1,7 @@
 {
   "meta": {
     "period": "Jul 4, 2026 - Jul 10, 2026",
-    "published": "Jul 10, 9:20 PM",
+    "published": "Jul 10, 9:50 PM",
     "autoPublished": true
   },
   "mrc": {
@@ -957,8 +957,8 @@
     },
     "bdi19024": {
       "name": "Victoria",
-      "mrc": 587,
-      "hint": 1
+      "mrc": 703,
+      "hint": 2
     },
     "bdi51841": {
       "name": "Carolina",
@@ -3241,7 +3241,7 @@
     "bdi19024": {
       "name": "Victoria",
       "acc": 594.83,
-      "hint": 0,
+      "hint": 1,
       "store": "AIRPORT",
       "repName": "Victoria"
     },
@@ -5487,6 +5487,33 @@
       "close_order": 174
     },
     {
+      "code": "bdi19024",
+      "name": "Victoria",
+      "lastName": "Ortega",
+      "store": "AIRPORT",
+      "mrc": 703,
+      "acc": 594.83,
+      "hint": 2,
+      "mim": 11,
+      "mtd_lines": 0,
+      "in_mim": true,
+      "hint_gate": true,
+      "mim_gate": true,
+      "tier": 0,
+      "tier_comm": 0,
+      "hint_spiff": 30,
+      "mim_spiff": 220,
+      "total": 250,
+      "mrc_gap": 0,
+      "acc_gap": 105.17,
+      "hint_gap": 0,
+      "mim_gap": 0,
+      "qualifies": false,
+      "needs": "+$105.17 acc",
+      "rank": 44,
+      "close_order": 80
+    },
+    {
       "code": "kai37994",
       "name": "Kimberly",
       "lastName": "Salinas",
@@ -5510,7 +5537,7 @@
       "mim_gap": 0,
       "qualifies": true,
       "needs": "Qualifies for Tier 1",
-      "rank": 44,
+      "rank": 45,
       "close_order": 40
     },
     {
@@ -5537,7 +5564,7 @@
       "mim_gap": 0,
       "qualifies": true,
       "needs": "Qualifies for Tier 1",
-      "rank": 45,
+      "rank": 46,
       "close_order": 27
     },
     {
@@ -5564,35 +5591,8 @@
       "mim_gap": 0,
       "qualifies": true,
       "needs": "Qualifies for Tier 1",
-      "rank": 46,
-      "close_order": 14
-    },
-    {
-      "code": "bdi19024",
-      "name": "Victoria",
-      "lastName": "Ortega",
-      "store": "AIRPORT",
-      "mrc": 587,
-      "acc": 594.83,
-      "hint": 1,
-      "mim": 11,
-      "mtd_lines": 0,
-      "in_mim": true,
-      "hint_gate": true,
-      "mim_gate": true,
-      "tier": 0,
-      "tier_comm": 0,
-      "hint_spiff": 15,
-      "mim_spiff": 220,
-      "total": 235,
-      "mrc_gap": 0,
-      "acc_gap": 105.17,
-      "hint_gap": 0,
-      "mim_gap": 0,
-      "qualifies": false,
-      "needs": "+$105.17 acc",
       "rank": 47,
-      "close_order": 80
+      "close_order": 14
     },
     {
       "code": "nkq42630",
@@ -14265,8 +14265,8 @@
   "stats": {
     "reps": 368,
     "qualified": 61,
-    "total_payout": 33269.8,
-    "total_spiffs": 18860,
+    "total_payout": 33284.8,
+    "total_spiffs": 18875,
     "below_acc": 320,
     "below_mrc": 189,
     "no_hint": 174,
