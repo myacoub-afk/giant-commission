@@ -499,11 +499,52 @@ function loadData(){
 function showError(msg){
   document.getElementById('idWrap').innerHTML='<div class="state-card"><div class="state-ic">⚠️</div><div class="state-h">Couldn\'t load data</div><div class="state-p">'+(msg||'Check your connection and refresh.')+'</div></div>';
 }
+function getCurrentPeriodLabel(){
+  var now=new Date();
+  var day=now.getDay();
+  var daysFromSat=(day+1)%7;
+  var start=new Date(now);start.setDate(now.getDate()-daysFromSat);
+  var end=new Date(start);end.setDate(start.getDate()+6);
+  var fmt=function(d){return d.toLocaleDateString('en-US',{month:'short',day:'numeric',year:'numeric'});};
+  return fmt(start)+' - '+fmt(end);
+}
+
+function isStaleData(){
+  if(!DATA||!DATA.meta||!DATA.meta.period) return false;
+  var currentLabel=getCurrentPeriodLabel();
+  // check if data.json period matches current pay period
+  // compare by year and month/day of start
+  var dataPeriod=DATA.meta.period||'';
+  // extract start date from both labels (first date before ' - ')
+  var dataStart=dataPeriod.split(' - ')[0]||'';
+  var currentStart=currentLabel.split(' - ')[0]||'';
+  return dataStart!==currentStart;
+}
+
 function init(){
   // show search card, hide spinner
   var sp=document.getElementById('loadingSpinner');if(sp)sp.style.display='none';
   var ic=document.getElementById('idCard');if(ic)ic.style.display='';
   document.getElementById('hPeriod').textContent=DATA.meta.period||'—';
+
+  // check if data is from a previous pay period
+  if(isStaleData()){
+    document.getElementById('hPeriod').textContent=getCurrentPeriodLabel()+' — Updating...';
+    // show a holding banner
+    var staleNote=document.getElementById('staleNote');
+    if(!staleNote){
+      staleNote=document.createElement('div');
+      staleNote.id='staleNote';
+      staleNote.style.cssText='background:#FFF3CD;border:1.5px solid #F0C040;border-radius:12px;padding:14px 18px;margin:12px 16px;font-size:14px;color:#7D5A00;text-align:center;';
+      staleNote.innerHTML='⏳ <strong>New pay period starting</strong> — fresh data will appear within 30 minutes once stores open.';
+      var teamWrap=document.getElementById('teamWrap')||document.getElementById('standingsWrap');
+      if(teamWrap)teamWrap.parentNode.insertBefore(staleNote,teamWrap);
+    }
+    // clear standings so old data doesn't show
+    var sw=document.getElementById('standingsWrap');if(sw)sw.innerHTML='';
+    var mw=document.getElementById('myContent');if(mw)mw.style.display='none';
+  }
+
   if(DATA.meta.mimNote){
     ['mimNote','mimNoteTeam'].forEach(function(id){
       var el=document.getElementById(id);el.classList.add('show');});
@@ -513,7 +554,7 @@ function init(){
   if(!checkSavedAuth()){
     // login overlay stays visible
   }
-  renderTeam();
+  if(!isStaleData()) renderTeam();
 }
 
 // ── identity ──
