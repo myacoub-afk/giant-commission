@@ -542,7 +542,8 @@ function init(){
     }
     // clear standings so old data doesn't show
     var sw=document.getElementById('standingsWrap');if(sw)sw.innerHTML='';
-    var mw=document.getElementById('myContent');if(mw)mw.style.display='none';
+    var mw=document.getElementById('myContent');if(mw){mw.style.display='none';mw.innerHTML='';}
+    var oc=document.getElementById('ownCard');if(oc)oc.style.display='none';
   }
 
   if(DATA.meta.mimNote){
@@ -595,7 +596,7 @@ function selectRep(d){
   renderOwn(d);
   document.getElementById('myContent').style.display='block';
   document.getElementById('noMatch').style.display='none';
-  renderTeam();
+  if(!isStaleData()) renderTeam();
 }
 
 // ── own card ──
@@ -850,7 +851,7 @@ function applyAuthMode(){
   var idWrap=document.getElementById('idWrap');
   if(idWrap) idWrap.style.display=isRep?'none':'';
   // Re-render team so clickability reflects auth mode
-  renderTeam();
+  if(!isStaleData()) renderTeam();
 }
 // ── login tracking ──
 var TRACKING_URL='https://script.google.com/macros/s/AKfycbzrL9C9vBCKUpt6_l4VTGG5NJl6nhANlJMZALg1Xd9wJCbi2Gm_DVsGHI0-dOjLBgE/exec';
