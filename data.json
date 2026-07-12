@@ -1,7 +1,7 @@
 {
   "meta": {
     "period": "Jul 11, 2026 - Jul 17, 2026",
-    "published": "Jul 12, 7:22 PM",
+    "published": "Jul 12, 7:52 PM",
     "autoPublished": true
   },
   "mrc": {
@@ -62,7 +62,7 @@
     },
     "oan05226": {
       "name": "JENIFER",
-      "mrc": 613,
+      "mrc": 678,
       "hint": 0
     },
     "osd66214": {
@@ -72,7 +72,7 @@
     },
     "pxa12423": {
       "name": "GUADALUPE",
-      "mrc": 1642,
+      "mrc": 1682,
       "hint": 2
     },
     "qdg71647": {
@@ -1292,19 +1292,19 @@
     }
   },
   "emp": {
+    "oan05226": {
+      "name": "JENIFER",
+      "acc": 1065.41,
+      "hint": 0,
+      "store": "NATIONS FORD",
+      "repName": "JENIFER"
+    },
     "aue96179": {
       "name": "JOHANNA",
       "acc": 779.39,
       "hint": 0,
       "store": "NATIONS FORD",
       "repName": "JOHANNA"
-    },
-    "oan05226": {
-      "name": "JENIFER",
-      "acc": 875.17,
-      "hint": 0,
-      "store": "NATIONS FORD",
-      "repName": "JENIFER"
     },
     "fju17533": {
       "name": "Damaris",
@@ -1413,7 +1413,7 @@
     },
     "pxa12423": {
       "name": "GUADALUPE",
-      "acc": 1795.83,
+      "acc": 1860.82,
       "hint": 2,
       "store": "CENTRAL",
       "repName": "GUADALUPE"
@@ -3368,7 +3368,7 @@
       "qualifies": false,
       "needs": "+$220.89 acc, +1 MIM",
       "rank": 3,
-      "close_order": 10
+      "close_order": 11
     },
     {
       "code": "qdg71647",
@@ -3395,15 +3395,15 @@
       "qualifies": false,
       "needs": "+$407.52 acc, +1 MIM",
       "rank": 4,
-      "close_order": 12
+      "close_order": 13
     },
     {
       "code": "pxa12423",
       "name": "GUADALUPE",
       "lastName": "",
       "store": "CENTRAL",
-      "mrc": 1642,
-      "acc": 1795.83,
+      "mrc": 1682,
+      "acc": 1860.82,
       "hint": 2,
       "mim": 0,
       "mtd_lines": 0,
@@ -3611,7 +3611,7 @@
       "qualifies": false,
       "needs": "+$15.19 acc, +1 MIM",
       "rank": 12,
-      "close_order": 6
+      "close_order": 7
     },
     {
       "code": "gml47539",
@@ -4124,7 +4124,7 @@
       "qualifies": false,
       "needs": "+$79.18 acc, +1 MIM",
       "rank": 31,
-      "close_order": 8
+      "close_order": 9
     },
     {
       "code": "uyr50973",
@@ -4394,7 +4394,7 @@
       "qualifies": false,
       "needs": "+$283.06 acc, +1 MIM",
       "rank": 41,
-      "close_order": 11
+      "close_order": 12
     },
     {
       "code": "dxu32635",
@@ -4502,7 +4502,7 @@
       "qualifies": false,
       "needs": "+$79.20 acc, +1 MIM",
       "rank": 45,
-      "close_order": 9
+      "close_order": 10
     },
     {
       "code": "jup95230",
@@ -4826,7 +4826,7 @@
       "qualifies": false,
       "needs": "+$75.20 acc, +1 MIM",
       "rank": 57,
-      "close_order": 7
+      "close_order": 8
     },
     {
       "code": "vgz90904",
@@ -4964,12 +4964,12 @@
       "close_order": 38
     },
     {
-      "code": "aue96179",
-      "name": "JOHANNA",
+      "code": "oan05226",
+      "name": "JENIFER",
       "lastName": "",
       "store": "NATIONS FORD",
-      "mrc": 845,
-      "acc": 779.39,
+      "mrc": 678,
+      "acc": 1065.41,
       "hint": 0,
       "mim": 0,
       "mtd_lines": 0,
@@ -4988,15 +4988,15 @@
       "qualifies": false,
       "needs": "+1 HINT, +1 MIM",
       "rank": 63,
-      "close_order": 13
+      "close_order": 5
     },
     {
-      "code": "oan05226",
-      "name": "JENIFER",
+      "code": "aue96179",
+      "name": "JOHANNA",
       "lastName": "",
       "store": "NATIONS FORD",
-      "mrc": 613,
-      "acc": 875.17,
+      "mrc": 845,
+      "acc": 779.39,
       "hint": 0,
       "mim": 0,
       "mtd_lines": 0,
@@ -9848,7 +9848,7 @@
       "qualifies": false,
       "needs": "+1 HINT, +1 MIM",
       "rank": 243,
-      "close_order": 5
+      "close_order": 6
     },
     {
       "code": "yhr16769",
@@ -10990,7 +10990,7 @@
     "qualified": 0,
     "total_payout": 1185,
     "total_spiffs": 1185,
-    "below_acc": 277,
+    "below_acc": 276,
     "below_mrc": 269,
     "no_hint": 223,
     "no_mim": 285,
