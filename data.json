@@ -1,7 +1,7 @@
 {
   "meta": {
     "period": "Jul 11, 2026 - Jul 17, 2026",
-    "published": "Jul 13, 9:52 PM",
+    "published": "Jul 13, 10:22 PM",
     "autoPublished": true
   },
   "mrc": {
@@ -927,7 +927,7 @@
     },
     "vgd22765": {
       "name": "Hector",
-      "mrc": 217,
+      "mrc": 237,
       "hint": 0
     },
     "vrn27514": {
@@ -2910,19 +2910,19 @@
       "store": "AIRPORT",
       "repName": "Blanca"
     },
-    "gcn38880": {
-      "name": "anahi",
-      "acc": 100.06,
-      "hint": 0,
-      "store": "AIRPORT",
-      "repName": "anahi"
-    },
     "jel79739": {
       "name": "Jonathan",
       "acc": 30,
       "hint": 1,
       "store": "AIRPORT",
       "repName": "Jonathan"
+    },
+    "gcn38880": {
+      "name": "anahi",
+      "acc": 100.06,
+      "hint": 0,
+      "store": "AIRPORT",
+      "repName": "anahi"
     },
     "yqw80352": {
       "name": "Carmen",
@@ -2968,7 +2968,7 @@
     },
     "bdi51841": {
       "name": "Carolina",
-      "acc": 352.95,
+      "acc": 397.95,
       "hint": 0,
       "store": "ZUNI",
       "repName": "Carolina"
@@ -8326,7 +8326,7 @@
       "qualifies": false,
       "needs": "+$200 MRC, +$304.09 acc, +1 HINT, +1 MIM",
       "rank": 163,
-      "close_order": 148
+      "close_order": 149
     },
     {
       "code": "zss92083",
@@ -9109,7 +9109,7 @@
       "qualifies": false,
       "needs": "+$230 MRC, +$320.12 acc, +1 HINT",
       "rank": 192,
-      "close_order": 150
+      "close_order": 151
     },
     {
       "code": "xow08780",
@@ -9865,7 +9865,7 @@
       "qualifies": false,
       "needs": "+$196 MRC, +$330.12 acc, +1 HINT",
       "rank": 220,
-      "close_order": 151
+      "close_order": 152
     },
     {
       "code": "hdl15647",
@@ -10575,7 +10575,7 @@
       "lastName": "",
       "store": "ZUNI",
       "mrc": 270,
-      "acc": 352.95,
+      "acc": 397.95,
       "hint": 0,
       "mim": 0,
       "mtd_lines": 12,
@@ -10588,13 +10588,13 @@
       "mim_spiff": 0,
       "total": 0,
       "mrc_gap": 230,
-      "acc_gap": 347.05,
+      "acc_gap": 302.05,
       "hint_gap": 1,
       "mim_gap": 0,
       "qualifies": false,
-      "needs": "+$230 MRC, +$347.05 acc, +1 HINT",
+      "needs": "+$230 MRC, +$302.05 acc, +1 HINT",
       "rank": 247,
-      "close_order": 152
+      "close_order": 148
     },
     {
       "code": "may13895",
@@ -10628,7 +10628,7 @@
       "name": "Hector",
       "lastName": "Hernandez",
       "store": "LOUISIANA",
-      "mrc": 217,
+      "mrc": 237,
       "acc": 76.97,
       "hint": 0,
       "mim": 0,
@@ -10641,12 +10641,12 @@
       "hint_spiff": 0,
       "mim_spiff": 0,
       "total": 0,
-      "mrc_gap": 283,
+      "mrc_gap": 263,
       "acc_gap": 623.03,
       "hint_gap": 1,
       "mim_gap": 0,
       "qualifies": false,
-      "needs": "+$283 MRC, +$623.03 acc, +1 HINT",
+      "needs": "+$263 MRC, +$623.03 acc, +1 HINT",
       "rank": 249,
       "close_order": 265
     },
@@ -11674,7 +11674,7 @@
       "qualifies": false,
       "needs": "+$48 MRC, +$315.15 acc, +1 HINT",
       "rank": 287,
-      "close_order": 149
+      "close_order": 150
     },
     {
       "code": "vrh98549",
