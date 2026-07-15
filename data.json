@@ -1,7 +1,7 @@
 {
   "meta": {
     "period": "Jul 11, 2026 - Jul 17, 2026",
-    "published": "Jul 14, 10:52 PM",
+    "published": "Jul 15, 9:22 AM",
     "autoPublished": true
   },
   "mrc": {
@@ -1482,7 +1482,7 @@
     },
     "jxb47776": {
       "name": "KARLA",
-      "mrc": 515,
+      "mrc": 590,
       "hint": 1
     },
     "kai37994": {
@@ -2009,19 +2009,19 @@
       "store": "WOODLAND",
       "repName": "Robert"
     },
-    "fbv18384": {
-      "name": "Anny",
-      "acc": 109.98,
-      "hint": 0,
-      "store": "ENTERPRISE",
-      "repName": "Anny"
-    },
     "pij89268": {
       "name": "YARITSSA",
       "acc": 227.98,
       "hint": 0,
       "store": "ENTERPRISE",
       "repName": "YARITSSA"
+    },
+    "fbv18384": {
+      "name": "Anny",
+      "acc": 109.98,
+      "hint": 0,
+      "store": "ENTERPRISE",
+      "repName": "Anny"
     },
     "qak82247": {
       "name": "Cathia",
@@ -4468,7 +4468,7 @@
       "name": "KARLA",
       "lastName": "Vidal",
       "store": "HIALEAH",
-      "mrc": 515,
+      "mrc": 590,
       "acc": 1109.75,
       "hint": 1,
       "mim": 1,
@@ -4477,10 +4477,10 @@
       "hint_gate": true,
       "mim_gate": true,
       "tier": 1,
-      "tier_comm": 152.18,
+      "tier_comm": 158.18,
       "hint_spiff": 15,
       "mim_spiff": 20,
-      "total": 187.18,
+      "total": 193.18,
       "mrc_gap": 0,
       "acc_gap": 0,
       "hint_gap": 0,
@@ -9405,33 +9405,6 @@
       "close_order": 333
     },
     {
-      "code": "fbv18384",
-      "name": "Anny",
-      "lastName": "",
-      "store": "ENTERPRISE",
-      "mrc": 155,
-      "acc": 109.98,
-      "hint": 0,
-      "mim": 0,
-      "mtd_lines": 3,
-      "in_mim": false,
-      "hint_gate": false,
-      "mim_gate": true,
-      "tier": 0,
-      "tier_comm": 0,
-      "hint_spiff": 0,
-      "mim_spiff": 0,
-      "total": 0,
-      "mrc_gap": 345,
-      "acc_gap": 590.02,
-      "hint_gap": 1,
-      "mim_gap": 0,
-      "qualifies": false,
-      "needs": "+$345 MRC, +$590.02 acc, +1 HINT",
-      "rank": 196,
-      "close_order": 279
-    },
-    {
       "code": "pij89268",
       "name": "YARITSSA",
       "lastName": "Reyes",
@@ -9455,8 +9428,35 @@
       "mim_gap": 0,
       "qualifies": false,
       "needs": "+$325 MRC, +$472.02 acc, +1 HINT",
-      "rank": 197,
+      "rank": 196,
       "close_order": 237
+    },
+    {
+      "code": "fbv18384",
+      "name": "Anny",
+      "lastName": "",
+      "store": "ENTERPRISE",
+      "mrc": 155,
+      "acc": 109.98,
+      "hint": 0,
+      "mim": 0,
+      "mtd_lines": 3,
+      "in_mim": false,
+      "hint_gate": false,
+      "mim_gate": true,
+      "tier": 0,
+      "tier_comm": 0,
+      "hint_spiff": 0,
+      "mim_spiff": 0,
+      "total": 0,
+      "mrc_gap": 345,
+      "acc_gap": 590.02,
+      "hint_gap": 1,
+      "mim_gap": 0,
+      "qualifies": false,
+      "needs": "+$345 MRC, +$590.02 acc, +1 HINT",
+      "rank": 197,
+      "close_order": 279
     },
     {
       "code": "qak82247",
@@ -13728,7 +13728,7 @@
   "stats": {
     "reps": 355,
     "qualified": 20,
-    "total_payout": 11830.37,
+    "total_payout": 11836.37,
     "total_spiffs": 7835,
     "below_acc": 340,
     "below_mrc": 291,
