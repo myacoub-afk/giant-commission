@@ -903,8 +903,36 @@ function doLogout(){
   showLogin();
 }
 // ── push notifications ──
+function isIosSafariTab(){
+  // true if iPhone/iPad Safari NOT running as installed PWA
+  var ua=navigator.userAgent;
+  var isIos=/iPhone|iPad|iPod/.test(ua);
+  var isStandalone=window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;
+  return isIos&&!isStandalone;
+}
+
+function showAddToHomeBanner(){
+  if(document.getElementById('a2hsBanner'))return;
+  if(localStorage.getItem('giant_a2hs_dismissed'))return;
+  var b=document.createElement('div');
+  b.id='a2hsBanner';
+  b.style.cssText='position:fixed;bottom:0;left:0;right:0;background:#1B4F96;color:#fff;padding:14px 16px;font-size:13.5px;line-height:1.5;z-index:9999;box-shadow:0 -4px 20px rgba(0,0,0,.25);display:flex;align-items:center;gap:12px;';
+  b.innerHTML='<div style="flex:1">🔔 <strong>Want commission alerts?</strong><br>Tap the <strong>Share</strong> button <span style="font-size:16px">⎋</span> then <strong>"Add to Home Screen"</strong> — open the app from your home screen to enable push notifications.</div>'+
+    '<button id="a2hsClose" style="background:rgba(255,255,255,.2);border:none;color:#fff;border-radius:8px;padding:8px 12px;font-size:13px;flex-shrink:0">Got it</button>';
+  document.body.appendChild(b);
+  document.getElementById('a2hsClose').addEventListener('click',function(){
+    localStorage.setItem('giant_a2hs_dismissed','1');
+    b.remove();
+  });
+}
+
 function setupPushForRep(code){
   if(typeof OneSignalDeferred==='undefined') return;
+  // iPhone Safari in a browser tab can't do web push — show add-to-home-screen banner instead
+  if(isIosSafariTab()){
+    setTimeout(showAddToHomeBanner,2500);
+    // still tag the device so it's ready once they install as PWA
+  }
   OneSignalDeferred.push(async function(OneSignal){
     try{
       // tag this device with the rep's NTID so we can target them
@@ -912,7 +940,7 @@ function setupPushForRep(code){
       await OneSignal.User.addTag('ntid',code);
       // prompt for permission if not already asked
       var permission=await OneSignal.Notifications.permission;
-      if(!permission){
+      if(!permission&&!isIosSafariTab()){
         setTimeout(function(){
           OneSignal.Notifications.requestPermission();
         },2000); // small delay so it doesn't feel jarring right after login
