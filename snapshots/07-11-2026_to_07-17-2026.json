@@ -1,7 +1,7 @@
 {
   "meta": {
     "period": "Jul 11, 2026 - Jul 17, 2026",
-    "published": "Jul 17, 8:53 PM",
+    "published": "Jul 17, 9:23 PM",
     "autoPublished": true
   },
   "mrc": {
@@ -3195,7 +3195,7 @@
     },
     "ggv08751": {
       "name": "Blanca",
-      "acc": 876.84,
+      "acc": 896.84,
       "hint": 2,
       "store": "AIRPORT",
       "repName": "Blanca"
@@ -6131,6 +6131,33 @@
       "close_order": 40
     },
     {
+      "code": "ggv08751",
+      "name": "Blanca",
+      "lastName": "Marquez",
+      "store": "AIRPORT",
+      "mrc": 950,
+      "acc": 896.84,
+      "hint": 2,
+      "mim": 2,
+      "mtd_lines": 2,
+      "in_mim": true,
+      "hint_gate": true,
+      "mim_gate": true,
+      "tier": 1,
+      "tier_comm": 165.68,
+      "hint_spiff": 30,
+      "mim_spiff": 40,
+      "total": 235.68,
+      "mrc_gap": 0,
+      "acc_gap": 0,
+      "hint_gap": 0,
+      "mim_gap": 0,
+      "qualifies": true,
+      "needs": "Qualifies for Tier 1",
+      "rank": 69,
+      "close_order": 53
+    },
+    {
       "code": "foz95856",
       "name": "AHMED",
       "lastName": "Daraghma",
@@ -6154,7 +6181,7 @@
       "mim_gap": 0,
       "qualifies": false,
       "needs": "+$700.00 acc",
-      "rank": 69,
+      "rank": 70,
       "close_order": 113
     },
     {
@@ -6181,7 +6208,7 @@
       "mim_gap": 0,
       "qualifies": true,
       "needs": "Qualifies for Tier 1",
-      "rank": 70,
+      "rank": 71,
       "close_order": 57
     },
     {
@@ -6208,7 +6235,7 @@
       "mim_gap": 0,
       "qualifies": true,
       "needs": "Qualifies for Tier 1",
-      "rank": 71,
+      "rank": 72,
       "close_order": 74
     },
     {
@@ -6235,35 +6262,8 @@
       "mim_gap": 0,
       "qualifies": true,
       "needs": "Qualifies for Tier 1",
-      "rank": 72,
-      "close_order": 19
-    },
-    {
-      "code": "ggv08751",
-      "name": "Blanca",
-      "lastName": "Marquez",
-      "store": "AIRPORT",
-      "mrc": 950,
-      "acc": 876.84,
-      "hint": 2,
-      "mim": 2,
-      "mtd_lines": 2,
-      "in_mim": true,
-      "hint_gate": true,
-      "mim_gate": true,
-      "tier": 1,
-      "tier_comm": 163.68,
-      "hint_spiff": 30,
-      "mim_spiff": 40,
-      "total": 233.68,
-      "mrc_gap": 0,
-      "acc_gap": 0,
-      "hint_gap": 0,
-      "mim_gap": 0,
-      "qualifies": true,
-      "needs": "Qualifies for Tier 1",
       "rank": 73,
-      "close_order": 53
+      "close_order": 19
     },
     {
       "code": "flm31249",
@@ -14153,7 +14153,7 @@
   "stats": {
     "reps": 365,
     "qualified": 93,
-    "total_payout": 44262.18,
+    "total_payout": 44264.18,
     "total_spiffs": 23325,
     "below_acc": 307,
     "below_mrc": 180,
