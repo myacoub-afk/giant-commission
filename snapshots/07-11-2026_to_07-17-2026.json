@@ -1,7 +1,7 @@
 {
   "meta": {
     "period": "Jul 11, 2026 - Jul 17, 2026",
-    "published": "Jul 17, 8:23 PM",
+    "published": "Jul 17, 8:53 PM",
     "autoPublished": true
   },
   "mrc": {
@@ -987,7 +987,7 @@
     },
     "ggv08751": {
       "name": "Blanca",
-      "mrc": 885,
+      "mrc": 950,
       "hint": 2
     },
     "gml47539": {
@@ -3202,7 +3202,7 @@
     },
     "bdi19024": {
       "name": "Victoria",
-      "acc": 599.81,
+      "acc": 664.79,
       "hint": 0,
       "store": "AIRPORT",
       "repName": "Victoria"
@@ -3244,7 +3244,7 @@
     },
     "yqw80352": {
       "name": "Carmen",
-      "acc": 105,
+      "acc": 129.99,
       "hint": 1,
       "store": "CERRILLOS",
       "repName": "Carmen"
@@ -3314,7 +3314,7 @@
     },
     "qpy61948": {
       "name": "Juan",
-      "acc": 274.94,
+      "acc": 344.94,
       "hint": 0,
       "store": "SOUTHERN",
       "repName": "Juan"
@@ -3377,7 +3377,7 @@
     },
     "iqi30704": {
       "name": "george",
-      "acc": 259.53,
+      "acc": 274.53,
       "hint": 0,
       "store": "BLANDING 2",
       "repName": "george"
@@ -4138,6 +4138,13 @@
       "store": "HIALEAH",
       "repName": "yaleidy"
     },
+    "lrd73389": {
+      "name": "Yennarys",
+      "acc": 774.84,
+      "hint": 1,
+      "store": "HIALEAH",
+      "repName": "Yennarys"
+    },
     "bro38612": {
       "name": "GABRIELA",
       "acc": 739.83,
@@ -4165,13 +4172,6 @@
       "hint": 1,
       "store": "HIALEAH",
       "repName": "yareinnis"
-    },
-    "lrd73389": {
-      "name": "Yennarys",
-      "acc": 774.84,
-      "hint": 1,
-      "store": "HIALEAH",
-      "repName": "Yennarys"
     },
     "awk30117": {
       "name": "anabel",
@@ -4562,7 +4562,7 @@
       "qualifies": false,
       "needs": "+$350 MRC, +$590.03 acc, +1 HINT",
       "rank": 10,
-      "close_order": 269
+      "close_order": 270
     },
     {
       "code": "jfv15295",
@@ -5569,7 +5569,7 @@
       "lastName": "Ortega",
       "store": "AIRPORT",
       "mrc": 475,
-      "acc": 599.81,
+      "acc": 664.79,
       "hint": 0,
       "mim": 14,
       "mtd_lines": 33,
@@ -5582,13 +5582,13 @@
       "mim_spiff": 280,
       "total": 280,
       "mrc_gap": 25,
-      "acc_gap": 100.19,
+      "acc_gap": 35.21,
       "hint_gap": 1,
       "mim_gap": 0,
       "qualifies": false,
-      "needs": "+$25 MRC, +$100.19 acc, +1 HINT",
+      "needs": "+$25 MRC, +$35.21 acc, +1 HINT",
       "rank": 48,
-      "close_order": 192
+      "close_order": 191
     },
     {
       "code": "grd89946",
@@ -6239,6 +6239,33 @@
       "close_order": 19
     },
     {
+      "code": "ggv08751",
+      "name": "Blanca",
+      "lastName": "Marquez",
+      "store": "AIRPORT",
+      "mrc": 950,
+      "acc": 876.84,
+      "hint": 2,
+      "mim": 2,
+      "mtd_lines": 2,
+      "in_mim": true,
+      "hint_gate": true,
+      "mim_gate": true,
+      "tier": 1,
+      "tier_comm": 163.68,
+      "hint_spiff": 30,
+      "mim_spiff": 40,
+      "total": 233.68,
+      "mrc_gap": 0,
+      "acc_gap": 0,
+      "hint_gap": 0,
+      "mim_gap": 0,
+      "qualifies": true,
+      "needs": "Qualifies for Tier 1",
+      "rank": 73,
+      "close_order": 53
+    },
+    {
       "code": "flm31249",
       "name": "Jessica",
       "lastName": "Portalatin",
@@ -6262,7 +6289,7 @@
       "mim_gap": 0,
       "qualifies": true,
       "needs": "Qualifies for Tier 1",
-      "rank": 73,
+      "rank": 74,
       "close_order": 9
     },
     {
@@ -6289,7 +6316,7 @@
       "mim_gap": 0,
       "qualifies": true,
       "needs": "Qualifies for Tier 1",
-      "rank": 74,
+      "rank": 75,
       "close_order": 24
     },
     {
@@ -6316,7 +6343,7 @@
       "mim_gap": 0,
       "qualifies": true,
       "needs": "Qualifies for Tier 1",
-      "rank": 75,
+      "rank": 76,
       "close_order": 45
     },
     {
@@ -6343,35 +6370,8 @@
       "mim_gap": 0,
       "qualifies": true,
       "needs": "Qualifies for Tier 1",
-      "rank": 76,
-      "close_order": 44
-    },
-    {
-      "code": "ggv08751",
-      "name": "Blanca",
-      "lastName": "Marquez",
-      "store": "AIRPORT",
-      "mrc": 885,
-      "acc": 876.84,
-      "hint": 2,
-      "mim": 2,
-      "mtd_lines": 2,
-      "in_mim": true,
-      "hint_gate": true,
-      "mim_gate": true,
-      "tier": 1,
-      "tier_comm": 158.48,
-      "hint_spiff": 30,
-      "mim_spiff": 40,
-      "total": 228.48,
-      "mrc_gap": 0,
-      "acc_gap": 0,
-      "hint_gap": 0,
-      "mim_gap": 0,
-      "qualifies": true,
-      "needs": "Qualifies for Tier 1",
       "rank": 77,
-      "close_order": 53
+      "close_order": 44
     },
     {
       "code": "zlc72548",
@@ -6398,7 +6398,7 @@
       "qualifies": false,
       "needs": "+$133 MRC, +$365.05 acc, +1 HINT",
       "rank": 78,
-      "close_order": 225
+      "close_order": 226
     },
     {
       "code": "eof99154",
@@ -7937,7 +7937,7 @@
       "qualifies": false,
       "needs": "+$358 MRC, +$405.08 acc, +1 HINT",
       "rank": 135,
-      "close_order": 233
+      "close_order": 234
     },
     {
       "code": "ilx90312",
@@ -8018,7 +8018,7 @@
       "qualifies": false,
       "needs": "+$36 MRC, +$373.01 acc, +1 HINT",
       "rank": 138,
-      "close_order": 227
+      "close_order": 228
     },
     {
       "code": "nuu38600",
@@ -8342,7 +8342,7 @@
       "qualifies": false,
       "needs": "+$24 MRC, +$373.52 acc, +1 HINT",
       "rank": 150,
-      "close_order": 228
+      "close_order": 229
     },
     {
       "code": "mxa61307",
@@ -8369,7 +8369,7 @@
       "qualifies": false,
       "needs": "+$265 MRC, +$371.02 acc, +1 HINT",
       "rank": 151,
-      "close_order": 226
+      "close_order": 227
     },
     {
       "code": "xzb29885",
@@ -8720,7 +8720,7 @@
       "qualifies": false,
       "needs": "+$160 MRC, +$575.02 acc, +1 HINT",
       "rank": 164,
-      "close_order": 266
+      "close_order": 267
     },
     {
       "code": "auh62768",
@@ -8747,7 +8747,7 @@
       "qualifies": false,
       "needs": "+$190 MRC, +$80.16 acc, +1 HINT",
       "rank": 165,
-      "close_order": 191
+      "close_order": 192
     },
     {
       "code": "cip44734",
@@ -8836,7 +8836,7 @@
       "lastName": "Nafal",
       "store": "BLANDING 2",
       "mrc": 442,
-      "acc": 259.53,
+      "acc": 274.53,
       "hint": 0,
       "mim": 3,
       "mtd_lines": 3,
@@ -8849,13 +8849,13 @@
       "mim_spiff": 60,
       "total": 60,
       "mrc_gap": 58,
-      "acc_gap": 440.47,
+      "acc_gap": 425.47,
       "hint_gap": 1,
       "mim_gap": 0,
       "qualifies": false,
-      "needs": "+$58 MRC, +$440.47 acc, +1 HINT",
+      "needs": "+$58 MRC, +$425.47 acc, +1 HINT",
       "rank": 169,
-      "close_order": 241
+      "close_order": 237
     },
     {
       "code": "ohf63653",
@@ -9476,7 +9476,7 @@
       "qualifies": false,
       "needs": "+$47 MRC, +$363.72 acc, +1 HINT",
       "rank": 192,
-      "close_order": 223
+      "close_order": 224
     },
     {
       "code": "qix82959",
@@ -10043,7 +10043,7 @@
       "qualifies": false,
       "needs": "+$200 MRC, +$400.08 acc, +1 HINT",
       "rank": 213,
-      "close_order": 231
+      "close_order": 232
     },
     {
       "code": "pkz06366",
@@ -10097,7 +10097,7 @@
       "qualifies": false,
       "needs": "+$178 MRC, +$435.06 acc, +1 HINT",
       "rank": 215,
-      "close_order": 239
+      "close_order": 240
     },
     {
       "code": "ipx29098",
@@ -10178,7 +10178,7 @@
       "qualifies": false,
       "needs": "+$400 MRC, +$589.91 acc, +1 HINT",
       "rank": 218,
-      "close_order": 268
+      "close_order": 269
     },
     {
       "code": "hhc11812",
@@ -10213,7 +10213,7 @@
       "lastName": "Hernandez",
       "store": "SOUTHERN",
       "mrc": 238,
-      "acc": 274.94,
+      "acc": 344.94,
       "hint": 0,
       "mim": 1,
       "mtd_lines": 4,
@@ -10226,13 +10226,13 @@
       "mim_spiff": 20,
       "total": 20,
       "mrc_gap": 262,
-      "acc_gap": 425.06,
+      "acc_gap": 355.06,
       "hint_gap": 1,
       "mim_gap": 0,
       "qualifies": false,
-      "needs": "+$262 MRC, +$425.06 acc, +1 HINT",
+      "needs": "+$262 MRC, +$355.06 acc, +1 HINT",
       "rank": 220,
-      "close_order": 235
+      "close_order": 223
     },
     {
       "code": "tiw95446",
@@ -10556,7 +10556,7 @@
       "qualifies": false,
       "needs": "+$220 MRC, +$430.07 acc",
       "rank": 232,
-      "close_order": 237
+      "close_order": 238
     },
     {
       "code": "xij94019",
@@ -10610,7 +10610,7 @@
       "qualifies": false,
       "needs": "+$152 MRC, +$431.10 acc, +1 MIM",
       "rank": 234,
-      "close_order": 238
+      "close_order": 239
     },
     {
       "code": "xbn24151",
@@ -10880,7 +10880,7 @@
       "qualifies": false,
       "needs": "+$95 MRC, +$390.09 acc",
       "rank": 244,
-      "close_order": 229
+      "close_order": 230
     },
     {
       "code": "inb98999",
@@ -11104,7 +11104,7 @@
       "lastName": "",
       "store": "CERRILLOS",
       "mrc": 220,
-      "acc": 105,
+      "acc": 129.99,
       "hint": 1,
       "mim": 0,
       "mtd_lines": 0,
@@ -11117,13 +11117,13 @@
       "mim_spiff": 0,
       "total": 15,
       "mrc_gap": 280,
-      "acc_gap": 595,
+      "acc_gap": 570.01,
       "hint_gap": 0,
       "mim_gap": 1,
       "qualifies": false,
-      "needs": "+$280 MRC, +$595.00 acc, +1 MIM",
+      "needs": "+$280 MRC, +$570.01 acc, +1 MIM",
       "rank": 253,
-      "close_order": 270
+      "close_order": 266
     },
     {
       "code": "hcw68692",
@@ -12608,7 +12608,7 @@
       "qualifies": false,
       "needs": "+$437.02 acc, +1 HINT, +1 MIM",
       "rank": 308,
-      "close_order": 240
+      "close_order": 241
     },
     {
       "code": "yeq68159",
@@ -12770,7 +12770,7 @@
       "qualifies": false,
       "needs": "+$405.09 acc, +1 HINT, +1 MIM",
       "rank": 314,
-      "close_order": 234
+      "close_order": 235
     },
     {
       "code": "nck19411",
@@ -12932,7 +12932,7 @@
       "qualifies": false,
       "needs": "+$400.11 acc, +1 HINT, +1 MIM",
       "rank": 320,
-      "close_order": 232
+      "close_order": 233
     },
     {
       "code": "knm92502",
@@ -13040,7 +13040,7 @@
       "qualifies": false,
       "needs": "+$580.03 acc, +1 HINT",
       "rank": 324,
-      "close_order": 267
+      "close_order": 268
     },
     {
       "code": "oax94730",
@@ -13094,7 +13094,7 @@
       "qualifies": false,
       "needs": "+$395.10 acc, +1 HINT, +1 MIM",
       "rank": 326,
-      "close_order": 230
+      "close_order": 231
     },
     {
       "code": "tpo36456",
@@ -13175,7 +13175,7 @@
       "qualifies": false,
       "needs": "+$364.55 acc, +1 HINT, +1 MIM",
       "rank": 329,
-      "close_order": 224
+      "close_order": 225
     },
     {
       "code": "zdq15073",
@@ -14153,7 +14153,7 @@
   "stats": {
     "reps": 365,
     "qualified": 93,
-    "total_payout": 44256.98,
+    "total_payout": 44262.18,
     "total_spiffs": 23325,
     "below_acc": 307,
     "below_mrc": 180,
