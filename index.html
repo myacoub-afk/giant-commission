@@ -285,6 +285,7 @@ main{flex:1;padding:0 0 calc(var(--safe-bot) + 80px)}
     <button class="tab active" data-tab="my">My Numbers</button>
     <button class="tab" data-tab="team">Team</button>
     <button class="tab" data-tab="monthly">Monthly</button>
+    <button class="tab" data-tab="history">History</button>
   </div>
 </header>
 
@@ -373,6 +374,16 @@ main{flex:1;padding:0 0 calc(var(--safe-bot) + 80px)}
     <div class="results-meta" id="monthMeta"></div>
     <div class="standings-wrap" id="monthlyWrap"></div>
   </div>
+  <!-- HISTORY TAB -->
+  <div id="tabHistory" style="display:none">
+    <div class="search-wrap" style="padding-top:12px">
+      <div style="display:flex;gap:8px;align-items:center;padding:0 4px">
+        <select id="histSelect" style="flex:1;font-family:var(--body);font-size:14px;border:1.5px solid var(--line);border-radius:11px;padding:9px 12px;background:#fff;color:var(--navy);-webkit-appearance:none"></select>
+      </div>
+    </div>
+    <div class="results-meta" id="histMeta"></div>
+    <div id="histContent" style="padding:0 16px"></div>
+  </div>
   <div style="margin:20px 16px 8px;padding:12px 14px;background:#FBEAE8;border:1px solid #F2D2CC;
     border-left:4px solid #C0392B;border-radius:11px;font-size:12px;color:#7B241C;line-height:1.5">
     <strong>Disclaimer:</strong> Cancelled lines and commission charge backs are not removed in this amount.
@@ -424,9 +435,12 @@ function loadData(){
   var v='?v='+Date.now();
   Promise.all([
     fetch('data.json'+v).then(function(r){return r.ok?r.json():null;}).catch(function(){return null;}),
-    fetch('mim.json'+v).then(function(r){return r.ok?r.json():null;}).catch(function(){return null;})
+    fetch('mim.json'+v).then(function(r){return r.ok?r.json():null;}).catch(function(){return null;}),
+    fetch('config.json'+v).then(function(r){return r.ok?r.json():null;}).catch(function(){return null;})
   ]).then(function(results){
     var d=results[0],m=results[1];
+    APPCONFIG=results[2]||{historyLive:false};
+    updateFeatureTabs();
     if(!d||!d.rows||!d.rows.length){showError('Could not load commission data. Please try again.');return;}
     // always apply mimNote from mim.json regardless of whether rows exist
     if(m&&m.meta&&m.meta.mimNote)d.meta.mimNote=m.meta.mimNote;
@@ -732,9 +746,144 @@ document.querySelectorAll('.tab').forEach(function(t){
     document.getElementById('tabMy').style.display=activeTab==='my'?'':'none';
     document.getElementById('tabTeam').style.display=activeTab==='team'?'':'none';
     document.getElementById('tabMonthly').style.display=activeTab==='monthly'?'':'none';
+    document.getElementById('tabHistory').style.display=activeTab==='history'?'':'none';
     if(activeTab==='monthly'&&!MONTHLY) loadMonthly();
+    if(activeTab==='history') initHistory();
   });
 });
+
+// ── history (past week paychecks) ──
+var HIST_CACHE={};
+function getPastPeriods(n){
+  // returns last n completed pay periods (excluding current week)
+  var out=[];
+  var now=new Date();
+  var day=now.getDay();
+  var daysFromSat=(day+1)%7;
+  var thisStart=new Date(now);thisStart.setDate(now.getDate()-daysFromSat);thisStart.setHours(0,0,0,0);
+  for(var i=1;i<=n;i++){
+    var s=new Date(thisStart);s.setDate(thisStart.getDate()-7*i);
+    var e=new Date(s);e.setDate(s.getDate()+6);
+    var p2=function(x){return String(x).padStart(2,'0');};
+    var file='snapshots/'+p2(s.getMonth()+1)+'-'+p2(s.getDate())+'-'+s.getFullYear()+'_to_'+p2(e.getMonth()+1)+'-'+p2(e.getDate())+'-'+e.getFullYear()+'.json';
+    var lbl=s.toLocaleDateString('en-US',{month:'short',day:'numeric'})+' - '+e.toLocaleDateString('en-US',{month:'short',day:'numeric',year:'numeric'});
+    out.push({file:file,label:lbl});
+  }
+  return out;
+}
+
+function renderHistToggle(){
+  var existing=document.getElementById('histToggle');
+  if(existing)existing.remove();
+  if(authMode!=='admin')return;
+  var bar=document.createElement('div');
+  bar.id='histToggle';
+  var live=APPCONFIG.historyLive;
+  bar.style.cssText='margin:10px 16px 0;padding:12px 14px;border-radius:12px;font-size:13px;display:flex;align-items:center;gap:10px;justify-content:space-between;'+(live?'background:#E7F4EC;border:1.5px solid #A5D6B0;color:#1E5631;':'background:#FBF4E1;border:1.5px solid #EAD48A;color:#7D5A00;');
+  bar.innerHTML='<div>'+(live?'✅ History is <strong>LIVE</strong> for all reps':'🔒 History is <strong>admin-only</strong> (reps can\'t see this tab)')+'</div>'+
+    '<button id="histToggleBtn" style="background:'+(live?'#C0392B':'#1B4F96')+';color:#fff;border:none;border-radius:9px;padding:8px 14px;font-size:12.5px;font-weight:600;flex-shrink:0">'+(live?'Turn OFF':'Make LIVE')+'</button>';
+  var tabH=document.getElementById('tabHistory');
+  tabH.insertBefore(bar,tabH.firstChild);
+  document.getElementById('histToggleBtn').addEventListener('click',toggleHistoryLive);
+}
+
+function toggleHistoryLive(){
+  var token=localStorage.getItem('giant_gh_token');
+  if(!token){
+    token=prompt('Enter your GitHub token to update the app config:');
+    if(!token)return;
+    localStorage.setItem('giant_gh_token',token.trim());
+    token=token.trim();
+  }
+  var user=localStorage.getItem('giant_gh_user')||'myacoub-afk';
+  var repo=localStorage.getItem('giant_gh_repo')||'giant-commission';
+  var apiBase='https://api.github.com/repos/'+user+'/'+repo+'/contents/config.json';
+  var headers={'Authorization':'token '+token,'Content-Type':'application/json','Accept':'application/vnd.github.v3+json'};
+  var newVal=!APPCONFIG.historyLive;
+  fetch(apiBase,{headers:headers})
+    .then(function(r){return r.ok?r.json():null;})
+    .then(function(existing){
+      var cfg=APPCONFIG||{};
+      cfg.historyLive=newVal;
+      var content=btoa(unescape(encodeURIComponent(JSON.stringify(cfg,null,2))));
+      var body={message:(newVal?'Enable':'Disable')+' History tab for reps',content:content};
+      if(existing&&existing.sha)body.sha=existing.sha;
+      return fetch(apiBase,{method:'PUT',headers:headers,body:JSON.stringify(body)});
+    })
+    .then(function(r){
+      if(r&&r.ok){
+        APPCONFIG.historyLive=newVal;
+        renderHistToggle();
+        alert('History is now '+(newVal?'LIVE for all reps':'admin-only')+'. Changes reach reps within ~60 seconds.');
+      } else {
+        localStorage.removeItem('giant_gh_token');
+        alert('Update failed — check your GitHub token and try again.');
+      }
+    })
+    .catch(function(){alert('Network error — try again.');});
+}
+
+function initHistory(){
+  renderHistToggle();
+  var sel=document.getElementById('histSelect');
+  if(!sel.options.length){
+    var periods=getPastPeriods(4);
+    sel.innerHTML=periods.map(function(p,i){
+      return '<option value="'+p.file+'">'+p.label+'</option>';
+    }).join('');
+    sel.addEventListener('change',renderHistory);
+  }
+  renderHistory();
+}
+
+function renderHistory(){
+  var sel=document.getElementById('histSelect');
+  var file=sel.value;
+  var meta=document.getElementById('histMeta');
+  var content=document.getElementById('histContent');
+  if(!me){
+    meta.textContent='';
+    content.innerHTML='<div style="text-align:center;padding:40px 20px;color:var(--mute);font-size:14px">'+(authMode==='admin'?'Select a rep from the My Numbers tab first to view their history.':'Log in to view your commission history.')+'</div>';
+    return;
+  }
+  content.innerHTML='<div style="text-align:center;padding:30px;color:var(--mute)">Loading...</div>';
+  var render=function(snap){
+    if(!snap||!snap.rows){
+      meta.textContent='';
+      content.innerHTML='<div style="text-align:center;padding:40px 20px;color:var(--mute);font-size:14px">No finalized data available for this week yet.</div>';
+      return;
+    }
+    var d=snap.rows.find(function(r){return r.code===me.code;});
+    meta.textContent=(snap.meta&&snap.meta.finalized?'✓ Finalized':'Preliminary — may not include final MIM')+' · '+(snap.meta&&snap.meta.published||'');
+    if(!d){
+      content.innerHTML='<div style="text-align:center;padding:40px 20px;color:var(--mute);font-size:14px">No data for you in this pay period.</div>';
+      return;
+    }
+    var fmt2=function(n){return '$'+(n||0).toLocaleString('en-US',{minimumFractionDigits:2,maximumFractionDigits:2});};
+    var gates=d.hint_gate&&d.mim_gate;
+    var html='<div style="background:#fff;border:1.5px solid var(--line);border-radius:16px;padding:18px;margin-top:8px">';
+    html+='<div style="font-size:15px;font-weight:700;color:var(--navy);margin-bottom:2px">'+esc(d.name+(d.lastName?' '+d.lastName:''))+'</div>';
+    html+='<div style="font-size:12px;color:var(--mute);margin-bottom:14px">'+esc(d.store||'')+' · Rank #'+(d.rank||'—')+'</div>';
+    html+='<div style="display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:14px">';
+    html+='<div style="background:#F6F8FB;border-radius:11px;padding:10px 12px"><div style="font-size:11px;color:var(--mute)">MRC</div><div style="font-size:16px;font-weight:700;color:var(--navy)">$'+Math.round(d.mrc||0).toLocaleString()+'</div></div>';
+    html+='<div style="background:#F6F8FB;border-radius:11px;padding:10px 12px"><div style="font-size:11px;color:var(--mute)">Accessories</div><div style="font-size:16px;font-weight:700;color:var(--navy)">'+fmt2(d.acc)+'</div></div>';
+    html+='<div style="background:#F6F8FB;border-radius:11px;padding:10px 12px"><div style="font-size:11px;color:var(--mute)">HINT sales</div><div style="font-size:16px;font-weight:700;color:var(--navy)">'+(d.hint||0)+'</div></div>';
+    html+='<div style="background:#F6F8FB;border-radius:11px;padding:10px 12px"><div style="font-size:11px;color:var(--mute)">MIM lines</div><div style="font-size:16px;font-weight:700;color:var(--navy)">'+(d.mim||0)+'</div></div>';
+    html+='</div>';
+    html+='<div style="border-top:1px solid var(--line);padding-top:12px">';
+    html+='<div style="display:flex;justify-content:space-between;font-size:13.5px;padding:4px 0"><span style="color:var(--mute)">Tier '+(d.tier>0?d.tier:'—')+' commission</span><span style="font-weight:600">'+fmt2(d.tier_comm)+'</span></div>';
+    html+='<div style="display:flex;justify-content:space-between;font-size:13.5px;padding:4px 0"><span style="color:var(--mute)">HINT spiff</span><span style="font-weight:600">'+fmt2(d.hint_spiff)+'</span></div>';
+    html+='<div style="display:flex;justify-content:space-between;font-size:13.5px;padding:4px 0"><span style="color:var(--mute)">MIM spiff</span><span style="font-weight:600">'+fmt2(d.mim_spiff)+'</span></div>';
+    html+='<div style="display:flex;justify-content:space-between;font-size:16px;padding:10px 0 2px;border-top:1px solid var(--line);margin-top:8px"><span style="font-weight:700;color:var(--navy)">Total payout</span><span style="font-weight:800;color:var(--navy)">'+fmt2(d.total)+'</span></div>';
+    html+='</div></div>';
+    content.innerHTML=html;
+  };
+  if(HIST_CACHE[file]){render(HIST_CACHE[file]);return;}
+  fetch(file+'?v='+Date.now())
+    .then(function(r){return r.ok?r.json():null;})
+    .then(function(snap){HIST_CACHE[file]=snap;render(snap);})
+    .catch(function(){render(null);});
+}
 
 // ── PWA install ──
 var deferredPrompt=null;
@@ -845,6 +994,18 @@ document.getElementById('monthlyWrap').addEventListener('click',function(e){
 });
 var ADMIN_PASSCODE='Giant2026';
 var authMode=null;
+var APPCONFIG={historyLive:false};
+function updateFeatureTabs(){
+  var histBtn=document.querySelector('.tab[data-tab="history"]');
+  if(!histBtn)return;
+  var show=APPCONFIG.historyLive||authMode==='admin';
+  histBtn.style.display=show?'':'none';
+  // if history hidden while active, bounce to My Numbers
+  if(!show&&activeTab==='history'){
+    var myBtn=document.querySelector('.tab[data-tab="my"]');
+    if(myBtn)myBtn.click();
+  }
+}
 function applyAuthMode(){
   var isRep=authMode==='rep';
   // Search box inside My Numbers: hide for reps
@@ -883,17 +1044,17 @@ function hideLogin(){
 function checkSavedAuth(){
   var mode=localStorage.getItem('giant_auth_mode');
   var code=localStorage.getItem('giant_rep_code');
-  if(mode==='admin'){authMode='admin';trackLogin('ADMIN','Admin','','admin_return');hideLogin();return true;}
+  if(mode==='admin'){authMode='admin';trackLogin('ADMIN','Admin','','admin_return');hideLogin();updateFeatureTabs();return true;}
   if(mode==='rep'&&code&&DATA&&DATA.rows){
     var d=DATA.rows.find(function(r){return r.code===code;});
-    if(d){authMode='rep';trackLogin(d.code,d.name+(d.lastName?' '+d.lastName:''),d.store,'rep_return');setupPushForRep(d.code);hideLogin();selectRep(d);return true;}
+    if(d){authMode='rep';trackLogin(d.code,d.name+(d.lastName?' '+d.lastName:''),d.store,'rep_return');setupPushForRep(d.code);hideLogin();selectRep(d);updateFeatureTabs();return true;}
   }
   return false;
 }
 function doLogout(){
   localStorage.removeItem('giant_auth_mode');
   localStorage.removeItem('giant_rep_code');
-  authMode=null;me=null;
+  authMode=null;me=null;setTimeout(updateFeatureTabs,0);
   // restore hidden elements before showing login
   var idWrap=document.getElementById('idWrap');
   if(idWrap) idWrap.style.display='';
@@ -956,6 +1117,7 @@ document.getElementById('loginBtn').addEventListener('click',function(){
   var d=DATA.rows.find(function(r){return r.code===code.toLowerCase();});
   if(!d){document.getElementById('loginErr').textContent='Employee ID not found. Check your code and try again.';return;}
   authMode='rep';
+  setTimeout(updateFeatureTabs,0);
   localStorage.setItem('giant_auth_mode','rep');
   localStorage.setItem('giant_rep_code',d.code);
   trackLogin(d.code,d.name+(d.lastName?' '+d.lastName:''),d.store,'rep');
@@ -976,6 +1138,7 @@ document.getElementById('adminBtn').addEventListener('click',function(){
   var pass=document.getElementById('adminInput').value;
   if(pass===ADMIN_PASSCODE){
     authMode='admin';
+    setTimeout(updateFeatureTabs,0);
     localStorage.setItem('giant_auth_mode','admin');
     trackLogin('ADMIN','Admin','','admin');
     hideLogin();
