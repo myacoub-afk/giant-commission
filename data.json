@@ -1,7 +1,7 @@
 {
   "meta": {
     "period": "Jul 18, 2026 - Jul 24, 2026",
-    "published": "Jul 20, 8:53 PM",
+    "published": "Jul 20, 9:23 PM",
     "autoPublished": true
   },
   "mrc": {
@@ -897,7 +897,7 @@
     },
     "gml47539": {
       "name": "ARTURO ORTIZ",
-      "mrc": 435,
+      "mrc": 483,
       "hint": 1
     },
     "hcw68692": {
@@ -1576,7 +1576,7 @@
     },
     "aue96179": {
       "name": "JOHANNA",
-      "acc": 748.13,
+      "acc": 783.12,
       "hint": 1,
       "store": "NATIONS FORD",
       "repName": "JOHANNA"
@@ -4289,6 +4289,33 @@
       "close_order": 8
     },
     {
+      "code": "aue96179",
+      "name": "JOHANNA",
+      "lastName": "Delgado",
+      "store": "NATIONS FORD",
+      "mrc": 727,
+      "acc": 783.12,
+      "hint": 1,
+      "mim": 0,
+      "mtd_lines": 19,
+      "in_mim": true,
+      "hint_gate": true,
+      "mim_gate": true,
+      "tier": 1,
+      "tier_comm": 136.47,
+      "hint_spiff": 15,
+      "mim_spiff": 0,
+      "total": 151.47,
+      "mrc_gap": 0,
+      "acc_gap": 0,
+      "hint_gap": 0,
+      "mim_gap": 0,
+      "qualifies": true,
+      "needs": "Qualifies for Tier 1",
+      "rank": 12,
+      "close_order": 14
+    },
+    {
       "code": "bdi19024",
       "name": "Victoria",
       "lastName": "Ortega",
@@ -4312,35 +4339,8 @@
       "mim_gap": 0,
       "qualifies": false,
       "needs": "+$191 MRC, +$435.08 acc",
-      "rank": 12,
-      "close_order": 33
-    },
-    {
-      "code": "aue96179",
-      "name": "JOHANNA",
-      "lastName": "Delgado",
-      "store": "NATIONS FORD",
-      "mrc": 727,
-      "acc": 748.13,
-      "hint": 1,
-      "mim": 0,
-      "mtd_lines": 19,
-      "in_mim": true,
-      "hint_gate": true,
-      "mim_gate": true,
-      "tier": 1,
-      "tier_comm": 132.97,
-      "hint_spiff": 15,
-      "mim_spiff": 0,
-      "total": 147.97,
-      "mrc_gap": 0,
-      "acc_gap": 0,
-      "hint_gap": 0,
-      "mim_gap": 0,
-      "qualifies": true,
-      "needs": "Qualifies for Tier 1",
       "rank": 13,
-      "close_order": 14
+      "close_order": 33
     },
     {
       "code": "eaa64615",
@@ -6507,7 +6507,7 @@
       "name": "ARTURO ORTIZ",
       "lastName": "",
       "store": "BROADWAY",
-      "mrc": 435,
+      "mrc": 483,
       "acc": 201.93,
       "hint": 1,
       "mim": 0,
@@ -6520,12 +6520,12 @@
       "hint_spiff": 15,
       "mim_spiff": 0,
       "total": 15,
-      "mrc_gap": 65,
+      "mrc_gap": 17,
       "acc_gap": 498.07,
       "hint_gap": 0,
       "mim_gap": 0,
       "qualifies": false,
-      "needs": "+$65 MRC, +$498.07 acc",
+      "needs": "+$17 MRC, +$498.07 acc",
       "rank": 94,
       "close_order": 77
     },
@@ -13337,7 +13337,7 @@
   "stats": {
     "reps": 346,
     "qualified": 11,
-    "total_payout": 7087.31,
+    "total_payout": 7090.81,
     "total_spiffs": 4580,
     "below_acc": 335,
     "below_mrc": 315,
