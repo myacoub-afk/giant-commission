@@ -1,7 +1,7 @@
 {
   "meta": {
     "period": "Jul 25, 2026 - Jul 31, 2026",
-    "published": "Jul 28, 10:53 PM",
+    "published": "Jul 29, 9:24 AM",
     "autoPublished": true
   },
   "mrc": {
@@ -3132,6 +3132,13 @@
       "store": "3250 COORS",
       "repName": "Adriana"
     },
+    "eof99154": {
+      "name": "Angel",
+      "acc": 29.99,
+      "hint": 0,
+      "store": "111 COORS ( JUMBO)",
+      "repName": "Angel"
+    },
     "ukm18426": {
       "name": "Inez",
       "acc": 681.22,
@@ -3173,13 +3180,6 @@
       "hint": 0,
       "store": "ZUNI",
       "repName": "ADRIAN"
-    },
-    "eof99154": {
-      "name": "Angel",
-      "acc": 29.99,
-      "hint": 0,
-      "store": "SAN MATEO",
-      "repName": "Angel"
     },
     "ozi95799": {
       "name": "DANIEL",
@@ -3978,6 +3978,13 @@
       "hint": 0,
       "store": "MILITARY",
       "repName": "Cherlyn"
+    },
+    "osk55215": {
+      "name": "kedyn",
+      "acc": 0,
+      "hint": 0,
+      "store": "MILITARY",
+      "repName": "kedyn"
     },
     "arg49156": {
       "name": "Walkiria",
@@ -7395,7 +7402,7 @@
       "code": "eof99154",
       "name": "Angel",
       "lastName": "Lee",
-      "store": "SAN MATEO",
+      "store": "111 COORS ( JUMBO)",
       "mrc": 0,
       "acc": 29.99,
       "hint": 0,
@@ -13521,6 +13528,33 @@
       "close_order": 249
     },
     {
+      "code": "osk55215",
+      "name": "kedyn",
+      "lastName": "",
+      "store": "MILITARY",
+      "mrc": 0,
+      "acc": 0,
+      "hint": 0,
+      "mim": 0,
+      "mtd_lines": 0,
+      "in_mim": false,
+      "hint_gate": false,
+      "mim_gate": false,
+      "tier": 0,
+      "tier_comm": 0,
+      "hint_spiff": 0,
+      "mim_spiff": 0,
+      "total": 0,
+      "mrc_gap": 500,
+      "acc_gap": 700,
+      "hint_gap": 1,
+      "mim_gap": 1,
+      "qualifies": false,
+      "needs": "+$500 MRC, +$700.00 acc, +1 HINT, +1 MIM",
+      "rank": 346,
+      "close_order": 356
+    },
+    {
       "code": "kai37994",
       "name": "Kimberly",
       "lastName": "Salinas",
@@ -13544,7 +13578,7 @@
       "mim_gap": 0,
       "qualifies": false,
       "needs": "+$304 MRC, +$172.19 acc, +1 HINT",
-      "rank": 346,
+      "rank": 347,
       "close_order": 195
     },
     {
@@ -13571,7 +13605,7 @@
       "mim_gap": 0,
       "qualifies": false,
       "needs": "+$284 MRC, +$205.11 acc, +1 HINT",
-      "rank": 347,
+      "rank": 348,
       "close_order": 198
     },
     {
@@ -13598,7 +13632,7 @@
       "mim_gap": 0,
       "qualifies": false,
       "needs": "+$375 MRC, +$700.00 acc, +1 HINT",
-      "rank": 348,
+      "rank": 349,
       "close_order": 340
     },
     {
@@ -13625,7 +13659,7 @@
       "mim_gap": 0,
       "qualifies": false,
       "needs": "+$225 MRC, +$230.17 acc, +1 HINT",
-      "rank": 349,
+      "rank": 350,
       "close_order": 200
     },
     {
@@ -13652,7 +13686,7 @@
       "mim_gap": 0,
       "qualifies": false,
       "needs": "+$315 MRC, +$610.02 acc, +1 HINT",
-      "rank": 350,
+      "rank": 351,
       "close_order": 296
     },
     {
@@ -13679,7 +13713,7 @@
       "mim_gap": 0,
       "qualifies": false,
       "needs": "+$180 MRC, +$315.10 acc, +1 HINT",
-      "rank": 351,
+      "rank": 352,
       "close_order": 209
     },
     {
@@ -13706,7 +13740,7 @@
       "mim_gap": 1,
       "qualifies": false,
       "needs": "+$312 MRC, +$585.04 acc, +1 HINT, +1 MIM",
-      "rank": 352,
+      "rank": 353,
       "close_order": 277
     },
     {
@@ -13733,7 +13767,7 @@
       "mim_gap": 0,
       "qualifies": false,
       "needs": "+$52 MRC, +$390.08 acc, +1 HINT",
-      "rank": 353,
+      "rank": 354,
       "close_order": 217
     },
     {
@@ -13760,7 +13794,7 @@
       "mim_gap": 0,
       "qualifies": false,
       "needs": "+$196 MRC, +1 HINT",
-      "rank": 354,
+      "rank": 355,
       "close_order": 75
     },
     {
@@ -13787,7 +13821,7 @@
       "mim_gap": 0,
       "qualifies": false,
       "needs": "+$345 MRC, +$375.09 acc, +1 HINT",
-      "rank": 355,
+      "rank": 356,
       "close_order": 216
     },
     {
@@ -13814,7 +13848,7 @@
       "mim_gap": 1,
       "qualifies": false,
       "needs": "+$450 MRC, +$485.06 acc, +1 HINT, +1 MIM",
-      "rank": 356,
+      "rank": 357,
       "close_order": 235
     },
     {
@@ -13841,8 +13875,8 @@
       "mim_gap": 1,
       "qualifies": false,
       "needs": "+$500 MRC, +$700.00 acc, +1 HINT, +1 MIM",
-      "rank": 357,
-      "close_order": 356
+      "rank": 358,
+      "close_order": 357
     },
     {
       "code": "rdn78671",
@@ -13868,19 +13902,19 @@
       "mim_gap": 1,
       "qualifies": false,
       "needs": "+$500 MRC, +$700.00 acc, +1 HINT, +1 MIM",
-      "rank": 358,
-      "close_order": 357
+      "rank": 359,
+      "close_order": 358
     }
   ],
   "stats": {
-    "reps": 358,
+    "reps": 359,
     "qualified": 16,
     "total_payout": 14419.07,
     "total_spiffs": 10700,
-    "below_acc": 345,
-    "below_mrc": 305,
-    "no_hint": 247,
-    "no_mim": 253,
+    "below_acc": 346,
+    "below_mrc": 306,
+    "no_hint": 248,
+    "no_mim": 254,
     "max_total": 621.15,
     "closest_name": "nicole",
     "closest_needs": "Qualifies for Tier 1"
