@@ -1,7 +1,7 @@
 {
   "meta": {
     "period": "Jul 25, 2026 - Jul 31, 2026",
-    "published": "Jul 31, 9:24 AM",
+    "published": "Jul 31, 9:54 AM",
     "autoPublished": true
   },
   "mrc": {
@@ -1692,7 +1692,7 @@
     },
     "uke21848": {
       "name": "jose",
-      "mrc": 590,
+      "mrc": 690,
       "hint": 2
     },
     "vgz90904": {
@@ -3040,7 +3040,7 @@
     },
     "sql23664": {
       "name": "charlie",
-      "acc": 1676.63,
+      "acc": 1736.62,
       "hint": 1,
       "store": "HAMILTON 2",
       "repName": "charlie"
@@ -4118,7 +4118,7 @@
     },
     "uke21848": {
       "name": "jose",
-      "acc": 959.7,
+      "acc": 1014.68,
       "hint": 2,
       "store": "KENDALL",
       "repName": "jose"
@@ -4167,7 +4167,7 @@
     },
     "jxb47776": {
       "name": "KARLA",
-      "acc": 824.77,
+      "acc": 854.76,
       "hint": 1,
       "store": "HIALEAH",
       "repName": "KARLA"
@@ -4272,7 +4272,7 @@
     },
     "miw01822": {
       "name": "franky",
-      "acc": 1289.71,
+      "acc": 1364.69,
       "hint": 0,
       "store": "HOMESTEAD",
       "repName": "franky"
@@ -4536,7 +4536,7 @@
       "lastName": "Contrera",
       "store": "HAMILTON 2",
       "mrc": 1292,
-      "acc": 1676.63,
+      "acc": 1736.62,
       "hint": 1,
       "mim": 0,
       "mtd_lines": 8,
@@ -4544,10 +4544,10 @@
       "hint_gate": true,
       "mim_gate": true,
       "tier": 3,
-      "tier_comm": 380.69,
+      "tier_comm": 389.69,
       "hint_spiff": 15,
       "mim_spiff": 0,
-      "total": 395.69,
+      "total": 404.69,
       "mrc_gap": 0,
       "acc_gap": 0,
       "hint_gap": 0,
@@ -5076,7 +5076,7 @@
       "lastName": "Vidal",
       "store": "HIALEAH",
       "mrc": 581,
-      "acc": 824.77,
+      "acc": 854.76,
       "hint": 1,
       "mim": 6,
       "mtd_lines": 25,
@@ -5084,10 +5084,10 @@
       "hint_gate": true,
       "mim_gate": true,
       "tier": 1,
-      "tier_comm": 128.96,
+      "tier_comm": 131.96,
       "hint_spiff": 15,
       "mim_spiff": 120,
-      "total": 263.96,
+      "total": 266.96,
       "mrc_gap": 0,
       "acc_gap": 0,
       "hint_gap": 0,
@@ -5096,6 +5096,33 @@
       "needs": "Qualifies for Tier 1",
       "rank": 29,
       "close_order": 29
+    },
+    {
+      "code": "uke21848",
+      "name": "jose",
+      "lastName": "Mendez",
+      "store": "KENDALL",
+      "mrc": 690,
+      "acc": 1014.68,
+      "hint": 2,
+      "mim": 4,
+      "mtd_lines": 42,
+      "in_mim": true,
+      "hint_gate": true,
+      "mim_gate": true,
+      "tier": 1,
+      "tier_comm": 156.67,
+      "hint_spiff": 30,
+      "mim_spiff": 80,
+      "total": 266.67,
+      "mrc_gap": 0,
+      "acc_gap": 0,
+      "hint_gap": 0,
+      "mim_gap": 0,
+      "qualifies": true,
+      "needs": "Qualifies for Tier 1",
+      "rank": 30,
+      "close_order": 5
     },
     {
       "code": "afs50027",
@@ -5121,7 +5148,7 @@
       "mim_gap": 0,
       "qualifies": true,
       "needs": "Qualifies for Tier 1",
-      "rank": 30,
+      "rank": 31,
       "close_order": 30
     },
     {
@@ -5148,35 +5175,8 @@
       "mim_gap": 0,
       "qualifies": true,
       "needs": "Qualifies for Tier 1",
-      "rank": 31,
-      "close_order": 9
-    },
-    {
-      "code": "uke21848",
-      "name": "jose",
-      "lastName": "Mendez",
-      "store": "KENDALL",
-      "mrc": 590,
-      "acc": 959.7,
-      "hint": 2,
-      "mim": 4,
-      "mtd_lines": 42,
-      "in_mim": true,
-      "hint_gate": true,
-      "mim_gate": true,
-      "tier": 1,
-      "tier_comm": 143.17,
-      "hint_spiff": 30,
-      "mim_spiff": 80,
-      "total": 253.17,
-      "mrc_gap": 0,
-      "acc_gap": 0,
-      "hint_gap": 0,
-      "mim_gap": 0,
-      "qualifies": true,
-      "needs": "Qualifies for Tier 1",
       "rank": 32,
-      "close_order": 5
+      "close_order": 9
     },
     {
       "code": "nkq42630",
@@ -6210,7 +6210,7 @@
       "lastName": "Escalante",
       "store": "HOMESTEAD",
       "mrc": 503,
-      "acc": 1289.71,
+      "acc": 1364.69,
       "hint": 0,
       "mim": 7,
       "mtd_lines": 43,
@@ -14173,7 +14173,7 @@
   "stats": {
     "reps": 365,
     "qualified": 52,
-    "total_payout": 27107.12,
+    "total_payout": 27132.62,
     "total_spiffs": 16265,
     "below_acc": 327,
     "below_mrc": 216,
