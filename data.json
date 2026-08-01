@@ -1,7 +1,7 @@
 {
   "meta": {
     "period": "Jul 25, 2026 - Jul 31, 2026",
-    "published": "Jul 31, 9:54 PM",
+    "published": "Jul 31, 10:24 PM",
     "autoPublished": true
   },
   "mrc": {
@@ -1102,7 +1102,7 @@
     },
     "uxz24260": {
       "name": "Armando",
-      "mrc": 556,
+      "mrc": 653,
       "hint": 2
     },
     "vgd22765": {
@@ -3265,7 +3265,7 @@
     },
     "prr90498": {
       "name": "Roxanne",
-      "acc": 711.7,
+      "acc": 731.7,
       "hint": 1,
       "store": "BROADWAY",
       "repName": "Roxanne"
@@ -3363,7 +3363,7 @@
     },
     "gml47539": {
       "name": "ARTURO ORTIZ",
-      "acc": 332.88,
+      "acc": 364.87,
       "hint": 1,
       "store": "BROADWAY",
       "repName": "ARTURO ORTIZ"
@@ -3377,14 +3377,14 @@
     },
     "bdi51841": {
       "name": "Carolina",
-      "acc": 684.92,
+      "acc": 700.92,
       "hint": 0,
       "store": "ZUNI",
       "repName": "Carolina"
     },
     "hcw68692": {
       "name": "Frida",
-      "acc": 697.95,
+      "acc": 712.95,
       "hint": 0,
       "store": "ZUNI",
       "repName": "Frida"
@@ -6636,7 +6636,7 @@
       "qualifies": false,
       "needs": "+$25 MRC, +$348.61 acc",
       "rank": 85,
-      "close_order": 176
+      "close_order": 177
     },
     {
       "code": "bfk31539",
@@ -7284,7 +7284,7 @@
       "qualifies": false,
       "needs": "+$20 MRC, +1 HINT",
       "rank": 109,
-      "close_order": 206
+      "close_order": 207
     },
     {
       "code": "zqf69830",
@@ -7449,6 +7449,33 @@
       "close_order": 123
     },
     {
+      "code": "prr90498",
+      "name": "Roxanne",
+      "lastName": "Candelaria",
+      "store": "BROADWAY",
+      "mrc": 766,
+      "acc": 731.7,
+      "hint": 1,
+      "mim": 0,
+      "mtd_lines": 2,
+      "in_mim": true,
+      "hint_gate": true,
+      "mim_gate": true,
+      "tier": 1,
+      "tier_comm": 134.45,
+      "hint_spiff": 15,
+      "mim_spiff": 0,
+      "total": 149.45,
+      "mrc_gap": 0,
+      "acc_gap": 0,
+      "hint_gap": 0,
+      "mim_gap": 0,
+      "qualifies": true,
+      "needs": "Qualifies for Tier 1",
+      "rank": 116,
+      "close_order": 124
+    },
+    {
       "code": "bbu75299",
       "name": "rosario",
       "lastName": "Sujeily",
@@ -7472,8 +7499,8 @@
       "mim_gap": 0,
       "qualifies": true,
       "needs": "Qualifies for Tier 1",
-      "rank": 116,
-      "close_order": 124
+      "rank": 117,
+      "close_order": 125
     },
     {
       "code": "agz35249",
@@ -7493,33 +7520,6 @@
       "hint_spiff": 15,
       "mim_spiff": 0,
       "total": 148.77,
-      "mrc_gap": 0,
-      "acc_gap": 0,
-      "hint_gap": 0,
-      "mim_gap": 0,
-      "qualifies": true,
-      "needs": "Qualifies for Tier 1",
-      "rank": 117,
-      "close_order": 125
-    },
-    {
-      "code": "prr90498",
-      "name": "Roxanne",
-      "lastName": "Candelaria",
-      "store": "BROADWAY",
-      "mrc": 766,
-      "acc": 711.7,
-      "hint": 1,
-      "mim": 0,
-      "mtd_lines": 2,
-      "in_mim": true,
-      "hint_gate": true,
-      "mim_gate": true,
-      "tier": 1,
-      "tier_comm": 132.45,
-      "hint_spiff": 15,
-      "mim_spiff": 0,
-      "total": 147.45,
       "mrc_gap": 0,
       "acc_gap": 0,
       "hint_gap": 0,
@@ -7743,7 +7743,7 @@
       "qualifies": false,
       "needs": "+$0.18 acc, +1 HINT",
       "rank": 126,
-      "close_order": 137
+      "close_order": 138
     },
     {
       "code": "wkg14814",
@@ -8715,7 +8715,7 @@
       "qualifies": false,
       "needs": "+$111 MRC, +1 HINT",
       "rank": 162,
-      "close_order": 207
+      "close_order": 208
     },
     {
       "code": "bys83676",
@@ -9209,26 +9209,26 @@
       "lastName": "Chavez",
       "store": "ZUNI",
       "mrc": 924,
-      "acc": 684.92,
+      "acc": 700.92,
       "hint": 0,
       "mim": 3,
       "mtd_lines": 15,
       "in_mim": true,
       "hint_gate": false,
       "mim_gate": true,
-      "tier": 0,
+      "tier": 1,
       "tier_comm": 0,
       "hint_spiff": 0,
       "mim_spiff": 60,
       "total": 60,
       "mrc_gap": 0,
-      "acc_gap": 15.08,
+      "acc_gap": 0,
       "hint_gap": 1,
       "mim_gap": 0,
       "qualifies": false,
-      "needs": "+$15.08 acc, +1 HINT",
+      "needs": "+1 HINT",
       "rank": 181,
-      "close_order": 140
+      "close_order": 132
     },
     {
       "code": "wqp26068",
@@ -10335,14 +10335,14 @@
       "qualifies": false,
       "needs": "+$343.12 acc",
       "rank": 222,
-      "close_order": 175
+      "close_order": 176
     },
     {
       "code": "uxz24260",
       "name": "Armando",
       "lastName": "Rascon",
       "store": "WYOMING",
-      "mrc": 556,
+      "mrc": 653,
       "acc": 393.7,
       "hint": 2,
       "mim": 0,
@@ -10848,7 +10848,7 @@
       "qualifies": false,
       "needs": "+$260 MRC, +1 HINT",
       "rank": 241,
-      "close_order": 208
+      "close_order": 209
     },
     {
       "code": "qnf86035",
@@ -10902,7 +10902,7 @@
       "qualifies": false,
       "needs": "+$5.17 acc",
       "rank": 243,
-      "close_order": 138
+      "close_order": 139
     },
     {
       "code": "roa83001",
@@ -11450,7 +11450,7 @@
       "lastName": "",
       "store": "BROADWAY",
       "mrc": 821,
-      "acc": 332.88,
+      "acc": 364.87,
       "hint": 1,
       "mim": 0,
       "mtd_lines": 7,
@@ -11463,13 +11463,13 @@
       "mim_spiff": 0,
       "total": 15,
       "mrc_gap": 0,
-      "acc_gap": 367.12,
+      "acc_gap": 335.13,
       "hint_gap": 0,
       "mim_gap": 0,
       "qualifies": false,
-      "needs": "+$367.12 acc",
+      "needs": "+$335.13 acc",
       "rank": 264,
-      "close_order": 177
+      "close_order": 175
     },
     {
       "code": "oax94730",
@@ -11685,7 +11685,7 @@
       "qualifies": false,
       "needs": "+$11.13 acc",
       "rank": 272,
-      "close_order": 139
+      "close_order": 140
     },
     {
       "code": "rho22717",
@@ -12036,7 +12036,7 @@
       "qualifies": false,
       "needs": "+1 HINT",
       "rank": 285,
-      "close_order": 132
+      "close_order": 133
     },
     {
       "code": "eve69052",
@@ -13197,7 +13197,7 @@
       "qualifies": false,
       "needs": "+1 HINT",
       "rank": 328,
-      "close_order": 133
+      "close_order": 134
     },
     {
       "code": "bvg22735",
@@ -13286,26 +13286,26 @@
       "lastName": "Guzman",
       "store": "ZUNI",
       "mrc": 801,
-      "acc": 697.95,
+      "acc": 712.95,
       "hint": 0,
       "mim": 0,
       "mtd_lines": 6,
       "in_mim": true,
       "hint_gate": false,
       "mim_gate": true,
-      "tier": 0,
+      "tier": 1,
       "tier_comm": 0,
       "hint_spiff": 0,
       "mim_spiff": 0,
       "total": 0,
       "mrc_gap": 0,
-      "acc_gap": 2.05,
+      "acc_gap": 0,
       "hint_gap": 1,
       "mim_gap": 0,
       "qualifies": false,
-      "needs": "+$2.05 acc, +1 HINT",
+      "needs": "+1 HINT",
       "rank": 332,
-      "close_order": 209
+      "close_order": 206
     },
     {
       "code": "slf51610",
@@ -13818,7 +13818,7 @@
       "qualifies": false,
       "needs": "+1 HINT",
       "rank": 351,
-      "close_order": 134
+      "close_order": 135
     },
     {
       "code": "jyv05789",
@@ -13845,7 +13845,7 @@
       "qualifies": false,
       "needs": "+1 HINT",
       "rank": 352,
-      "close_order": 135
+      "close_order": 136
     },
     {
       "code": "pfh58082",
@@ -13899,7 +13899,7 @@
       "qualifies": false,
       "needs": "+1 HINT",
       "rank": 354,
-      "close_order": 136
+      "close_order": 137
     },
     {
       "code": "klt48054",
@@ -14256,7 +14256,7 @@
   "stats": {
     "reps": 367,
     "qualified": 101,
-    "total_payout": 45606.19,
+    "total_payout": 45608.19,
     "total_spiffs": 24265,
     "below_acc": 305,
     "below_mrc": 162,
