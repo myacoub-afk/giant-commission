@@ -1,7 +1,7 @@
 {
   "meta": {
     "period": "Aug 1, 2026 - Aug 7, 2026",
-    "published": "Aug 5, 10:55 PM",
+    "published": "Aug 6, 9:24 AM",
     "autoPublished": true
   },
   "mrc": {
@@ -1152,8 +1152,8 @@
     },
     "dxu32635": {
       "name": "Hael",
-      "mrc": 1816,
-      "hint": 2
+      "mrc": 1871,
+      "hint": 3
     },
     "gqe94673": {
       "name": "RAFIQ",
@@ -4359,7 +4359,7 @@
       "qualifies": true,
       "needs": "Qualifies for Tier 1",
       "rank": 3,
-      "close_order": 8
+      "close_order": 9
     },
     {
       "code": "pxa12423",
@@ -4386,7 +4386,34 @@
       "qualifies": true,
       "needs": "Qualifies for Tier 1",
       "rank": 4,
-      "close_order": 10
+      "close_order": 11
+    },
+    {
+      "code": "dxu32635",
+      "name": "Hael",
+      "lastName": "Keswani",
+      "store": "EDGEWOOD",
+      "mrc": 1871,
+      "acc": 1509.64,
+      "hint": 3,
+      "mim": 4,
+      "mtd_lines": 4,
+      "in_mim": true,
+      "hint_gate": true,
+      "mim_gate": true,
+      "tier": 3,
+      "tier_comm": 413.55,
+      "hint_spiff": 45,
+      "mim_spiff": 80,
+      "total": 538.55,
+      "mrc_gap": 0,
+      "acc_gap": 0,
+      "hint_gap": 0,
+      "mim_gap": 0,
+      "qualifies": true,
+      "needs": "Qualifies for Tier 1",
+      "rank": 5,
+      "close_order": 3
     },
     {
       "code": "miw01822",
@@ -4412,35 +4439,8 @@
       "mim_gap": 0,
       "qualifies": true,
       "needs": "Qualifies for Tier 1",
-      "rank": 5,
-      "close_order": 2
-    },
-    {
-      "code": "dxu32635",
-      "name": "Hael",
-      "lastName": "Keswani",
-      "store": "EDGEWOOD",
-      "mrc": 1816,
-      "acc": 1509.64,
-      "hint": 2,
-      "mim": 4,
-      "mtd_lines": 4,
-      "in_mim": true,
-      "hint_gate": true,
-      "mim_gate": true,
-      "tier": 3,
-      "tier_comm": 408.05,
-      "hint_spiff": 30,
-      "mim_spiff": 80,
-      "total": 518.05,
-      "mrc_gap": 0,
-      "acc_gap": 0,
-      "hint_gap": 0,
-      "mim_gap": 0,
-      "qualifies": true,
-      "needs": "Qualifies for Tier 1",
       "rank": 6,
-      "close_order": 13
+      "close_order": 2
     },
     {
       "code": "tyj13028",
@@ -4494,7 +4494,7 @@
       "qualifies": true,
       "needs": "Qualifies for Tier 1",
       "rank": 8,
-      "close_order": 9
+      "close_order": 10
     },
     {
       "code": "opt62984",
@@ -4602,7 +4602,7 @@
       "qualifies": true,
       "needs": "Qualifies for Tier 1",
       "rank": 12,
-      "close_order": 3
+      "close_order": 4
     },
     {
       "code": "oan05226",
@@ -4629,7 +4629,7 @@
       "qualifies": true,
       "needs": "Qualifies for Tier 1",
       "rank": 13,
-      "close_order": 11
+      "close_order": 12
     },
     {
       "code": "aue96179",
@@ -4818,7 +4818,7 @@
       "qualifies": true,
       "needs": "Qualifies for Tier 1",
       "rank": 20,
-      "close_order": 5
+      "close_order": 6
     },
     {
       "code": "jxb47776",
@@ -4899,7 +4899,7 @@
       "qualifies": true,
       "needs": "Qualifies for Tier 1",
       "rank": 23,
-      "close_order": 12
+      "close_order": 13
     },
     {
       "code": "lso79695",
@@ -4980,7 +4980,7 @@
       "qualifies": true,
       "needs": "Qualifies for Tier 1",
       "rank": 26,
-      "close_order": 6
+      "close_order": 7
     },
     {
       "code": "vfe95504",
@@ -5007,7 +5007,7 @@
       "qualifies": true,
       "needs": "Qualifies for Tier 1",
       "rank": 27,
-      "close_order": 4
+      "close_order": 5
     },
     {
       "code": "fic09510",
@@ -5115,7 +5115,7 @@
       "qualifies": true,
       "needs": "Qualifies for Tier 1",
       "rank": 31,
-      "close_order": 7
+      "close_order": 8
     },
     {
       "code": "nnq24664",
@@ -13950,8 +13950,8 @@
   "stats": {
     "reps": 358,
     "qualified": 40,
-    "total_payout": 29132.2,
-    "total_spiffs": 20050,
+    "total_payout": 29152.7,
+    "total_spiffs": 20065,
     "below_acc": 332,
     "below_mrc": 225,
     "no_hint": 188,
