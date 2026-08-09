@@ -462,10 +462,10 @@ function loadData(){
           row.lastName=mim.lastName||row.lastName||'';
           row.mim_spiff=row.mim*20;
         }
-        // apply MTD gate for all reps regardless of weekly MIM
+        // weekly MIM gate — 1 MIM required this week
         var mtdLines=mtdMap[row.code]||0;
         row.mtd_lines=mtdLines;
-        var mg=hasMtd?(mtdLines>=1):(row.mim>=1);
+        var mg=(row.mim||0)>=1;
         row.mim_gate=mg;
         var gates=row.hint_gate&&mg;
         var TIERS2=[{t:1,mrc:500,acc:700,pm:.08,pa:.10},{t:2,mrc:750,acc:1200,pm:.09,pa:.12},
@@ -477,7 +477,7 @@ function loadData(){
         row.hint_spiff=row.hint*15;
         row.mim_spiff=(row.mim||0)*20;
         row.total=Math.round((row.tier_comm+row.hint_spiff+row.mim_spiff)*100)/100;
-        row.mim_gap=Math.max(0,1-(hasMtd?mtdLines:(row.mim||0)));
+        row.mim_gap=Math.max(0,1-(row.mim||0));
         row.qualifies=row.mrc_gap===0&&row.acc_gap===0&&row.hint_gap===0&&row.mim_gap===0;
       });
       d.rows.sort(function(a,b){return b.total-a.total;});
@@ -486,11 +486,11 @@ function loadData(){
       d.stats.qualified=d.rows.filter(function(r){return r.tier_comm>0;}).length;
       d.stats.max_total=Math.max.apply(null,d.rows.map(function(r){return r.total;}));
     } else if(hasMtd){
-      // no weekly MIM rows but MTD exists — just apply gate to all rows
+      // no weekly MIM rows — weekly gate requires a MIM this week
       d.rows.forEach(function(row){
         var mtdLines=mtdMap[row.code]||0;
         row.mtd_lines=mtdLines;
-        var mg=mtdLines>=1;
+        var mg=(row.mim||0)>=1;
         row.mim_gate=mg;
         var gates=row.hint_gate&&mg;
         var TIERS2=[{t:1,mrc:500,acc:700,pm:.08,pa:.10},{t:2,mrc:750,acc:1200,pm:.09,pa:.12},
