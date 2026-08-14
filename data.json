@@ -1,7 +1,7 @@
 {
   "meta": {
     "period": "Aug 8, 2026 - Aug 14, 2026",
-    "published": "Aug 13, 9:04 PM",
+    "published": "Aug 13, 9:34 PM",
     "autoPublished": true
   },
   "mrc": {
@@ -1067,7 +1067,7 @@
     },
     "qpy61948": {
       "name": "Juan",
-      "mrc": 335,
+      "mrc": 490,
       "hint": 0
     },
     "slf51610": {
@@ -3250,7 +3250,7 @@
     },
     "ggv08751": {
       "name": "Blanca",
-      "acc": 801.92,
+      "acc": 821.92,
       "hint": 2,
       "store": "AIRPORT",
       "repName": "Blanca"
@@ -4942,6 +4942,33 @@
       "close_order": 18
     },
     {
+      "code": "ggv08751",
+      "name": "Blanca",
+      "lastName": "Marquez",
+      "store": "AIRPORT",
+      "mrc": 1049,
+      "acc": 821.92,
+      "hint": 2,
+      "mim": 2,
+      "mtd_lines": 0,
+      "in_mim": true,
+      "hint_gate": true,
+      "mim_gate": true,
+      "tier": 1,
+      "tier_comm": 166.11,
+      "hint_spiff": 30,
+      "mim_spiff": 40,
+      "total": 236.11,
+      "mrc_gap": 0,
+      "acc_gap": 0,
+      "hint_gap": 0,
+      "mim_gap": 0,
+      "qualifies": true,
+      "needs": "Qualifies for Tier 1",
+      "rank": 25,
+      "close_order": 28
+    },
+    {
       "code": "wjq37013",
       "name": "Rosangela",
       "lastName": "Pavon",
@@ -4965,7 +4992,7 @@
       "mim_gap": 0,
       "qualifies": false,
       "needs": "+$175.14 acc",
-      "rank": 25,
+      "rank": 26,
       "close_order": 64
     },
     {
@@ -4992,35 +5019,8 @@
       "mim_gap": 0,
       "qualifies": true,
       "needs": "Qualifies for Tier 1",
-      "rank": 26,
-      "close_order": 33
-    },
-    {
-      "code": "ggv08751",
-      "name": "Blanca",
-      "lastName": "Marquez",
-      "store": "AIRPORT",
-      "mrc": 1049,
-      "acc": 801.92,
-      "hint": 2,
-      "mim": 2,
-      "mtd_lines": 0,
-      "in_mim": true,
-      "hint_gate": true,
-      "mim_gate": true,
-      "tier": 1,
-      "tier_comm": 164.11,
-      "hint_spiff": 30,
-      "mim_spiff": 40,
-      "total": 234.11,
-      "mrc_gap": 0,
-      "acc_gap": 0,
-      "hint_gap": 0,
-      "mim_gap": 0,
-      "qualifies": true,
-      "needs": "Qualifies for Tier 1",
       "rank": 27,
-      "close_order": 28
+      "close_order": 33
     },
     {
       "code": "hse11348",
@@ -6566,7 +6566,7 @@
       "name": "Juan",
       "lastName": "Hernandez",
       "store": "SOUTHERN",
-      "mrc": 335,
+      "mrc": 490,
       "acc": 93.99,
       "hint": 0,
       "mim": 4,
@@ -6579,12 +6579,12 @@
       "hint_spiff": 0,
       "mim_spiff": 80,
       "total": 80,
-      "mrc_gap": 165,
+      "mrc_gap": 10,
       "acc_gap": 606.01,
       "hint_gap": 1,
       "mim_gap": 0,
       "qualifies": false,
-      "needs": "+$165 MRC, +$606.01 acc, +1 HINT",
+      "needs": "+$10 MRC, +$606.01 acc, +1 HINT",
       "rank": 85,
       "close_order": 264
     },
@@ -14071,7 +14071,7 @@
   "stats": {
     "reps": 362,
     "qualified": 34,
-    "total_payout": 23490.35,
+    "total_payout": 23492.35,
     "total_spiffs": 16145,
     "below_acc": 324,
     "below_mrc": 196,
