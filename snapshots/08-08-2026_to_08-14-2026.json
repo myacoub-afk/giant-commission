@@ -1,7 +1,7 @@
 {
   "meta": {
     "period": "Aug 8, 2026 - Aug 14, 2026",
-    "published": "Aug 14, 8:34 PM",
+    "published": "Aug 14, 9:04 PM",
     "autoPublished": true
   },
   "mrc": {
@@ -787,13 +787,13 @@
     },
     "bvv19749": {
       "name": "HAMDIH",
-      "mrc": 548,
-      "hint": 0
+      "mrc": 637,
+      "hint": 1
     },
     "cip44734": {
       "name": "tatiana",
-      "mrc": 974,
-      "hint": 3
+      "mrc": 885,
+      "hint": 2
     },
     "cjt96540": {
       "name": "KHAMBLY",
@@ -3123,7 +3123,7 @@
     "cip44734": {
       "name": "tatiana",
       "acc": 742.86,
-      "hint": 3,
+      "hint": 2,
       "store": "OREGON",
       "repName": "tatiana"
     },
@@ -5019,7 +5019,7 @@
       "qualifies": true,
       "needs": "Qualifies for Tier 1",
       "rank": 26,
-      "close_order": 50
+      "close_order": 49
     },
     {
       "code": "qnf86035",
@@ -5208,7 +5208,7 @@
       "qualifies": true,
       "needs": "Qualifies for Tier 1",
       "rank": 33,
-      "close_order": 49
+      "close_order": 48
     },
     {
       "code": "mef80569",
@@ -5289,7 +5289,7 @@
       "qualifies": true,
       "needs": "Qualifies for Tier 1",
       "rank": 36,
-      "close_order": 51
+      "close_order": 50
     },
     {
       "code": "ggv08751",
@@ -5397,7 +5397,7 @@
       "qualifies": true,
       "needs": "Qualifies for Tier 1",
       "rank": 40,
-      "close_order": 52
+      "close_order": 51
     },
     {
       "code": "cgt83292",
@@ -5697,33 +5697,6 @@
       "close_order": 31
     },
     {
-      "code": "cip44734",
-      "name": "tatiana",
-      "lastName": "Olmeda",
-      "store": "OREGON",
-      "mrc": 974,
-      "acc": 742.86,
-      "hint": 3,
-      "mim": 3,
-      "mtd_lines": 0,
-      "in_mim": true,
-      "hint_gate": true,
-      "mim_gate": true,
-      "tier": 1,
-      "tier_comm": 152.21,
-      "hint_spiff": 45,
-      "mim_spiff": 60,
-      "total": 257.21,
-      "mrc_gap": 0,
-      "acc_gap": 0,
-      "hint_gap": 0,
-      "mim_gap": 0,
-      "qualifies": true,
-      "needs": "Qualifies for Tier 1",
-      "rank": 52,
-      "close_order": 47
-    },
-    {
       "code": "iqi30704",
       "name": "george",
       "lastName": "Nafal",
@@ -5747,7 +5720,7 @@
       "mim_gap": 0,
       "qualifies": true,
       "needs": "Qualifies for Tier 1",
-      "rank": 53,
+      "rank": 52,
       "close_order": 38
     },
     {
@@ -5774,7 +5747,7 @@
       "mim_gap": 0,
       "qualifies": true,
       "needs": "Qualifies for Tier 1",
-      "rank": 54,
+      "rank": 53,
       "close_order": 66
     },
     {
@@ -5801,7 +5774,7 @@
       "mim_gap": 0,
       "qualifies": true,
       "needs": "Qualifies for Tier 1",
-      "rank": 55,
+      "rank": 54,
       "close_order": 69
     },
     {
@@ -5828,8 +5801,8 @@
       "mim_gap": 0,
       "qualifies": true,
       "needs": "Qualifies for Tier 1",
-      "rank": 56,
-      "close_order": 53
+      "rank": 55,
+      "close_order": 52
     },
     {
       "code": "uit78189",
@@ -5855,7 +5828,7 @@
       "mim_gap": 0,
       "qualifies": true,
       "needs": "Qualifies for Tier 1",
-      "rank": 57,
+      "rank": 56,
       "close_order": 24
     },
     {
@@ -5882,8 +5855,35 @@
       "mim_gap": 0,
       "qualifies": true,
       "needs": "Qualifies for Tier 1",
-      "rank": 58,
+      "rank": 57,
       "close_order": 70
+    },
+    {
+      "code": "cip44734",
+      "name": "tatiana",
+      "lastName": "Olmeda",
+      "store": "OREGON",
+      "mrc": 885,
+      "acc": 742.86,
+      "hint": 2,
+      "mim": 3,
+      "mtd_lines": 0,
+      "in_mim": true,
+      "hint_gate": true,
+      "mim_gate": true,
+      "tier": 1,
+      "tier_comm": 145.09,
+      "hint_spiff": 30,
+      "mim_spiff": 60,
+      "total": 235.09,
+      "mrc_gap": 0,
+      "acc_gap": 0,
+      "hint_gap": 0,
+      "mim_gap": 0,
+      "qualifies": true,
+      "needs": "Qualifies for Tier 1",
+      "rank": 58,
+      "close_order": 53
     },
     {
       "code": "soi27276",
@@ -6045,7 +6045,7 @@
       "qualifies": false,
       "needs": "+$66 MRC, +$650.01 acc",
       "rank": 64,
-      "close_order": 210
+      "close_order": 211
     },
     {
       "code": "uke21848",
@@ -6531,7 +6531,7 @@
       "qualifies": false,
       "needs": "+$394.02 acc, +1 HINT",
       "rank": 82,
-      "close_order": 171
+      "close_order": 172
     },
     {
       "code": "hcw68692",
@@ -6693,7 +6693,7 @@
       "qualifies": false,
       "needs": "+$140.16 acc, +1 HINT",
       "rank": 88,
-      "close_order": 135
+      "close_order": 136
     },
     {
       "code": "miw01822",
@@ -6828,7 +6828,7 @@
       "qualifies": false,
       "needs": "+$315 MRC, +$550.06 acc",
       "rank": 93,
-      "close_order": 199
+      "close_order": 200
     },
     {
       "code": "fle15994",
@@ -6936,7 +6936,7 @@
       "qualifies": false,
       "needs": "+$311 MRC, +$590.02 acc",
       "rank": 97,
-      "close_order": 203
+      "close_order": 204
     },
     {
       "code": "cjt96540",
@@ -7017,7 +7017,7 @@
       "qualifies": false,
       "needs": "+$101 MRC, +$440.08 acc",
       "rank": 100,
-      "close_order": 179
+      "close_order": 180
     },
     {
       "code": "gwl05493",
@@ -7152,7 +7152,7 @@
       "qualifies": false,
       "needs": "+$327 MRC, +$495.06 acc",
       "rank": 105,
-      "close_order": 187
+      "close_order": 188
     },
     {
       "code": "rre81618",
@@ -7206,7 +7206,7 @@
       "qualifies": false,
       "needs": "+$349 MRC, +$595.02 acc",
       "rank": 107,
-      "close_order": 204
+      "close_order": 205
     },
     {
       "code": "lpw08627",
@@ -7233,7 +7233,7 @@
       "qualifies": false,
       "needs": "+$200 MRC, +$405.11 acc",
       "rank": 108,
-      "close_order": 173
+      "close_order": 174
     },
     {
       "code": "osd66214",
@@ -7260,7 +7260,7 @@
       "qualifies": false,
       "needs": "+$308.03 acc, +1 HINT",
       "rank": 109,
-      "close_order": 157
+      "close_order": 158
     },
     {
       "code": "jxo67554",
@@ -7341,7 +7341,7 @@
       "qualifies": false,
       "needs": "+$93 MRC, +$517.17 acc",
       "rank": 112,
-      "close_order": 192
+      "close_order": 193
     },
     {
       "code": "hul69122",
@@ -7395,7 +7395,7 @@
       "qualifies": false,
       "needs": "+$345 MRC, +$560.03 acc",
       "rank": 114,
-      "close_order": 200
+      "close_order": 201
     },
     {
       "code": "arg49156",
@@ -7422,7 +7422,7 @@
       "qualifies": false,
       "needs": "+$185 MRC, +$504.70 acc",
       "rank": 115,
-      "close_order": 189
+      "close_order": 190
     },
     {
       "code": "ogs01171",
@@ -7449,7 +7449,7 @@
       "qualifies": false,
       "needs": "+$155 MRC, +$385.07 acc",
       "rank": 116,
-      "close_order": 169
+      "close_order": 170
     },
     {
       "code": "zcm75025",
@@ -7638,7 +7638,7 @@
       "qualifies": false,
       "needs": "+$353.57 acc, +1 HINT",
       "rank": 123,
-      "close_order": 164
+      "close_order": 165
     },
     {
       "code": "eof99154",
@@ -7692,7 +7692,7 @@
       "qualifies": false,
       "needs": "+$110.66 acc, +1 HINT",
       "rank": 125,
-      "close_order": 132
+      "close_order": 133
     },
     {
       "code": "xpj38782",
@@ -7746,7 +7746,7 @@
       "qualifies": false,
       "needs": "+$334 MRC, +$610.03 acc",
       "rank": 127,
-      "close_order": 206
+      "close_order": 207
     },
     {
       "code": "roa83001",
@@ -7773,7 +7773,7 @@
       "qualifies": false,
       "needs": "+$122 MRC, +$497.07 acc",
       "rank": 128,
-      "close_order": 188
+      "close_order": 189
     },
     {
       "code": "vst08358",
@@ -7800,7 +7800,7 @@
       "qualifies": false,
       "needs": "+$160 MRC, +$153.10 acc",
       "rank": 129,
-      "close_order": 136
+      "close_order": 137
     },
     {
       "code": "vth70451",
@@ -7827,7 +7827,7 @@
       "qualifies": false,
       "needs": "+$15 MRC, +$232.20 acc",
       "rank": 130,
-      "close_order": 148
+      "close_order": 149
     },
     {
       "code": "qix82959",
@@ -7854,7 +7854,7 @@
       "qualifies": false,
       "needs": "+$135 MRC, +$494.04 acc",
       "rank": 131,
-      "close_order": 186
+      "close_order": 187
     },
     {
       "code": "lkj92910",
@@ -7881,7 +7881,7 @@
       "qualifies": false,
       "needs": "+$129 MRC, +$298.14 acc",
       "rank": 132,
-      "close_order": 153
+      "close_order": 154
     },
     {
       "code": "bdi51841",
@@ -8043,7 +8043,7 @@
       "qualifies": false,
       "needs": "+$241.22 acc, +1 HINT",
       "rank": 138,
-      "close_order": 149
+      "close_order": 150
     },
     {
       "code": "yys96009",
@@ -8097,7 +8097,7 @@
       "qualifies": false,
       "needs": "+$606.01 acc, +1 HINT",
       "rank": 140,
-      "close_order": 205
+      "close_order": 206
     },
     {
       "code": "rho22717",
@@ -8232,7 +8232,7 @@
       "qualifies": false,
       "needs": "+$300 MRC, +$620.02 acc",
       "rank": 145,
-      "close_order": 207
+      "close_order": 208
     },
     {
       "code": "vxj36196",
@@ -8259,7 +8259,7 @@
       "qualifies": false,
       "needs": "+$214 MRC, +$349.06 acc",
       "rank": 146,
-      "close_order": 163
+      "close_order": 164
     },
     {
       "code": "job28993",
@@ -8286,7 +8286,7 @@
       "qualifies": false,
       "needs": "+$121 MRC, +$560.04 acc",
       "rank": 147,
-      "close_order": 201
+      "close_order": 202
     },
     {
       "code": "yeq68159",
@@ -8313,7 +8313,7 @@
       "qualifies": false,
       "needs": "+$70 MRC, +$525.07 acc",
       "rank": 148,
-      "close_order": 196
+      "close_order": 197
     },
     {
       "code": "tpo36456",
@@ -8340,7 +8340,7 @@
       "qualifies": false,
       "needs": "+$154 MRC, +$620.03 acc",
       "rank": 149,
-      "close_order": 208
+      "close_order": 209
     },
     {
       "code": "dbp26169",
@@ -8394,7 +8394,7 @@
       "qualifies": false,
       "needs": "+$229 MRC, +$524.04 acc",
       "rank": 151,
-      "close_order": 193
+      "close_order": 194
     },
     {
       "code": "blz62537",
@@ -8421,7 +8421,7 @@
       "qualifies": false,
       "needs": "+$301 MRC, +$620.03 acc",
       "rank": 152,
-      "close_order": 209
+      "close_order": 210
     },
     {
       "code": "tnl36939",
@@ -8448,7 +8448,7 @@
       "qualifies": false,
       "needs": "+$83 MRC, +$544.04 acc",
       "rank": 153,
-      "close_order": 198
+      "close_order": 199
     },
     {
       "code": "qdg71647",
@@ -8502,7 +8502,7 @@
       "qualifies": false,
       "needs": "+$68 MRC, +$193.53 acc",
       "rank": 155,
-      "close_order": 146
+      "close_order": 147
     },
     {
       "code": "iwy09279",
@@ -8529,7 +8529,7 @@
       "qualifies": false,
       "needs": "+$384.09 acc, +1 HINT",
       "rank": 156,
-      "close_order": 168
+      "close_order": 169
     },
     {
       "code": "rji58933",
@@ -8610,7 +8610,7 @@
       "qualifies": false,
       "needs": "+1 HINT",
       "rank": 159,
-      "close_order": 120
+      "close_order": 121
     },
     {
       "code": "wuv76454",
@@ -8826,7 +8826,7 @@
       "qualifies": false,
       "needs": "+$232 MRC, +$356.06 acc",
       "rank": 167,
-      "close_order": 165
+      "close_order": 166
     },
     {
       "code": "wgp30216",
@@ -8853,7 +8853,7 @@
       "qualifies": false,
       "needs": "+$122 MRC, +$181.39 acc",
       "rank": 168,
-      "close_order": 143
+      "close_order": 144
     },
     {
       "code": "lfm33248",
@@ -8934,7 +8934,7 @@
       "qualifies": false,
       "needs": "+$355 MRC, +$440.07 acc",
       "rank": 171,
-      "close_order": 178
+      "close_order": 179
     },
     {
       "code": "nkg02575",
@@ -8988,7 +8988,7 @@
       "qualifies": false,
       "needs": "+1 MIM",
       "rank": 173,
-      "close_order": 48
+      "close_order": 47
     },
     {
       "code": "hhc11812",
@@ -9042,7 +9042,7 @@
       "qualifies": false,
       "needs": "+$103.11 acc, +1 MIM",
       "rank": 175,
-      "close_order": 130
+      "close_order": 131
     },
     {
       "code": "ovq51933",
@@ -9069,7 +9069,7 @@
       "qualifies": false,
       "needs": "+$125.13 acc, +1 MIM",
       "rank": 176,
-      "close_order": 133
+      "close_order": 134
     },
     {
       "code": "ezt08776",
@@ -9096,7 +9096,7 @@
       "qualifies": false,
       "needs": "+$300.13 acc, +1 HINT",
       "rank": 177,
-      "close_order": 155
+      "close_order": 156
     },
     {
       "code": "jxc44764",
@@ -9123,7 +9123,7 @@
       "qualifies": false,
       "needs": "+$80.00 acc, +1 HINT",
       "rank": 178,
-      "close_order": 126
+      "close_order": 127
     },
     {
       "code": "xbn24151",
@@ -9258,7 +9258,7 @@
       "qualifies": false,
       "needs": "+$160.20 acc, +1 HINT",
       "rank": 183,
-      "close_order": 139
+      "close_order": 140
     },
     {
       "code": "agz35249",
@@ -9285,7 +9285,7 @@
       "qualifies": false,
       "needs": "+$185.27 acc, +1 HINT",
       "rank": 184,
-      "close_order": 145
+      "close_order": 146
     },
     {
       "code": "ojn64330",
@@ -9339,7 +9339,7 @@
       "qualifies": false,
       "needs": "+$46 MRC, +$525.06 acc",
       "rank": 186,
-      "close_order": 195
+      "close_order": 196
     },
     {
       "code": "wql96426",
@@ -9366,7 +9366,7 @@
       "qualifies": false,
       "needs": "+$314 MRC, +$475.06 acc",
       "rank": 187,
-      "close_order": 184
+      "close_order": 185
     },
     {
       "code": "cox72199",
@@ -9393,7 +9393,7 @@
       "qualifies": false,
       "needs": "+$264 MRC, +$455.07 acc",
       "rank": 188,
-      "close_order": 180
+      "close_order": 181
     },
     {
       "code": "siu83246",
@@ -9447,7 +9447,7 @@
       "qualifies": false,
       "needs": "+$268 MRC, +$490.07 acc",
       "rank": 190,
-      "close_order": 185
+      "close_order": 186
     },
     {
       "code": "pyn78573",
@@ -9501,7 +9501,7 @@
       "qualifies": false,
       "needs": "+$235 MRC, +$410.12 acc",
       "rank": 192,
-      "close_order": 175
+      "close_order": 176
     },
     {
       "code": "zoj72827",
@@ -9528,7 +9528,7 @@
       "qualifies": false,
       "needs": "+$146 MRC, +$510.06 acc",
       "rank": 193,
-      "close_order": 190
+      "close_order": 191
     },
     {
       "code": "qgl67170",
@@ -9582,7 +9582,7 @@
       "qualifies": false,
       "needs": "+$225 MRC, +$525.05 acc",
       "rank": 195,
-      "close_order": 194
+      "close_order": 195
     },
     {
       "code": "ijd66494",
@@ -9609,7 +9609,7 @@
       "qualifies": false,
       "needs": "+$184.02 acc, +1 MIM",
       "rank": 196,
-      "close_order": 144
+      "close_order": 145
     },
     {
       "code": "bnz46755",
@@ -9636,7 +9636,7 @@
       "qualifies": false,
       "needs": "+$139.33 acc, +1 MIM",
       "rank": 197,
-      "close_order": 134
+      "close_order": 135
     },
     {
       "code": "itv97881",
@@ -9690,7 +9690,7 @@
       "qualifies": false,
       "needs": "+$260.13 acc, +1 MIM",
       "rank": 199,
-      "close_order": 151
+      "close_order": 152
     },
     {
       "code": "vqh68670",
@@ -9717,7 +9717,7 @@
       "qualifies": false,
       "needs": "+$326.13 acc, +1 MIM",
       "rank": 200,
-      "close_order": 160
+      "close_order": 161
     },
     {
       "code": "kxm55597",
@@ -9744,7 +9744,7 @@
       "qualifies": false,
       "needs": "+$20.19 acc, +1 MIM",
       "rank": 201,
-      "close_order": 121
+      "close_order": 122
     },
     {
       "code": "jvg23788",
@@ -9771,7 +9771,7 @@
       "qualifies": false,
       "needs": "+$153.18 acc, +1 MIM",
       "rank": 202,
-      "close_order": 137
+      "close_order": 138
     },
     {
       "code": "auh62768",
@@ -9825,7 +9825,7 @@
       "qualifies": false,
       "needs": "+$97.16 acc, +1 MIM",
       "rank": 204,
-      "close_order": 129
+      "close_order": 130
     },
     {
       "code": "hdl15647",
@@ -9852,7 +9852,7 @@
       "qualifies": false,
       "needs": "+$423.06 acc, +1 MIM",
       "rank": 205,
-      "close_order": 176
+      "close_order": 177
     },
     {
       "code": "moq07284",
@@ -9879,7 +9879,7 @@
       "qualifies": false,
       "needs": "+$360.13 acc, +1 MIM",
       "rank": 206,
-      "close_order": 166
+      "close_order": 167
     },
     {
       "code": "tir94038",
@@ -9987,7 +9987,7 @@
       "qualifies": false,
       "needs": "+$71.20 acc, +1 MIM",
       "rank": 210,
-      "close_order": 124
+      "close_order": 125
     },
     {
       "code": "jel79739",
@@ -10095,7 +10095,7 @@
       "qualifies": false,
       "needs": "+$400.02 acc, +1 MIM",
       "rank": 214,
-      "close_order": 172
+      "close_order": 173
     },
     {
       "code": "cqr03918",
@@ -10149,7 +10149,7 @@
       "qualifies": false,
       "needs": "+$370.02 acc, +1 MIM",
       "rank": 216,
-      "close_order": 167
+      "close_order": 168
     },
     {
       "code": "kor45731",
@@ -10203,7 +10203,7 @@
       "qualifies": false,
       "needs": "+$72.49 acc, +1 MIM",
       "rank": 218,
-      "close_order": 125
+      "close_order": 126
     },
     {
       "code": "qyf81796",
@@ -10257,7 +10257,7 @@
       "qualifies": false,
       "needs": "+$516.05 acc, +1 HINT",
       "rank": 220,
-      "close_order": 191
+      "close_order": 192
     },
     {
       "code": "eza29014",
@@ -10473,7 +10473,7 @@
       "qualifies": false,
       "needs": "+$408.08 acc, +1 HINT",
       "rank": 228,
-      "close_order": 174
+      "close_order": 175
     },
     {
       "code": "owl73953",
@@ -10581,7 +10581,7 @@
       "qualifies": false,
       "needs": "+$467.11 acc, +1 HINT",
       "rank": 232,
-      "close_order": 182
+      "close_order": 183
     },
     {
       "code": "jhs51466",
@@ -10743,7 +10743,7 @@
       "qualifies": false,
       "needs": "+$179.07 acc, +1 HINT",
       "rank": 238,
-      "close_order": 142
+      "close_order": 143
     },
     {
       "code": "txl27491",
@@ -10824,7 +10824,7 @@
       "qualifies": false,
       "needs": "+$307.11 acc, +1 MIM",
       "rank": 241,
-      "close_order": 156
+      "close_order": 157
     },
     {
       "code": "ebc89808",
@@ -10959,7 +10959,7 @@
       "qualifies": false,
       "needs": "+$90.14 acc, +1 MIM",
       "rank": 246,
-      "close_order": 128
+      "close_order": 129
     },
     {
       "code": "nuj79135",
@@ -10986,7 +10986,7 @@
       "qualifies": false,
       "needs": "+$459.07 acc, +1 MIM",
       "rank": 247,
-      "close_order": 181
+      "close_order": 182
     },
     {
       "code": "kxq34350",
@@ -11013,7 +11013,7 @@
       "qualifies": false,
       "needs": "+$431.05 acc, +1 MIM",
       "rank": 248,
-      "close_order": 177
+      "close_order": 178
     },
     {
       "code": "ddq12055",
@@ -11148,7 +11148,7 @@
       "qualifies": false,
       "needs": "+$87.26 acc, +1 MIM",
       "rank": 253,
-      "close_order": 127
+      "close_order": 128
     },
     {
       "code": "keo71390",
@@ -11175,7 +11175,7 @@
       "qualifies": false,
       "needs": "+$174.08 acc, +1 MIM",
       "rank": 254,
-      "close_order": 141
+      "close_order": 142
     },
     {
       "code": "fnx88145",
@@ -11202,7 +11202,7 @@
       "qualifies": false,
       "needs": "+$387.01 acc, +1 MIM",
       "rank": 255,
-      "close_order": 170
+      "close_order": 171
     },
     {
       "code": "yll49251",
@@ -11229,7 +11229,7 @@
       "qualifies": false,
       "needs": "+$299.11 acc, +1 MIM",
       "rank": 256,
-      "close_order": 154
+      "close_order": 155
     },
     {
       "code": "zzw52660",
@@ -11310,7 +11310,7 @@
       "qualifies": false,
       "needs": "+$28.16 acc, +1 MIM",
       "rank": 259,
-      "close_order": 122
+      "close_order": 123
     },
     {
       "code": "flm31249",
@@ -11340,6 +11340,33 @@
       "close_order": 115
     },
     {
+      "code": "bvv19749",
+      "name": "HAMDIH",
+      "lastName": "Farraj",
+      "store": "BLACK HORSE",
+      "mrc": 637,
+      "acc": 701.29,
+      "hint": 1,
+      "mim": 0,
+      "mtd_lines": 0,
+      "in_mim": true,
+      "hint_gate": true,
+      "mim_gate": false,
+      "tier": 1,
+      "tier_comm": 0,
+      "hint_spiff": 15,
+      "mim_spiff": 0,
+      "total": 15,
+      "mrc_gap": 0,
+      "acc_gap": 0,
+      "hint_gap": 0,
+      "mim_gap": 1,
+      "qualifies": false,
+      "needs": "+1 MIM",
+      "rank": 261,
+      "close_order": 116
+    },
+    {
       "code": "ikf91741",
       "name": "MOHAMMED",
       "lastName": "Abuawada",
@@ -11363,8 +11390,8 @@
       "mim_gap": 1,
       "qualifies": false,
       "needs": "+1 MIM",
-      "rank": 261,
-      "close_order": 116
+      "rank": 262,
+      "close_order": 117
     },
     {
       "code": "tas64368",
@@ -11390,8 +11417,8 @@
       "mim_gap": 1,
       "qualifies": false,
       "needs": "+$45.20 acc, +1 MIM",
-      "rank": 262,
-      "close_order": 123
+      "rank": 263,
+      "close_order": 124
     },
     {
       "code": "ltr90749",
@@ -11417,7 +11444,7 @@
       "mim_gap": 1,
       "qualifies": false,
       "needs": "+$113 MRC, +$60.29 acc, +1 MIM",
-      "rank": 263,
+      "rank": 264,
       "close_order": 215
     },
     {
@@ -11444,7 +11471,7 @@
       "mim_gap": 1,
       "qualifies": false,
       "needs": "+$33 MRC, +$572.04 acc, +1 MIM",
-      "rank": 264,
+      "rank": 265,
       "close_order": 291
     },
     {
@@ -11471,7 +11498,7 @@
       "mim_gap": 1,
       "qualifies": false,
       "needs": "+$152 MRC, +$545.06 acc, +1 MIM",
-      "rank": 265,
+      "rank": 266,
       "close_order": 282
     },
     {
@@ -11498,8 +11525,8 @@
       "mim_gap": 1,
       "qualifies": false,
       "needs": "+$254.15 acc, +1 MIM",
-      "rank": 266,
-      "close_order": 150
+      "rank": 267,
+      "close_order": 151
     },
     {
       "code": "uxz24260",
@@ -11525,8 +11552,8 @@
       "mim_gap": 1,
       "qualifies": false,
       "needs": "+$159.72 acc, +1 MIM",
-      "rank": 267,
-      "close_order": 138
+      "rank": 268,
+      "close_order": 139
     },
     {
       "code": "ozi95799",
@@ -11552,8 +11579,8 @@
       "mim_gap": 1,
       "qualifies": false,
       "needs": "+$279.46 acc, +1 MIM",
-      "rank": 268,
-      "close_order": 152
+      "rank": 269,
+      "close_order": 153
     },
     {
       "code": "xei58440",
@@ -11579,8 +11606,8 @@
       "mim_gap": 1,
       "qualifies": false,
       "needs": "+$195.19 acc, +1 MIM",
-      "rank": 269,
-      "close_order": 147
+      "rank": 270,
+      "close_order": 148
     },
     {
       "code": "gcn38880",
@@ -11606,7 +11633,7 @@
       "mim_gap": 1,
       "qualifies": false,
       "needs": "+$94 MRC, +$390.44 acc, +1 MIM",
-      "rank": 270,
+      "rank": 271,
       "close_order": 254
     },
     {
@@ -11633,8 +11660,8 @@
       "mim_gap": 1,
       "qualifies": false,
       "needs": "+$322.06 acc, +1 MIM",
-      "rank": 271,
-      "close_order": 158
+      "rank": 272,
+      "close_order": 159
     },
     {
       "code": "uif22938",
@@ -11660,7 +11687,7 @@
       "mim_gap": 1,
       "qualifies": false,
       "needs": "+$14 MRC, +$320.11 acc, +1 MIM",
-      "rank": 272,
+      "rank": 273,
       "close_order": 239
     },
     {
@@ -11687,7 +11714,7 @@
       "mim_gap": 1,
       "qualifies": false,
       "needs": "+$299 MRC, +$545.05 acc, +1 MIM",
-      "rank": 273,
+      "rank": 274,
       "close_order": 281
     },
     {
@@ -11714,8 +11741,8 @@
       "mim_gap": 1,
       "qualifies": false,
       "needs": "+$469.04 acc, +1 MIM",
-      "rank": 274,
-      "close_order": 183
+      "rank": 275,
+      "close_order": 184
     },
     {
       "code": "ilx90312",
@@ -11741,8 +11768,8 @@
       "mim_gap": 1,
       "qualifies": false,
       "needs": "+$109.04 acc, +1 MIM",
-      "rank": 275,
-      "close_order": 131
+      "rank": 276,
+      "close_order": 132
     },
     {
       "code": "bsc75544",
@@ -11768,8 +11795,8 @@
       "mim_gap": 1,
       "qualifies": false,
       "needs": "+1 MIM",
-      "rank": 276,
-      "close_order": 117
+      "rank": 277,
+      "close_order": 118
     },
     {
       "code": "vbh18700",
@@ -11795,8 +11822,8 @@
       "mim_gap": 1,
       "qualifies": false,
       "needs": "+$560.06 acc, +1 MIM",
-      "rank": 277,
-      "close_order": 202
+      "rank": 278,
+      "close_order": 203
     },
     {
       "code": "pfh58082",
@@ -11822,7 +11849,7 @@
       "mim_gap": 1,
       "qualifies": false,
       "needs": "+1 MIM",
-      "rank": 278,
+      "rank": 279,
       "close_order": 83
     },
     {
@@ -11849,8 +11876,8 @@
       "mim_gap": 1,
       "qualifies": false,
       "needs": "+1 MIM",
-      "rank": 279,
-      "close_order": 118
+      "rank": 280,
+      "close_order": 119
     },
     {
       "code": "kzf30596",
@@ -11876,8 +11903,8 @@
       "mim_gap": 1,
       "qualifies": false,
       "needs": "+$330.07 acc, +1 MIM",
-      "rank": 280,
-      "close_order": 161
+      "rank": 281,
+      "close_order": 162
     },
     {
       "code": "jci17640",
@@ -11903,7 +11930,7 @@
       "mim_gap": 1,
       "qualifies": false,
       "needs": "+$65 MRC, +$415.05 acc, +1 MIM",
-      "rank": 281,
+      "rank": 282,
       "close_order": 258
     },
     {
@@ -11930,8 +11957,8 @@
       "mim_gap": 1,
       "qualifies": false,
       "needs": "+$171.03 acc, +1 MIM",
-      "rank": 282,
-      "close_order": 140
+      "rank": 283,
+      "close_order": 141
     },
     {
       "code": "ruu17702",
@@ -11957,8 +11984,8 @@
       "mim_gap": 1,
       "qualifies": false,
       "needs": "+$326.03 acc, +1 MIM",
-      "rank": 283,
-      "close_order": 159
+      "rank": 284,
+      "close_order": 160
     },
     {
       "code": "xtx25464",
@@ -11984,8 +12011,8 @@
       "mim_gap": 1,
       "qualifies": false,
       "needs": "+$340.09 acc, +1 MIM",
-      "rank": 284,
-      "close_order": 162
+      "rank": 285,
+      "close_order": 163
     },
     {
       "code": "sgl51473",
@@ -12011,8 +12038,8 @@
       "mim_gap": 1,
       "qualifies": false,
       "needs": "+$540.00 acc, +1 MIM",
-      "rank": 285,
-      "close_order": 197
+      "rank": 286,
+      "close_order": 198
     },
     {
       "code": "lzs17620",
@@ -12038,7 +12065,7 @@
       "mim_gap": 1,
       "qualifies": false,
       "needs": "+$145 MRC, +$110.15 acc, +1 MIM",
-      "rank": 286,
+      "rank": 287,
       "close_order": 219
     },
     {
@@ -12065,8 +12092,8 @@
       "mim_gap": 1,
       "qualifies": false,
       "needs": "+1 MIM",
-      "rank": 287,
-      "close_order": 119
+      "rank": 288,
+      "close_order": 120
     },
     {
       "code": "mwq06679",
@@ -12092,7 +12119,7 @@
       "mim_gap": 1,
       "qualifies": false,
       "needs": "+$1 MRC, +$185.42 acc, +1 MIM",
-      "rank": 288,
+      "rank": 289,
       "close_order": 227
     },
     {
@@ -12119,7 +12146,7 @@
       "mim_gap": 1,
       "qualifies": false,
       "needs": "+$500 MRC, +$700.00 acc, +1 HINT, +1 MIM",
-      "rank": 289,
+      "rank": 290,
       "close_order": 352
     },
     {
@@ -12146,8 +12173,8 @@
       "mim_gap": 1,
       "qualifies": false,
       "needs": "+1 HINT, +1 MIM",
-      "rank": 290,
-      "close_order": 211
+      "rank": 291,
+      "close_order": 212
     },
     {
       "code": "spz14948",
@@ -12173,7 +12200,7 @@
       "mim_gap": 1,
       "qualifies": false,
       "needs": "+$180.16 acc, +1 HINT, +1 MIM",
-      "rank": 291,
+      "rank": 292,
       "close_order": 226
     },
     {
@@ -12200,7 +12227,7 @@
       "mim_gap": 1,
       "qualifies": false,
       "needs": "+$150 MRC, +$395.04 acc, +1 HINT, +1 MIM",
-      "rank": 292,
+      "rank": 293,
       "close_order": 317
     },
     {
@@ -12227,7 +12254,7 @@
       "mim_gap": 1,
       "qualifies": false,
       "needs": "+$210 MRC, +$575.02 acc, +1 HINT, +1 MIM",
-      "rank": 293,
+      "rank": 294,
       "close_order": 334
     },
     {
@@ -12254,7 +12281,7 @@
       "mim_gap": 1,
       "qualifies": false,
       "needs": "+$234 MRC, +$577.00 acc, +1 HINT, +1 MIM",
-      "rank": 294,
+      "rank": 295,
       "close_order": 335
     },
     {
@@ -12281,7 +12308,7 @@
       "mim_gap": 1,
       "qualifies": false,
       "needs": "+$325 MRC, +$560.03 acc, +1 HINT, +1 MIM",
-      "rank": 295,
+      "rank": 296,
       "close_order": 331
     },
     {
@@ -12308,7 +12335,7 @@
       "mim_gap": 1,
       "qualifies": false,
       "needs": "+$332 MRC, +$599.01 acc, +1 HINT, +1 MIM",
-      "rank": 296,
+      "rank": 297,
       "close_order": 337
     },
     {
@@ -12335,7 +12362,7 @@
       "mim_gap": 1,
       "qualifies": false,
       "needs": "+$173 MRC, +$495.05 acc, +1 HINT, +1 MIM",
-      "rank": 297,
+      "rank": 298,
       "close_order": 323
     },
     {
@@ -12362,7 +12389,7 @@
       "mim_gap": 1,
       "qualifies": false,
       "needs": "+$97 MRC, +$635.02 acc, +1 HINT, +1 MIM",
-      "rank": 298,
+      "rank": 299,
       "close_order": 343
     },
     {
@@ -12389,7 +12416,7 @@
       "mim_gap": 1,
       "qualifies": false,
       "needs": "+$485.06 acc, +1 HINT, +1 MIM",
-      "rank": 299,
+      "rank": 300,
       "close_order": 272
     },
     {
@@ -12416,7 +12443,7 @@
       "mim_gap": 1,
       "qualifies": false,
       "needs": "+$380.09 acc, +1 HINT, +1 MIM",
-      "rank": 300,
+      "rank": 301,
       "close_order": 250
     },
     {
@@ -12443,7 +12470,7 @@
       "mim_gap": 1,
       "qualifies": false,
       "needs": "+$500 MRC, +$700.00 acc, +1 HINT, +1 MIM",
-      "rank": 301,
+      "rank": 302,
       "close_order": 353
     },
     {
@@ -12470,7 +12497,7 @@
       "mim_gap": 1,
       "qualifies": false,
       "needs": "+$285 MRC, +$565.02 acc, +1 HINT, +1 MIM",
-      "rank": 302,
+      "rank": 303,
       "close_order": 332
     },
     {
@@ -12497,7 +12524,7 @@
       "mim_gap": 1,
       "qualifies": false,
       "needs": "+$403 MRC, +$553.05 acc, +1 HINT, +1 MIM",
-      "rank": 303,
+      "rank": 304,
       "close_order": 329
     },
     {
@@ -12524,7 +12551,7 @@
       "mim_gap": 1,
       "qualifies": false,
       "needs": "+$64.18 acc, +1 HINT, +1 MIM",
-      "rank": 304,
+      "rank": 305,
       "close_order": 216
     },
     {
@@ -12551,7 +12578,7 @@
       "mim_gap": 1,
       "qualifies": false,
       "needs": "+$405 MRC, +$570.04 acc, +1 HINT, +1 MIM",
-      "rank": 305,
+      "rank": 306,
       "close_order": 333
     },
     {
@@ -12578,7 +12605,7 @@
       "mim_gap": 1,
       "qualifies": false,
       "needs": "+$500 MRC, +$700.00 acc, +1 HINT, +1 MIM",
-      "rank": 306,
+      "rank": 307,
       "close_order": 354
     },
     {
@@ -12605,7 +12632,7 @@
       "mim_gap": 1,
       "qualifies": false,
       "needs": "+$500 MRC, +$700.00 acc, +1 HINT, +1 MIM",
-      "rank": 307,
+      "rank": 308,
       "close_order": 355
     },
     {
@@ -12632,7 +12659,7 @@
       "mim_gap": 1,
       "qualifies": false,
       "needs": "+$8 MRC, +$470.05 acc, +1 HINT, +1 MIM",
-      "rank": 308,
+      "rank": 309,
       "close_order": 322
     },
     {
@@ -12659,7 +12686,7 @@
       "mim_gap": 1,
       "qualifies": false,
       "needs": "+$244 MRC, +$315.13 acc, +1 HINT, +1 MIM",
-      "rank": 309,
+      "rank": 310,
       "close_order": 314
     },
     {
@@ -12686,7 +12713,7 @@
       "mim_gap": 1,
       "qualifies": false,
       "needs": "+$350 MRC, +$665.02 acc, +1 HINT, +1 MIM",
-      "rank": 310,
+      "rank": 311,
       "close_order": 345
     },
     {
@@ -12713,7 +12740,7 @@
       "mim_gap": 1,
       "qualifies": false,
       "needs": "+$107 MRC, +$267.28 acc, +1 HINT, +1 MIM",
-      "rank": 311,
+      "rank": 312,
       "close_order": 313
     },
     {
@@ -12740,7 +12767,7 @@
       "mim_gap": 1,
       "qualifies": false,
       "needs": "+$214 MRC, +$325.06 acc, +1 HINT, +1 MIM",
-      "rank": 312,
+      "rank": 313,
       "close_order": 315
     },
     {
@@ -12767,7 +12794,7 @@
       "mim_gap": 1,
       "qualifies": false,
       "needs": "+$155.14 acc, +1 HINT, +1 MIM",
-      "rank": 313,
+      "rank": 314,
       "close_order": 223
     },
     {
@@ -12794,7 +12821,7 @@
       "mim_gap": 1,
       "qualifies": false,
       "needs": "+$500 MRC, +$700.00 acc, +1 HINT, +1 MIM",
-      "rank": 314,
+      "rank": 315,
       "close_order": 356
     },
     {
@@ -12821,7 +12848,7 @@
       "mim_gap": 1,
       "qualifies": false,
       "needs": "+$325.16 acc, +1 HINT, +1 MIM",
-      "rank": 315,
+      "rank": 316,
       "close_order": 241
     },
     {
@@ -12848,7 +12875,7 @@
       "mim_gap": 1,
       "qualifies": false,
       "needs": "+$233.06 acc, +1 HINT, +1 MIM",
-      "rank": 316,
+      "rank": 317,
       "close_order": 234
     },
     {
@@ -12875,7 +12902,7 @@
       "mim_gap": 1,
       "qualifies": false,
       "needs": "+$465 MRC, +$700.00 acc, +1 HINT, +1 MIM",
-      "rank": 317,
+      "rank": 318,
       "close_order": 350
     },
     {
@@ -12902,7 +12929,7 @@
       "mim_gap": 1,
       "qualifies": false,
       "needs": "+$17 MRC, +$223.14 acc, +1 HINT, +1 MIM",
-      "rank": 318,
+      "rank": 319,
       "close_order": 311
     },
     {
@@ -12929,7 +12956,7 @@
       "mim_gap": 1,
       "qualifies": false,
       "needs": "+$348 MRC, +$647.01 acc, +1 HINT, +1 MIM",
-      "rank": 319,
+      "rank": 320,
       "close_order": 344
     },
     {
@@ -12956,7 +12983,7 @@
       "mim_gap": 1,
       "qualifies": false,
       "needs": "+$429 MRC, +$630.02 acc, +1 HINT, +1 MIM",
-      "rank": 320,
+      "rank": 321,
       "close_order": 342
     },
     {
@@ -12983,7 +13010,7 @@
       "mim_gap": 1,
       "qualifies": false,
       "needs": "+$327 MRC, +$532.01 acc, +1 HINT, +1 MIM",
-      "rank": 321,
+      "rank": 322,
       "close_order": 327
     },
     {
@@ -13010,7 +13037,7 @@
       "mim_gap": 1,
       "qualifies": false,
       "needs": "+$500 MRC, +$700.00 acc, +1 HINT, +1 MIM",
-      "rank": 322,
+      "rank": 323,
       "close_order": 357
     },
     {
@@ -13037,7 +13064,7 @@
       "mim_gap": 1,
       "qualifies": false,
       "needs": "+$485 MRC, +$690.01 acc, +1 HINT, +1 MIM",
-      "rank": 323,
+      "rank": 324,
       "close_order": 347
     },
     {
@@ -13064,7 +13091,7 @@
       "mim_gap": 1,
       "qualifies": false,
       "needs": "+$235.16 acc, +1 HINT, +1 MIM",
-      "rank": 324,
+      "rank": 325,
       "close_order": 235
     },
     {
@@ -13091,7 +13118,7 @@
       "mim_gap": 1,
       "qualifies": false,
       "needs": "+$430.07 acc, +1 HINT, +1 MIM",
-      "rank": 325,
+      "rank": 326,
       "close_order": 261
     },
     {
@@ -13118,7 +13145,7 @@
       "mim_gap": 1,
       "qualifies": false,
       "needs": "+$113 MRC, +$620.02 acc, +1 HINT, +1 MIM",
-      "rank": 326,
+      "rank": 327,
       "close_order": 341
     },
     {
@@ -13145,7 +13172,7 @@
       "mim_gap": 1,
       "qualifies": false,
       "needs": "+$289 MRC, +$345.07 acc, +1 HINT, +1 MIM",
-      "rank": 327,
+      "rank": 328,
       "close_order": 316
     },
     {
@@ -13172,35 +13199,8 @@
       "mim_gap": 1,
       "qualifies": false,
       "needs": "+$500 MRC, +$700.00 acc, +1 HINT, +1 MIM",
-      "rank": 328,
-      "close_order": 358
-    },
-    {
-      "code": "bvv19749",
-      "name": "HAMDIH",
-      "lastName": "Farraj",
-      "store": "BLACK HORSE",
-      "mrc": 548,
-      "acc": 701.29,
-      "hint": 0,
-      "mim": 0,
-      "mtd_lines": 0,
-      "in_mim": true,
-      "hint_gate": false,
-      "mim_gate": false,
-      "tier": 1,
-      "tier_comm": 0,
-      "hint_spiff": 0,
-      "mim_spiff": 0,
-      "total": 0,
-      "mrc_gap": 0,
-      "acc_gap": 0,
-      "hint_gap": 1,
-      "mim_gap": 1,
-      "qualifies": false,
-      "needs": "+1 HINT, +1 MIM",
       "rank": 329,
-      "close_order": 212
+      "close_order": 358
     },
     {
       "code": "yjr09734",
@@ -14178,11 +14178,11 @@
   "stats": {
     "reps": 365,
     "qualified": 78,
-    "total_payout": 40868.24,
+    "total_payout": 40861.12,
     "total_spiffs": 23555,
     "below_acc": 314,
     "below_mrc": 167,
-    "no_hint": 149,
+    "no_hint": 148,
     "no_mim": 154,
     "max_total": 961.57,
     "closest_name": "angie",
