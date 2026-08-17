@@ -1,7 +1,7 @@
 {
   "meta": {
     "period": "Aug 15, 2026 - Aug 21, 2026",
-    "published": "Aug 17, 9:05 AM",
+    "published": "Aug 17, 9:35 AM",
     "autoPublished": true
   },
   "mrc": {
@@ -3109,6 +3109,13 @@
       "hint": 0,
       "store": "KENDALL",
       "repName": "Daniela"
+    },
+    "fbr13146": {
+      "name": "David",
+      "acc": 0,
+      "hint": 0,
+      "store": "KENDALL",
+      "repName": "David"
     },
     "nkq42630": {
       "name": "amado",
@@ -10419,6 +10426,33 @@
       "close_order": 105
     },
     {
+      "code": "fbr13146",
+      "name": "David",
+      "lastName": "",
+      "store": "KENDALL",
+      "mrc": 0,
+      "acc": 0,
+      "hint": 0,
+      "mim": 0,
+      "mtd_lines": 0,
+      "in_mim": false,
+      "hint_gate": false,
+      "mim_gate": false,
+      "tier": 0,
+      "tier_comm": 0,
+      "hint_spiff": 0,
+      "mim_spiff": 0,
+      "total": 0,
+      "mrc_gap": 500,
+      "acc_gap": 700,
+      "hint_gap": 1,
+      "mim_gap": 1,
+      "qualifies": false,
+      "needs": "+$500 MRC, +$700.00 acc, +1 HINT, +1 MIM",
+      "rank": 269,
+      "close_order": 274
+    },
+    {
       "code": "miw01822",
       "name": "franky",
       "lastName": "",
@@ -10442,7 +10476,7 @@
       "mim_gap": 1,
       "qualifies": false,
       "needs": "+$36 MRC, +1 HINT, +1 MIM",
-      "rank": 269,
+      "rank": 270,
       "close_order": 83
     },
     {
@@ -10469,7 +10503,7 @@
       "mim_gap": 1,
       "qualifies": false,
       "needs": "+$25 MRC, +1 HINT, +1 MIM",
-      "rank": 270,
+      "rank": 271,
       "close_order": 82
     },
     {
@@ -10496,7 +10530,7 @@
       "mim_gap": 1,
       "qualifies": false,
       "needs": "+$216 MRC, +$480.05 acc, +1 HINT, +1 MIM",
-      "rank": 271,
+      "rank": 272,
       "close_order": 118
     },
     {
@@ -10523,7 +10557,7 @@
       "mim_gap": 1,
       "qualifies": false,
       "needs": "+$400 MRC, +$660.02 acc, +1 HINT, +1 MIM",
-      "rank": 272,
+      "rank": 273,
       "close_order": 221
     },
     {
@@ -10550,7 +10584,7 @@
       "mim_gap": 1,
       "qualifies": false,
       "needs": "+$425 MRC, +$575.04 acc, +1 HINT, +1 MIM",
-      "rank": 273,
+      "rank": 274,
       "close_order": 164
     },
     {
@@ -10577,19 +10611,19 @@
       "mim_gap": 1,
       "qualifies": false,
       "needs": "+$380 MRC, +$520.04 acc, +1 HINT, +1 MIM",
-      "rank": 274,
+      "rank": 275,
       "close_order": 131
     }
   ],
   "stats": {
-    "reps": 274,
+    "reps": 275,
     "qualified": 0,
     "total_payout": 1350,
     "total_spiffs": 1350,
-    "below_acc": 269,
-    "below_mrc": 252,
-    "no_hint": 198,
-    "no_mim": 274,
+    "below_acc": 270,
+    "below_mrc": 253,
+    "no_hint": 199,
+    "no_mim": 275,
     "max_total": 45,
     "closest_name": "GUADALUPE",
     "closest_needs": "+1 MIM"
