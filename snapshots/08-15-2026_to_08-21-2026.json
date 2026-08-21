@@ -1,7 +1,7 @@
 {
   "meta": {
     "period": "Aug 15, 2026 - Aug 21, 2026",
-    "published": "Aug 20, 10:35 PM",
+    "published": "Aug 21, 9:05 AM",
     "autoPublished": true
   },
   "mrc": {
@@ -3852,6 +3852,13 @@
       "store": "MILITARY",
       "repName": "Lina"
     },
+    "osk55215": {
+      "name": "kedyn",
+      "acc": 0,
+      "hint": 0,
+      "store": "BOYNTON",
+      "repName": "kedyn"
+    },
     "ruu17702": {
       "name": "LUIS",
       "acc": 199.97,
@@ -3879,13 +3886,6 @@
       "hint": 1,
       "store": "MILITARY 2",
       "repName": "liseberthe"
-    },
-    "osk55215": {
-      "name": "kedyn",
-      "acc": 0,
-      "hint": 0,
-      "store": "STATE RD7",
-      "repName": "kedyn"
     },
     "kor45731": {
       "name": "ROGER",
@@ -13188,6 +13188,33 @@
       "close_order": 224
     },
     {
+      "code": "osk55215",
+      "name": "kedyn",
+      "lastName": "",
+      "store": "BOYNTON",
+      "mrc": 0,
+      "acc": 0,
+      "hint": 0,
+      "mim": 0,
+      "mtd_lines": 0,
+      "in_mim": false,
+      "hint_gate": false,
+      "mim_gate": false,
+      "tier": 0,
+      "tier_comm": 0,
+      "hint_spiff": 0,
+      "mim_spiff": 0,
+      "total": 0,
+      "mrc_gap": 500,
+      "acc_gap": 700,
+      "hint_gap": 1,
+      "mim_gap": 1,
+      "qualifies": false,
+      "needs": "+$500 MRC, +$700.00 acc, +1 HINT, +1 MIM",
+      "rank": 335,
+      "close_order": 347
+    },
+    {
       "code": "xtx25464",
       "name": "Jean",
       "lastName": "Romero",
@@ -13211,7 +13238,7 @@
       "mim_gap": 1,
       "qualifies": false,
       "needs": "+$197 MRC, +$490.07 acc, +1 HINT, +1 MIM",
-      "rank": 335,
+      "rank": 336,
       "close_order": 292
     },
     {
@@ -13238,35 +13265,8 @@
       "mim_gap": 1,
       "qualifies": false,
       "needs": "+$69 MRC, +$515.04 acc, +1 HINT, +1 MIM",
-      "rank": 336,
-      "close_order": 298
-    },
-    {
-      "code": "osk55215",
-      "name": "kedyn",
-      "lastName": "",
-      "store": "STATE RD7",
-      "mrc": 0,
-      "acc": 0,
-      "hint": 0,
-      "mim": 0,
-      "mtd_lines": 0,
-      "in_mim": false,
-      "hint_gate": false,
-      "mim_gate": false,
-      "tier": 0,
-      "tier_comm": 0,
-      "hint_spiff": 0,
-      "mim_spiff": 0,
-      "total": 0,
-      "mrc_gap": 500,
-      "acc_gap": 700,
-      "hint_gap": 1,
-      "mim_gap": 1,
-      "qualifies": false,
-      "needs": "+$500 MRC, +$700.00 acc, +1 HINT, +1 MIM",
       "rank": 337,
-      "close_order": 347
+      "close_order": 298
     },
     {
       "code": "kor45731",
