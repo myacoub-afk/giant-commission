@@ -1,7 +1,7 @@
 {
   "meta": {
     "period": "Aug 22, 2026 - Aug 28, 2026",
-    "published": "Aug 23, 10:35 PM",
+    "published": "Aug 24, 9:05 AM",
     "autoPublished": true
   },
   "mrc": {
@@ -1519,7 +1519,7 @@
       "name": "Edith",
       "acc": 39.99,
       "hint": 0,
-      "store": "APOPKA",
+      "store": "SAND LAKE",
       "repName": "Edith"
     },
     "vqh68670": {
@@ -1858,13 +1858,6 @@
       "store": "SAND LAKE",
       "repName": "Maxwell"
     },
-    "sfc65094": {
-      "name": "Ladie",
-      "acc": 0,
-      "hint": 0,
-      "store": "SAND LAKE",
-      "repName": "Ladie"
-    },
     "wnr91550": {
       "name": "felix",
       "acc": 189.62,
@@ -1878,6 +1871,13 @@
       "hint": 0,
       "store": "HIAWASSEE",
       "repName": "Jean"
+    },
+    "sfc65094": {
+      "name": "Ladie",
+      "acc": 0,
+      "hint": 0,
+      "store": "SAND LAKE",
+      "repName": "Ladie"
     },
     "ifg69036": {
       "name": "Katrina",
@@ -6026,7 +6026,7 @@
       "code": "xde02098",
       "name": "Edith",
       "lastName": "",
-      "store": "APOPKA",
+      "store": "SAND LAKE",
       "mrc": 98,
       "acc": 39.99,
       "hint": 0,
@@ -7076,33 +7076,6 @@
       "close_order": 99
     },
     {
-      "code": "sfc65094",
-      "name": "Ladie",
-      "lastName": "",
-      "store": "SAND LAKE",
-      "mrc": 40,
-      "acc": 0,
-      "hint": 0,
-      "mim": 0,
-      "mtd_lines": 0,
-      "in_mim": false,
-      "hint_gate": false,
-      "mim_gate": false,
-      "tier": 0,
-      "tier_comm": 0,
-      "hint_spiff": 0,
-      "mim_spiff": 0,
-      "total": 0,
-      "mrc_gap": 460,
-      "acc_gap": 700,
-      "hint_gap": 1,
-      "mim_gap": 1,
-      "qualifies": false,
-      "needs": "+$460 MRC, +$700.00 acc, +1 HINT, +1 MIM",
-      "rank": 148,
-      "close_order": 246
-    },
-    {
       "code": "wnr91550",
       "name": "felix",
       "lastName": "",
@@ -7126,7 +7099,7 @@
       "mim_gap": 1,
       "qualifies": false,
       "needs": "+$352 MRC, +$510.38 acc, +1 HINT, +1 MIM",
-      "rank": 149,
+      "rank": 148,
       "close_order": 125
     },
     {
@@ -7153,8 +7126,35 @@
       "mim_gap": 1,
       "qualifies": false,
       "needs": "+$221 MRC, +$496.07 acc, +1 HINT, +1 MIM",
-      "rank": 150,
+      "rank": 149,
       "close_order": 120
+    },
+    {
+      "code": "sfc65094",
+      "name": "Ladie",
+      "lastName": "",
+      "store": "SAND LAKE",
+      "mrc": 40,
+      "acc": 0,
+      "hint": 0,
+      "mim": 0,
+      "mtd_lines": 0,
+      "in_mim": false,
+      "hint_gate": false,
+      "mim_gate": false,
+      "tier": 0,
+      "tier_comm": 0,
+      "hint_spiff": 0,
+      "mim_spiff": 0,
+      "total": 0,
+      "mrc_gap": 460,
+      "acc_gap": 700,
+      "hint_gap": 1,
+      "mim_gap": 1,
+      "qualifies": false,
+      "needs": "+$460 MRC, +$700.00 acc, +1 HINT, +1 MIM",
+      "rank": 150,
+      "close_order": 246
     },
     {
       "code": "ifg69036",
