@@ -1,7 +1,7 @@
 {
   "meta": {
     "period": "Aug 22, 2026 - Aug 28, 2026",
-    "published": "Aug 25, 9:05 AM",
+    "published": "Aug 25, 9:35 AM",
     "autoPublished": true
   },
   "mrc": {
@@ -3708,6 +3708,13 @@
       "hint": 0,
       "store": "HIALEAH",
       "repName": "anabel"
+    },
+    "lzs17620": {
+      "name": "yaleidy",
+      "acc": 0,
+      "hint": 0,
+      "store": "HIALEAH",
+      "repName": "yaleidy"
     },
     "yfe60320": {
       "name": "Emily",
@@ -12423,6 +12430,33 @@
       "close_order": 254
     },
     {
+      "code": "lzs17620",
+      "name": "yaleidy",
+      "lastName": "",
+      "store": "HIALEAH",
+      "mrc": 0,
+      "acc": 0,
+      "hint": 0,
+      "mim": 0,
+      "mtd_lines": 0,
+      "in_mim": false,
+      "hint_gate": false,
+      "mim_gate": false,
+      "tier": 0,
+      "tier_comm": 0,
+      "hint_spiff": 0,
+      "mim_spiff": 0,
+      "total": 0,
+      "mrc_gap": 500,
+      "acc_gap": 700,
+      "hint_gap": 1,
+      "mim_gap": 1,
+      "qualifies": false,
+      "needs": "+$500 MRC, +$700.00 acc, +1 HINT, +1 MIM",
+      "rank": 320,
+      "close_order": 325
+    },
+    {
       "code": "yfe60320",
       "name": "Emily",
       "lastName": "Pino",
@@ -12446,7 +12480,7 @@
       "mim_gap": 1,
       "qualifies": false,
       "needs": "+$390.10 acc, +1 HINT, +1 MIM",
-      "rank": 320,
+      "rank": 321,
       "close_order": 78
     },
     {
@@ -12473,7 +12507,7 @@
       "mim_gap": 1,
       "qualifies": false,
       "needs": "+$275 MRC, +$575.04 acc, +1 HINT, +1 MIM",
-      "rank": 321,
+      "rank": 322,
       "close_order": 234
     },
     {
@@ -12500,7 +12534,7 @@
       "mim_gap": 1,
       "qualifies": false,
       "needs": "+$297 MRC, +$525.05 acc, +1 HINT, +1 MIM",
-      "rank": 322,
+      "rank": 323,
       "close_order": 208
     },
     {
@@ -12527,7 +12561,7 @@
       "mim_gap": 1,
       "qualifies": false,
       "needs": "+$211 MRC, +$495.05 acc, +1 HINT, +1 MIM",
-      "rank": 323,
+      "rank": 324,
       "close_order": 193
     },
     {
@@ -12554,7 +12588,7 @@
       "mim_gap": 1,
       "qualifies": false,
       "needs": "+$334 MRC, +$375.08 acc, +1 HINT, +1 MIM",
-      "rank": 324,
+      "rank": 325,
       "close_order": 168
     },
     {
@@ -12581,19 +12615,19 @@
       "mim_gap": 1,
       "qualifies": false,
       "needs": "+$432 MRC, +$540.04 acc, +1 HINT, +1 MIM",
-      "rank": 325,
+      "rank": 326,
       "close_order": 212
     }
   ],
   "stats": {
-    "reps": 325,
+    "reps": 326,
     "qualified": 5,
     "total_payout": 7921.89,
     "total_spiffs": 6945,
-    "below_acc": 317,
-    "below_mrc": 284,
-    "no_hint": 216,
-    "no_mim": 251,
+    "below_acc": 318,
+    "below_mrc": 285,
+    "no_hint": 217,
+    "no_mim": 252,
     "max_total": 394.39,
     "closest_name": "Beatriz",
     "closest_needs": "Qualifies for Tier 1"
