@@ -1,7 +1,7 @@
 {
   "meta": {
     "period": "Aug 29, 2026 - Sep 4, 2026",
-    "published": "Aug 31, 10:06 PM",
+    "published": "Aug 31, 10:36 PM",
     "autoPublished": true
   },
   "mrc": {
@@ -862,7 +862,7 @@
     },
     "ggv08751": {
       "name": "Blanca",
-      "mrc": 312,
+      "mrc": 441,
       "hint": 1
     },
     "gml47539": {
@@ -2885,19 +2885,19 @@
       "store": "MONTGOMERY",
       "repName": "Monique"
     },
+    "ggv08751": {
+      "name": "Blanca",
+      "acc": 339.5,
+      "hint": 1,
+      "store": "AIRPORT",
+      "repName": "Blanca"
+    },
     "vyk61042": {
       "name": "Victoria",
       "acc": 224.93,
       "hint": 2,
       "store": "AIRPORT",
       "repName": "Victoria"
-    },
-    "ggv08751": {
-      "name": "Blanca",
-      "acc": 316,
-      "hint": 1,
-      "store": "AIRPORT",
-      "repName": "Blanca"
     },
     "xei58440": {
       "name": "Gilberto",
@@ -5011,7 +5011,7 @@
       "qualifies": false,
       "needs": "+$185 MRC, +$362.01 acc, +1 HINT",
       "rank": 44,
-      "close_order": 68
+      "close_order": 69
     },
     {
       "code": "qix82959",
@@ -7144,7 +7144,7 @@
       "qualifies": false,
       "needs": "+$78 MRC, +$380.08 acc, +1 MIM",
       "rank": 123,
-      "close_order": 69
+      "close_order": 70
     },
     {
       "code": "flm31249",
@@ -7259,8 +7259,8 @@
       "name": "Blanca",
       "lastName": "Marquez",
       "store": "AIRPORT",
-      "mrc": 312,
-      "acc": 316,
+      "mrc": 441,
+      "acc": 339.5,
       "hint": 1,
       "mim": 0,
       "mtd_lines": 0,
@@ -7272,14 +7272,14 @@
       "hint_spiff": 15,
       "mim_spiff": 0,
       "total": 15,
-      "mrc_gap": 188,
-      "acc_gap": 384,
+      "mrc_gap": 59,
+      "acc_gap": 360.5,
       "hint_gap": 0,
       "mim_gap": 1,
       "qualifies": false,
-      "needs": "+$188 MRC, +$384.00 acc, +1 MIM",
+      "needs": "+$59 MRC, +$360.50 acc, +1 MIM",
       "rank": 128,
-      "close_order": 70
+      "close_order": 68
     },
     {
       "code": "vgd22765",
