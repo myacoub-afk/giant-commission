@@ -1,7 +1,7 @@
 {
   "meta": {
     "period": "Aug 29, 2026 - Sep 4, 2026",
-    "published": "Aug 31, 10:36 PM",
+    "published": "Sep 1, 9:06 AM",
     "autoPublished": true
   },
   "mrc": {
@@ -3612,6 +3612,13 @@
       "hint": 0,
       "store": "MILITARY",
       "repName": "Cherlyn"
+    },
+    "osk55215": {
+      "name": "kedyn",
+      "acc": 0,
+      "hint": 0,
+      "store": "MILITARY",
+      "repName": "kedyn"
     },
     "tnl36939": {
       "name": "BRIAN",
@@ -8305,7 +8312,7 @@
       "qualifies": false,
       "needs": "+$445 MRC, +$779.98 acc, +1 HINT, +1 MIM",
       "rank": 166,
-      "close_order": 327
+      "close_order": 328
     },
     {
       "code": "ygf27360",
@@ -12331,6 +12338,33 @@
       "close_order": 288
     },
     {
+      "code": "osk55215",
+      "name": "kedyn",
+      "lastName": "",
+      "store": "MILITARY",
+      "mrc": 0,
+      "acc": 0,
+      "hint": 0,
+      "mim": 0,
+      "mtd_lines": 0,
+      "in_mim": false,
+      "hint_gate": false,
+      "mim_gate": false,
+      "tier": 0,
+      "tier_comm": 0,
+      "hint_spiff": 0,
+      "mim_spiff": 0,
+      "total": 0,
+      "mrc_gap": 500,
+      "acc_gap": 700,
+      "hint_gap": 1,
+      "mim_gap": 1,
+      "qualifies": false,
+      "needs": "+$500 MRC, +$700.00 acc, +1 HINT, +1 MIM",
+      "rank": 316,
+      "close_order": 325
+    },
+    {
       "code": "txl27491",
       "name": "liseberthe",
       "lastName": "",
@@ -12354,7 +12388,7 @@
       "mim_gap": 1,
       "qualifies": false,
       "needs": "+$279 MRC, +$390.10 acc, +1 HINT, +1 MIM",
-      "rank": 316,
+      "rank": 317,
       "close_order": 181
     },
     {
@@ -12381,7 +12415,7 @@
       "mim_gap": 1,
       "qualifies": false,
       "needs": "+$251 MRC, +$415.09 acc, +1 HINT, +1 MIM",
-      "rank": 317,
+      "rank": 318,
       "close_order": 183
     },
     {
@@ -12408,7 +12442,7 @@
       "mim_gap": 1,
       "qualifies": false,
       "needs": "+$405 MRC, +$650.02 acc, +1 HINT, +1 MIM",
-      "rank": 318,
+      "rank": 319,
       "close_order": 270
     },
     {
@@ -12435,7 +12469,7 @@
       "mim_gap": 1,
       "qualifies": false,
       "needs": "+$467 MRC, +$605.03 acc, +1 HINT, +1 MIM",
-      "rank": 319,
+      "rank": 320,
       "close_order": 245
     },
     {
@@ -12462,8 +12496,8 @@
       "mim_gap": 1,
       "qualifies": false,
       "needs": "+$500 MRC, +$700.00 acc, +1 HINT, +1 MIM",
-      "rank": 320,
-      "close_order": 325
+      "rank": 321,
+      "close_order": 326
     },
     {
       "code": "obe51946",
@@ -12489,8 +12523,8 @@
       "mim_gap": 1,
       "qualifies": false,
       "needs": "+$500 MRC, +$700.00 acc, +1 HINT, +1 MIM",
-      "rank": 321,
-      "close_order": 326
+      "rank": 322,
+      "close_order": 327
     },
     {
       "code": "wut89019",
@@ -12516,7 +12550,7 @@
       "mim_gap": 1,
       "qualifies": false,
       "needs": "+$330.11 acc, +1 HINT, +1 MIM",
-      "rank": 322,
+      "rank": 323,
       "close_order": 65
     },
     {
@@ -12543,7 +12577,7 @@
       "mim_gap": 1,
       "qualifies": false,
       "needs": "+$62 MRC, +$495.05 acc, +1 HINT, +1 MIM",
-      "rank": 323,
+      "rank": 324,
       "close_order": 198
     },
     {
@@ -12570,7 +12604,7 @@
       "mim_gap": 1,
       "qualifies": false,
       "needs": "+$320 MRC, +$250.14 acc, +1 HINT, +1 MIM",
-      "rank": 324,
+      "rank": 325,
       "close_order": 165
     },
     {
@@ -12597,7 +12631,7 @@
       "mim_gap": 1,
       "qualifies": false,
       "needs": "+$280 MRC, +$660.01 acc, +1 HINT, +1 MIM",
-      "rank": 325,
+      "rank": 326,
       "close_order": 272
     },
     {
@@ -12624,7 +12658,7 @@
       "mim_gap": 1,
       "qualifies": false,
       "needs": "+$268 MRC, +$565.04 acc, +1 HINT, +1 MIM",
-      "rank": 326,
+      "rank": 327,
       "close_order": 219
     },
     {
@@ -12651,7 +12685,7 @@
       "mim_gap": 1,
       "qualifies": false,
       "needs": "+$210 MRC, +$590.03 acc, +1 HINT, +1 MIM",
-      "rank": 327,
+      "rank": 328,
       "close_order": 231
     },
     {
@@ -12678,19 +12712,19 @@
       "mim_gap": 1,
       "qualifies": false,
       "needs": "+$385 MRC, +$680.01 acc, +1 HINT, +1 MIM",
-      "rank": 328,
+      "rank": 329,
       "close_order": 291
     }
   ],
   "stats": {
-    "reps": 328,
+    "reps": 329,
     "qualified": 2,
     "total_payout": 6169.98,
     "total_spiffs": 5625,
-    "below_acc": 319,
-    "below_mrc": 293,
-    "no_hint": 206,
-    "no_mim": 274,
+    "below_acc": 320,
+    "below_mrc": 294,
+    "no_hint": 207,
+    "no_mim": 275,
     "max_total": 441.08,
     "closest_name": "angie",
     "closest_needs": "Qualifies for Tier 1"
