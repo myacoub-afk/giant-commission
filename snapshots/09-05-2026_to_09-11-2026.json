@@ -1,7 +1,7 @@
 {
   "meta": {
     "period": "Sep 5, 2026 - Sep 11, 2026",
-    "published": "Sep 8, 2:37 PM",
+    "published": "Sep 8, 2:39 PM",
     "autoPublished": true
   },
   "mrc": {
@@ -87,7 +87,7 @@
     },
     "spz14948": {
       "name": "INGRID",
-      "mrc": 95,
+      "mrc": 165,
       "hint": 0
     },
     "wbe33773": {
@@ -1112,8 +1112,8 @@
     },
     "byg53736": {
       "name": "cristopher",
-      "mrc": 626,
-      "hint": 4
+      "mrc": 746,
+      "hint": 5
     },
     "byk16693": {
       "name": "HAROON",
@@ -3410,7 +3410,7 @@
     "byg53736": {
       "name": "cristopher",
       "acc": 439.8,
-      "hint": 4,
+      "hint": 5,
       "store": "GREENWICH",
       "repName": "cristopher"
     },
@@ -4212,6 +4212,33 @@
       "close_order": 5
     },
     {
+      "code": "byg53736",
+      "name": "cristopher",
+      "lastName": "Gomez",
+      "store": "GREENWICH",
+      "mrc": 746,
+      "acc": 439.8,
+      "hint": 5,
+      "mim": 7,
+      "mtd_lines": 0,
+      "in_mim": true,
+      "hint_gate": true,
+      "mim_gate": true,
+      "tier": 0,
+      "tier_comm": 0,
+      "hint_spiff": 75,
+      "mim_spiff": 140,
+      "total": 215,
+      "mrc_gap": 0,
+      "acc_gap": 260.2,
+      "hint_gap": 0,
+      "mim_gap": 0,
+      "qualifies": false,
+      "needs": "+$260.20 acc",
+      "rank": 11,
+      "close_order": 22
+    },
+    {
       "code": "hld91310",
       "name": "YASSINE",
       "lastName": "Yaagoubi",
@@ -4235,35 +4262,8 @@
       "mim_gap": 0,
       "qualifies": false,
       "needs": "+$78 MRC, +$555.03 acc",
-      "rank": 11,
-      "close_order": 73
-    },
-    {
-      "code": "byg53736",
-      "name": "cristopher",
-      "lastName": "Gomez",
-      "store": "GREENWICH",
-      "mrc": 626,
-      "acc": 439.8,
-      "hint": 4,
-      "mim": 7,
-      "mtd_lines": 0,
-      "in_mim": true,
-      "hint_gate": true,
-      "mim_gate": true,
-      "tier": 0,
-      "tier_comm": 0,
-      "hint_spiff": 60,
-      "mim_spiff": 140,
-      "total": 200,
-      "mrc_gap": 0,
-      "acc_gap": 260.2,
-      "hint_gap": 0,
-      "mim_gap": 0,
-      "qualifies": false,
-      "needs": "+$260.20 acc",
       "rank": 12,
-      "close_order": 22
+      "close_order": 73
     },
     {
       "code": "ggv08751",
@@ -9049,7 +9049,7 @@
       "name": "INGRID",
       "lastName": "",
       "store": "KEYNES",
-      "mrc": 95,
+      "mrc": 165,
       "acc": 154.96,
       "hint": 0,
       "mim": 0,
@@ -9062,12 +9062,12 @@
       "hint_spiff": 0,
       "mim_spiff": 0,
       "total": 0,
-      "mrc_gap": 405,
+      "mrc_gap": 335,
       "acc_gap": 545.04,
       "hint_gap": 1,
       "mim_gap": 1,
       "qualifies": false,
-      "needs": "+$405 MRC, +$545.04 acc, +1 HINT, +1 MIM",
+      "needs": "+$335 MRC, +$545.04 acc, +1 HINT, +1 MIM",
       "rank": 190,
       "close_order": 229
     },
@@ -13017,8 +13017,8 @@
   "stats": {
     "reps": 336,
     "qualified": 10,
-    "total_payout": 12402.14,
-    "total_spiffs": 10375,
+    "total_payout": 12417.14,
+    "total_spiffs": 10390,
     "below_acc": 325,
     "below_mrc": 279,
     "no_hint": 200,
