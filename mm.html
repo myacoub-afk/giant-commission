@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>MIM Assignment — Market Managers</title>
+<style>
+:root{--navy:#1B4F96;--line:#E3E8F0;--mute:#7A8699;--red:#C0392B;--green:#1E8449;--body:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:var(--body);background:#F4F6FA;color:#1a2233;min-height:100vh}
+.hdr{background:var(--navy);color:#fff;padding:18px 20px;text-align:center}
+.hdr h1{font-size:18px;letter-spacing:.3px}
+.hdr .sub{font-size:12px;opacity:.85;margin-top:2px}
+.wrap{max-width:560px;margin:0 auto;padding:16px}
+.card{background:#fff;border:1.5px solid var(--line);border-radius:14px;padding:16px;margin-bottom:14px}
+label{font-size:12px;color:var(--mute);display:block;margin:10px 0 4px}
+input,select{width:100%;font-family:var(--body);font-size:15px;border:1.5px solid var(--line);border-radius:10px;padding:10px 12px;background:#fff}
+button{font-family:var(--body);font-size:14px;font-weight:600;border:none;border-radius:10px;padding:11px 16px;cursor:pointer}
+.btn-primary{background:var(--navy);color:#fff;width:100%;margin-top:14px}
+.btn-primary:disabled{opacity:.5}
+.store-card{background:#fff;border:1.5px solid var(--line);border-radius:14px;padding:14px 16px;margin-bottom:12px}
+.store-name{font-weight:700;font-size:14px;color:var(--navy)}
+.store-geo{font-size:11.5px;color:var(--mute);margin:1px 0 6px}
+.un-badge{display:inline-block;background:#FBEAE8;color:var(--red);font-size:12px;font-weight:700;border-radius:8px;padding:3px 9px;margin-bottom:10px}
+.assign-row{display:flex;gap:8px;align-items:center}
+.assign-row select{flex:1}
+.assign-row input{width:64px;text-align:center}
+.assign-row button{background:var(--green);color:#fff;flex-shrink:0}
+.msg{font-size:12.5px;margin-top:8px;display:none}
+.msg.ok{color:var(--green);display:block}
+.msg.err{color:var(--red);display:block}
+.empty{text-align:center;color:var(--mute);padding:40px 20px;font-size:14px}
+.topbar{display:flex;justify-content:space-between;align-items:center;margin-bottom:12px}
+.topbar .who{font-size:12.5px;color:var(--mute)}
+.topbar button{background:#eee;color:#333;font-size:12px;padding:6px 12px}
+#loginErr{color:var(--red);font-size:13px;margin-top:10px;display:none;text-align:center}
+.note{font-size:12px;color:var(--mute);margin-top:10px;line-height:1.5}
+</style>
+</head>
+<body>
+<div class="hdr"><h1>MIM Assignment</h1><div class="sub">Market Managers — assign unattributed MIM sales</div></div>
+<div class="wrap">
+
+  <div class="card" id="loginCard">
+    <label>Your name</label>
+    <input id="mmName" placeholder="e.g. John Smith" autocomplete="name">
+    <label>Market</label>
+    <select id="mmMarket"><option value="">Loading markets…</option></select>
+    <label>Market passcode</label>
+    <input id="mmPass" type="password" placeholder="Passcode for your market">
+    <button class="btn-primary" id="loginBtn">Sign in</button>
+    <div id="loginErr"></div>
+    <div class="note">Assignments update the commission app automatically and are logged. Reps receive $20 per assigned MIM line.</div>
+  </div>
+
+  <div id="assignView" style="display:none">
+    <div class="topbar">
+      <div class="who" id="whoTxt"></div>
+      <button id="signOutBtn">Sign out</button>
+    </div>
+    <div id="storeList"></div>
+  </div>
+
+</div>
+<script>
+var API='https://script.google.com/macros/s/AKfycbzrL9C9vBCKUpt6_l4VTGG5NJl6nhANlJMZALg1Xd9wJCbi2Gm_DVsGHI0-dOjLBgE/exec';
+var MIM=null,DATA=null,SESSION=null;
+
+function load(){
+  var v='?v='+Date.now();
+  Promise.all([
+    fetch('mim.json'+v).then(function(r){return r.ok?r.json():null;}).catch(function(){return null;}),
+    fetch('data.json'+v).then(function(r){return r.ok?r.json():null;}).catch(function(){return null;})
+  ]).then(function(res){
+    MIM=res[0]||{};DATA=res[1]||{rows:[]};
+    var markets={};
+    (MIM.unassigned||[]).forEach(function(u){
+      var un=Math.round((u.total-(u.assigned||0))*10)/10;
+      if(un>0)markets[u.market]=true;
+    });
+    var sel=document.getElementById('mmMarket');
+    var keys=Object.keys(markets).sort();
+    if(!keys.length){sel.innerHTML='<option value="">No unassigned MIM right now</option>';}
+    else{sel.innerHTML='<option value="">Select your market…</option>'+keys.map(function(k){return '<option>'+esc(k)+'</option>';}).join('');}
+  });
+}
+function esc(s){return String(s).replace(/[&<>"']/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c];});}
+
+document.getElementById('loginBtn').addEventListener('click',function(){
+  var name=document.getElementById('mmName').value.trim();
+  var market=document.getElementById('mmMarket').value;
+  var pass=document.getElementById('mmPass').value.trim();
+  var err=document.getElementById('loginErr');
+  if(!name||!market||!pass){err.textContent='Fill in all fields.';err.style.display='block';return;}
+  var btn=this;btn.disabled=true;btn.textContent='Checking…';err.style.display='none';
+  fetch(API,{method:'POST',body:JSON.stringify({action:'verify',market:market,passcode:pass})})
+    .then(function(r){return r.json();})
+    .then(function(res){
+      btn.disabled=false;btn.textContent='Sign in';
+      if(!res.ok){err.textContent=res.error||'Invalid passcode.';err.style.display='block';return;}
+      SESSION={name:name,market:market,pass:pass};
+      document.getElementById('loginCard').style.display='none';
+      document.getElementById('assignView').style.display='';
+      document.getElementById('whoTxt').textContent=name+' · '+market;
+      renderStores();
+    })
+    .catch(function(){btn.disabled=false;btn.textContent='Sign in';err.textContent='Network error — try again.';err.style.display='block';});
+});
+
+document.getElementById('signOutBtn').addEventListener('click',function(){location.reload();});
+
+function repsForStore(storeLabel){
+  // storeLabel like "10191849 : 1255 Providence Blvd" — match app reps by address part
+  var addr=(storeLabel.split(':')[1]||'').trim().toLowerCase();
+  var atStore=[],others=[];
+  (DATA.rows||[]).forEach(function(r){
+    var full=(r.name+' '+(r.lastName||'')).trim();
+    var entry={code:r.code,label:full+' ('+r.code.toUpperCase()+')'};
+    if(addr&&String(r.store||'').toLowerCase().indexOf(addr)>-1)atStore.push(entry);
+    else others.push(entry);
+  });
+  atStore.sort(function(a,b){return a.label.localeCompare(b.label);});
+  others.sort(function(a,b){return a.label.localeCompare(b.label);});
+  return {atStore:atStore,others:others};
+}
+
+function renderStores(){
+  var list=document.getElementById('storeList');
+  var mine=(MIM.unassigned||[]).filter(function(u){
+    return u.market===SESSION.market&&Math.round((u.total-(u.assigned||0))*10)/10>0;
+  });
+  if(!mine.length){list.innerHTML='<div class="empty">🎉 No unassigned MIM in your market. All sales are attributed.</div>';return;}
+  mine.sort(function(a,b){return (b.total-(b.assigned||0))-(a.total-(a.assigned||0));});
+  list.innerHTML=mine.map(function(u,idx){
+    var un=Math.round((u.total-(u.assigned||0))*10)/10;
+    var reps=repsForStore(u.store);
+    var opts='<option value="">Select rep…</option>';
+    if(reps.atStore.length){opts+='<optgroup label="This store">'+reps.atStore.map(function(r){return '<option value="'+r.code+'">'+esc(r.label)+'</option>';}).join('')+'</optgroup>';}
+    if(reps.others.length){opts+='<optgroup label="All reps">'+reps.others.map(function(r){return '<option value="'+r.code+'">'+esc(r.label)+'</option>';}).join('')+'</optgroup>';}
+    return '<div class="store-card" data-store="'+esc(u.store)+'" data-idx="'+idx+'">'
+      +'<div class="store-name">'+esc(u.store)+'</div>'
+      +'<div class="store-geo">'+esc(u.geo||'')+'</div>'
+      +'<div class="un-badge" id="badge'+idx+'">'+un+' unassigned MIM line'+(un===1?'':'s')+'</div>'
+      +'<div class="assign-row">'
+      +'<select id="rep'+idx+'">'+opts+'</select>'
+      +'<input id="lines'+idx+'" type="number" min="1" max="'+un+'" value="1">'
+      +'<button data-assign="'+idx+'">Assign</button>'
+      +'</div><div class="msg" id="msg'+idx+'"></div></div>';
+  }).join('');
+  list.querySelectorAll('button[data-assign]').forEach(function(b){
+    b.addEventListener('click',function(){doAssign(parseInt(b.dataset.assign,10),b);});
+  });
+}
+
+function doAssign(idx,btn){
+  var card=document.querySelector('.store-card[data-idx="'+idx+'"]');
+  var store=card.dataset.store;
+  var sel=document.getElementById('rep'+idx);
+  var code=sel.value;
+  var name=sel.options[sel.selectedIndex]?sel.options[sel.selectedIndex].text:'';
+  var lines=parseInt(document.getElementById('lines'+idx).value,10)||1;
+  var msg=document.getElementById('msg'+idx);
+  var u=(MIM.unassigned||[]).filter(function(x){return x.store===store;})[0];
+  var remaining=u?Math.round((u.total-(u.assigned||0))*10)/10:0;
+  if(!code){msg.className='msg err';msg.textContent='Select a rep first.';return;}
+  if(lines<1||lines>remaining){msg.className='msg err';msg.textContent='Lines must be 1–'+remaining+'.';return;}
+  btn.disabled=true;btn.textContent='Saving…';msg.className='msg';msg.textContent='';
+  fetch(API,{method:'POST',body:JSON.stringify({
+    action:'assign',market:SESSION.market,passcode:SESSION.pass,mmName:SESSION.name,
+    store:store,code:code,name:name,lines:lines
+  })})
+    .then(function(r){return r.json();})
+    .then(function(res){
+      btn.disabled=false;btn.textContent='Assign';
+      if(!res.ok){msg.className='msg err';msg.textContent=res.error||'Failed — try again.';return;}
+      if(u)u.assigned=(u.assigned||0)+lines;
+      var newRem=Math.round((u.total-(u.assigned||0))*10)/10;
+      msg.className='msg ok';msg.textContent='✓ '+lines+' line'+(lines===1?'':'s')+' assigned to '+name+'. App updates within a minute.';
+      var badge=document.getElementById('badge'+idx);
+      if(newRem>0){badge.textContent=newRem+' unassigned MIM line'+(newRem===1?'':'s');document.getElementById('lines'+idx).max=newRem;document.getElementById('lines'+idx).value=Math.min(1,newRem);}
+      else{badge.textContent='All assigned ✓';badge.style.background='#E7F4EC';badge.style.color='var(--green)';card.querySelector('.assign-row').style.display='none';}
+    })
+    .catch(function(){btn.disabled=false;btn.textContent='Assign';msg.className='msg err';msg.textContent='Network error — try again.';});
+}
+
+load();
+</script>
+</body>
+</html>
