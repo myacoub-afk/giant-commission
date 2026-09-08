@@ -44,10 +44,10 @@ button{font-family:var(--body);font-size:14px;font-weight:600;border:none;border
   <div class="card" id="loginCard">
     <label>Your name</label>
     <input id="mmName" placeholder="e.g. John Smith" autocomplete="name">
-    <label>Market</label>
+    <label>Market Manager</label>
     <select id="mmMarket"><option value="">Loading markets…</option></select>
-    <label>Market passcode</label>
-    <input id="mmPass" type="password" placeholder="Passcode for your market">
+    <label>Your passcode</label>
+    <input id="mmPass" type="password" placeholder="Your MM passcode">
     <button class="btn-primary" id="loginBtn">Sign in</button>
     <div id="loginErr"></div>
     <div class="note">Assignments update the commission app automatically and are logged. Reps receive $20 per assigned MIM line.</div>
@@ -64,6 +64,11 @@ button{font-family:var(--body);font-size:14px;font-weight:600;border:none;border
 </div>
 <script>
 var API='https://script.google.com/macros/s/AKfycbzrL9C9vBCKUpt6_l4VTGG5NJl6nhANlJMZALg1Xd9wJCbi2Gm_DVsGHI0-dOjLBgE/exec';
+// TMO ID -> "MM|Store nickname" (from the MM Bonus roster)
+var TMO_MAP={"10202793":"Barby|1024 BROAD","10227354":"Suhail|DREXEL","10203996":"Shailine|CLEARLAKE 1","10328830":"Shadaira|NOVA 3","10212849":"Barby|MAIN AVE","10217426":"Omar|CROSSROADS","10194906":"Moe|LONGWOOD","10203837":"Shay|MAIN GAIN","10191842":"Moe|WOODLAND","10207249":"Dom|111 COORS ( JUMBO)","10212848":"Barby|WASHINGTON","10195307":"Barby|COMMERCE","10328799":"Suhail|MILITARY 2","10220265":"Khalil|STATE ST","10212632":"David|HOWLAND 2","10211306":"Barby|HIGHSTOWN","10201102":"David|VOLUSIA AVE","10191849":"David|PROVIDENCE","10225286":"Rani|BLACK HORSE","10227349":"Suhail|BOYNTON","10217209":"Omar|FRANKLIN","10328797":"Islam|HIALEAH","10328825":"Tiffany|SAND LAKE","10191953":"Khalil|NOTTINGHAM","10194899":"Shadaira|NOVA 1","10328798":"Islam|FEDERAL 2","10194902":"Shadaira|PALM COAST","10202198":"Khalil|52ND ST","10203856":"Shailine|PALM BAY","10191845":"Tiffany|APOPKA","10217396":"Suhail|BLUE HERON","10227344":"Suhail|FEDERAL","10221426":"Barby|NAY AUG","10223905":"Dom|BROADWAY","10202199":"Marwan|ERIE 1603","10328823":"Rani|KINGS","10216604":"Moe|RINEHART","10203128":"Tiffany|CAGAN","10226484":"Barby|OLDEN 1764","10227352":"Suhail|CONGRESS","10217207":"Omar|BROAD","10203812":"Shailine|MALABAR","10207246":"Dom|CERRILLOS","10328818":"Rani|OREGON","10209549":"Dom|SOUTHERN","10214281":"Barby|HAMILTON 2","10328795":"Nidal|BADLANDS","10216100":"Shadi|BLANDING 1","10215777":"Shadaira|RIDGEWOOD","10215779":"David|SAXON","10210165":"Moe|FRENCH 1","10221250":"Omar|GRAHAM","10223451":"Shadaira|EDGEWATER","10328820":"Marwan|COTTMAN","10207241":"Dom|WYOMING","10219698":"Omar|BEATTIES FORD 2","10227345":"Suhail|STATE RD7","10328824":"Marwan|CHELTENHAM","10203846":"David|ENTERPRISE","10328829":"Shailine|WICKHAM 2","10199891":"Moe|SANFORD","10328817":"Marwan|GLENSIDE","10225722":"Omar|LITTLE ROCK","10203836":"Shadi|MAYPORT","10208817":"Khalil|2609 BROAD","10195747":"Shadi|BLANDING 2","10223766":"Shailine|CLEARLAKE 2","10225701":"Omar|SUGAR CREEK 2","10328803":"Islam|HOMESTEAD","10223673":"Shay|HWY90","10328794":"Nidal|DALE MABRY","10203847":"David|MICHIGAN","10226834":"Dom|3250 COORS","10198878":"Moe|NEW YORK","10199892":"Moe|ORLANDO","10209177":"Dom|SAN MATEO","10202204":"Rani|BROAD 3712","10328819":"Marwan|ARAMINGO","10194904":"Shadaira|NOVA 2","10230885":"Suhail|DIXIE 1","10202090":"Shailine|BABCOCK","10217094":"Omar|MOORESVILLE","10199936":"Rani|LANCASTER 4099","10194628":"Tiffany|HOLDEN","10217616":"Omar|CENTRAL","10218769":"Barby|HAMILTON","10193401":"Suhail|NE 20TH","10328822":"Barby|STATE ST 2","10202208":"Rani|BROAD 5007","10217279":"Omar|BEATTIES FORD 1","10202209":"Khalil|69TH ST","10213574":"Shadaira|SMYRNA","10203025":"Shadi|SUNBEAM","10192080":"Marwan|FRANKFORD","10214682":"Suhail|BELVEDERE","10202211":"Khalil|PENN","10217210":"Omar|SOUTH","10234552":"Tiffany|COLONIAL","10226085":"Dom|ZUNI","10224487":"Rani|LANCASTER 5610","10200997":"Marwan|GERMANTOWN","10217280":"Omar|SHARON AMITY 2","10228081":"Tiffany|OAKRIDGE","10233727":"Rani|WOODLAND 5816","10193375":"Suhail|MILITARY","10194890":"Tiffany|KIRKMAN","10223898":"Dom|LOUISIANA","10199960":"Rani|WOODLAND 6117","10225526":"Shadaira|BUNNELL","10227682":"Dom|MONTGOMERY","10225759":"Khalil|GREENWICH","10207247":"Dom|AIRPORT","10328826":"Tiffany|HIAWASSEE","10202215":"Marwan|STENTON","10328821":"Khalil|MARKET 2","10205584":"Shailine|WICKHAM","10210981":"Tiffany|OBT 3","10230176":"Shadi|COLLINS","10328827":"David|VINE","10204038":"Shay|13TH GAIN","10328800":"Islam|KENDALL","10188987":"Shadi|EDGEWOOD","10199458":"Shailine|NEW HAVEN","10202216":"Khalil|OLEY","10228619":"Tiffany|JOHN YOUNG","10226726":"David|POINCIANA","10328831":"Omar|KEYNES","10217281":"Omar|NATIONS FORD","10202217":"Khalil|60TH ST","10328802":"Islam|DAVIE","10226727":"Tiffany|LEE ROAD","10223977":"Omar|ROCKFORD","10217212":"Omar|PATTERSON","10217211":"Omar|FAIRFIELD","10216470":"Omar|WAUGHTOWN","10217930":"Omar|PETERS CREEK","10195557":"Khalil|ATLANTIC AVE","10198871":"Shailine|PALM BAY 2"};
+function storeTmo(label){var m=String(label||'').match(/^\s*(\d+)/);return m?m[1]:'';}
+function storeMM(label){var e=TMO_MAP[storeTmo(label)];return e?e.split('|')[0]:null;}
+function storeNick(label){var e=TMO_MAP[storeTmo(label)];return e?e.split('|')[1]:'';}
 var MIM=null,DATA=null,SESSION=null;
 
 function load(){
@@ -73,15 +78,16 @@ function load(){
     fetch('data.json'+v).then(function(r){return r.ok?r.json():null;}).catch(function(){return null;})
   ]).then(function(res){
     MIM=res[0]||{};DATA=res[1]||{rows:[]};
-    var markets={};
+    var mms={};
     (MIM.unassigned||[]).forEach(function(u){
       var un=Math.round((u.total-(u.assigned||0))*10)/10;
-      if(un>0)markets[u.market]=true;
+      var mm=storeMM(u.store);
+      if(un>0&&mm)mms[mm]=true;
     });
     var sel=document.getElementById('mmMarket');
-    var keys=Object.keys(markets).sort();
+    var keys=Object.keys(mms).sort();
     if(!keys.length){sel.innerHTML='<option value="">No unassigned MIM right now</option>';}
-    else{sel.innerHTML='<option value="">Select your market…</option>'+keys.map(function(k){return '<option>'+esc(k)+'</option>';}).join('');}
+    else{sel.innerHTML='<option value="">Select your name…</option>'+keys.map(function(k){return '<option>'+esc(k)+'</option>';}).join('');}
   });
 }
 function esc(s){return String(s).replace(/[&<>"']/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c];});}
@@ -127,7 +133,7 @@ function repsForStore(storeLabel){
 function renderStores(){
   var list=document.getElementById('storeList');
   var mine=(MIM.unassigned||[]).filter(function(u){
-    return u.market===SESSION.market&&Math.round((u.total-(u.assigned||0))*10)/10>0;
+    return storeMM(u.store)===SESSION.market&&Math.round((u.total-(u.assigned||0))*10)/10>0;
   });
   if(!mine.length){list.innerHTML='<div class="empty">🎉 No unassigned MIM in your market. All sales are attributed.</div>';return;}
   mine.sort(function(a,b){return (b.total-(b.assigned||0))-(a.total-(a.assigned||0));});
@@ -138,8 +144,8 @@ function renderStores(){
     if(reps.atStore.length){opts+='<optgroup label="This store">'+reps.atStore.map(function(r){return '<option value="'+r.code+'">'+esc(r.label)+'</option>';}).join('')+'</optgroup>';}
     if(reps.others.length){opts+='<optgroup label="All reps">'+reps.others.map(function(r){return '<option value="'+r.code+'">'+esc(r.label)+'</option>';}).join('')+'</optgroup>';}
     return '<div class="store-card" data-store="'+esc(u.store)+'" data-idx="'+idx+'">'
-      +'<div class="store-name">'+esc(u.store)+'</div>'
-      +'<div class="store-geo">'+esc(u.geo||'')+'</div>'
+      +'<div class="store-name">'+esc(storeNick(u.store)||u.store)+'</div>'
+      +'<div class="store-geo">'+esc(u.store)+' · '+esc(u.geo||'')+'</div>'
       +'<div class="un-badge" id="badge'+idx+'">'+un+' unassigned MIM line'+(un===1?'':'s')+'</div>'
       +'<div class="assign-row">'
       +'<select id="rep'+idx+'">'+opts+'</select>'
