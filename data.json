@@ -1,7 +1,7 @@
 {
   "meta": {
     "period": "Sep 5, 2026 - Sep 11, 2026",
-    "published": "Sep 8, 10:38 PM",
+    "published": "Sep 9, 9:08 AM",
     "autoPublished": true
   },
   "mrc": {
@@ -3801,6 +3801,13 @@
       "hint": 1,
       "store": "MILITARY",
       "repName": "Dane"
+    },
+    "osk55215": {
+      "name": "kedyn",
+      "acc": 0,
+      "hint": 0,
+      "store": "MILITARY",
+      "repName": "kedyn"
     },
     "tnl36939": {
       "name": "BRIAN",
@@ -10938,7 +10945,7 @@
       "qualifies": false,
       "needs": "+$500 MRC, +$720.00 acc, +1 HINT, +1 MIM",
       "rank": 256,
-      "close_order": 340
+      "close_order": 341
     },
     {
       "code": "blv28122",
@@ -12477,7 +12484,7 @@
       "qualifies": false,
       "needs": "+$375 MRC, +$721.99 acc, +1 HINT, +1 MIM",
       "rank": 313,
-      "close_order": 341
+      "close_order": 342
     },
     {
       "code": "zve47177",
@@ -12966,6 +12973,33 @@
       "close_order": 305
     },
     {
+      "code": "osk55215",
+      "name": "kedyn",
+      "lastName": "",
+      "store": "MILITARY",
+      "mrc": 0,
+      "acc": 0,
+      "hint": 0,
+      "mim": 0,
+      "mtd_lines": 0,
+      "in_mim": false,
+      "hint_gate": false,
+      "mim_gate": false,
+      "tier": 0,
+      "tier_comm": 0,
+      "hint_spiff": 0,
+      "mim_spiff": 0,
+      "total": 0,
+      "mrc_gap": 500,
+      "acc_gap": 700,
+      "hint_gap": 1,
+      "mim_gap": 1,
+      "qualifies": false,
+      "needs": "+$500 MRC, +$700.00 acc, +1 HINT, +1 MIM",
+      "rank": 332,
+      "close_order": 339
+    },
+    {
       "code": "txl27491",
       "name": "liseberthe",
       "lastName": "",
@@ -12989,7 +13023,7 @@
       "mim_gap": 1,
       "qualifies": false,
       "needs": "+$280 MRC, +$460.03 acc, +1 HINT, +1 MIM",
-      "rank": 332,
+      "rank": 333,
       "close_order": 225
     },
     {
@@ -13016,7 +13050,7 @@
       "mim_gap": 1,
       "qualifies": false,
       "needs": "+$69 MRC, +$372.11 acc, +1 HINT, +1 MIM",
-      "rank": 333,
+      "rank": 334,
       "close_order": 216
     },
     {
@@ -13043,7 +13077,7 @@
       "mim_gap": 1,
       "qualifies": false,
       "needs": "+$162 MRC, +$700.00 acc, +1 HINT, +1 MIM",
-      "rank": 334,
+      "rank": 335,
       "close_order": 322
     },
     {
@@ -13070,7 +13104,7 @@
       "mim_gap": 1,
       "qualifies": false,
       "needs": "+$200 MRC, +$545.03 acc, +1 HINT, +1 MIM",
-      "rank": 335,
+      "rank": 336,
       "close_order": 255
     },
     {
@@ -13097,7 +13131,7 @@
       "mim_gap": 1,
       "qualifies": false,
       "needs": "+$439 MRC, +$700.00 acc, +1 HINT, +1 MIM",
-      "rank": 336,
+      "rank": 337,
       "close_order": 326
     },
     {
@@ -13124,8 +13158,8 @@
       "mim_gap": 1,
       "qualifies": false,
       "needs": "+$500 MRC, +$700.00 acc, +1 HINT, +1 MIM",
-      "rank": 337,
-      "close_order": 339
+      "rank": 338,
+      "close_order": 340
     },
     {
       "code": "nnq24664",
@@ -13151,7 +13185,7 @@
       "mim_gap": 1,
       "qualifies": false,
       "needs": "+$166 MRC, +$95.19 acc, +1 HINT, +1 MIM",
-      "rank": 338,
+      "rank": 339,
       "close_order": 199
     },
     {
@@ -13178,7 +13212,7 @@
       "mim_gap": 1,
       "qualifies": false,
       "needs": "+$214 MRC, +$230.12 acc, +1 HINT, +1 MIM",
-      "rank": 339,
+      "rank": 340,
       "close_order": 203
     },
     {
@@ -13205,7 +13239,7 @@
       "mim_gap": 1,
       "qualifies": false,
       "needs": "+$440 MRC, +$525.06 acc, +1 HINT, +1 MIM",
-      "rank": 340,
+      "rank": 341,
       "close_order": 246
     },
     {
@@ -13232,7 +13266,7 @@
       "mim_gap": 1,
       "qualifies": false,
       "needs": "+$315 MRC, +$360.06 acc, +1 HINT, +1 MIM",
-      "rank": 341,
+      "rank": 342,
       "close_order": 213
     },
     {
@@ -13259,19 +13293,19 @@
       "mim_gap": 1,
       "qualifies": false,
       "needs": "+$52 MRC, +$430.08 acc, +1 HINT, +1 MIM",
-      "rank": 342,
+      "rank": 343,
       "close_order": 222
     }
   ],
   "stats": {
-    "reps": 342,
+    "reps": 343,
     "qualified": 12,
     "total_payout": 13498.71,
     "total_spiffs": 10740,
-    "below_acc": 328,
-    "below_mrc": 276,
-    "no_hint": 195,
-    "no_mim": 244,
+    "below_acc": 329,
+    "below_mrc": 277,
+    "no_hint": 196,
+    "no_mim": 245,
     "max_total": 833.11,
     "closest_name": "Beatriz",
     "closest_needs": "Qualifies for Tier 1"
