@@ -1,7 +1,7 @@
 {
   "meta": {
     "period": "Sep 5, 2026 - Sep 11, 2026",
-    "published": "Sep 11, 9:09 PM",
+    "published": "Sep 11, 9:39 PM",
     "autoPublished": true
   },
   "mrc": {
@@ -962,12 +962,12 @@
     },
     "gcn38880": {
       "name": "anahi",
-      "mrc": 552,
+      "mrc": 632,
       "hint": 0
     },
     "ggv08751": {
       "name": "Blanca",
-      "mrc": 1292,
+      "mrc": 1317,
       "hint": 1
     },
     "gml47539": {
@@ -3167,14 +3167,14 @@
     },
     "nck19411": {
       "name": "Ayla",
-      "acc": 374.01,
+      "acc": 409.01,
       "hint": 0,
       "store": "MONTGOMERY",
       "repName": "Ayla"
     },
     "ggv08751": {
       "name": "Blanca",
-      "acc": 1323.51,
+      "acc": 1398.01,
       "hint": 1,
       "store": "AIRPORT",
       "repName": "Blanca"
@@ -4620,8 +4620,8 @@
       "name": "Blanca",
       "lastName": "Marquez",
       "store": "AIRPORT",
-      "mrc": 1292,
-      "acc": 1323.51,
+      "mrc": 1317,
+      "acc": 1398.01,
       "hint": 1,
       "mim": 9,
       "mtd_lines": 0,
@@ -4629,10 +4629,10 @@
       "hint_gate": true,
       "mim_gate": true,
       "tier": 2,
-      "tier_comm": 275.1,
+      "tier_comm": 286.29,
       "hint_spiff": 15,
       "mim_spiff": 180,
-      "total": 470.1,
+      "total": 481.29,
       "mrc_gap": 0,
       "acc_gap": 0,
       "hint_gap": 0,
@@ -7124,7 +7124,7 @@
       "qualifies": false,
       "needs": "+$187 MRC, +$325.08 acc, +1 HINT",
       "rank": 108,
-      "close_order": 231
+      "close_order": 232
     },
     {
       "code": "uit78189",
@@ -8967,7 +8967,7 @@
       "name": "anahi",
       "lastName": "Ornelas",
       "store": "CERRILLOS",
-      "mrc": 552,
+      "mrc": 632,
       "acc": 700.93,
       "hint": 0,
       "mim": 2,
@@ -10445,7 +10445,7 @@
       "qualifies": false,
       "needs": "+$23 MRC, +$311.97 acc, +1 MIM",
       "rank": 231,
-      "close_order": 229
+      "close_order": 230
     },
     {
       "code": "nrt75587",
@@ -11228,7 +11228,7 @@
       "qualifies": false,
       "needs": "+$25 MRC, +$316.16 acc, +1 MIM",
       "rank": 260,
-      "close_order": 230
+      "close_order": 231
     },
     {
       "code": "hcw68692",
@@ -13018,7 +13018,7 @@
       "lastName": "Hughes",
       "store": "MONTGOMERY",
       "mrc": 539,
-      "acc": 374.01,
+      "acc": 409.01,
       "hint": 0,
       "mim": 0,
       "mtd_lines": 0,
@@ -13031,13 +13031,13 @@
       "mim_spiff": 0,
       "total": 0,
       "mrc_gap": 0,
-      "acc_gap": 325.99,
+      "acc_gap": 290.99,
       "hint_gap": 1,
       "mim_gap": 1,
       "qualifies": false,
-      "needs": "+$325.99 acc, +1 HINT, +1 MIM",
+      "needs": "+$290.99 acc, +1 HINT, +1 MIM",
       "rank": 327,
-      "close_order": 233
+      "close_order": 229
     },
     {
       "code": "gml47539",
@@ -13361,7 +13361,7 @@
       "qualifies": false,
       "needs": "+$325.11 acc, +1 HINT, +1 MIM",
       "rank": 339,
-      "close_order": 232
+      "close_order": 233
     },
     {
       "code": "usl84859",
@@ -13880,7 +13880,7 @@
   "stats": {
     "reps": 358,
     "qualified": 59,
-    "total_payout": 36723.23,
+    "total_payout": 36734.42,
     "total_spiffs": 22845,
     "below_acc": 314,
     "below_mrc": 169,
