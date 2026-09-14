@@ -20,7 +20,7 @@
     },
     {
       "code": "xij94019",
-      "postpaid": 0,
+      "postpaid": 3,
       "store": "1105 S Woodland Blvd",
       "lastName": "Vargas"
     },
@@ -1070,7 +1070,7 @@
       "market": "Metro Southeast",
       "geo": "Metro Daytona Beach",
       "total": 3,
-      "assigned": 0
+      "assigned": 3
     },
     {
       "store": "10203846 : 2421 Enterprise Rd",
@@ -1127,6 +1127,16 @@
       "geo": "Metro Albuquerque Santa Fe",
       "total": 5,
       "assigned": 2
+    }
+  ],
+  "manualAssignments": [
+    {
+      "code": "xij94019",
+      "lines": 3,
+      "store": "10191842 : 1105 S Woodland Blvd",
+      "mm": "Moe (text)",
+      "market": "Moe",
+      "at": "2026-09-14T01:56:21.097Z"
     }
   ]
 }
