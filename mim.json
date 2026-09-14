@@ -255,7 +255,7 @@
     },
     {
       "code": "yvc60991",
-      "postpaid": 0,
+      "postpaid": 1,
       "store": "108 N US Highway 17 92",
       "lastName": "Feliz"
     },
@@ -1085,7 +1085,7 @@
       "market": "Metro Southeast",
       "geo": "Metro Orlando North",
       "total": 1,
-      "assigned": 0
+      "assigned": 1
     },
     {
       "store": "10228081 : 5810 S Orange Blossom Trl",
@@ -1155,6 +1155,14 @@
       "mm": "Moe (text)",
       "market": "Moe",
       "at": "2026-09-14T02:02:47.942Z"
+    },
+    {
+      "code": "yvc60991",
+      "lines": 1,
+      "store": "10194906 : 108 N US Highway 17 92",
+      "mm": "Moe (text)",
+      "market": "Moe",
+      "at": "2026-09-14T02:09:40.372Z"
     }
   ]
 }
