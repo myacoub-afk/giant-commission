@@ -68,7 +68,7 @@
     },
     {
       "code": "qak82247",
-      "postpaid": 0,
+      "postpaid": 1,
       "store": "2421 Enterprise Rd",
       "lastName": "Dominguez"
     },
@@ -1077,7 +1077,7 @@
       "market": "Metro Southeast",
       "geo": "Metro Daytona Beach",
       "total": 1,
-      "assigned": 0
+      "assigned": 1
     },
     {
       "store": "10194906 : 108 N US Highway 17 92",
@@ -1170,6 +1170,14 @@
       "mm": "Tiffany (text)",
       "market": "Tiffany",
       "at": "2026-09-14T13:22:30.327Z"
+    },
+    {
+      "code": "qak82247",
+      "lines": 1,
+      "store": "10203846 : 2421 Enterprise Rd",
+      "mm": "David Serret",
+      "market": "David",
+      "at": "2026-09-14T16:15:34.649Z"
     }
   ]
 }
