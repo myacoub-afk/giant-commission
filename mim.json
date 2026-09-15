@@ -1337,6 +1337,12 @@
       "postpaid": 0,
       "store": "5555 Zuni Rd SE Ste 5",
       "lastName": "Hernandez"
+    },
+    {
+      "code": "qrn91642",
+      "postpaid": 1,
+      "store": "2711 Clearlake Rd",
+      "lastName": ""
     }
   ],
   "mtdMap": {},
@@ -1346,7 +1352,7 @@
       "market": "Metro Southeast",
       "geo": "Metro Brevard",
       "total": 1,
-      "assigned": 0,
+      "assigned": 1,
       "orders": 1,
       "orderDetail": []
     },
@@ -1534,6 +1540,14 @@
       "mm": "Marwan (text)",
       "market": "Marwan",
       "at": "2026-09-14T18:25:48.799Z"
+    },
+    {
+      "code": "qrn91642",
+      "lines": 1,
+      "store": "10223766 : 2711 Clearlake Rd",
+      "mm": "Shailine (text)",
+      "market": "Shailine",
+      "at": "2026-09-15T16:50:00.618Z"
     }
   ]
 }
