@@ -302,7 +302,7 @@
     },
     {
       "code": "htf10042",
-      "postpaid": 3,
+      "postpaid": 6,
       "store": "2907 N Dale Mabry",
       "lastName": "Torres"
     },
@@ -1385,7 +1385,7 @@
       "market": "Metro Southeast",
       "geo": "Metro Tampa Central",
       "total": 7,
-      "assigned": 4,
+      "assigned": 7,
       "orders": 1,
       "orderDetail": [
         {
@@ -1519,6 +1519,14 @@
       "mm": "Dom",
       "market": "Dom",
       "at": "2026-09-15T20:11:09.867Z"
+    },
+    {
+      "code": "htf10042",
+      "lines": 3,
+      "store": "10328794 : 2907 N Dale Mabry",
+      "mm": "Nidal (text)",
+      "market": "Nidal",
+      "at": "2026-09-15T20:13:34.334Z"
     }
   ]
 }
