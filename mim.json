@@ -1,12 +1,17 @@
 {
   "meta": {
-    "period": "September 12 â 18, 2026",
+    "period": "September 12 – 18, 2026",
     "periodStart": "09/12/2026",
-    "published": "Sep 15, 3:47 PM",
-    "mimNote": "MiM data through 9/14",
-    "noteUpdated": "Sep 15, 4:46 PM"
+    "published": "Sep 15, 4:47 PM",
+    "mimNote": "MiM data through 9/14"
   },
   "rows": [
+    {
+      "code": "acc02592",
+      "postpaid": 1,
+      "store": "5727 N Sharon Amity Rd",
+      "lastName": "Garcia"
+    },
     {
       "code": "afs50027",
       "postpaid": 0,
@@ -30,6 +35,12 @@
       "postpaid": 0,
       "store": "1435 W 49th Street",
       "lastName": "Yanes"
+    },
+    {
+      "code": "awx41910",
+      "postpaid": 4,
+      "store": "145 Palm Bay Rd NE",
+      "lastName": "Abdellatif"
     },
     {
       "code": "bbu75299",
@@ -555,8 +566,8 @@
     },
     {
       "code": "nmt86860",
-      "postpaid": 0,
-      "store": "4705 Central Ave",
+      "postpaid": 5,
+      "store": "5727 N Sharon Amity Rd",
       "lastName": "Valdez"
     },
     {
@@ -879,7 +890,7 @@
     },
     {
       "code": "xij94019",
-      "postpaid": 5,
+      "postpaid": 4,
       "store": "1105 S Woodland Blvd",
       "lastName": "Vargas"
     },
@@ -986,15 +997,9 @@
       "lastName": "Bastien"
     },
     {
-      "code": "qrn91642",
-      "postpaid": 1,
-      "store": "10223766 : 2711 Clearlake Rd",
-      "lastName": ""
-    },
-    {
       "code": "vyk61042",
       "postpaid": 6,
-      "store": "10207247 : 6417 Airport Rd Ste 103",
+      "store": "6417 Airport Rd Ste 103",
       "lastName": ""
     },
     {
@@ -1183,7 +1188,7 @@
       "market": "Metro Southeast",
       "geo": "Metro Daytona Beach",
       "total": 4,
-      "assigned": 5,
+      "assigned": 4,
       "orders": 1,
       "orderDetail": [
         {
