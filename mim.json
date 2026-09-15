@@ -704,7 +704,7 @@
     },
     {
       "code": "soi27276",
-      "postpaid": 6,
+      "postpaid": 11,
       "store": "2103 N Graham St",
       "lastName": "Prudente"
     },
@@ -1241,7 +1241,7 @@
       "market": "Metro Southeast",
       "geo": "Metro Western NC",
       "total": 5,
-      "assigned": 0,
+      "assigned": 5,
       "orders": 1,
       "orderDetail": [
         {
@@ -1503,6 +1503,14 @@
       "mm": "Dom",
       "market": "Dom",
       "at": "2026-09-15T18:16:24.788Z"
+    },
+    {
+      "code": "soi27276",
+      "lines": 5,
+      "store": "10216470 : 1015 Waughtown St",
+      "mm": "Omar (text)",
+      "market": "Omar",
+      "at": "2026-09-15T20:08:50.941Z"
     }
   ]
 }
