@@ -308,7 +308,7 @@
     },
     {
       "code": "hse11348",
-      "postpaid": 3,
+      "postpaid": 1,
       "store": "1453 Sand Lake Road Unit D",
       "lastName": "Segura"
     },
@@ -1304,7 +1304,7 @@
       "market": "Metro Southeast",
       "geo": "Metro Orlando South",
       "total": 6,
-      "assigned": 6,
+      "assigned": 4,
       "orders": 3,
       "orderDetail": [
         {
@@ -1555,6 +1555,15 @@
       "mm": "Tiffany (text)",
       "market": "Tiffany",
       "at": "2026-09-15T20:52:59.196Z"
+    },
+    {
+      "code": "hse11348",
+      "lines": -2,
+      "store": "10328825 : 1453 Sand Lake Road Unit D",
+      "mm": "Tiffany (text)",
+      "market": "Tiffany",
+      "at": "2026-09-15T20:54:13.660Z",
+      "undo": true
     }
   ]
 }
