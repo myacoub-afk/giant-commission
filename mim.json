@@ -996,6 +996,12 @@
       "postpaid": 6,
       "store": "10207247 : 6417 Airport Rd Ste 103",
       "lastName": ""
+    },
+    {
+      "code": "ddq12055",
+      "postpaid": 1,
+      "store": "8161 S John Young Pkwy",
+      "lastName": ""
     }
   ],
   "mtdMap": {},
@@ -1137,7 +1143,7 @@
       "market": "Metro Southeast",
       "geo": "Metro Orlando West",
       "total": 1,
-      "assigned": 0,
+      "assigned": 1,
       "orders": 0,
       "orderDetail": []
     },
@@ -1528,6 +1534,14 @@
       "mm": "Nidal (text)",
       "market": "Nidal",
       "at": "2026-09-15T20:13:34.334Z"
+    },
+    {
+      "code": "ddq12055",
+      "lines": 1,
+      "store": "10228619 : 8161 S John Young Pkwy",
+      "mm": "Tiffany (text)",
+      "market": "Tiffany",
+      "at": "2026-09-15T20:47:30.662Z"
     }
   ]
 }
