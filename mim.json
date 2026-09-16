@@ -1007,6 +1007,12 @@
       "postpaid": 1,
       "store": "8161 S John Young Pkwy",
       "lastName": ""
+    },
+    {
+      "code": "tir94038",
+      "postpaid": 1,
+      "store": "1163 E State St",
+      "lastName": ""
     }
   ],
   "mtdMap": {},
@@ -1025,7 +1031,7 @@
       "market": "Metro Northeast",
       "geo": "Metro Trenton",
       "total": 2,
-      "assigned": 0,
+      "assigned": 1,
       "orders": 1,
       "orderDetail": [
         {
@@ -1597,6 +1603,14 @@
       "mm": "Tiffany (text)",
       "market": "Tiffany",
       "at": "2026-09-15T20:56:42.384Z"
+    },
+    {
+      "code": "tir94038",
+      "lines": 1,
+      "store": "10220265 : 1163 E State St",
+      "mm": "Khalil",
+      "market": "Khalil",
+      "at": "2026-09-16T11:07:06.749Z"
     }
   ]
 }
