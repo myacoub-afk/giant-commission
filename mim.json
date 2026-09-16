@@ -644,7 +644,7 @@
     },
     {
       "code": "pps22534",
-      "postpaid": 0,
+      "postpaid": 1,
       "store": "534 Belvedere Rd",
       "lastName": "Matar"
     },
@@ -1028,7 +1028,7 @@
       "market": "Metro Southeast",
       "geo": "Metro Palm Beach West",
       "total": 1,
-      "assigned": 0,
+      "assigned": 1,
       "orders": 0,
       "orderDetail": []
     },
@@ -1633,6 +1633,14 @@
       "mm": "Khalil",
       "market": "Khalil",
       "at": "2026-09-16T11:10:55.309Z"
+    },
+    {
+      "code": "pps22534",
+      "lines": 1,
+      "store": "10214682 : 534 Belvedere Rd",
+      "mm": "Suhail (text)",
+      "market": "Suhail",
+      "at": "2026-09-16T15:08:08.336Z"
     }
   ]
 }
