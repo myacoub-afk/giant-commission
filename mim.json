@@ -1025,6 +1025,12 @@
       "postpaid": 4,
       "store": "9180 State Rd 84",
       "lastName": ""
+    },
+    {
+      "code": "pyn78573",
+      "postpaid": 1,
+      "store": "5007 N Broad St",
+      "lastName": ""
     }
   ],
   "mtdMap": {},
@@ -1084,7 +1090,7 @@
       "market": "Metro Northeast",
       "geo": "Metro Philadelphia North",
       "total": 1,
-      "assigned": 0,
+      "assigned": 1,
       "orders": 1,
       "orderDetail": [
         {
@@ -1663,6 +1669,14 @@
       "mm": "Islam (text)",
       "market": "Islam",
       "at": "2026-09-16T16:09:54.681Z"
+    },
+    {
+      "code": "pyn78573",
+      "lines": 1,
+      "store": "10202208 : 5007 N Broad St",
+      "mm": "Rani (text)",
+      "market": "Rani",
+      "at": "2026-09-16T21:39:57.676Z"
     }
   ]
 }
