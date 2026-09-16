@@ -1019,6 +1019,12 @@
       "postpaid": 2,
       "store": "1163 E State St",
       "lastName": ""
+    },
+    {
+      "code": "lnc23609",
+      "postpaid": 4,
+      "store": "9180 State Rd 84",
+      "lastName": ""
     }
   ],
   "mtdMap": {},
@@ -1371,7 +1377,7 @@
       "market": "Metro Southeast",
       "geo": "Metro Miramar",
       "total": 4,
-      "assigned": 0,
+      "assigned": 4,
       "orders": 4,
       "orderDetail": [
         {
@@ -1649,6 +1655,14 @@
       "mm": "Islam (text)",
       "market": "Islam",
       "at": "2026-09-16T15:53:19.020Z"
+    },
+    {
+      "code": "lnc23609",
+      "lines": 4,
+      "store": "10328802 : 9180 State Rd 84",
+      "mm": "Islam (text)",
+      "market": "Islam",
+      "at": "2026-09-16T16:09:54.681Z"
     }
   ]
 }
