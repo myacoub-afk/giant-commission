@@ -1,7 +1,7 @@
 {
   "meta": {
     "period": "Sep 19, 2026 - Sep 25, 2026",
-    "published": "Sep 20, 7:09 PM",
+    "published": "Sep 20, 7:39 PM",
     "autoPublished": true
   },
   "mrc": {
@@ -67,7 +67,7 @@
     },
     "pxa12423": {
       "name": "GUADALUPE",
-      "mrc": 1841,
+      "mrc": 1908,
       "hint": 5
     },
     "qbg74740": {
@@ -182,8 +182,8 @@
     },
     "gbn62354": {
       "name": "angie",
-      "mrc": 780,
-      "hint": 2
+      "mrc": 830,
+      "hint": 3
     },
     "gnw12226": {
       "name": "Abdulghani",
@@ -1229,14 +1229,14 @@
   "emp": {
     "fju17533": {
       "name": "Damaris",
-      "acc": 743.7,
+      "acc": 763.69,
       "hint": 0,
       "store": "NATIONS FORD",
       "repName": "Damaris"
     },
     "nmt86860": {
       "name": "Beatriz",
-      "acc": 464.53,
+      "acc": 559.53,
       "hint": 0,
       "store": "NATIONS FORD",
       "repName": "Beatriz"
@@ -1887,8 +1887,8 @@
     },
     "gbn62354": {
       "name": "angie",
-      "acc": 924.43,
-      "hint": 2,
+      "acc": 929.43,
+      "hint": 3,
       "store": "CLEARLAKE 1",
       "repName": "angie"
     },
@@ -3180,7 +3180,7 @@
       "name": "GUADALUPE",
       "lastName": "",
       "store": "CENTRAL",
-      "mrc": 1841,
+      "mrc": 1908,
       "acc": 1709.66,
       "hint": 5,
       "mim": 0,
@@ -3230,6 +3230,33 @@
       "close_order": 10
     },
     {
+      "code": "gbn62354",
+      "name": "angie",
+      "lastName": "",
+      "store": "CLEARLAKE 1",
+      "mrc": 830,
+      "acc": 929.43,
+      "hint": 3,
+      "mim": 0,
+      "mtd_lines": 0,
+      "in_mim": false,
+      "hint_gate": true,
+      "mim_gate": false,
+      "tier": 1,
+      "tier_comm": 0,
+      "hint_spiff": 45,
+      "mim_spiff": 0,
+      "total": 45,
+      "mrc_gap": 0,
+      "acc_gap": 0,
+      "hint_gap": 0,
+      "mim_gap": 1,
+      "qualifies": false,
+      "needs": "+1 MIM",
+      "rank": 3,
+      "close_order": 1
+    },
+    {
       "code": "krz41716",
       "name": "mamoudou",
       "lastName": "",
@@ -3253,7 +3280,7 @@
       "mim_gap": 1,
       "qualifies": false,
       "needs": "+$80 MRC, +$376.01 acc, +1 MIM",
-      "rank": 3,
+      "rank": 4,
       "close_order": 28
     },
     {
@@ -3280,7 +3307,7 @@
       "mim_gap": 1,
       "qualifies": false,
       "needs": "+$101 MRC, +$570.04 acc, +1 MIM",
-      "rank": 4,
+      "rank": 5,
       "close_order": 48
     },
     {
@@ -3307,8 +3334,8 @@
       "mim_gap": 1,
       "qualifies": false,
       "needs": "+1 MIM",
-      "rank": 5,
-      "close_order": 1
+      "rank": 6,
+      "close_order": 2
     },
     {
       "code": "hlt40846",
@@ -3334,7 +3361,7 @@
       "mim_gap": 1,
       "qualifies": false,
       "needs": "+$222.16 acc, +1 MIM",
-      "rank": 6,
+      "rank": 7,
       "close_order": 8
     },
     {
@@ -3361,35 +3388,8 @@
       "mim_gap": 1,
       "qualifies": false,
       "needs": "+$302 MRC, +$666.01 acc, +1 MIM",
-      "rank": 7,
-      "close_order": 68
-    },
-    {
-      "code": "gbn62354",
-      "name": "angie",
-      "lastName": "",
-      "store": "CLEARLAKE 1",
-      "mrc": 780,
-      "acc": 924.43,
-      "hint": 2,
-      "mim": 0,
-      "mtd_lines": 0,
-      "in_mim": false,
-      "hint_gate": true,
-      "mim_gate": false,
-      "tier": 1,
-      "tier_comm": 0,
-      "hint_spiff": 30,
-      "mim_spiff": 0,
-      "total": 30,
-      "mrc_gap": 0,
-      "acc_gap": 0,
-      "hint_gap": 0,
-      "mim_gap": 1,
-      "qualifies": false,
-      "needs": "+1 MIM",
       "rank": 8,
-      "close_order": 2
+      "close_order": 68
     },
     {
       "code": "soi27276",
@@ -5260,7 +5260,7 @@
       "lastName": "",
       "store": "NATIONS FORD",
       "mrc": 650,
-      "acc": 743.7,
+      "acc": 763.69,
       "hint": 0,
       "mim": 0,
       "mtd_lines": 0,
@@ -5287,7 +5287,7 @@
       "lastName": "",
       "store": "NATIONS FORD",
       "mrc": 444,
-      "acc": 464.53,
+      "acc": 559.53,
       "hint": 0,
       "mim": 0,
       "mtd_lines": 0,
@@ -5300,13 +5300,13 @@
       "mim_spiff": 0,
       "total": 0,
       "mrc_gap": 56,
-      "acc_gap": 235.47,
+      "acc_gap": 140.47,
       "hint_gap": 1,
       "mim_gap": 1,
       "qualifies": false,
-      "needs": "+$56 MRC, +$235.47 acc, +1 HINT, +1 MIM",
+      "needs": "+$56 MRC, +$140.47 acc, +1 HINT, +1 MIM",
       "rank": 79,
-      "close_order": 89
+      "close_order": 86
     },
     {
       "code": "ghh23682",
@@ -8168,7 +8168,7 @@
       "qualifies": false,
       "needs": "+$127 MRC, +$230.19 acc, +1 HINT, +1 MIM",
       "rank": 185,
-      "close_order": 88
+      "close_order": 89
     },
     {
       "code": "cjt96540",
@@ -8195,7 +8195,7 @@
       "qualifies": false,
       "needs": "+$177 MRC, +$165.17 acc, +1 HINT, +1 MIM",
       "rank": 186,
-      "close_order": 86
+      "close_order": 87
     },
     {
       "code": "flm31249",
@@ -10625,7 +10625,7 @@
       "qualifies": false,
       "needs": "+$366 MRC, +$220.12 acc, +1 HINT, +1 MIM",
       "rank": 276,
-      "close_order": 87
+      "close_order": 88
     },
     {
       "code": "rdn78671",
@@ -10685,8 +10685,8 @@
   "stats": {
     "reps": 278,
     "qualified": 0,
-    "total_payout": 1485,
-    "total_spiffs": 1485,
+    "total_payout": 1500,
+    "total_spiffs": 1500,
     "below_acc": 274,
     "below_mrc": 262,
     "no_hint": 201,
