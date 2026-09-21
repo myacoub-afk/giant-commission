@@ -719,6 +719,12 @@
       "postpaid": 4,
       "store": "9 S 60th St",
       "lastName": "Baez"
+    },
+    {
+      "code": "eza29014",
+      "postpaid": 1,
+      "store": "1255 Providence Blvd",
+      "lastName": ""
     }
   ],
   "mtdMap": {},
@@ -906,7 +912,7 @@
       "market": "Metro Southeast",
       "geo": "Metro Daytona Beach",
       "total": 1,
-      "assigned": 0,
+      "assigned": 1,
       "orders": 1,
       "orderDetail": [
         {
@@ -1760,5 +1766,16 @@
       }
     ],
     "refreshed": "2026-09-21T18:53:09.221Z"
-  }
+  },
+  "manualAssignments": [
+    {
+      "code": "eza29014",
+      "lines": 1,
+      "store": "10191849 : 1255 Providence Blvd",
+      "mm": "David (text)",
+      "market": "David",
+      "at": "2026-09-21T19:37:07.799Z",
+      "week": "09/19/2026"
+    }
+  ]
 }
