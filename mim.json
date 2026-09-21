@@ -725,6 +725,12 @@
       "postpaid": 1,
       "store": "1255 Providence Blvd",
       "lastName": ""
+    },
+    {
+      "code": "eqt51823",
+      "postpaid": 1,
+      "store": "249 Glenside Ave",
+      "lastName": ""
     }
   ],
   "mtdMap": {},
@@ -1075,7 +1081,7 @@
       "market": "Metro Northeast",
       "geo": "Metro Philadelphia Southwest",
       "total": 1,
-      "assigned": 0,
+      "assigned": 1,
       "orders": 1,
       "orderDetail": [
         {
@@ -1829,6 +1835,15 @@
       "mm": "Barby (text)",
       "market": "Barby",
       "at": "2026-09-21T20:00:40.393Z",
+      "week": "09/19/2026"
+    },
+    {
+      "code": "eqt51823",
+      "lines": 1,
+      "store": "10328817 : 249 Glenside Ave",
+      "mm": "Marwan (text)",
+      "market": "Marwan",
+      "at": "2026-09-21T20:09:23.712Z",
       "week": "09/19/2026"
     }
   ]
