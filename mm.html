@@ -22,6 +22,10 @@ button{font-family:var(--body);font-size:14px;font-weight:600;border:none;border
 .store-name{font-weight:700;font-size:14px;color:var(--navy)}
 .store-geo{font-size:11.5px;color:var(--mute);margin:1px 0 6px}
 .un-badge{display:inline-block;background:#FBEAE8;color:var(--red);font-size:12px;font-weight:700;border-radius:8px;padding:3px 9px;margin-bottom:10px}
+.wk-hdr{margin:18px 0 8px;font-weight:700;font-size:15px;color:#333}
+.wk-hdr .wk-sub{display:block;font-weight:400;font-size:12.5px;color:#777;margin-top:2px}
+.wk-last{border-left:4px solid #F0A030;background:#FFF9F0;padding-left:10px;border-radius:0 8px 8px 0}
+.store-card.last-wk{border-color:#F0C88A;background:#FFFCF7}
 .assign-row{display:flex;gap:8px;align-items:center}
 .assign-row select{flex:1}
 .assign-row input{width:64px;text-align:center}
@@ -71,6 +75,26 @@ function storeMM(label){var e=TMO_MAP[storeTmo(label)];return e?e.split('|')[0]:
 function storeNick(label){var e=TMO_MAP[storeTmo(label)];return e?e.split('|')[1]:'';}
 var MIM=null,DATA=null,SESSION=null;
 
+// Open lines across BOTH live weeks. `current` is the running pay period; `prior` is the week that
+// has already ended but is not finalized yet - T-Mobile's export lags, so a Friday sale usually only
+// surfaces the following Monday, after the period rolled. Prior lines stay assignable until the
+// Tuesday finalize clears the block. A store can appear in both, with different counts.
+function openLines(){
+  var out=[];
+  (MIM&&MIM.unassigned||[]).forEach(function(u){
+    if(Math.round((u.total-(u.assigned||0))*10)/10>0)out.push({u:u,period:'current'});
+  });
+  if(MIM&&MIM.prior&&MIM.prior.unassigned){
+    MIM.prior.unassigned.forEach(function(u){
+      if(Math.round((u.total-(u.assigned||0))*10)/10>0)out.push({u:u,period:'prior'});
+    });
+  }
+  return out;
+}
+function priorLabel(){
+  return (MIM&&MIM.prior&&(MIM.prior.period||MIM.prior.periodStart))||'last week';
+}
+
 function load(){
   var v='?v='+Date.now();
   Promise.all([
@@ -78,11 +102,12 @@ function load(){
     fetch('data.json'+v).then(function(r){return r.ok?r.json():null;}).catch(function(){return null;})
   ]).then(function(res){
     MIM=res[0]||{};DATA=res[1]||{rows:[]};
+    // Build the name list from BOTH weeks. Otherwise an MM whose only open lines are in the closing
+    // week cannot even select their name and is locked out of the page entirely.
     var mms={};
-    (MIM.unassigned||[]).forEach(function(u){
-      var un=Math.round((u.total-(u.assigned||0))*10)/10;
-      var mm=storeMM(u.store);
-      if(un>0&&mm)mms[mm]=true;
+    openLines().forEach(function(o){
+      var mm=storeMM(o.u.store);
+      if(mm)mms[mm]=true;
     });
     var sel=document.getElementById('mmMarket');
     var keys=Object.keys(mms).sort();
@@ -132,18 +157,41 @@ function repsForStore(storeLabel){
 
 function renderStores(){
   var list=document.getElementById('storeList');
-  var mine=(MIM.unassigned||[]).filter(function(u){
-    return storeMM(u.store)===SESSION.market&&Math.round((u.total-(u.assigned||0))*10)/10>0;
-  });
+  var mine=openLines().filter(function(o){return storeMM(o.u.store)===SESSION.market;});
   if(!mine.length){list.innerHTML='<div class="empty">🎉 No unassigned MIM in your market. All sales are attributed.</div>';return;}
-  mine.sort(function(a,b){return (b.total-(b.assigned||0))-(a.total-(a.assigned||0));});
-  list.innerHTML=mine.map(function(u,idx){
+  var cur=mine.filter(function(o){return o.period==='current';});
+  var pri=mine.filter(function(o){return o.period==='prior';});
+  var bySize=function(a,b){return (b.u.total-(b.u.assigned||0))-(a.u.total-(a.u.assigned||0));};
+  cur.sort(bySize);pri.sort(bySize);
+  // One flat index across both sections so every card's element ids stay unique.
+  var ordered=cur.concat(pri);
+  var html='';
+  if(cur.length)html+='<div class="wk-hdr">This week</div>';
+  else if(pri.length)html+='<div class="empty" style="margin-bottom:4px">No unassigned MIM this week.</div>';
+  html+=ordered.map(function(o,idx){
+    var u=o.u;
+    var pre='';
+    if(idx===cur.length&&pri.length){
+      var n=0;pri.forEach(function(x){n+=Math.round((x.u.total-(x.u.assigned||0))*10)/10;});
+      pre='<div class="wk-hdr wk-last">Last week &mdash; '+esc(priorLabel())
+        +'<span class="wk-sub">'+n+' line'+(n===1?'':'s')+' still open. These closed last Friday but can still be assigned until the week is finalized (Tuesday). They pay against LAST week, not this one.</span></div>';
+    }
+    return pre+renderCard(u,idx,o.period);
+  }).join('');
+  list.innerHTML=html;
+  list.querySelectorAll('button[data-assign]').forEach(function(b){
+    b.addEventListener('click',function(){doAssign(parseInt(b.dataset.assign,10),b);});
+  });
+}
+
+function renderCard(u,idx,period){
+  return (function(){
     var un=Math.round((u.total-(u.assigned||0))*10)/10;
     var reps=repsForStore(u.store);
     var opts='<option value="">Select rep…</option>';
     if(reps.atStore.length){opts+='<optgroup label="This store">'+reps.atStore.map(function(r){return '<option value="'+r.code+'">'+esc(r.label)+'</option>';}).join('')+'</optgroup>';}
     if(reps.others.length){opts+='<optgroup label="All reps">'+reps.others.map(function(r){return '<option value="'+r.code+'">'+esc(r.label)+'</option>';}).join('')+'</optgroup>';}
-    return '<div class="store-card" data-store="'+esc(u.store)+'" data-idx="'+idx+'">'
+    return '<div class="store-card'+(period==='prior'?' last-wk':'')+'" data-store="'+esc(u.store)+'" data-idx="'+idx+'" data-period="'+period+'">'
       +'<div class="store-name">'+esc(storeNick(u.store)||u.store)+'</div>'
       +'<div class="store-geo">'+esc(u.store)+' · '+esc(u.geo||'')+'</div>'
       +((u.orderDetail&&u.orderDetail.length)?'<div class="store-geo">'+u.orderDetail.map(function(o2){
@@ -155,10 +203,7 @@ function renderStores(){
       +'<input id="lines'+idx+'" type="number" min="1" max="'+un+'" value="1">'
       +'<button data-assign="'+idx+'">Assign</button>'
       +'</div><div class="msg" id="msg'+idx+'"></div></div>';
-  }).join('');
-  list.querySelectorAll('button[data-assign]').forEach(function(b){
-    b.addEventListener('click',function(){doAssign(parseInt(b.dataset.assign,10),b);});
-  });
+  })();
 }
 
 function doAssign(idx,btn){
@@ -169,14 +214,16 @@ function doAssign(idx,btn){
   var name=sel.options[sel.selectedIndex]?sel.options[sel.selectedIndex].text:'';
   var lines=parseInt(document.getElementById('lines'+idx).value,10)||1;
   var msg=document.getElementById('msg'+idx);
-  var u=(MIM.unassigned||[]).filter(function(x){return x.store===store;})[0];
+  var period=card.dataset.period||'current';
+  var bucket=(period==='prior'&&MIM.prior&&MIM.prior.unassigned)?MIM.prior.unassigned:(MIM.unassigned||[]);
+  var u=bucket.filter(function(x){return x.store===store;})[0];
   var remaining=u?Math.round((u.total-(u.assigned||0))*10)/10:0;
   if(!code){msg.className='msg err';msg.textContent='Select a rep first.';return;}
   if(lines<1||lines>remaining){msg.className='msg err';msg.textContent='Lines must be 1–'+remaining+'.';return;}
   btn.disabled=true;btn.textContent='Saving…';msg.className='msg';msg.textContent='';
   fetch(API,{method:'POST',body:JSON.stringify({
     action:'assign',market:SESSION.market,passcode:SESSION.pass,mmName:SESSION.name,
-    store:store,code:code,name:name,lines:lines
+    store:store,code:code,name:name,lines:lines,period:period
   })})
     .then(function(r){return r.json();})
     .then(function(res){
@@ -184,7 +231,7 @@ function doAssign(idx,btn){
       if(!res.ok){msg.className='msg err';msg.textContent=res.error||'Failed — try again.';return;}
       if(u)u.assigned=(u.assigned||0)+lines;
       var newRem=Math.round((u.total-(u.assigned||0))*10)/10;
-      msg.className='msg ok';msg.textContent='✓ '+lines+' line'+(lines===1?'':'s')+' assigned to '+name+'. App updates within a minute.';
+      msg.className='msg ok';msg.textContent='✓ '+lines+' line'+(lines===1?'':'s')+' assigned to '+name+(period==='prior'?'. Counts toward LAST week, and lands when that week is finalized.':'. App updates within a minute.');
       var badge=document.getElementById('badge'+idx);
       if(newRem>0){badge.textContent=newRem+' unassigned MIM line'+(newRem===1?'':'s');document.getElementById('lines'+idx).max=newRem;document.getElementById('lines'+idx).value=Math.min(1,newRem);}
       else{badge.textContent='All assigned ✓';badge.style.background='#E7F4EC';badge.style.color='var(--green)';card.querySelector('.assign-row').style.display='none';}
