@@ -572,7 +572,7 @@
     },
     {
       "code": "uua80046",
-      "postpaid": 0,
+      "postpaid": 2,
       "store": "5810 S Orange Blossom Trl",
       "lastName": "Rodriguez"
     },
@@ -901,7 +901,7 @@
       "market": "Metro Southeast",
       "geo": "Metro Orlando West",
       "total": 9,
-      "assigned": 7,
+      "assigned": 9,
       "orders": 2,
       "orderDetail": [
         {
@@ -1959,6 +1959,15 @@
       "market": "Rani",
       "at": "2026-09-21T20:41:51.595Z",
       "undo": true,
+      "week": "09/19/2026"
+    },
+    {
+      "code": "uua80046",
+      "lines": 2,
+      "store": "10228081 : 5810 S Orange Blossom Trl",
+      "mm": "Tiffany (text)",
+      "market": "Tiffany",
+      "at": "2026-09-21T20:45:29.783Z",
       "week": "09/19/2026"
     }
   ]
