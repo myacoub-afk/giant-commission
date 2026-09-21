@@ -731,6 +731,12 @@
       "postpaid": 1,
       "store": "249 Glenside Ave",
       "lastName": ""
+    },
+    {
+      "code": "kxa68325",
+      "postpaid": 4,
+      "store": "2111 S Ridgewood Ave",
+      "lastName": ""
     }
   ],
   "mtdMap": {},
@@ -944,7 +950,7 @@
       "market": "Metro Southeast",
       "geo": "Metro Daytona Beach",
       "total": 4,
-      "assigned": 0,
+      "assigned": 4,
       "orders": 1,
       "orderDetail": [
         {
@@ -1844,6 +1850,15 @@
       "mm": "Marwan (text)",
       "market": "Marwan",
       "at": "2026-09-21T20:09:23.712Z",
+      "week": "09/19/2026"
+    },
+    {
+      "code": "kxa68325",
+      "lines": 4,
+      "store": "10223451 : 2111 S Ridgewood Ave",
+      "mm": "Shadaira Santiago",
+      "market": "Shadaira",
+      "at": "2026-09-21T20:19:42.664Z",
       "week": "09/19/2026"
     }
   ]
