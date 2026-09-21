@@ -1,9 +1,9 @@
 {
   "meta": {
-    "period": "June 6 – 12, 2026",
+    "period": "September 19 – 25, 2026",
     "periodStart": "09/19/2026",
-    "published": "Sep 21, 3:12 PM",
-    "mimNote": "MiM data through 9/20"
+    "published": "Sep 21, 6:24 PM",
+    "mimNote": ""
   },
   "rows": [
     {
@@ -751,12 +751,6 @@
       "lastName": ""
     },
     {
-      "code": "dxz03683",
-      "postpaid": 0,
-      "store": "1629 N. Kings Hwy",
-      "lastName": ""
-    },
-    {
       "code": "cqd87558",
       "postpaid": 5,
       "store": "3701 San Mateo Blvd NE",
@@ -766,12 +760,6 @@
       "code": "veh82267",
       "postpaid": 1,
       "store": "1483 N Federal Hwy",
-      "lastName": ""
-    },
-    {
-      "code": "yfe60320",
-      "postpaid": 0,
-      "store": "7246 SW 117th Ave",
       "lastName": ""
     },
     {
@@ -841,7 +829,7 @@
       "geo": "Metro Boca Raton",
       "total": 8,
       "assigned": 8,
-      "orders": 3,
+      "orders": 2,
       "orderDetail": [
         {
           "order": "110219287884",
@@ -855,13 +843,6 @@
           "date": "9/15",
           "iso": "2026-09-15",
           "lines": 8,
-          "status": "Active"
-        },
-        {
-          "order": "110218757789",
-          "date": "9/03",
-          "iso": "2026-09-03",
-          "lines": 5,
           "status": "Active"
         }
       ]
@@ -920,19 +901,12 @@
       "geo": "Metro Lancaster/York",
       "total": 8,
       "assigned": 7,
-      "orders": 2,
+      "orders": 1,
       "orderDetail": [
         {
           "order": "110219288604",
           "date": "9/19",
           "iso": "2026-09-19",
-          "lines": 1,
-          "status": "Active"
-        },
-        {
-          "order": "110219015562",
-          "date": "9/10",
-          "iso": "2026-09-10",
           "lines": 1,
           "status": "Active"
         }
@@ -1028,27 +1002,13 @@
       "geo": "Metro Daytona Beach",
       "total": 10,
       "assigned": 10,
-      "orders": 3,
+      "orders": 1,
       "orderDetail": [
         {
           "order": "110219290948",
           "date": "9/19",
           "iso": "2026-09-19",
           "lines": 4,
-          "status": "Active"
-        },
-        {
-          "order": "110218750908",
-          "date": "9/03",
-          "iso": "2026-09-03",
-          "lines": 2,
-          "status": "Active"
-        },
-        {
-          "order": "110218689689",
-          "date": "9/01",
-          "iso": "2026-09-01",
-          "lines": 2,
           "status": "Active"
         }
       ]
@@ -1100,19 +1060,12 @@
       "geo": "Metro Albuquerque South",
       "total": 5,
       "assigned": 5,
-      "orders": 2,
+      "orders": 1,
       "orderDetail": [
         {
           "order": "110219208227",
           "date": "9/17",
           "iso": "2026-09-17",
-          "lines": 3,
-          "status": "Active"
-        },
-        {
-          "order": "110218735518",
-          "date": "9/02",
-          "iso": "2026-09-02",
           "lines": 3,
           "status": "Active"
         }
@@ -1165,20 +1118,13 @@
       "geo": "Metro New Jersey South",
       "total": 9,
       "assigned": 3,
-      "orders": 2,
+      "orders": 1,
       "orderDetail": [
         {
           "order": "110219233503",
           "date": "9/17",
           "iso": "2026-09-17",
           "lines": 6,
-          "status": "Active"
-        },
-        {
-          "order": "110218728141",
-          "date": "9/02",
-          "iso": "2026-09-02",
-          "lines": 2,
           "status": "Active"
         }
       ]
@@ -1237,7 +1183,7 @@
       "geo": "Metro Miami Southwest",
       "total": 10,
       "assigned": 10,
-      "orders": 4,
+      "orders": 3,
       "orderDetail": [
         {
           "order": "110219293949",
@@ -1258,13 +1204,6 @@
           "date": "9/14",
           "iso": "2026-09-14",
           "lines": 2,
-          "status": "Active"
-        },
-        {
-          "order": "110218846957",
-          "date": "9/05",
-          "iso": "2026-09-05",
-          "lines": 1,
           "status": "Active"
         }
       ]
