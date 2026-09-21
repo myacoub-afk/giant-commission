@@ -770,7 +770,7 @@
     },
     {
       "code": "yfe60320",
-      "postpaid": 1,
+      "postpaid": 0,
       "store": "7246 SW 117th Ave",
       "lastName": ""
     }
@@ -1212,7 +1212,7 @@
       "market": "Metro Southeast",
       "geo": "Metro Miami Southwest",
       "total": 10,
-      "assigned": 9,
+      "assigned": 8,
       "orders": 4,
       "orderDetail": [
         {
@@ -2052,6 +2052,17 @@
       "at": "2026-09-21T21:23:15.843Z",
       "week": "09/19/2026",
       "order": "110219293949"
+    },
+    {
+      "code": "yfe60320",
+      "lines": -1,
+      "store": "10328800 : 7246 SW 117th Ave",
+      "mm": "Islam (text)",
+      "market": "Islam",
+      "at": "2026-09-21T21:24:47.016Z",
+      "undo": true,
+      "week": "09/19/2026",
+      "order": ""
     }
   ]
 }
