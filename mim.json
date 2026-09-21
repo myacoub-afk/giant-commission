@@ -755,6 +755,12 @@
       "postpaid": 0,
       "store": "1629 N. Kings Hwy",
       "lastName": ""
+    },
+    {
+      "code": "cqd87558",
+      "postpaid": 5,
+      "store": "3701 San Mateo Blvd NE",
+      "lastName": ""
     }
   ],
   "mtdMap": {},
@@ -1040,7 +1046,7 @@
       "market": "Metro South Central",
       "geo": "Metro Albuquerque Santa Fe",
       "total": 5,
-      "assigned": 0,
+      "assigned": 5,
       "orders": 1,
       "orderDetail": [
         {
@@ -2004,6 +2010,15 @@
       "mm": "Dom",
       "market": "Dom",
       "at": "2026-09-21T21:04:58.890Z",
+      "week": "09/19/2026"
+    },
+    {
+      "code": "cqd87558",
+      "lines": 5,
+      "store": "10209177 : 3701 San Mateo Blvd NE",
+      "mm": "Dom",
+      "market": "Dom",
+      "at": "2026-09-21T21:06:56.041Z",
       "week": "09/19/2026"
     }
   ]
