@@ -767,6 +767,12 @@
       "postpaid": 1,
       "store": "1483 N Federal Hwy",
       "lastName": ""
+    },
+    {
+      "code": "yfe60320",
+      "postpaid": 1,
+      "store": "7246 SW 117th Ave",
+      "lastName": ""
     }
   ],
   "mtdMap": {},
@@ -1206,7 +1212,7 @@
       "market": "Metro Southeast",
       "geo": "Metro Miami Southwest",
       "total": 10,
-      "assigned": 8,
+      "assigned": 9,
       "orders": 4,
       "orderDetail": [
         {
@@ -2036,6 +2042,16 @@
       "at": "2026-09-21T21:09:29.413Z",
       "week": "09/19/2026",
       "order": "110219319448"
+    },
+    {
+      "code": "yfe60320",
+      "lines": 1,
+      "store": "10328800 : 7246 SW 117th Ave",
+      "mm": "Islam (text)",
+      "market": "Islam",
+      "at": "2026-09-21T21:23:15.843Z",
+      "week": "09/19/2026",
+      "order": "110219293949"
     }
   ]
 }
