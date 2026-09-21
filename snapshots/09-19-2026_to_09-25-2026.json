@@ -1,7 +1,7 @@
 {
   "meta": {
     "period": "Sep 19, 2026 - Sep 25, 2026",
-    "published": "Sep 21, 9:09 AM",
+    "published": "Sep 21, 9:39 AM",
     "autoPublished": true
   },
   "mrc": {
@@ -2426,7 +2426,7 @@
     },
     "dxu32635": {
       "name": "Hael",
-      "acc": 329.9,
+      "acc": 339.9,
       "hint": 0,
       "store": "EDGEWOOD",
       "repName": "Hael"
@@ -3165,6 +3165,13 @@
       "hint": 0,
       "store": "HOMESTEAD",
       "repName": "Anchelin"
+    },
+    "bmp86855": {
+      "name": "Rachel",
+      "acc": 0,
+      "hint": 0,
+      "store": "HOMESTEAD",
+      "repName": "Rachel"
     },
     "mkm74060": {
       "name": "Jose Javier",
@@ -5252,7 +5259,7 @@
       "qualifies": false,
       "needs": "+$170 MRC, +$360.11 acc, +1 MIM",
       "rank": 77,
-      "close_order": 25
+      "close_order": 26
     },
     {
       "code": "eaa64615",
@@ -5279,7 +5286,7 @@
       "qualifies": false,
       "needs": "+$338 MRC, +$370.09 acc, +1 MIM",
       "rank": 78,
-      "close_order": 26
+      "close_order": 27
     },
     {
       "code": "nmt86860",
@@ -8716,7 +8723,7 @@
       "lastName": "",
       "store": "EDGEWOOD",
       "mrc": 648,
-      "acc": 329.9,
+      "acc": 339.9,
       "hint": 0,
       "mim": 0,
       "mtd_lines": 0,
@@ -8729,13 +8736,13 @@
       "mim_spiff": 0,
       "total": 0,
       "mrc_gap": 0,
-      "acc_gap": 370.1,
+      "acc_gap": 360.1,
       "hint_gap": 1,
       "mim_gap": 1,
       "qualifies": false,
-      "needs": "+$370.10 acc, +1 HINT, +1 MIM",
+      "needs": "+$360.10 acc, +1 HINT, +1 MIM",
       "rank": 206,
-      "close_order": 27
+      "close_order": 25
     },
     {
       "code": "lop30847",
@@ -10655,8 +10662,8 @@
       "close_order": 110
     },
     {
-      "code": "mkm74060",
-      "name": "Jose Javier",
+      "code": "bmp86855",
+      "name": "Rachel",
       "lastName": "",
       "store": "HOMESTEAD",
       "mrc": 0,
@@ -10680,17 +10687,44 @@
       "needs": "+$500 MRC, +$700.00 acc, +1 HINT, +1 MIM",
       "rank": 278,
       "close_order": 277
+    },
+    {
+      "code": "mkm74060",
+      "name": "Jose Javier",
+      "lastName": "",
+      "store": "HOMESTEAD",
+      "mrc": 0,
+      "acc": 0,
+      "hint": 0,
+      "mim": 0,
+      "mtd_lines": 0,
+      "in_mim": false,
+      "hint_gate": false,
+      "mim_gate": false,
+      "tier": 0,
+      "tier_comm": 0,
+      "hint_spiff": 0,
+      "mim_spiff": 0,
+      "total": 0,
+      "mrc_gap": 500,
+      "acc_gap": 700,
+      "hint_gap": 1,
+      "mim_gap": 1,
+      "qualifies": false,
+      "needs": "+$500 MRC, +$700.00 acc, +1 HINT, +1 MIM",
+      "rank": 279,
+      "close_order": 278
     }
   ],
   "stats": {
-    "reps": 278,
+    "reps": 279,
     "qualified": 0,
     "total_payout": 1530,
     "total_spiffs": 1530,
-    "below_acc": 274,
-    "below_mrc": 262,
-    "no_hint": 200,
-    "no_mim": 278,
+    "below_acc": 275,
+    "below_mrc": 263,
+    "no_hint": 201,
+    "no_mim": 279,
     "max_total": 75,
     "closest_name": "GUADALUPE",
     "closest_needs": "+1 MIM"
