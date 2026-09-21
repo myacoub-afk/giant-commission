@@ -761,6 +761,12 @@
       "postpaid": 5,
       "store": "3701 San Mateo Blvd NE",
       "lastName": ""
+    },
+    {
+      "code": "veh82267",
+      "postpaid": 1,
+      "store": "1483 N Federal Hwy",
+      "lastName": ""
     }
   ],
   "mtdMap": {},
@@ -1183,7 +1189,7 @@
       "market": "Metro Southeast",
       "geo": "Metro Ft Lauderdale Central",
       "total": 3,
-      "assigned": 2,
+      "assigned": 3,
       "orders": 1,
       "orderDetail": [
         {
@@ -2020,6 +2026,16 @@
       "market": "Dom",
       "at": "2026-09-21T21:06:56.041Z",
       "week": "09/19/2026"
+    },
+    {
+      "code": "veh82267",
+      "lines": 1,
+      "store": "10328798 : 1483 N Federal Hwy",
+      "mm": "Islam (text)",
+      "market": "Islam",
+      "at": "2026-09-21T21:09:29.413Z",
+      "week": "09/19/2026",
+      "order": "110219319448"
     }
   ]
 }
