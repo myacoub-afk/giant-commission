@@ -14,8 +14,8 @@
         "store": "10188987 : 798 Edgewood Ave N",
         "market": "Metro Southeast",
         "geo": "Metro Jacksonville South",
-        "total": 11,
-        "assigned": 10,
+        "total": 13,
+        "assigned": 12,
         "orders": 1,
         "orderDetail": [
           {
@@ -23,6 +23,23 @@
             "date": "9/17",
             "iso": "2026-09-17",
             "lines": 1,
+            "status": "Active"
+          }
+        ]
+      },
+      {
+        "store": "10191953 : 1469 Nottingham Way",
+        "market": "Metro Northeast",
+        "geo": "Metro Trenton",
+        "total": 12,
+        "assigned": 7,
+        "orders": 1,
+        "orderDetail": [
+          {
+            "order": "110219174321",
+            "date": "9/15",
+            "iso": "2026-09-15",
+            "lines": 4,
             "status": "Active"
           }
         ]
@@ -76,6 +93,30 @@
         ]
       },
       {
+        "store": "10200997 : 5622 Germantown Ave",
+        "market": "Metro Northeast",
+        "geo": "Metro Philadelphia North",
+        "total": 11,
+        "assigned": 10,
+        "orders": 2,
+        "orderDetail": [
+          {
+            "order": "110219244646",
+            "date": "9/18",
+            "iso": "2026-09-18",
+            "lines": 1,
+            "status": "Active"
+          },
+          {
+            "order": "110219055480",
+            "date": "9/12",
+            "iso": "2026-09-12",
+            "lines": 1,
+            "status": "Active"
+          }
+        ]
+      },
+      {
         "store": "10225759 : 632 Greenwich St",
         "market": "Metro Northeast",
         "geo": "Metro Lancaster/York",
@@ -107,6 +148,64 @@
         ]
       },
       {
+        "store": "10217426 : 1054 Crossroads Dr",
+        "market": "Metro Southeast",
+        "geo": "Metro Western NC",
+        "total": 15,
+        "assigned": 13,
+        "orders": 1,
+        "orderDetail": [
+          {
+            "order": "110219225490",
+            "date": "9/17",
+            "iso": "2026-09-17",
+            "lines": 2,
+            "status": "Active"
+          }
+        ]
+      },
+      {
+        "store": "10215779 : 2091 Saxon Blvd",
+        "market": "Metro Southeast",
+        "geo": "Metro Daytona Beach",
+        "total": 11,
+        "assigned": 10,
+        "orders": 2,
+        "orderDetail": [
+          {
+            "order": "110219256121",
+            "date": "9/18",
+            "iso": "2026-09-18",
+            "lines": 1,
+            "status": "Active"
+          },
+          {
+            "order": "110218827635",
+            "date": "9/04",
+            "iso": "2026-09-04",
+            "lines": 4,
+            "status": "Active"
+          }
+        ]
+      },
+      {
+        "store": "10226834 : 3250 Coors Blvd NW Ste L",
+        "market": "Metro South Central",
+        "geo": "Metro Albuquerque Santa Fe",
+        "total": 5,
+        "assigned": 2,
+        "orders": 1,
+        "orderDetail": [
+          {
+            "order": "110219137134",
+            "date": "9/14",
+            "iso": "2026-09-14",
+            "lines": 3,
+            "status": "Active"
+          }
+        ]
+      },
+      {
         "store": "10328818 : 200 W Oregon ave",
         "market": "Metro Northeast",
         "geo": "Metro Philadelphia South",
@@ -124,11 +223,59 @@
         ]
       },
       {
+        "store": "10328827 : 715 Vine Street East Ste 4",
+        "market": "Metro Southeast",
+        "geo": "Metro Orlando South",
+        "total": 1,
+        "assigned": 0,
+        "orders": 1,
+        "orderDetail": [
+          {
+            "order": "110218852416",
+            "date": "9/05",
+            "iso": "2026-09-05",
+            "lines": 1,
+            "status": "Active"
+          }
+        ]
+      },
+      {
+        "store": "10328831 : 8925 J.M. Keynes Drive Suite 3",
+        "market": "Metro Southeast",
+        "geo": "Metro NC Charlotte South",
+        "total": 2,
+        "assigned": 1,
+        "orders": 3,
+        "orderDetail": [
+          {
+            "order": "110219320874",
+            "date": "9/20",
+            "iso": "2026-09-20",
+            "lines": 6,
+            "status": "Active"
+          },
+          {
+            "order": "110219321142",
+            "date": "9/20",
+            "iso": "2026-09-20",
+            "lines": 4,
+            "status": "Pending or Canceled"
+          },
+          {
+            "order": "110219264359",
+            "date": "9/18",
+            "iso": "2026-09-18",
+            "lines": 1,
+            "status": "Active"
+          }
+        ]
+      },
+      {
         "store": "10195307 : 113 E Commerce St",
         "market": "Metro Northeast",
         "geo": "Metro New Jersey Shore",
-        "total": 10,
-        "assigned": 9,
+        "total": 12,
+        "assigned": 11,
         "orders": 2,
         "orderDetail": [
           {
@@ -416,6 +563,7 @@
         "market": "Suhail",
         "at": "2026-09-18T23:17:26.516Z"
       }
-    ]
+    ],
+    "refreshed": "2026-09-21T18:53:09.221Z"
   }
 }
