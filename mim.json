@@ -749,6 +749,12 @@
       "postpaid": 4,
       "store": "1015 Waughtown St",
       "lastName": ""
+    },
+    {
+      "code": "dxz03683",
+      "postpaid": 6,
+      "store": "1629 N. Kings Hwy",
+      "lastName": ""
     }
   ],
   "mtdMap": {},
@@ -1116,7 +1122,7 @@
       "market": "Metro Northeast",
       "geo": "Metro New Jersey South",
       "total": 9,
-      "assigned": 3,
+      "assigned": 9,
       "orders": 2,
       "orderDetail": [
         {
@@ -1934,6 +1940,15 @@
       "mm": "Omar (text)",
       "market": "Omar",
       "at": "2026-09-21T20:33:01.387Z",
+      "week": "09/19/2026"
+    },
+    {
+      "code": "dxz03683",
+      "lines": 6,
+      "store": "10328823 : 1629 N. Kings Hwy",
+      "mm": "Rani (text)",
+      "market": "Rani",
+      "at": "2026-09-21T20:37:13.218Z",
       "week": "09/19/2026"
     }
   ]
