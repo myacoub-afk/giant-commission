@@ -791,6 +791,12 @@
       "postpaid": 5,
       "store": "534 Belvedere Rd",
       "lastName": ""
+    },
+    {
+      "code": "sgl51473",
+      "postpaid": 5,
+      "store": "5891 S Military Trl Ste 11A",
+      "lastName": ""
     }
   ],
   "mtdMap": {},
@@ -800,7 +806,7 @@
       "market": "Metro Southeast",
       "geo": "Metro Boca Raton",
       "total": 10,
-      "assigned": 5,
+      "assigned": 10,
       "orders": 1,
       "orderDetail": [
         {
@@ -2111,6 +2117,16 @@
       "at": "2026-09-21T21:43:20.109Z",
       "week": "09/19/2026",
       "order": "110219293220"
+    },
+    {
+      "code": "sgl51473",
+      "lines": 5,
+      "store": "10193375 : 5891 S Military Trl Ste 11A",
+      "mm": "Suhail (text)",
+      "market": "Suhail",
+      "at": "2026-09-21T21:45:07.968Z",
+      "week": "09/19/2026",
+      "order": "110219262361"
     }
   ]
 }
