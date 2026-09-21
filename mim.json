@@ -743,6 +743,12 @@
       "postpaid": 6,
       "store": "8925 J.M. Keynes Drive Suite 3",
       "lastName": ""
+    },
+    {
+      "code": "soi27276",
+      "postpaid": 4,
+      "store": "1015 Waughtown St",
+      "lastName": ""
     }
   ],
   "mtdMap": {},
@@ -1069,7 +1075,7 @@
       "market": "Metro Southeast",
       "geo": "Metro Western NC",
       "total": 4,
-      "assigned": 0,
+      "assigned": 4,
       "orders": 2,
       "orderDetail": [
         {
@@ -1910,6 +1916,15 @@
       "mm": "Omar (text)",
       "market": "Omar",
       "at": "2026-09-21T20:25:15.725Z",
+      "week": "09/19/2026"
+    },
+    {
+      "code": "soi27276",
+      "lines": 4,
+      "store": "10216470 : 1015 Waughtown St",
+      "mm": "Omar (text)",
+      "market": "Omar",
+      "at": "2026-09-21T20:33:01.387Z",
       "week": "09/19/2026"
     }
   ]
