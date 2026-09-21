@@ -779,6 +779,12 @@
       "postpaid": 2,
       "store": "7246 SW 117th Ave",
       "lastName": ""
+    },
+    {
+      "code": "eoz17724",
+      "postpaid": 8,
+      "store": "22749 State Rd 7 Suite B & C",
+      "lastName": ""
     }
   ],
   "mtdMap": {},
@@ -822,7 +828,7 @@
       "market": "Metro Southeast",
       "geo": "Metro Boca Raton",
       "total": 8,
-      "assigned": 0,
+      "assigned": 8,
       "orders": 3,
       "orderDetail": [
         {
@@ -2079,6 +2085,16 @@
       "at": "2026-09-21T21:35:32.765Z",
       "week": "09/19/2026",
       "order": "110219267097"
+    },
+    {
+      "code": "eoz17724",
+      "lines": 8,
+      "store": "10227345 : 22749 State Rd 7 Suite B & C",
+      "mm": "Suhail (text)",
+      "market": "Suhail",
+      "at": "2026-09-21T21:40:38.678Z",
+      "week": "09/19/2026",
+      "order": "110219287884"
     }
   ]
 }
