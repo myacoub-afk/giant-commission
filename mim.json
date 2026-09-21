@@ -773,6 +773,12 @@
       "postpaid": 0,
       "store": "7246 SW 117th Ave",
       "lastName": ""
+    },
+    {
+      "code": "byj10806",
+      "postpaid": 2,
+      "store": "7246 SW 117th Ave",
+      "lastName": ""
     }
   ],
   "mtdMap": {},
@@ -1212,7 +1218,7 @@
       "market": "Metro Southeast",
       "geo": "Metro Miami Southwest",
       "total": 10,
-      "assigned": 8,
+      "assigned": 10,
       "orders": 4,
       "orderDetail": [
         {
@@ -2063,6 +2069,16 @@
       "undo": true,
       "week": "09/19/2026",
       "order": ""
+    },
+    {
+      "code": "byj10806",
+      "lines": 2,
+      "store": "10328800 : 7246 SW 117th Ave",
+      "mm": "Islam (text)",
+      "market": "Islam",
+      "at": "2026-09-21T21:35:32.765Z",
+      "week": "09/19/2026",
+      "order": "110219267097"
     }
   ]
 }
