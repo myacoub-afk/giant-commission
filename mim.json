@@ -248,7 +248,7 @@
     },
     {
       "code": "jxo67554",
-      "postpaid": 0,
+      "postpaid": 1,
       "store": "2031 S Ridgewood Ave",
       "lastName": "Pershing"
     },
@@ -941,7 +941,7 @@
       "market": "Metro Southeast",
       "geo": "Metro Daytona Beach",
       "total": 1,
-      "assigned": 0,
+      "assigned": 1,
       "orders": 0,
       "orderDetail": []
     },
@@ -1877,6 +1877,15 @@
       "mm": "Shadaira Santiago",
       "market": "Shadaira",
       "at": "2026-09-21T20:21:43.734Z",
+      "week": "09/19/2026"
+    },
+    {
+      "code": "jxo67554",
+      "lines": 1,
+      "store": "10215777 : 2031 S Ridgewood Ave",
+      "mm": "Shadaira Santiago",
+      "market": "Shadaira",
+      "at": "2026-09-21T20:25:14.094Z",
       "week": "09/19/2026"
     }
   ]
