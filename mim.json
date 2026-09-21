@@ -356,7 +356,7 @@
     },
     {
       "code": "moq07284",
-      "postpaid": 4,
+      "postpaid": 5,
       "store": "124 N Main St",
       "lastName": "Martinez"
     },
@@ -799,7 +799,7 @@
       "market": "Metro Northeast",
       "geo": "Metro Trenton",
       "total": 11,
-      "assigned": 9,
+      "assigned": 10,
       "orders": 2,
       "orderDetail": [
         {
@@ -1811,6 +1811,15 @@
       "mm": "David (text)",
       "market": "David",
       "at": "2026-09-21T19:37:07.799Z",
+      "week": "09/19/2026"
+    },
+    {
+      "code": "moq07284",
+      "lines": 1,
+      "store": "10211306 : 124 N Main St",
+      "mm": "Barby (text)",
+      "market": "Barby",
+      "at": "2026-09-21T19:59:30.899Z",
       "week": "09/19/2026"
     }
   ]
