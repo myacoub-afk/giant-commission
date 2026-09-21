@@ -1218,17 +1218,9 @@
         "market": "Metro Southeast",
         "geo": "Metro Jacksonville South",
         "total": 13,
-        "assigned": 12,
-        "orders": 1,
-        "orderDetail": [
-          {
-            "order": "110219218799",
-            "date": "9/17",
-            "iso": "2026-09-17",
-            "lines": 1,
-            "status": "Active"
-          }
-        ]
+        "assigned": 13,
+        "orders": 0,
+        "orderDetail": []
       },
       {
         "store": "10191953 : 1469 Nottingham Way",
@@ -1647,6 +1639,16 @@
         "market": "Dom",
         "at": "2026-09-21T21:06:35.466Z",
         "week": "09/12/2026"
+      },
+      {
+        "code": "dxu32635",
+        "lines": 1,
+        "store": "10188987 : 798 Edgewood Ave N",
+        "mm": "Shadi (text)",
+        "market": "Shadi",
+        "at": "2026-09-21T23:29:57.981Z",
+        "week": "09/12/2026",
+        "order": "110219218799"
       }
     ],
     "refreshed": "2026-09-21T22:33:52.094Z"
