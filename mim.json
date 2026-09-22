@@ -1236,17 +1236,9 @@
         "market": "Metro Northeast",
         "geo": "Metro Philadelphia Southwest",
         "total": 9,
-        "assigned": 7,
-        "orders": 1,
-        "orderDetail": [
-          {
-            "order": "110219117843",
-            "date": "9/14",
-            "iso": "2026-09-14",
-            "lines": 2,
-            "status": "Active"
-          }
-        ]
+        "assigned": 9,
+        "orders": 0,
+        "orderDetail": []
       },
       {
         "store": "10233727 : 5816 Woodland Ave",
@@ -1649,6 +1641,16 @@
         "mm": "Khalil Qawasmi",
         "market": "Khalil",
         "at": "2026-09-22T14:28:53.010Z",
+        "week": "09/12/2026",
+        "order": ""
+      },
+      {
+        "code": "chu56044",
+        "lines": 2,
+        "store": "10202209 : 501 S 69th St",
+        "mm": "Khalil Qawasmi",
+        "market": "Khalil",
+        "at": "2026-09-22T14:29:51.061Z",
         "week": "09/12/2026",
         "order": ""
       }
