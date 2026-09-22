@@ -1245,17 +1245,9 @@
         "market": "Metro Northeast",
         "geo": "Metro Philadelphia Southwest",
         "total": 8,
-        "assigned": 4,
-        "orders": 1,
-        "orderDetail": [
-          {
-            "order": "110219157914",
-            "date": "9/15",
-            "iso": "2026-09-15",
-            "lines": 4,
-            "status": "Active"
-          }
-        ]
+        "assigned": 8,
+        "orders": 0,
+        "orderDetail": []
       },
       {
         "store": "10225759 : 632 Greenwich St",
@@ -1655,6 +1647,16 @@
         "at": "2026-09-22T14:38:54.224Z",
         "week": "09/12/2026",
         "order": ""
+      },
+      {
+        "code": "ilx90312",
+        "lines": 4,
+        "store": "10233727 : 5816 Woodland Ave",
+        "mm": "Rani (text)",
+        "market": "Rani",
+        "at": "2026-09-22T14:54:37.206Z",
+        "week": "09/12/2026",
+        "order": "110219157914"
       }
     ],
     "refreshed": "2026-09-21T22:33:52.094Z"
