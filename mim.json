@@ -791,6 +791,12 @@
       "postpaid": 6,
       "store": "1629 N. Kings Hwy",
       "lastName": ""
+    },
+    {
+      "code": "cgt83292",
+      "postpaid": 2,
+      "store": "5920 Metropolis Way 107",
+      "lastName": ""
     }
   ],
   "mtdMap": {},
@@ -947,17 +953,9 @@
       "market": "Metro Southeast",
       "geo": "Metro Orlando West",
       "total": 6,
-      "assigned": 4,
-      "orders": 1,
-      "orderDetail": [
-        {
-          "order": "110219272165",
-          "date": "9/18",
-          "iso": "2026-09-18",
-          "lines": 1,
-          "status": "Active"
-        }
-      ]
+      "assigned": 6,
+      "orders": 0,
+      "orderDetail": []
     },
     {
       "store": "10191849 : 1255 Providence Blvd",
@@ -1885,6 +1883,16 @@
       "at": "2026-09-22T15:06:56.415Z",
       "week": "09/19/2026",
       "order": "110219233503"
+    },
+    {
+      "code": "cgt83292",
+      "lines": 2,
+      "store": "10194890 : 5920 Metropolis Way 107",
+      "mm": "Tiffany (text)",
+      "market": "Tiffany",
+      "at": "2026-09-22T15:15:52.803Z",
+      "week": "09/19/2026",
+      "order": "110219272165"
     }
   ]
 }
