@@ -1,7 +1,7 @@
 {
   "meta": {
     "period": "Sep 19, 2026 - Sep 25, 2026",
-    "published": "Sep 21, 10:44 PM",
+    "published": "Sep 22, 9:14 AM",
     "autoPublished": true
   },
   "mrc": {
@@ -2956,6 +2956,13 @@
       "store": "EDGEWOOD",
       "repName": "OMAR"
     },
+    "knm92502": {
+      "name": "melissa",
+      "acc": 229.92,
+      "hint": 1,
+      "store": "SUNBEAM",
+      "repName": "melissa"
+    },
     "gqe94673": {
       "name": "RAFIQ",
       "acc": 119.95,
@@ -3004,13 +3011,6 @@
       "hint": 0,
       "store": "MAYPORT",
       "repName": "ZADEETH"
-    },
-    "knm92502": {
-      "name": "melissa",
-      "acc": 229.92,
-      "hint": 1,
-      "store": "SUNBEAM",
-      "repName": "melissa"
     },
     "lfm33248": {
       "name": "Frankie",
@@ -7661,33 +7661,6 @@
       "close_order": 113
     },
     {
-      "code": "oax94730",
-      "name": "Dianelis",
-      "lastName": "",
-      "store": "MAYPORT",
-      "mrc": 138,
-      "acc": 104.96,
-      "hint": 1,
-      "mim": 0,
-      "mtd_lines": 0,
-      "in_mim": false,
-      "hint_gate": true,
-      "mim_gate": false,
-      "tier": 0,
-      "tier_comm": 0,
-      "hint_spiff": 15,
-      "mim_spiff": 0,
-      "total": 15,
-      "mrc_gap": 362,
-      "acc_gap": 595.04,
-      "hint_gap": 0,
-      "mim_gap": 1,
-      "qualifies": false,
-      "needs": "+$362 MRC, +$595.04 acc, +1 MIM",
-      "rank": 143,
-      "close_order": 127
-    },
-    {
       "code": "knm92502",
       "name": "melissa",
       "lastName": "",
@@ -7711,8 +7684,35 @@
       "mim_gap": 1,
       "qualifies": false,
       "needs": "+$151 MRC, +$470.08 acc, +1 MIM",
-      "rank": 144,
+      "rank": 143,
       "close_order": 91
+    },
+    {
+      "code": "oax94730",
+      "name": "Dianelis",
+      "lastName": "",
+      "store": "MAYPORT",
+      "mrc": 138,
+      "acc": 104.96,
+      "hint": 1,
+      "mim": 0,
+      "mtd_lines": 0,
+      "in_mim": false,
+      "hint_gate": true,
+      "mim_gate": false,
+      "tier": 0,
+      "tier_comm": 0,
+      "hint_spiff": 15,
+      "mim_spiff": 0,
+      "total": 15,
+      "mrc_gap": 362,
+      "acc_gap": 595.04,
+      "hint_gap": 0,
+      "mim_gap": 1,
+      "qualifies": false,
+      "needs": "+$362 MRC, +$595.04 acc, +1 MIM",
+      "rank": 144,
+      "close_order": 127
     },
     {
       "code": "bgd96838",
