@@ -191,6 +191,16 @@ function renderCard(u,idx,period){
     var opts='<option value="">Select rep…</option>';
     if(reps.atStore.length){opts+='<optgroup label="This store">'+reps.atStore.map(function(r){return '<option value="'+r.code+'">'+esc(r.label)+'</option>';}).join('')+'</optgroup>';}
     if(reps.others.length){opts+='<optgroup label="All reps">'+reps.others.map(function(r){return '<option value="'+r.code+'">'+esc(r.label)+'</option>';}).join('')+'</optgroup>';}
+    // Every assignment records which order it belongs to. One order -> preselected;
+    // several -> the MM must pick; none -> no control, and the server flags it.
+    var od=(u.orderDetail||[]);
+    var ordOpts='';
+    if(od.length){
+      if(od.length>1)ordOpts+='<option value="">Which order?</option>';
+      ordOpts+=od.map(function(o2){
+        return '<option value="'+esc(o2.order)+'">order '+esc(o2.order)+' · '+esc(o2.date)+' · '+o2.lines+' line'+(o2.lines===1?'':'s')+'</option>';
+      }).join('');
+    }
     return '<div class="store-card'+(period==='prior'?' last-wk':'')+'" data-store="'+esc(u.store)+'" data-idx="'+idx+'" data-period="'+period+'">'
       +'<div class="store-name">'+esc(storeNick(u.store)||u.store)+'</div>'
       +'<div class="store-geo">'+esc(u.store)+' · '+esc(u.geo||'')+'</div>'
@@ -198,6 +208,7 @@ function renderCard(u,idx,period){
         return 'order '+esc(o2.order)+' submitted '+esc(o2.date)+' · '+o2.lines+' line'+(o2.lines===1?'':'s')+(/active/i.test(o2.status||'')?'':' · '+esc(o2.status));
       }).join('<br>')+'</div>':'')
       +'<div class="un-badge" id="badge'+idx+'">'+un+' unassigned MIM line'+(un===1?'':'s')+'</div>'
+      +(od.length?'<div style="margin-bottom:8px"><select id="ord'+idx+'">'+ordOpts+'</select></div>':'')
       +'<div class="assign-row">'
       +'<select id="rep'+idx+'">'+opts+'</select>'
       +'<input id="lines'+idx+'" type="number" min="1" max="'+un+'" value="1">'
@@ -218,12 +229,15 @@ function doAssign(idx,btn){
   var bucket=(period==='prior'&&MIM.prior&&MIM.prior.unassigned)?MIM.prior.unassigned:(MIM.unassigned||[]);
   var u=bucket.filter(function(x){return x.store===store;})[0];
   var remaining=u?Math.round((u.total-(u.assigned||0))*10)/10:0;
+  var ordSel=document.getElementById('ord'+idx);
+  var order=ordSel?ordSel.value:'';
   if(!code){msg.className='msg err';msg.textContent='Select a rep first.';return;}
+  if(ordSel&&!order){msg.className='msg err';msg.textContent='Pick which order these lines belong to.';return;}
   if(lines<1||lines>remaining){msg.className='msg err';msg.textContent='Lines must be 1–'+remaining+'.';return;}
   btn.disabled=true;btn.textContent='Saving…';msg.className='msg';msg.textContent='';
   fetch(API,{method:'POST',body:JSON.stringify({
     action:'assign',market:SESSION.market,passcode:SESSION.pass,mmName:SESSION.name,
-    store:store,code:code,name:name,lines:lines,period:period
+    store:store,code:code,name:name,lines:lines,period:period,order:order
   })})
     .then(function(r){return r.json();})
     .then(function(res){
