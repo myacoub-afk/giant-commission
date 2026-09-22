@@ -1262,17 +1262,9 @@
         "market": "Metro Northeast",
         "geo": "Metro Lancaster/York",
         "total": 9,
-        "assigned": 7,
-        "orders": 1,
-        "orderDetail": [
-          {
-            "order": "110219062125",
-            "date": "9/12",
-            "iso": "2026-09-12",
-            "lines": 1,
-            "status": "Active"
-          }
-        ]
+        "assigned": 9,
+        "orders": 0,
+        "orderDetail": []
       }
     ],
     "manualAssignments": [
@@ -1651,6 +1643,16 @@
         "mm": "Khalil Qawasmi",
         "market": "Khalil",
         "at": "2026-09-22T14:29:51.061Z",
+        "week": "09/12/2026",
+        "order": ""
+      },
+      {
+        "code": "byg53736",
+        "lines": 2,
+        "store": "10225759 : 632 Greenwich St",
+        "mm": "Khalil Qawasmi",
+        "market": "Khalil",
+        "at": "2026-09-22T14:38:54.224Z",
         "week": "09/12/2026",
         "order": ""
       }
