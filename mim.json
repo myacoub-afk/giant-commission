@@ -785,6 +785,12 @@
       "postpaid": 5,
       "store": "5891 S Military Trl Ste 11A",
       "lastName": ""
+    },
+    {
+      "code": "dxz03683",
+      "postpaid": 6,
+      "store": "1629 N. Kings Hwy",
+      "lastName": ""
     }
   ],
   "mtdMap": {},
@@ -1117,17 +1123,9 @@
       "market": "Metro Northeast",
       "geo": "Metro New Jersey South",
       "total": 9,
-      "assigned": 3,
-      "orders": 1,
-      "orderDetail": [
-        {
-          "order": "110219233503",
-          "date": "9/17",
-          "iso": "2026-09-17",
-          "lines": 6,
-          "status": "Active"
-        }
-      ]
+      "assigned": 9,
+      "orders": 0,
+      "orderDetail": []
     },
     {
       "store": "10328831 : 8925 J.M. Keynes Drive Suite 3",
@@ -1877,6 +1875,16 @@
       "at": "2026-09-21T21:45:07.968Z",
       "week": "09/19/2026",
       "order": "110219262361"
+    },
+    {
+      "code": "dxz03683",
+      "lines": 6,
+      "store": "10328823 : 1629 N. Kings Hwy",
+      "mm": "Rani (text)",
+      "market": "Rani",
+      "at": "2026-09-22T15:06:56.415Z",
+      "week": "09/19/2026",
+      "order": "110219233503"
     }
   ]
 }
