@@ -1176,6 +1176,12 @@
       "postpaid": 5,
       "store": "5401 South Blvd Ste A",
       "lastName": ""
+    },
+    {
+      "code": "aqd41062",
+      "postpaid": 1,
+      "store": "111 Coors Blvd NW",
+      "lastName": ""
     }
   ],
   "mtdMap": {},
@@ -1549,24 +1555,9 @@
       "market": "Metro South Central",
       "geo": "Metro Albuquerque South",
       "total": 1,
-      "assigned": 0,
-      "orders": 2,
-      "orderDetail": [
-        {
-          "order": "110219371154",
-          "date": "9/21",
-          "iso": "2026-09-21",
-          "lines": 1,
-          "status": "Active"
-        },
-        {
-          "order": "110219263626",
-          "date": "9/18",
-          "iso": "2026-09-18",
-          "lines": 1,
-          "status": "Pending or Canceled"
-        }
-      ]
+      "assigned": 1,
+      "orders": 0,
+      "orderDetail": []
     },
     {
       "store": "10226085 : 5555 Zuni Rd SE Ste 5",
@@ -2166,6 +2157,16 @@
       "at": "2026-09-23T18:56:19.320Z",
       "week": "09/19/2026",
       "order": "110219322515"
+    },
+    {
+      "code": "aqd41062",
+      "lines": 1,
+      "store": "10207249 : 111 Coors Blvd NW",
+      "mm": "Dom",
+      "market": "Dom",
+      "at": "2026-09-23T19:21:22.543Z",
+      "week": "09/19/2026",
+      "order": "110219371154"
     }
   ]
 }
