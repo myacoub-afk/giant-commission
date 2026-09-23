@@ -1,7 +1,7 @@
 {
   "meta": {
     "period": "Sep 19, 2026 - Sep 25, 2026",
-    "published": "Sep 23, 9:44 AM",
+    "published": "Sep 23, 10:14 AM",
     "autoPublished": true
   },
   "mrc": {
@@ -1002,7 +1002,7 @@
     },
     "bfk31539": {
       "name": "SEREEN",
-      "mrc": 90,
+      "mrc": 120,
       "hint": 0
     },
     "dxu32635": {
@@ -1102,7 +1102,7 @@
     },
     "bsc75544": {
       "name": "prince",
-      "mrc": 143,
+      "mrc": 213,
       "hint": 1
     },
     "byg53736": {
@@ -1337,7 +1337,7 @@
     },
     "awk30117": {
       "name": "anabel",
-      "mrc": 160,
+      "mrc": 175,
       "hint": 0
     },
     "bmp86855": {
@@ -1572,7 +1572,7 @@
     },
     "wut89019": {
       "name": "yareinnis",
-      "mrc": 150,
+      "mrc": 195,
       "hint": 1
     },
     "xfr56827": {
@@ -3151,7 +3151,7 @@
     },
     "bfk31539": {
       "name": "SEREEN",
-      "acc": 84.98,
+      "acc": 109.97,
       "hint": 0,
       "store": "COLLINS",
       "repName": "SEREEN"
@@ -3410,7 +3410,7 @@
     },
     "bsc75544": {
       "name": "prince",
-      "acc": 46,
+      "acc": 95.98,
       "hint": 1,
       "store": "60TH ST",
       "repName": "prince"
@@ -3898,6 +3898,13 @@
       "store": "HIALEAH",
       "repName": "yaleidy"
     },
+    "wut89019": {
+      "name": "yareinnis",
+      "acc": 74.97,
+      "hint": 1,
+      "store": "HIALEAH",
+      "repName": "yareinnis"
+    },
     "awk30117": {
       "name": "anabel",
       "acc": 414.9,
@@ -3911,13 +3918,6 @@
       "hint": 1,
       "store": "HIALEAH",
       "repName": "GRETER"
-    },
-    "wut89019": {
-      "name": "yareinnis",
-      "acc": 74.97,
-      "hint": 1,
-      "store": "HIALEAH",
-      "repName": "yareinnis"
     },
     "fbr13146": {
       "name": "David",
@@ -4517,7 +4517,7 @@
       "qualifies": false,
       "needs": "+$350 MRC, +$620.02 acc",
       "rank": 18,
-      "close_order": 87
+      "close_order": 88
     },
     {
       "code": "eoz17724",
@@ -5057,7 +5057,7 @@
       "qualifies": false,
       "needs": "+$300 MRC, +$650.02 acc",
       "rank": 38,
-      "close_order": 89
+      "close_order": 90
     },
     {
       "code": "uua80046",
@@ -5543,7 +5543,7 @@
       "qualifies": false,
       "needs": "+$425 MRC, +$620.02 acc",
       "rank": 56,
-      "close_order": 88
+      "close_order": 89
     },
     {
       "code": "axx97896",
@@ -5847,8 +5847,8 @@
       "name": "prince",
       "lastName": "Kumar",
       "store": "60TH ST",
-      "mrc": 143,
-      "acc": 46,
+      "mrc": 213,
+      "acc": 95.98,
       "hint": 1,
       "mim": 3,
       "mtd_lines": 0,
@@ -5860,14 +5860,14 @@
       "hint_spiff": 15,
       "mim_spiff": 60,
       "total": 75,
-      "mrc_gap": 357,
-      "acc_gap": 654,
+      "mrc_gap": 287,
+      "acc_gap": 604.02,
       "hint_gap": 0,
       "mim_gap": 0,
       "qualifies": false,
-      "needs": "+$357 MRC, +$654.00 acc",
+      "needs": "+$287 MRC, +$604.02 acc",
       "rank": 68,
-      "close_order": 90
+      "close_order": 86
     },
     {
       "code": "ugb59023",
@@ -6279,7 +6279,7 @@
       "name": "anabel",
       "lastName": "Yanes",
       "store": "HIALEAH",
-      "mrc": 160,
+      "mrc": 175,
       "acc": 414.9,
       "hint": 0,
       "mim": 3,
@@ -6292,12 +6292,12 @@
       "hint_spiff": 0,
       "mim_spiff": 60,
       "total": 60,
-      "mrc_gap": 340,
+      "mrc_gap": 325,
       "acc_gap": 285.1,
       "hint_gap": 1,
       "mim_gap": 0,
       "qualifies": false,
-      "needs": "+$340 MRC, +$285.10 acc, +1 HINT",
+      "needs": "+$325 MRC, +$285.10 acc, +1 HINT",
       "rank": 84,
       "close_order": 110
     },
@@ -7109,7 +7109,7 @@
       "qualifies": false,
       "needs": "+$224 MRC, +$613.03 acc",
       "rank": 114,
-      "close_order": 86
+      "close_order": 87
     },
     {
       "code": "mma98553",
@@ -9569,6 +9569,33 @@
       "close_order": 103
     },
     {
+      "code": "wut89019",
+      "name": "yareinnis",
+      "lastName": "",
+      "store": "HIALEAH",
+      "mrc": 195,
+      "acc": 74.97,
+      "hint": 1,
+      "mim": 0,
+      "mtd_lines": 0,
+      "in_mim": false,
+      "hint_gate": true,
+      "mim_gate": false,
+      "tier": 0,
+      "tier_comm": 0,
+      "hint_spiff": 15,
+      "mim_spiff": 0,
+      "total": 15,
+      "mrc_gap": 305,
+      "acc_gap": 625.03,
+      "hint_gap": 0,
+      "mim_gap": 1,
+      "qualifies": false,
+      "needs": "+$305 MRC, +$625.03 acc, +1 MIM",
+      "rank": 206,
+      "close_order": 192
+    },
+    {
       "code": "ogs01171",
       "name": "GRETER",
       "lastName": "",
@@ -9592,35 +9619,8 @@
       "mim_gap": 1,
       "qualifies": false,
       "needs": "+$345 MRC, +$635.01 acc, +1 MIM",
-      "rank": 206,
-      "close_order": 196
-    },
-    {
-      "code": "wut89019",
-      "name": "yareinnis",
-      "lastName": "",
-      "store": "HIALEAH",
-      "mrc": 150,
-      "acc": 74.97,
-      "hint": 1,
-      "mim": 0,
-      "mtd_lines": 0,
-      "in_mim": false,
-      "hint_gate": true,
-      "mim_gate": false,
-      "tier": 0,
-      "tier_comm": 0,
-      "hint_spiff": 15,
-      "mim_spiff": 0,
-      "total": 15,
-      "mrc_gap": 350,
-      "acc_gap": 625.03,
-      "hint_gap": 0,
-      "mim_gap": 1,
-      "qualifies": false,
-      "needs": "+$350 MRC, +$625.03 acc, +1 MIM",
       "rank": 207,
-      "close_order": 192
+      "close_order": 196
     },
     {
       "code": "miw01822",
@@ -10052,7 +10052,7 @@
       "qualifies": false,
       "needs": "+$190 MRC, +$605.03 acc, +1 HINT, +1 MIM",
       "rank": 223,
-      "close_order": 279
+      "close_order": 280
     },
     {
       "code": "fev02150",
@@ -10835,7 +10835,7 @@
       "qualifies": false,
       "needs": "+$385 MRC, +$598.04 acc, +1 HINT, +1 MIM",
       "rank": 252,
-      "close_order": 277
+      "close_order": 278
     },
     {
       "code": "hsx12380",
@@ -10997,7 +10997,7 @@
       "qualifies": false,
       "needs": "+$465 MRC, +$590.04 acc, +1 HINT, +1 MIM",
       "rank": 258,
-      "close_order": 275
+      "close_order": 276
     },
     {
       "code": "cfg22286",
@@ -11591,7 +11591,7 @@
       "qualifies": false,
       "needs": "+$500 MRC, +$610.04 acc, +1 HINT, +1 MIM",
       "rank": 280,
-      "close_order": 281
+      "close_order": 282
     },
     {
       "code": "bmk09214",
@@ -11996,7 +11996,7 @@
       "qualifies": false,
       "needs": "+$437 MRC, +$605.02 acc, +1 HINT, +1 MIM",
       "rank": 295,
-      "close_order": 278
+      "close_order": 279
     },
     {
       "code": "bvg22735",
@@ -12219,8 +12219,8 @@
       "name": "SEREEN",
       "lastName": "",
       "store": "COLLINS",
-      "mrc": 90,
-      "acc": 84.98,
+      "mrc": 120,
+      "acc": 109.97,
       "hint": 0,
       "mim": 0,
       "mtd_lines": 0,
@@ -12232,14 +12232,14 @@
       "hint_spiff": 0,
       "mim_spiff": 0,
       "total": 0,
-      "mrc_gap": 410,
-      "acc_gap": 615.02,
+      "mrc_gap": 380,
+      "acc_gap": 590.03,
       "hint_gap": 1,
       "mim_gap": 1,
       "qualifies": false,
-      "needs": "+$410 MRC, +$615.02 acc, +1 HINT, +1 MIM",
+      "needs": "+$380 MRC, +$590.03 acc, +1 HINT, +1 MIM",
       "rank": 304,
-      "close_order": 282
+      "close_order": 275
     },
     {
       "code": "uif22938",
@@ -12401,7 +12401,7 @@
       "qualifies": false,
       "needs": "+$331 MRC, +$605.04 acc, +1 HINT, +1 MIM",
       "rank": 310,
-      "close_order": 280
+      "close_order": 281
     },
     {
       "code": "fsy19164",
@@ -13022,7 +13022,7 @@
       "qualifies": false,
       "needs": "+$166 MRC, +$594.04 acc, +1 HINT, +1 MIM",
       "rank": 333,
-      "close_order": 276
+      "close_order": 277
     },
     {
       "code": "xfr56827",
