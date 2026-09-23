@@ -417,7 +417,7 @@
     },
     {
       "code": "kdu31511",
-      "postpaid": 1,
+      "postpaid": 3,
       "store": "338 E New York Ave",
       "lastName": "Dussan"
     },
@@ -1382,17 +1382,9 @@
       "market": "Metro Southeast",
       "geo": "Metro Daytona Beach",
       "total": 7,
-      "assigned": 5,
-      "orders": 1,
-      "orderDetail": [
-        {
-          "order": "110219368503",
-          "date": "9/21",
-          "iso": "2026-09-21",
-          "lines": 2,
-          "status": "Active"
-        }
-      ]
+      "assigned": 7,
+      "orders": 0,
+      "orderDetail": []
     },
     {
       "store": "10215777 : 2031 S Ridgewood Ave",
@@ -2043,6 +2035,16 @@
       "at": "2026-09-23T14:25:02.717Z",
       "week": "09/19/2026",
       "order": "110219361290"
+    },
+    {
+      "code": "kdu31511",
+      "lines": 2,
+      "store": "10198878 : 338 E New York Ave",
+      "mm": "Moe (text)",
+      "market": "Moe",
+      "at": "2026-09-23T14:38:08.887Z",
+      "week": "09/19/2026",
+      "order": "110219368503"
     }
   ]
 }
