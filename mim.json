@@ -453,7 +453,7 @@
     },
     {
       "code": "ldg56998",
-      "postpaid": 2,
+      "postpaid": 4,
       "store": "9180 State Rd 84",
       "lastName": "Hernandez"
     },
@@ -1785,21 +1785,14 @@
       "market": "Metro Southeast",
       "geo": "Metro Miramar",
       "total": 10,
-      "assigned": 5,
-      "orders": 3,
+      "assigned": 7,
+      "orders": 2,
       "orderDetail": [
         {
           "order": "110219322515",
           "date": "9/20",
           "iso": "2026-09-20",
           "lines": 3,
-          "status": "Active"
-        },
-        {
-          "order": "110219285182",
-          "date": "9/19",
-          "iso": "2026-09-19",
-          "lines": 2,
           "status": "Active"
         },
         {
@@ -2168,6 +2161,16 @@
       "at": "2026-09-23T18:37:53.880Z",
       "week": "09/19/2026",
       "order": "110219293949"
+    },
+    {
+      "code": "ldg56998",
+      "lines": 2,
+      "store": "10328802 : 9180 State Rd 84",
+      "mm": "Islam (text)",
+      "market": "Islam",
+      "at": "2026-09-23T18:55:22.045Z",
+      "week": "09/19/2026",
+      "order": "110219285182"
     }
   ]
 }
