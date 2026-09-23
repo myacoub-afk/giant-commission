@@ -1158,6 +1158,12 @@
       "postpaid": 1,
       "store": "504 N Dixie Fwy",
       "lastName": ""
+    },
+    {
+      "code": "gnw12226",
+      "postpaid": 2,
+      "store": "145 Palm Bay Rd NE",
+      "lastName": ""
     }
   ],
   "mtdMap": {},
@@ -1460,17 +1466,9 @@
       "market": "Metro Southeast",
       "geo": "Metro Brevard",
       "total": 2,
-      "assigned": 0,
-      "orders": 1,
-      "orderDetail": [
-        {
-          "order": "110219350184",
-          "date": "9/21",
-          "iso": "2026-09-21",
-          "lines": 2,
-          "status": "Active"
-        }
-      ]
+      "assigned": 2,
+      "orders": 0,
+      "orderDetail": []
     },
     {
       "store": "10209177 : 3701 San Mateo Blvd NE",
@@ -2045,6 +2043,16 @@
       "at": "2026-09-23T14:38:08.887Z",
       "week": "09/19/2026",
       "order": "110219368503"
+    },
+    {
+      "code": "gnw12226",
+      "lines": 2,
+      "store": "10198871 : 145 Palm Bay Rd NE",
+      "mm": "Shailine (text)",
+      "market": "Shailine",
+      "at": "2026-09-23T16:16:15.403Z",
+      "week": "09/19/2026",
+      "order": "110219350184"
     }
   ]
 }
