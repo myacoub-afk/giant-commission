@@ -1146,6 +1146,12 @@
       "postpaid": 5,
       "store": "534 Belvedere Rd",
       "lastName": ""
+    },
+    {
+      "code": "blv28122",
+      "postpaid": 1,
+      "store": "104 N. Nova Road",
+      "lastName": ""
     }
   ],
   "mtdMap": {},
@@ -1622,14 +1628,14 @@
       "market": "Metro Southeast",
       "geo": "Metro Daytona Beach",
       "total": 4,
-      "assigned": 1,
+      "assigned": 2,
       "orders": 1,
       "orderDetail": [
         {
           "order": "110219361290",
           "date": "9/21",
           "iso": "2026-09-21",
-          "lines": 3,
+          "lines": 2,
           "status": "Active"
         }
       ]
@@ -2001,6 +2007,16 @@
       "at": "2026-09-23T14:22:33.212Z",
       "week": "09/19/2026",
       "order": "110219350126"
+    },
+    {
+      "code": "blv28122",
+      "lines": 1,
+      "store": "10328830 : 104 N. Nova Road",
+      "mm": "Shadaira Santiago",
+      "market": "Shadaira",
+      "at": "2026-09-23T14:23:16.727Z",
+      "week": "09/19/2026",
+      "order": "110219361290"
     }
   ]
 }
