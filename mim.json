@@ -1053,7 +1053,7 @@
     },
     {
       "code": "yvs34647",
-      "postpaid": 9,
+      "postpaid": 10,
       "store": "1490 Palm Coast Pkwy NW, Suite 2",
       "lastName": "Crowder"
     },
@@ -1447,38 +1447,9 @@
       "market": "Metro Southeast",
       "geo": "Metro Jacksonville South",
       "total": 11,
-      "assigned": 10,
-      "orders": 4,
-      "orderDetail": [
-        {
-          "order": "110219350126",
-          "date": "9/21",
-          "iso": "2026-09-21",
-          "lines": 1,
-          "status": "Active"
-        },
-        {
-          "order": "110219365572",
-          "date": "9/21",
-          "iso": "2026-09-21",
-          "lines": 3,
-          "status": "Pending or Canceled"
-        },
-        {
-          "order": "110219325006",
-          "date": "9/20",
-          "iso": "2026-09-20",
-          "lines": 3,
-          "status": "Active"
-        },
-        {
-          "order": "110219156343",
-          "date": "9/15",
-          "iso": "2026-09-15",
-          "lines": 5,
-          "status": "Active"
-        }
-      ]
+      "assigned": 11,
+      "orders": 0,
+      "orderDetail": []
     },
     {
       "store": "10198871 : 145 Palm Bay Rd NE",
@@ -2020,6 +1991,16 @@
       "at": "2026-09-23T14:15:36.063Z",
       "week": "09/19/2026",
       "order": "110219330209"
+    },
+    {
+      "code": "yvs34647",
+      "lines": 1,
+      "store": "10194902 : 1490 Palm Coast Pkwy NW, Suite 2",
+      "mm": "Shadaira Santiago",
+      "market": "Shadaira",
+      "at": "2026-09-23T14:22:33.212Z",
+      "week": "09/19/2026",
+      "order": "110219350126"
     }
   ]
 }
