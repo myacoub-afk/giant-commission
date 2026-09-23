@@ -1170,6 +1170,12 @@
       "postpaid": 5,
       "store": "5401 South Blvd Ste A",
       "lastName": ""
+    },
+    {
+      "code": "yfe60320",
+      "postpaid": 1,
+      "store": "7246 SW 117th Ave",
+      "lastName": ""
     }
   ],
   "mtdMap": {},
@@ -1664,31 +1670,9 @@
       "market": "Metro Southeast",
       "geo": "Metro Miami Southwest",
       "total": 15,
-      "assigned": 14,
-      "orders": 3,
-      "orderDetail": [
-        {
-          "order": "110219293949",
-          "date": "9/19",
-          "iso": "2026-09-19",
-          "lines": 1,
-          "status": "Active"
-        },
-        {
-          "order": "110219267097",
-          "date": "9/18",
-          "iso": "2026-09-18",
-          "lines": 2,
-          "status": "Active"
-        },
-        {
-          "order": "110219122012",
-          "date": "9/14",
-          "iso": "2026-09-14",
-          "lines": 2,
-          "status": "Active"
-        }
-      ]
+      "assigned": 15,
+      "orders": 0,
+      "orderDetail": []
     },
     {
       "store": "10328802 : 9180 State Rd 84",
@@ -2068,6 +2052,16 @@
       "at": "2026-09-23T18:16:01.159Z",
       "week": "09/19/2026",
       "order": "110219248199"
+    },
+    {
+      "code": "yfe60320",
+      "lines": 1,
+      "store": "10328800 : 7246 SW 117th Ave",
+      "mm": "Islam (text)",
+      "market": "Islam",
+      "at": "2026-09-23T18:37:53.880Z",
+      "week": "09/19/2026",
+      "order": "110219293949"
     }
   ]
 }
