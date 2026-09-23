@@ -885,7 +885,7 @@
     },
     {
       "code": "uvp73646",
-      "postpaid": 0,
+      "postpaid": 2,
       "store": "2447 N. Wickham Road",
       "lastName": "Rodriguez"
     },
@@ -1642,17 +1642,9 @@
       "market": "Metro Southeast",
       "geo": "Metro Brevard",
       "total": 2,
-      "assigned": 0,
-      "orders": 1,
-      "orderDetail": [
-        {
-          "order": "110219330209",
-          "date": "9/20",
-          "iso": "2026-09-20",
-          "lines": 2,
-          "status": "Active"
-        }
-      ]
+      "assigned": 2,
+      "orders": 0,
+      "orderDetail": []
     },
     {
       "store": "10328830 : 104 N. Nova Road",
@@ -2018,6 +2010,16 @@
       "at": "2026-09-22T15:15:52.803Z",
       "week": "09/19/2026",
       "order": "110219272165"
+    },
+    {
+      "code": "uvp73646",
+      "lines": 2,
+      "store": "10328829 : 2447 N. Wickham Road",
+      "mm": "Shailine (text)",
+      "market": "Shailine",
+      "at": "2026-09-23T14:15:36.063Z",
+      "week": "09/19/2026",
+      "order": "110219330209"
     }
   ]
 }
