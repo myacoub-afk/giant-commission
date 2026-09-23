@@ -1164,6 +1164,12 @@
       "postpaid": 2,
       "store": "145 Palm Bay Rd NE",
       "lastName": ""
+    },
+    {
+      "code": "spz14948",
+      "postpaid": 5,
+      "store": "5401 South Blvd Ste A",
+      "lastName": ""
     }
   ],
   "mtdMap": {},
@@ -1298,17 +1304,9 @@
       "market": "Metro Southeast",
       "geo": "Metro NC Charlotte South",
       "total": 5,
-      "assigned": 0,
-      "orders": 1,
-      "orderDetail": [
-        {
-          "order": "110219347094",
-          "date": "9/21",
-          "iso": "2026-09-21",
-          "lines": 5,
-          "status": "Active"
-        }
-      ]
+      "assigned": 5,
+      "orders": 0,
+      "orderDetail": []
     },
     {
       "store": "10228081 : 5810 S Orange Blossom Trl",
@@ -2058,6 +2056,16 @@
       "at": "2026-09-23T16:30:35.576Z",
       "week": "09/19/2026",
       "order": "110219300820"
+    },
+    {
+      "code": "spz14948",
+      "lines": 5,
+      "store": "10217210 : 5401 South Blvd Ste A",
+      "mm": "Omar (text)",
+      "market": "Omar",
+      "at": "2026-09-23T16:47:57.673Z",
+      "week": "09/19/2026",
+      "order": "110219347094"
     }
   ]
 }
