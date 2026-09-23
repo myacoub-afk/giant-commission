@@ -459,7 +459,7 @@
     },
     {
       "code": "leu33419",
-      "postpaid": 11,
+      "postpaid": 15,
       "store": "124 N Main St",
       "lastName": "Salvador"
     },
@@ -1231,16 +1231,9 @@
       "market": "Metro Northeast",
       "geo": "Metro Trenton",
       "total": 32,
-      "assigned": 27,
-      "orders": 2,
+      "assigned": 31,
+      "orders": 1,
       "orderDetail": [
-        {
-          "order": "110219297573",
-          "date": "9/19",
-          "iso": "2026-09-19",
-          "lines": 4,
-          "status": "Active"
-        },
         {
           "order": "110219248199",
           "date": "9/18",
@@ -2053,6 +2046,16 @@
       "at": "2026-09-23T16:16:15.403Z",
       "week": "09/19/2026",
       "order": "110219350184"
+    },
+    {
+      "code": "leu33419",
+      "lines": 4,
+      "store": "10211306 : 124 N Main St",
+      "mm": "Barby (text)",
+      "market": "Barby",
+      "at": "2026-09-23T16:28:17.394Z",
+      "week": "09/19/2026",
+      "order": "110219297573"
     }
   ]
 }
