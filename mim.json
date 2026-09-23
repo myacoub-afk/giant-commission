@@ -803,6 +803,12 @@
       "postpaid": 1,
       "store": "504 N Dixie Fwy",
       "lastName": ""
+    },
+    {
+      "code": "tas64368",
+      "postpaid": 3,
+      "store": "113 E Commerce St",
+      "lastName": ""
     }
   ],
   "mtdMap": {},
@@ -1234,17 +1240,9 @@
       "market": "Metro Northeast",
       "geo": "Metro New Jersey Shore",
       "total": 8,
-      "assigned": 5,
-      "orders": 1,
-      "orderDetail": [
-        {
-          "order": "110219355838",
-          "date": "9/21",
-          "iso": "2026-09-21",
-          "lines": 3,
-          "status": "Pending or Canceled"
-        }
-      ]
+      "assigned": 8,
+      "orders": 0,
+      "orderDetail": []
     }
   ],
   "manualAssignments": [
@@ -1673,6 +1671,16 @@
       "at": "2026-09-23T20:47:25.166Z",
       "week": "09/19/2026",
       "order": "110219361290"
+    },
+    {
+      "code": "tas64368",
+      "lines": 3,
+      "store": "10195307 : 113 E Commerce St",
+      "mm": "Barby (text)",
+      "market": "Barby",
+      "at": "2026-09-23T21:22:26.981Z",
+      "week": "09/19/2026",
+      "order": "110219355838"
     }
   ]
 }
