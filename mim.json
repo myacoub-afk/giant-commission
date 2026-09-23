@@ -1152,6 +1152,12 @@
       "postpaid": 1,
       "store": "104 N. Nova Road",
       "lastName": ""
+    },
+    {
+      "code": "wql96426",
+      "postpaid": 1,
+      "store": "504 N Dixie Fwy",
+      "lastName": ""
     }
   ],
   "mtdMap": {},
@@ -1402,14 +1408,14 @@
       "market": "Metro Southeast",
       "geo": "Metro Daytona Beach",
       "total": 3,
-      "assigned": 1,
+      "assigned": 2,
       "orders": 1,
       "orderDetail": [
         {
           "order": "110219359605",
           "date": "9/21",
           "iso": "2026-09-21",
-          "lines": 2,
+          "lines": 1,
           "status": "Active"
         }
       ]
@@ -2017,6 +2023,16 @@
       "at": "2026-09-23T14:23:16.727Z",
       "week": "09/19/2026",
       "order": "110219361290"
+    },
+    {
+      "code": "wql96426",
+      "lines": 1,
+      "store": "10213574 : 504 N Dixie Fwy",
+      "mm": "Shadaira Santiago",
+      "market": "Shadaira",
+      "at": "2026-09-23T14:24:55.906Z",
+      "week": "09/19/2026",
+      "order": "110219359605"
     }
   ]
 }
