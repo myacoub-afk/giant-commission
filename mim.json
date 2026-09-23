@@ -752,7 +752,7 @@
     },
     {
       "code": "blv28122",
-      "postpaid": 2,
+      "postpaid": 3,
       "store": "104 N. Nova Road",
       "lastName": ""
     },
@@ -1143,17 +1143,9 @@
       "market": "Metro Southeast",
       "geo": "Metro Daytona Beach",
       "total": 4,
-      "assigned": 3,
-      "orders": 1,
-      "orderDetail": [
-        {
-          "order": "110219361290",
-          "date": "9/21",
-          "iso": "2026-09-21",
-          "lines": 3,
-          "status": "Active"
-        }
-      ]
+      "assigned": 4,
+      "orders": 0,
+      "orderDetail": []
     },
     {
       "store": "10328831 : 8925 J.M. Keynes Drive Suite 3",
@@ -1671,6 +1663,16 @@
       "at": "2026-09-23T20:46:50.129Z",
       "week": "09/19/2026",
       "order": "110219359605"
+    },
+    {
+      "code": "blv28122",
+      "lines": 1,
+      "store": "10328830 : 104 N. Nova Road",
+      "mm": "Shadaira Santiago",
+      "market": "Shadaira",
+      "at": "2026-09-23T20:47:25.166Z",
+      "week": "09/19/2026",
+      "order": "110219361290"
     }
   ]
 }
