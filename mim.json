@@ -791,6 +791,12 @@
       "postpaid": 1,
       "store": "111 Coors Blvd NW",
       "lastName": ""
+    },
+    {
+      "code": "che75678",
+      "postpaid": 1,
+      "store": "1490 Palm Coast Pkwy NW, Suite 2",
+      "lastName": ""
     }
   ],
   "mtdMap": {},
@@ -1028,7 +1034,7 @@
       "market": "Metro Southeast",
       "geo": "Metro Jacksonville South",
       "total": 14,
-      "assigned": 11,
+      "assigned": 12,
       "orders": 3,
       "orderDetail": [
         {
@@ -1042,7 +1048,7 @@
           "order": "110219365572",
           "date": "9/21",
           "iso": "2026-09-21",
-          "lines": 3,
+          "lines": 2,
           "status": "Pending or Canceled"
         },
         {
@@ -1659,6 +1665,16 @@
       "at": "2026-09-23T19:21:22.543Z",
       "week": "09/19/2026",
       "order": "110219371154"
+    },
+    {
+      "code": "che75678",
+      "lines": 1,
+      "store": "10194902 : 1490 Palm Coast Pkwy NW, Suite 2",
+      "mm": "Shadaira Santiago",
+      "market": "Shadaira",
+      "at": "2026-09-23T20:45:38.765Z",
+      "week": "09/19/2026",
+      "order": "110219365572"
     }
   ]
 }
