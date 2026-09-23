@@ -1,10 +1,9 @@
 {
   "meta": {
-    "period": "September 19 â 25, 2026",
+    "period": "September 19 – 25, 2026",
     "periodStart": "09/19/2026",
-    "published": "Sep 23, 2:48 PM",
-    "mimNote": "MiM data through 9/21",
-    "noteUpdated": "Sep 23, 2:48 PM"
+    "published": "Sep 23, 3:27 PM",
+    "mimNote": ""
   },
   "rows": [
     {
@@ -1556,8 +1555,23 @@
       "geo": "Metro Albuquerque South",
       "total": 1,
       "assigned": 1,
-      "orders": 0,
-      "orderDetail": []
+      "orders": 2,
+      "orderDetail": [
+        {
+          "order": "110219371154",
+          "date": "9/21",
+          "iso": "2026-09-21",
+          "lines": 1,
+          "status": "Active"
+        },
+        {
+          "order": "110219263626",
+          "date": "9/18",
+          "iso": "2026-09-18",
+          "lines": 1,
+          "status": "Pending or Canceled"
+        }
+      ]
     },
     {
       "store": "10226085 : 5555 Zuni Rd SE Ste 5",
@@ -1777,8 +1791,30 @@
       "geo": "Metro Miramar",
       "total": 10,
       "assigned": 10,
-      "orders": 0,
-      "orderDetail": []
+      "orders": 3,
+      "orderDetail": [
+        {
+          "order": "110219322515",
+          "date": "9/20",
+          "iso": "2026-09-20",
+          "lines": 3,
+          "status": "Active"
+        },
+        {
+          "order": "110219285182",
+          "date": "9/19",
+          "iso": "2026-09-19",
+          "lines": 2,
+          "status": "Active"
+        },
+        {
+          "order": "110219107363",
+          "date": "9/13",
+          "iso": "2026-09-13",
+          "lines": 4,
+          "status": "Active"
+        }
+      ]
     }
   ],
   "manualAssignments": [
