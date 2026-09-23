@@ -1,10 +1,9 @@
 {
   "meta": {
-    "period": "September 19 Ã¢ÂÂ 25, 2026",
+    "period": "September 19 – 25, 2026",
     "periodStart": "09/19/2026",
-    "published": "Sep 22, 8:36 PM",
-    "mimNote": "MiM data through 9/21",
-    "noteUpdated": "Sep 22, 8:36 PM"
+    "published": "Sep 23, 2:48 PM",
+    "mimNote": "MiM data through 9/21"
   },
   "rows": [
     {
@@ -1136,6 +1135,12 @@
       "lastName": ""
     },
     {
+      "code": "yfe60320",
+      "postpaid": 1,
+      "store": "7246 SW 117th Ave",
+      "lastName": ""
+    },
+    {
       "code": "eoz17724",
       "postpaid": 8,
       "store": "22749 State Rd 7 Suite B & C",
@@ -1169,12 +1174,6 @@
       "code": "spz14948",
       "postpaid": 5,
       "store": "5401 South Blvd Ste A",
-      "lastName": ""
-    },
-    {
-      "code": "yfe60320",
-      "postpaid": 1,
-      "store": "7246 SW 117th Ave",
       "lastName": ""
     }
   ],
@@ -1244,8 +1243,23 @@
       "geo": "Metro Trenton",
       "total": 32,
       "assigned": 32,
-      "orders": 0,
-      "orderDetail": []
+      "orders": 2,
+      "orderDetail": [
+        {
+          "order": "110219297573",
+          "date": "9/19",
+          "iso": "2026-09-19",
+          "lines": 4,
+          "status": "Active"
+        },
+        {
+          "order": "110219248199",
+          "date": "9/18",
+          "iso": "2026-09-18",
+          "lines": 2,
+          "status": "Active"
+        }
+      ]
     },
     {
       "store": "10202211 : 535 Penn St",
@@ -1294,8 +1308,16 @@
       "geo": "Metro Trenton",
       "total": 6,
       "assigned": 6,
-      "orders": 0,
-      "orderDetail": []
+      "orders": 1,
+      "orderDetail": [
+        {
+          "order": "110219300820",
+          "date": "9/19",
+          "iso": "2026-09-19",
+          "lines": 1,
+          "status": "Active"
+        }
+      ]
     },
     {
       "store": "10217210 : 5401 South Blvd Ste A",
@@ -1303,8 +1325,16 @@
       "geo": "Metro NC Charlotte South",
       "total": 5,
       "assigned": 5,
-      "orders": 0,
-      "orderDetail": []
+      "orders": 1,
+      "orderDetail": [
+        {
+          "order": "110219347094",
+          "date": "9/21",
+          "iso": "2026-09-21",
+          "lines": 5,
+          "status": "Active"
+        }
+      ]
     },
     {
       "store": "10228081 : 5810 S Orange Blossom Trl",
@@ -1370,8 +1400,16 @@
       "geo": "Metro Daytona Beach",
       "total": 7,
       "assigned": 7,
-      "orders": 0,
-      "orderDetail": []
+      "orders": 1,
+      "orderDetail": [
+        {
+          "order": "110219368503",
+          "date": "9/21",
+          "iso": "2026-09-21",
+          "lines": 2,
+          "status": "Active"
+        }
+      ]
     },
     {
       "store": "10215777 : 2031 S Ridgewood Ave",
@@ -1394,7 +1432,7 @@
           "order": "110219359605",
           "date": "9/21",
           "iso": "2026-09-21",
-          "lines": 1,
+          "lines": 2,
           "status": "Active"
         }
       ]
@@ -1439,8 +1477,37 @@
       "geo": "Metro Jacksonville South",
       "total": 11,
       "assigned": 11,
-      "orders": 0,
-      "orderDetail": []
+      "orders": 4,
+      "orderDetail": [
+        {
+          "order": "110219350126",
+          "date": "9/21",
+          "iso": "2026-09-21",
+          "lines": 1,
+          "status": "Active"
+        },
+        {
+          "order": "110219365572",
+          "date": "9/21",
+          "iso": "2026-09-21",
+          "lines": 3,
+          "status": "Pending or Canceled"
+        },
+        {
+          "order": "110219325006",
+          "date": "9/20",
+          "iso": "2026-09-20",
+          "lines": 3,
+          "status": "Active"
+        },
+        {
+          "order": "110219156343",
+          "date": "9/15",
+          "iso": "2026-09-15",
+          "lines": 5,
+          "status": "Active"
+        }
+      ]
     },
     {
       "store": "10198871 : 145 Palm Bay Rd NE",
@@ -1448,8 +1515,16 @@
       "geo": "Metro Brevard",
       "total": 2,
       "assigned": 2,
-      "orders": 0,
-      "orderDetail": []
+      "orders": 1,
+      "orderDetail": [
+        {
+          "order": "110219350184",
+          "date": "9/21",
+          "iso": "2026-09-21",
+          "lines": 2,
+          "status": "Active"
+        }
+      ]
     },
     {
       "store": "10209177 : 3701 San Mateo Blvd NE",
@@ -1597,8 +1672,16 @@
       "geo": "Metro Brevard",
       "total": 2,
       "assigned": 2,
-      "orders": 0,
-      "orderDetail": []
+      "orders": 1,
+      "orderDetail": [
+        {
+          "order": "110219330209",
+          "date": "9/20",
+          "iso": "2026-09-20",
+          "lines": 2,
+          "status": "Active"
+        }
+      ]
     },
     {
       "store": "10328830 : 104 N. Nova Road",
@@ -1612,7 +1695,7 @@
           "order": "110219361290",
           "date": "9/21",
           "iso": "2026-09-21",
-          "lines": 1,
+          "lines": 3,
           "status": "Active"
         }
       ]
@@ -1671,8 +1754,30 @@
       "geo": "Metro Miami Southwest",
       "total": 15,
       "assigned": 15,
-      "orders": 0,
-      "orderDetail": []
+      "orders": 3,
+      "orderDetail": [
+        {
+          "order": "110219293949",
+          "date": "9/19",
+          "iso": "2026-09-19",
+          "lines": 1,
+          "status": "Active"
+        },
+        {
+          "order": "110219267097",
+          "date": "9/18",
+          "iso": "2026-09-18",
+          "lines": 2,
+          "status": "Active"
+        },
+        {
+          "order": "110219122012",
+          "date": "9/14",
+          "iso": "2026-09-14",
+          "lines": 2,
+          "status": "Active"
+        }
+      ]
     },
     {
       "store": "10328802 : 9180 State Rd 84",
