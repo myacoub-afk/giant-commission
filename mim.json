@@ -797,6 +797,12 @@
       "postpaid": 3,
       "store": "1490 Palm Coast Pkwy NW, Suite 2",
       "lastName": ""
+    },
+    {
+      "code": "jxo67554",
+      "postpaid": 1,
+      "store": "504 N Dixie Fwy",
+      "lastName": ""
     }
   ],
   "mtdMap": {},
@@ -983,17 +989,9 @@
       "market": "Metro Southeast",
       "geo": "Metro Daytona Beach",
       "total": 4,
-      "assigned": 3,
-      "orders": 1,
-      "orderDetail": [
-        {
-          "order": "110219359605",
-          "date": "9/21",
-          "iso": "2026-09-21",
-          "lines": 2,
-          "status": "Active"
-        }
-      ]
+      "assigned": 4,
+      "orders": 0,
+      "orderDetail": []
     },
     {
       "store": "10223451 : 2111 S Ridgewood Ave",
@@ -1663,6 +1661,16 @@
       "at": "2026-09-23T20:46:42.954Z",
       "week": "09/19/2026",
       "order": "110219365572"
+    },
+    {
+      "code": "jxo67554",
+      "lines": 1,
+      "store": "10213574 : 504 N Dixie Fwy",
+      "mm": "Shadaira Santiago",
+      "market": "Shadaira",
+      "at": "2026-09-23T20:46:50.129Z",
+      "week": "09/19/2026",
+      "order": "110219359605"
     }
   ]
 }
