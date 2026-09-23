@@ -483,7 +483,7 @@
     },
     {
       "code": "lnc23609",
-      "postpaid": 3,
+      "postpaid": 6,
       "store": "9180 State Rd 84",
       "lastName": "Vera"
     },
@@ -1785,24 +1785,9 @@
       "market": "Metro Southeast",
       "geo": "Metro Miramar",
       "total": 10,
-      "assigned": 7,
-      "orders": 2,
-      "orderDetail": [
-        {
-          "order": "110219322515",
-          "date": "9/20",
-          "iso": "2026-09-20",
-          "lines": 3,
-          "status": "Active"
-        },
-        {
-          "order": "110219107363",
-          "date": "9/13",
-          "iso": "2026-09-13",
-          "lines": 4,
-          "status": "Active"
-        }
-      ]
+      "assigned": 10,
+      "orders": 0,
+      "orderDetail": []
     }
   ],
   "manualAssignments": [
@@ -2171,6 +2156,16 @@
       "at": "2026-09-23T18:55:22.045Z",
       "week": "09/19/2026",
       "order": "110219285182"
+    },
+    {
+      "code": "lnc23609",
+      "lines": 3,
+      "store": "10328802 : 9180 State Rd 84",
+      "mm": "Islam (text)",
+      "market": "Islam",
+      "at": "2026-09-23T18:56:19.320Z",
+      "week": "09/19/2026",
+      "order": "110219322515"
     }
   ]
 }
