@@ -969,7 +969,7 @@
     },
     {
       "code": "xfp00643",
-      "postpaid": 0,
+      "postpaid": 1,
       "store": "50 E. State Street 2",
       "lastName": "Trinidad"
     },
@@ -1289,17 +1289,9 @@
       "market": "Metro Northeast",
       "geo": "Metro Trenton",
       "total": 6,
-      "assigned": 5,
-      "orders": 1,
-      "orderDetail": [
-        {
-          "order": "110219300820",
-          "date": "9/19",
-          "iso": "2026-09-19",
-          "lines": 1,
-          "status": "Active"
-        }
-      ]
+      "assigned": 6,
+      "orders": 0,
+      "orderDetail": []
     },
     {
       "store": "10217210 : 5401 South Blvd Ste A",
@@ -2056,6 +2048,16 @@
       "at": "2026-09-23T16:28:17.394Z",
       "week": "09/19/2026",
       "order": "110219297573"
+    },
+    {
+      "code": "xfp00643",
+      "lines": 1,
+      "store": "10218769 : 478 Hamilton Ave",
+      "mm": "Barby (text)",
+      "market": "Barby",
+      "at": "2026-09-23T16:30:35.576Z",
+      "week": "09/19/2026",
+      "order": "110219300820"
     }
   ]
 }
