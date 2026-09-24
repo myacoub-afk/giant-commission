@@ -614,7 +614,7 @@
     },
     {
       "code": "vyk61042",
-      "postpaid": 7,
+      "postpaid": 12,
       "store": "6417 Airport Rd Ste 103",
       "lastName": "Ortega"
     },
@@ -1064,17 +1064,9 @@
       "market": "Metro South Central",
       "geo": "Metro Albuquerque Santa Fe",
       "total": 15,
-      "assigned": 10,
-      "orders": 1,
-      "orderDetail": [
-        {
-          "order": "110219366453",
-          "date": "9/21",
-          "iso": "2026-09-21",
-          "lines": 5,
-          "status": "Pending or Canceled"
-        }
-      ]
+      "assigned": 15,
+      "orders": 0,
+      "orderDetail": []
     },
     {
       "store": "10207249 : 111 Coors Blvd NW",
@@ -1676,6 +1668,16 @@
       "at": "2026-09-24T00:52:47.223Z",
       "week": "09/19/2026",
       "order": "110219321142"
+    },
+    {
+      "code": "vyk61042",
+      "lines": 5,
+      "store": "10207247 : 6417 Airport Rd Ste 103",
+      "mm": "Dom",
+      "market": "Dom",
+      "at": "2026-09-24T18:08:51.622Z",
+      "week": "09/19/2026",
+      "order": "110219366453"
     }
   ]
 }
