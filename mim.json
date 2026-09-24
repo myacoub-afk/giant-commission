@@ -128,7 +128,7 @@
     },
     {
       "code": "fju17533",
-      "postpaid": 1,
+      "postpaid": 5,
       "store": "8925 J.M. Keynes Drive Suite 3",
       "lastName": "Alvarado"
     },
@@ -1158,24 +1158,9 @@
       "market": "Metro Southeast",
       "geo": "Metro NC Charlotte South",
       "total": 18,
-      "assigned": 14,
-      "orders": 2,
-      "orderDetail": [
-        {
-          "order": "110219320874",
-          "date": "9/20",
-          "iso": "2026-09-20",
-          "lines": 6,
-          "status": "Active"
-        },
-        {
-          "order": "110219321142",
-          "date": "9/20",
-          "iso": "2026-09-20",
-          "lines": 4,
-          "status": "Pending or Canceled"
-        }
-      ]
+      "assigned": 18,
+      "orders": 0,
+      "orderDetail": []
     },
     {
       "store": "10328798 : 1483 N Federal Hwy",
@@ -1681,6 +1666,16 @@
       "at": "2026-09-23T21:22:26.981Z",
       "week": "09/19/2026",
       "order": "110219355838"
+    },
+    {
+      "code": "fju17533",
+      "lines": 4,
+      "store": "10328831 : 8925 J.M. Keynes Drive Suite 3",
+      "mm": "Omar (text)",
+      "market": "Omar",
+      "at": "2026-09-24T00:52:47.223Z",
+      "week": "09/19/2026",
+      "order": "110219321142"
     }
   ]
 }
