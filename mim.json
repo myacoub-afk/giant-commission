@@ -1122,6 +1122,12 @@
       "postpaid": 4,
       "store": "2907 N Dale Mabry",
       "lastName": ""
+    },
+    {
+      "code": "nqo41414",
+      "postpaid": 1,
+      "store": "5401 South Blvd Ste A",
+      "lastName": ""
     }
   ],
   "mtdMap": {},
@@ -1312,16 +1318,9 @@
       "market": "Metro Southeast",
       "geo": "Metro NC Charlotte South",
       "total": 22,
-      "assigned": 16,
-      "orders": 3,
+      "assigned": 17,
+      "orders": 2,
       "orderDetail": [
-        {
-          "order": "110219394219",
-          "date": "9/22",
-          "iso": "2026-09-22",
-          "lines": 1,
-          "status": "Pending or Canceled"
-        },
         {
           "order": "110219397027",
           "date": "9/22",
@@ -2257,6 +2256,16 @@
       "at": "2026-09-24T23:11:07.457Z",
       "week": "09/19/2026",
       "order": "NOT NAMED"
+    },
+    {
+      "code": "nqo41414",
+      "lines": 1,
+      "store": "10217210 : 5401 South Blvd Ste A",
+      "mm": "Omar (text)",
+      "market": "Omar",
+      "at": "2026-09-24T23:26:12.512Z",
+      "week": "09/19/2026",
+      "order": "110219394219"
     }
   ]
 }
