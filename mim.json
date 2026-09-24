@@ -1128,6 +1128,12 @@
       "postpaid": 1,
       "store": "5401 South Blvd Ste A",
       "lastName": ""
+    },
+    {
+      "code": "pxa12423",
+      "postpaid": 1,
+      "store": "2241 Beatties Ford Rd",
+      "lastName": ""
     }
   ],
   "mtdMap": {},
@@ -1294,17 +1300,9 @@
       "market": "Metro Southeast",
       "geo": "Metro NC Charlotte South",
       "total": 14,
-      "assigned": 13,
-      "orders": 1,
-      "orderDetail": [
-        {
-          "order": "110219413241",
-          "date": "9/23",
-          "iso": "2026-09-23",
-          "lines": 1,
-          "status": "Active"
-        }
-      ]
+      "assigned": 14,
+      "orders": 0,
+      "orderDetail": []
     },
     {
       "store": "10217210 : 5401 South Blvd Ste A",
@@ -2266,6 +2264,16 @@
       "at": "2026-09-24T23:41:44.592Z",
       "week": "09/19/2026",
       "order": "110219432314"
+    },
+    {
+      "code": "pxa12423",
+      "lines": 1,
+      "store": "10219698 : 2241 Beatties Ford Rd",
+      "mm": "Omar (text)",
+      "market": "Omar",
+      "at": "2026-09-24T23:43:27.124Z",
+      "week": "09/19/2026",
+      "order": "110219413241"
     }
   ]
 }
