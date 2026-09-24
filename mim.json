@@ -1116,6 +1116,12 @@
       "postpaid": 3,
       "store": "113 E Commerce St",
       "lastName": ""
+    },
+    {
+      "code": "zkx15047",
+      "postpaid": 4,
+      "store": "2907 N Dale Mabry",
+      "lastName": ""
     }
   ],
   "mtdMap": {},
@@ -1763,24 +1769,9 @@
       "market": "Metro Southeast",
       "geo": "Metro Tampa Central",
       "total": 9,
-      "assigned": 5,
-      "orders": 2,
-      "orderDetail": [
-        {
-          "order": "110219416387",
-          "date": "9/23",
-          "iso": "2026-09-23",
-          "lines": 1,
-          "status": "Active"
-        },
-        {
-          "order": "110219390586",
-          "date": "9/22",
-          "iso": "2026-09-22",
-          "lines": 3,
-          "status": "Active"
-        }
-      ]
+      "assigned": 9,
+      "orders": 0,
+      "orderDetail": []
     },
     {
       "store": "10195307 : 113 E Commerce St",
@@ -2256,6 +2247,16 @@
       "at": "2026-09-24T18:08:51.622Z",
       "week": "09/19/2026",
       "order": "110219366453"
+    },
+    {
+      "code": "zkx15047",
+      "lines": 4,
+      "store": "10328794 : 2907 N Dale Mabry",
+      "mm": "Nidal (text)",
+      "market": "Nidal",
+      "at": "2026-09-24T23:11:07.457Z",
+      "week": "09/19/2026",
+      "order": "NOT NAMED"
     }
   ]
 }
