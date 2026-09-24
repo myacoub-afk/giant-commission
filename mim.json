@@ -1101,7 +1101,7 @@
     },
     {
       "code": "spz14948",
-      "postpaid": 5,
+      "postpaid": 10,
       "store": "5401 South Blvd Ste A",
       "lastName": ""
     },
@@ -1318,24 +1318,9 @@
       "market": "Metro Southeast",
       "geo": "Metro NC Charlotte South",
       "total": 22,
-      "assigned": 17,
-      "orders": 2,
-      "orderDetail": [
-        {
-          "order": "110219397027",
-          "date": "9/22",
-          "iso": "2026-09-22",
-          "lines": 5,
-          "status": "Pending or Canceled"
-        },
-        {
-          "order": "110219347094",
-          "date": "9/21",
-          "iso": "2026-09-21",
-          "lines": 5,
-          "status": "Active"
-        }
-      ]
+      "assigned": 22,
+      "orders": 0,
+      "orderDetail": []
     },
     {
       "store": "10228081 : 5810 S Orange Blossom Trl",
@@ -2268,6 +2253,16 @@
       "at": "2026-09-24T23:32:26.019Z",
       "week": "09/19/2026",
       "order": "110219411353"
+    },
+    {
+      "code": "spz14948",
+      "lines": 5,
+      "store": "10217210 : 5401 South Blvd Ste A",
+      "mm": "Omar (text)",
+      "market": "Omar",
+      "at": "2026-09-24T23:37:49.837Z",
+      "week": "09/19/2026",
+      "order": "110219347094"
     }
   ]
 }
