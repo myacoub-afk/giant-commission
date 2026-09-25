@@ -1101,7 +1101,7 @@
     },
     {
       "code": "spz14948",
-      "postpaid": 10,
+      "postpaid": 5,
       "store": "5401 South Blvd Ste A",
       "lastName": ""
     },
@@ -1309,7 +1309,7 @@
       "market": "Metro Southeast",
       "geo": "Metro NC Charlotte South",
       "total": 22,
-      "assigned": 22,
+      "assigned": 17,
       "orders": 0,
       "orderDetail": []
     },
@@ -2274,6 +2274,17 @@
       "at": "2026-09-24T23:43:27.124Z",
       "week": "09/19/2026",
       "order": "110219413241"
+    },
+    {
+      "code": "spz14948",
+      "lines": -5,
+      "store": "10217210 : 5401 South Blvd Ste A",
+      "mm": "KITT (reversing a duplicate order assignment, at Moe's instruction)",
+      "market": "Omar",
+      "at": "2026-09-25T02:01:26.419Z",
+      "undo": true,
+      "week": "09/19/2026",
+      "order": ""
     }
   ]
 }
