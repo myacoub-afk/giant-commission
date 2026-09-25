@@ -1,10 +1,9 @@
 {
   "meta": {
-    "period": "September 19 Ã¢ÂÂ 25, 2026",
+    "period": "September 19 – 25, 2026",
     "periodStart": "09/19/2026",
-    "published": "Sep 24, 6:57 PM",
-    "mimNote": "MiM data through 9/23",
-    "noteUpdated": "Sep 24, 6:58 PM"
+    "published": "Sep 24, 10:51 PM",
+    "mimNote": ""
   },
   "rows": [
     {
@@ -1106,6 +1105,12 @@
       "lastName": ""
     },
     {
+      "code": "nqo41414",
+      "postpaid": 1,
+      "store": "5401 South Blvd Ste A",
+      "lastName": ""
+    },
+    {
       "code": "aqd41062",
       "postpaid": 1,
       "store": "111 Coors Blvd NW",
@@ -1124,12 +1129,6 @@
       "lastName": ""
     },
     {
-      "code": "nqo41414",
-      "postpaid": 1,
-      "store": "5401 South Blvd Ste A",
-      "lastName": ""
-    },
-    {
       "code": "pxa12423",
       "postpaid": 1,
       "store": "2241 Beatties Ford Rd",
@@ -1144,16 +1143,8 @@
       "geo": "Metro Palm Beach West",
       "total": 5,
       "assigned": 5,
-      "orders": 1,
-      "orderDetail": [
-        {
-          "order": "110219293220",
-          "date": "9/19",
-          "iso": "2026-09-19",
-          "lines": 5,
-          "status": "Active"
-        }
-      ]
+      "orders": 0,
+      "orderDetail": []
     },
     {
       "store": "10227345 : 22749 State Rd 7 Suite B & C",
@@ -1161,16 +1152,8 @@
       "geo": "Metro Boca Raton",
       "total": 8,
       "assigned": 8,
-      "orders": 1,
-      "orderDetail": [
-        {
-          "order": "110219287884",
-          "date": "9/19",
-          "iso": "2026-09-19",
-          "lines": 8,
-          "status": "Active"
-        }
-      ]
+      "orders": 0,
+      "orderDetail": []
     },
     {
       "store": "10211306 : 124 N Main St",
@@ -1178,16 +1161,8 @@
       "geo": "Metro Trenton",
       "total": 23,
       "assigned": 23,
-      "orders": 1,
-      "orderDetail": [
-        {
-          "order": "110219297573",
-          "date": "9/19",
-          "iso": "2026-09-19",
-          "lines": 4,
-          "status": "Active"
-        }
-      ]
+      "orders": 0,
+      "orderDetail": []
     },
     {
       "store": "10202215 : 6901 Stenton Ave",
@@ -1277,20 +1252,13 @@
       "geo": "Metro Trenton",
       "total": 19,
       "assigned": 14,
-      "orders": 2,
+      "orders": 1,
       "orderDetail": [
         {
           "order": "110219398180",
           "date": "9/22",
           "iso": "2026-09-22",
           "lines": 5,
-          "status": "Active"
-        },
-        {
-          "order": "110219300820",
-          "date": "9/19",
-          "iso": "2026-09-19",
-          "lines": 1,
           "status": "Active"
         }
       ]
@@ -1353,16 +1321,8 @@
       "geo": "Metro Daytona Beach",
       "total": 9,
       "assigned": 9,
-      "orders": 1,
-      "orderDetail": [
-        {
-          "order": "110219368503",
-          "date": "9/21",
-          "iso": "2026-09-21",
-          "lines": 2,
-          "status": "Active"
-        }
-      ]
+      "orders": 0,
+      "orderDetail": []
     },
     {
       "store": "10213574 : 504 N Dixie Fwy",
@@ -1370,16 +1330,8 @@
       "geo": "Metro Daytona Beach",
       "total": 8,
       "assigned": 8,
-      "orders": 1,
-      "orderDetail": [
-        {
-          "order": "110219359605",
-          "date": "9/21",
-          "iso": "2026-09-21",
-          "lines": 2,
-          "status": "Active"
-        }
-      ]
+      "orders": 0,
+      "orderDetail": []
     },
     {
       "store": "10223451 : 2111 S Ridgewood Ave",
@@ -1421,22 +1373,8 @@
       "geo": "Metro Jacksonville South",
       "total": 16,
       "assigned": 16,
-      "orders": 3,
+      "orders": 1,
       "orderDetail": [
-        {
-          "order": "110219350126",
-          "date": "9/21",
-          "iso": "2026-09-21",
-          "lines": 1,
-          "status": "Active"
-        },
-        {
-          "order": "110219365572",
-          "date": "9/21",
-          "iso": "2026-09-21",
-          "lines": 3,
-          "status": "Active"
-        },
         {
           "order": "110219325006",
           "date": "9/20",
@@ -1452,16 +1390,8 @@
       "geo": "Metro Brevard",
       "total": 2,
       "assigned": 2,
-      "orders": 1,
-      "orderDetail": [
-        {
-          "order": "110219350184",
-          "date": "9/21",
-          "iso": "2026-09-21",
-          "lines": 2,
-          "status": "Active"
-        }
-      ]
+      "orders": 0,
+      "orderDetail": []
     },
     {
       "store": "10203996 : 1034 Clearlake Rd",
@@ -1512,16 +1442,8 @@
       "geo": "Metro Albuquerque South",
       "total": 1,
       "assigned": 1,
-      "orders": 1,
-      "orderDetail": [
-        {
-          "order": "110219371154",
-          "date": "9/21",
-          "iso": "2026-09-21",
-          "lines": 1,
-          "status": "Active"
-        }
-      ]
+      "orders": 0,
+      "orderDetail": []
     },
     {
       "store": "10227682 : 6125 Montgomery Blvd NE Ste 3",
@@ -1621,16 +1543,8 @@
       "geo": "Metro Daytona Beach",
       "total": 6,
       "assigned": 6,
-      "orders": 1,
-      "orderDetail": [
-        {
-          "order": "110219361290",
-          "date": "9/21",
-          "iso": "2026-09-21",
-          "lines": 3,
-          "status": "Active"
-        }
-      ]
+      "orders": 0,
+      "orderDetail": []
     },
     {
       "store": "10328831 : 8925 J.M. Keynes Drive Suite 3",
@@ -1679,16 +1593,8 @@
       "geo": "Metro Ft Lauderdale Central",
       "total": 6,
       "assigned": 6,
-      "orders": 1,
-      "orderDetail": [
-        {
-          "order": "110219319448",
-          "date": "9/20",
-          "iso": "2026-09-20",
-          "lines": 1,
-          "status": "Active"
-        }
-      ]
+      "orders": 0,
+      "orderDetail": []
     },
     {
       "store": "10328800 : 7246 SW 117th Ave",
@@ -1696,16 +1602,8 @@
       "geo": "Metro Miami Southwest",
       "total": 13,
       "assigned": 13,
-      "orders": 1,
-      "orderDetail": [
-        {
-          "order": "110219293949",
-          "date": "9/19",
-          "iso": "2026-09-19",
-          "lines": 1,
-          "status": "Active"
-        }
-      ]
+      "orders": 0,
+      "orderDetail": []
     },
     {
       "store": "10328802 : 9180 State Rd 84",
@@ -1713,23 +1611,8 @@
       "geo": "Metro Miramar",
       "total": 22,
       "assigned": 22,
-      "orders": 2,
-      "orderDetail": [
-        {
-          "order": "110219322515",
-          "date": "9/20",
-          "iso": "2026-09-20",
-          "lines": 3,
-          "status": "Active"
-        },
-        {
-          "order": "110219285182",
-          "date": "9/19",
-          "iso": "2026-09-19",
-          "lines": 2,
-          "status": "Active"
-        }
-      ]
+      "orders": 0,
+      "orderDetail": []
     },
     {
       "store": "10328794 : 2907 N Dale Mabry",
@@ -1737,8 +1620,23 @@
       "geo": "Metro Tampa Central",
       "total": 9,
       "assigned": 9,
-      "orders": 0,
-      "orderDetail": []
+      "orders": 2,
+      "orderDetail": [
+        {
+          "order": "110219416387",
+          "date": "9/23",
+          "iso": "2026-09-23",
+          "lines": 1,
+          "status": "Active"
+        },
+        {
+          "order": "110219390586",
+          "date": "9/22",
+          "iso": "2026-09-22",
+          "lines": 3,
+          "status": "Active"
+        }
+      ]
     },
     {
       "store": "10195307 : 113 E Commerce St",
@@ -1746,16 +1644,8 @@
       "geo": "Metro New Jersey Shore",
       "total": 10,
       "assigned": 10,
-      "orders": 1,
-      "orderDetail": [
-        {
-          "order": "110219355838",
-          "date": "9/21",
-          "iso": "2026-09-21",
-          "lines": 3,
-          "status": "Active"
-        }
-      ]
+      "orders": 0,
+      "orderDetail": []
     }
   ],
   "manualAssignments": [
@@ -2295,6 +2185,116 @@
       "at": "2026-09-25T02:20:43.901Z",
       "week": "09/19/2026",
       "order": "110219397027"
+    }
+  ],
+  "absorbedNotices": [
+    {
+      "store": "10191849 : 1255 Providence Blvd",
+      "addr": "1255 Providence Blvd",
+      "code": "eza29014",
+      "lines": 1,
+      "mm": "David (text)",
+      "market": "David",
+      "at": "2026-09-25T02:51:01.371Z"
+    },
+    {
+      "store": "10211306 : 124 N Main St",
+      "addr": "124 N Main St",
+      "code": "leu33419",
+      "lines": 3,
+      "mm": "Barby (text)",
+      "market": "Barby",
+      "at": "2026-09-25T02:51:01.371Z"
+    },
+    {
+      "store": "10215777 : 2031 S Ridgewood Ave",
+      "addr": "2031 S Ridgewood Ave",
+      "code": "jxo67554",
+      "lines": 1,
+      "mm": "Shadaira Santiago",
+      "market": "Shadaira",
+      "at": "2026-09-25T02:51:01.371Z"
+    },
+    {
+      "store": "10328831 : 8925 J.M. Keynes Drive Suite 3",
+      "addr": "8925 J.M. Keynes Drive Suite 3",
+      "code": "fju17533",
+      "lines": 4,
+      "mm": "Omar (text)",
+      "market": "Omar",
+      "at": "2026-09-25T02:51:01.371Z"
+    },
+    {
+      "store": "10216470 : 1015 Waughtown St",
+      "addr": "1015 Waughtown St",
+      "code": "soi27276",
+      "lines": 4,
+      "mm": "Omar (text)",
+      "market": "Omar",
+      "at": "2026-09-25T02:51:01.371Z"
+    },
+    {
+      "store": "10328823 : 1629 N. Kings Hwy",
+      "addr": "1629 N. Kings Hwy",
+      "code": "dxz03683",
+      "lines": 6,
+      "mm": "Rani (text)",
+      "market": "Rani",
+      "at": "2026-09-25T02:51:01.371Z"
+    },
+    {
+      "store": "10226085 : 5555 Zuni Rd SE Ste 5",
+      "addr": "5555 Zuni Rd SE Ste 5",
+      "code": "may13895",
+      "lines": 3,
+      "mm": "Dom",
+      "market": "Dom",
+      "at": "2026-09-25T02:51:01.371Z"
+    },
+    {
+      "store": "10209177 : 3701 San Mateo Blvd NE",
+      "addr": "3701 San Mateo Blvd NE",
+      "code": "cqd87558",
+      "lines": 3,
+      "mm": "Dom",
+      "market": "Dom",
+      "at": "2026-09-25T02:51:01.371Z"
+    },
+    {
+      "store": "10328800 : 7246 SW 117th Ave",
+      "addr": "7246 SW 117th Ave",
+      "code": "byj10806",
+      "lines": 2,
+      "mm": "Islam (text)",
+      "market": "Islam",
+      "at": "2026-09-25T02:51:01.371Z"
+    },
+    {
+      "store": "10193375 : 5891 S Military Trl Ste 11A",
+      "addr": "5891 S Military Trl Ste 11A",
+      "code": "sgl51473",
+      "lines": 5,
+      "mm": "Suhail (text)",
+      "market": "Suhail",
+      "at": "2026-09-25T02:51:01.371Z"
+    },
+    {
+      "store": "10194890 : 5920 Metropolis Way 107",
+      "addr": "5920 Metropolis Way 107",
+      "code": "cgt83292",
+      "lines": 2,
+      "mm": "Tiffany (text)",
+      "market": "Tiffany",
+      "at": "2026-09-25T02:51:01.371Z"
+    },
+    {
+      "store": "10207247 : 6417 Airport Rd Ste 103",
+      "addr": "6417 Airport Rd Ste 103",
+      "code": "vyk61042",
+      "lines": 1,
+      "mm": "Dom",
+      "market": "Dom",
+      "at": "2026-09-25T02:51:01.371Z"
     }
   ]
 }
