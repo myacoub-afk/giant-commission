@@ -1259,6 +1259,12 @@
       "postpaid": 1,
       "store": "2241 Beatties Ford Rd",
       "lastName": ""
+    },
+    {
+      "code": "ggv08751",
+      "postpaid": 4,
+      "store": "6417 Airport Rd Ste 103",
+      "lastName": ""
     }
   ],
   "mtdMap": {},
@@ -1511,17 +1517,9 @@
       "market": "Metro South Central",
       "geo": "Metro Albuquerque Santa Fe",
       "total": 19,
-      "assigned": 15,
-      "orders": 1,
-      "orderDetail": [
-        {
-          "order": "110219405962",
-          "date": "9/22",
-          "iso": "2026-09-22",
-          "lines": 4,
-          "status": "Active"
-        }
-      ]
+      "assigned": 19,
+      "orders": 0,
+      "orderDetail": []
     },
     {
       "store": "10227682 : 6125 Montgomery Blvd NE Ste 3",
@@ -2367,6 +2365,16 @@
       "at": "2026-09-25T19:04:14.837Z",
       "week": "09/19/2026",
       "order": "110219395569"
+    },
+    {
+      "code": "ggv08751",
+      "lines": 4,
+      "store": "10207247 : 6417 Airport Rd Ste 103",
+      "mm": "Dom",
+      "market": "Dom",
+      "at": "2026-09-25T20:34:45.031Z",
+      "week": "09/19/2026",
+      "order": "110219405962"
     }
   ]
 }
