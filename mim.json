@@ -236,7 +236,7 @@
     },
     {
       "code": "gqb90233",
-      "postpaid": 1,
+      "postpaid": 3,
       "store": "6901 Stenton Ave",
       "lastName": "Berrios"
     },
@@ -1169,24 +1169,9 @@
       "market": "Metro Northeast",
       "geo": "Metro Philadelphia West",
       "total": 10,
-      "assigned": 8,
-      "orders": 2,
-      "orderDetail": [
-        {
-          "order": "110219412802",
-          "date": "9/23",
-          "iso": "2026-09-23",
-          "lines": 2,
-          "status": "Active"
-        },
-        {
-          "order": "110219415058",
-          "date": "9/23",
-          "iso": "2026-09-23",
-          "lines": 3,
-          "status": "Active"
-        }
-      ]
+      "assigned": 10,
+      "orders": 0,
+      "orderDetail": []
     },
     {
       "store": "10226484 : 1764 N Olden Avenue Ext",
@@ -2193,6 +2178,16 @@
       "mm": "Marwan (text)",
       "market": "Marwan",
       "at": "2026-09-25T14:22:13.806Z",
+      "week": "09/19/2026",
+      "order": "NOT NAMED"
+    },
+    {
+      "code": "gqb90233",
+      "lines": 2,
+      "store": "10202215 : 6901 Stenton Ave",
+      "mm": "Marwan (text)",
+      "market": "Marwan",
+      "at": "2026-09-25T14:22:42.545Z",
       "week": "09/19/2026",
       "order": "NOT NAMED"
     }
