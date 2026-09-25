@@ -1,7 +1,7 @@
 {
   "meta": {
     "period": "Sep 19, 2026 - Sep 25, 2026",
-    "published": "Sep 25, 9:14 AM",
+    "published": "Sep 25, 9:44 AM",
     "autoPublished": true
   },
   "mrc": {
@@ -1077,7 +1077,7 @@
     },
     "dxu32635": {
       "name": "Hael",
-      "mrc": 1088,
+      "mrc": 1153,
       "hint": 1
     },
     "gqe94673": {
@@ -1562,7 +1562,7 @@
     },
     "nkq42630": {
       "name": "amado",
-      "mrc": 534,
+      "mrc": 600,
       "hint": 1
     },
     "nnq24664": {
@@ -1592,7 +1592,7 @@
     },
     "rdn78671": {
       "name": "Anchelin",
-      "mrc": 422,
+      "mrc": 480,
       "hint": 4
     },
     "rlk56261": {
@@ -3281,7 +3281,7 @@
     },
     "dxu32635": {
       "name": "Hael",
-      "acc": 980.68,
+      "acc": 1015.67,
       "hint": 1,
       "store": "EDGEWOOD",
       "repName": "Hael"
@@ -4766,6 +4766,33 @@
       "close_order": 21
     },
     {
+      "code": "dxu32635",
+      "name": "Hael",
+      "lastName": "Keswani",
+      "store": "EDGEWOOD",
+      "mrc": 1153,
+      "acc": 1015.67,
+      "hint": 1,
+      "mim": 3,
+      "mtd_lines": 0,
+      "in_mim": true,
+      "hint_gate": true,
+      "mim_gate": true,
+      "tier": 1,
+      "tier_comm": 193.81,
+      "hint_spiff": 15,
+      "mim_spiff": 60,
+      "total": 268.81,
+      "mrc_gap": 0,
+      "acc_gap": 0,
+      "hint_gap": 0,
+      "mim_gap": 0,
+      "qualifies": true,
+      "needs": "Qualifies for Tier 1",
+      "rank": 22,
+      "close_order": 14
+    },
+    {
       "code": "oco35310",
       "name": "James",
       "lastName": "Mccurry",
@@ -4789,7 +4816,7 @@
       "mim_gap": 0,
       "qualifies": false,
       "needs": "+$487.05 acc",
-      "rank": 22,
+      "rank": 23,
       "close_order": 69
     },
     {
@@ -4816,35 +4843,8 @@
       "mim_gap": 0,
       "qualifies": true,
       "needs": "Qualifies for Tier 1",
-      "rank": 23,
-      "close_order": 23
-    },
-    {
-      "code": "dxu32635",
-      "name": "Hael",
-      "lastName": "Keswani",
-      "store": "EDGEWOOD",
-      "mrc": 1088,
-      "acc": 980.68,
-      "hint": 1,
-      "mim": 3,
-      "mtd_lines": 0,
-      "in_mim": true,
-      "hint_gate": true,
-      "mim_gate": true,
-      "tier": 1,
-      "tier_comm": 185.11,
-      "hint_spiff": 15,
-      "mim_spiff": 60,
-      "total": 260.11,
-      "mrc_gap": 0,
-      "acc_gap": 0,
-      "hint_gap": 0,
-      "mim_gap": 0,
-      "qualifies": true,
-      "needs": "Qualifies for Tier 1",
       "rank": 24,
-      "close_order": 14
+      "close_order": 23
     },
     {
       "code": "ilx90312",
@@ -5630,6 +5630,33 @@
       "close_order": 60
     },
     {
+      "code": "nkq42630",
+      "name": "amado",
+      "lastName": "Machado",
+      "store": "HOMESTEAD",
+      "mrc": 600,
+      "acc": 829.8,
+      "hint": 1,
+      "mim": 1,
+      "mtd_lines": 0,
+      "in_mim": true,
+      "hint_gate": true,
+      "mim_gate": true,
+      "tier": 1,
+      "tier_comm": 130.98,
+      "hint_spiff": 15,
+      "mim_spiff": 20,
+      "total": 165.98,
+      "mrc_gap": 0,
+      "acc_gap": 0,
+      "hint_gap": 0,
+      "mim_gap": 0,
+      "qualifies": true,
+      "needs": "Qualifies for Tier 1",
+      "rank": 54,
+      "close_order": 36
+    },
+    {
       "code": "cip44734",
       "name": "tatiana",
       "lastName": "Olmeda",
@@ -5653,35 +5680,8 @@
       "mim_gap": 0,
       "qualifies": false,
       "needs": "+$421.86 acc",
-      "rank": 54,
-      "close_order": 63
-    },
-    {
-      "code": "nkq42630",
-      "name": "amado",
-      "lastName": "Machado",
-      "store": "HOMESTEAD",
-      "mrc": 534,
-      "acc": 829.8,
-      "hint": 1,
-      "mim": 1,
-      "mtd_lines": 0,
-      "in_mim": true,
-      "hint_gate": true,
-      "mim_gate": true,
-      "tier": 1,
-      "tier_comm": 125.7,
-      "hint_spiff": 15,
-      "mim_spiff": 20,
-      "total": 160.7,
-      "mrc_gap": 0,
-      "acc_gap": 0,
-      "hint_gap": 0,
-      "mim_gap": 0,
-      "qualifies": true,
-      "needs": "Qualifies for Tier 1",
       "rank": 55,
-      "close_order": 36
+      "close_order": 63
     },
     {
       "code": "pat75067",
@@ -7524,7 +7524,7 @@
       "name": "Anchelin",
       "lastName": "",
       "store": "HOMESTEAD",
-      "mrc": 422,
+      "mrc": 480,
       "acc": 539.83,
       "hint": 4,
       "mim": 0,
@@ -7537,12 +7537,12 @@
       "hint_spiff": 60,
       "mim_spiff": 0,
       "total": 60,
-      "mrc_gap": 78,
+      "mrc_gap": 20,
       "acc_gap": 160.17,
       "hint_gap": 0,
       "mim_gap": 1,
       "qualifies": false,
-      "needs": "+$78 MRC, +$160.17 acc, +1 MIM",
+      "needs": "+$20 MRC, +$160.17 acc, +1 MIM",
       "rank": 124,
       "close_order": 169
     },
@@ -13841,7 +13841,7 @@
   "stats": {
     "reps": 357,
     "qualified": 36,
-    "total_payout": 27603.16,
+    "total_payout": 27617.14,
     "total_spiffs": 19655,
     "below_acc": 336,
     "below_mrc": 234,
