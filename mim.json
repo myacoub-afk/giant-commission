@@ -752,7 +752,7 @@
     },
     {
       "code": "spq79244",
-      "postpaid": 1,
+      "postpaid": 2,
       "store": "535 Penn St",
       "lastName": "Carcamo"
     },
@@ -1187,18 +1187,11 @@
       "market": "Metro Northeast",
       "geo": "Metro Lancaster/York",
       "total": 3,
-      "assigned": 1,
-      "orders": 2,
+      "assigned": 2,
+      "orders": 1,
       "orderDetail": [
         {
           "order": "110219290753",
-          "date": "9/19",
-          "iso": "2026-09-19",
-          "lines": 1,
-          "status": "Active"
-        },
-        {
-          "order": "110219294812",
           "date": "9/19",
           "iso": "2026-09-19",
           "lines": 1,
@@ -2194,6 +2187,16 @@
       "at": "2026-09-25T15:34:36.882Z",
       "week": "09/19/2026",
       "order": "110219398180"
+    },
+    {
+      "code": "spq79244",
+      "lines": 1,
+      "store": "10202211 : 535 Penn St",
+      "mm": "Barby (text)",
+      "market": "Barby",
+      "at": "2026-09-25T15:47:51.917Z",
+      "week": "09/19/2026",
+      "order": "110219294812"
     }
   ]
 }
