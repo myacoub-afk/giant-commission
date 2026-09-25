@@ -776,7 +776,7 @@
     },
     {
       "code": "tiw95446",
-      "postpaid": 1,
+      "postpaid": 4,
       "store": "6901 Stenton Ave",
       "lastName": "Cortes"
     },
@@ -1169,7 +1169,7 @@
       "market": "Metro Northeast",
       "geo": "Metro Philadelphia West",
       "total": 10,
-      "assigned": 5,
+      "assigned": 8,
       "orders": 2,
       "orderDetail": [
         {
@@ -2185,6 +2185,16 @@
       "at": "2026-09-25T02:20:43.901Z",
       "week": "09/19/2026",
       "order": "110219397027"
+    },
+    {
+      "code": "tiw95446",
+      "lines": 3,
+      "store": "10202215 : 6901 Stenton Ave",
+      "mm": "Marwan (text)",
+      "market": "Marwan",
+      "at": "2026-09-25T14:22:13.806Z",
+      "week": "09/19/2026",
+      "order": "NOT NAMED"
     }
   ]
 }
