@@ -464,7 +464,7 @@
     },
     {
       "code": "jxb47776",
-      "postpaid": 9,
+      "postpaid": 10,
       "store": "1435 W 49th Street",
       "lastName": "Vidal"
     },
@@ -1634,17 +1634,9 @@
       "market": "Metro Southeast",
       "geo": "Metro Hialeah",
       "total": 29,
-      "assigned": 28,
-      "orders": 1,
-      "orderDetail": [
-        {
-          "order": "110219399280",
-          "date": "9/22",
-          "iso": "2026-09-22",
-          "lines": 1,
-          "status": "Active"
-        }
-      ]
+      "assigned": 29,
+      "orders": 0,
+      "orderDetail": []
     },
     {
       "store": "10328798 : 1483 N Federal Hwy",
@@ -2386,6 +2378,16 @@
       "at": "2026-09-25T20:57:06.610Z",
       "week": "09/19/2026",
       "order": "110219429867"
+    },
+    {
+      "code": "jxb47776",
+      "lines": 1,
+      "store": "10328797 : 1435 W 49th Street",
+      "mm": "Islam (text)",
+      "market": "Islam",
+      "at": "2026-09-25T20:57:12.083Z",
+      "week": "09/19/2026",
+      "order": "110219399280"
     }
   ]
 }
