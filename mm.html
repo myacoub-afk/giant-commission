@@ -198,7 +198,7 @@ function renderCard(u,idx,period){
     if(od.length){
       if(od.length>1)ordOpts+='<option value="">Which order?</option>';
       ordOpts+=od.map(function(o2){
-        return '<option value="'+esc(o2.order)+'">order '+esc(o2.order)+' · '+esc(o2.date)+' · '+o2.lines+' line'+(o2.lines===1?'':'s')+'</option>';
+        return '<option value="'+esc(o2.order)+'" data-lines="'+(Number(o2.lines)||0)+'">order '+esc(o2.order)+' · '+esc(o2.date)+' · '+o2.lines+' line'+(o2.lines===1?'':'s')+'</option>';
       }).join('');
     }
     return '<div class="store-card'+(period==='prior'?' last-wk':'')+'" data-store="'+esc(u.store)+'" data-idx="'+idx+'" data-period="'+period+'">'
@@ -211,11 +211,27 @@ function renderCard(u,idx,period){
       +(od.length?'<div style="margin-bottom:8px"><select id="ord'+idx+'">'+ordOpts+'</select></div>':'')
       +'<div class="assign-row">'
       +'<select id="rep'+idx+'">'+opts+'</select>'
-      +'<input id="lines'+idx+'" type="number" min="1" max="'+un+'" value="1">'
+      +'<input id="lines'+idx+'" type="number" min="1" max="'+un+'" value="1"'+(od.length?' readonly title="An order goes to one rep, so its lines are not split"':'')+'>'
       +'<button data-assign="'+idx+'">Assign</button>'
       +'</div><div class="msg" id="msg'+idx+'"></div></div>';
   })();
 }
+
+// An order is submitted by ONE rep, so picking one fixes the line count
+// instead of leaving a box that could split it. Stores with no orders listed
+// keep the free-text count, which is the documented fallback.
+function syncOrderLines(idx){
+  var ordSel=document.getElementById('ord'+idx);
+  var box=document.getElementById('lines'+idx);
+  if(!ordSel||!box)return;
+  var opt=ordSel.options[ordSel.selectedIndex];
+  var n=opt?parseInt(opt.getAttribute('data-lines')||'0',10):0;
+  if(n>0){box.value=n;}
+}
+document.addEventListener('change',function(e){
+  var t=e.target;
+  if(t&&t.id&&t.id.indexOf('ord')===0){syncOrderLines(t.id.slice(3));}
+});
 
 function doAssign(idx,btn){
   var card=document.querySelector('.store-card[data-idx="'+idx+'"]');
@@ -233,6 +249,14 @@ function doAssign(idx,btn){
   var order=ordSel?ordSel.value:'';
   if(!code){msg.className='msg err';msg.textContent='Select a rep first.';return;}
   if(ordSel&&!order){msg.className='msg err';msg.textContent='Pick which order these lines belong to.';return;}
+  // The order decides the count, not the box. Belt and braces: the Apps Script
+  // refuses a mismatch anyway, but the MM should never see that error.
+  if(ordSel&&order){
+    var oOpt=ordSel.options[ordSel.selectedIndex];
+    var oLines=oOpt?parseInt(oOpt.getAttribute('data-lines')||'0',10):0;
+    if(oLines>0)lines=oLines;
+    if(lines>remaining){msg.className='msg err';msg.textContent='Order '+order+' holds '+lines+' line'+(lines===1?'':'s')+' but only '+remaining+' are open here. Ask the bot to assign by line count instead.';return;}
+  }
   if(lines<1||lines>remaining){msg.className='msg err';msg.textContent='Lines must be 1–'+remaining+'.';return;}
   btn.disabled=true;btn.textContent='Saving…';msg.className='msg';msg.textContent='';
   fetch(API,{method:'POST',body:JSON.stringify({
