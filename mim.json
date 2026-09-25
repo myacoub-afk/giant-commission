@@ -932,7 +932,7 @@
     },
     {
       "code": "xfp00643",
-      "postpaid": 8,
+      "postpaid": 13,
       "store": "478 Hamilton Ave",
       "lastName": "Trinidad"
     },
@@ -1228,17 +1228,9 @@
       "market": "Metro Northeast",
       "geo": "Metro Trenton",
       "total": 19,
-      "assigned": 14,
-      "orders": 1,
-      "orderDetail": [
-        {
-          "order": "110219398180",
-          "date": "9/22",
-          "iso": "2026-09-22",
-          "lines": 5,
-          "status": "Active"
-        }
-      ]
+      "assigned": 19,
+      "orders": 0,
+      "orderDetail": []
     },
     {
       "store": "10219698 : 2241 Beatties Ford Rd",
@@ -2192,6 +2184,16 @@
       "at": "2026-09-25T15:33:43.774Z",
       "week": "09/19/2026",
       "order": "110219432514"
+    },
+    {
+      "code": "xfp00643",
+      "lines": 5,
+      "store": "10218769 : 478 Hamilton Ave",
+      "mm": "Barby (text)",
+      "market": "Barby",
+      "at": "2026-09-25T15:34:36.882Z",
+      "week": "09/19/2026",
+      "order": "110219398180"
     }
   ]
 }
