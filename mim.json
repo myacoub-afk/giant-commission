@@ -380,7 +380,7 @@
     },
     {
       "code": "jpm70905",
-      "postpaid": 3,
+      "postpaid": 6,
       "store": "1453 Sand Lake Road Unit D",
       "lastName": "Reyes"
     },
@@ -1454,17 +1454,9 @@
       "market": "Metro Southeast",
       "geo": "Metro Orlando South",
       "total": 6,
-      "assigned": 3,
-      "orders": 1,
-      "orderDetail": [
-        {
-          "order": "110219395569",
-          "date": "9/22",
-          "iso": "2026-09-22",
-          "lines": 3,
-          "status": "Active"
-        }
-      ]
+      "assigned": 6,
+      "orders": 0,
+      "orderDetail": []
     },
     {
       "store": "10328829 : 2447 N. Wickham Road",
@@ -2201,6 +2193,16 @@
       "at": "2026-09-25T15:49:38.534Z",
       "week": "09/19/2026",
       "order": "110219288604"
+    },
+    {
+      "code": "jpm70905",
+      "lines": 3,
+      "store": "10328825 : 1453 Sand Lake Road Unit D",
+      "mm": "Tiffany (text)",
+      "market": "Tiffany",
+      "at": "2026-09-25T19:04:14.837Z",
+      "week": "09/19/2026",
+      "order": "110219395569"
     }
   ]
 }
