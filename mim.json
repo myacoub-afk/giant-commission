@@ -1265,6 +1265,12 @@
       "postpaid": 4,
       "store": "6417 Airport Rd Ste 103",
       "lastName": ""
+    },
+    {
+      "code": "vrn27514",
+      "postpaid": 4,
+      "store": "6125 Montgomery Blvd NE Ste 3",
+      "lastName": ""
     }
   ],
   "mtdMap": {},
@@ -1526,17 +1532,9 @@
       "market": "Metro South Central",
       "geo": "Metro Albuquerque Santa Fe",
       "total": 4,
-      "assigned": 0,
-      "orders": 1,
-      "orderDetail": [
-        {
-          "order": "110219435310",
-          "date": "9/23",
-          "iso": "2026-09-23",
-          "lines": 4,
-          "status": "Active"
-        }
-      ]
+      "assigned": 4,
+      "orders": 0,
+      "orderDetail": []
     },
     {
       "store": "10328817 : 249 Glenside Ave",
@@ -2375,6 +2373,16 @@
       "at": "2026-09-25T20:34:45.031Z",
       "week": "09/19/2026",
       "order": "110219405962"
+    },
+    {
+      "code": "vrn27514",
+      "lines": 4,
+      "store": "10227682 : 6125 Montgomery Blvd NE Ste 3",
+      "mm": "Dom",
+      "market": "Dom",
+      "at": "2026-09-25T20:36:39.124Z",
+      "week": "09/19/2026",
+      "order": "110219435310"
     }
   ]
 }
