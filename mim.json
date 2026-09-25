@@ -608,7 +608,7 @@
     },
     {
       "code": "ohf63653",
-      "postpaid": 2,
+      "postpaid": 3,
       "store": "810 Oley St",
       "lastName": "Brito"
     },
@@ -1196,17 +1196,9 @@
       "market": "Metro Northeast",
       "geo": "Metro Lancaster/York",
       "total": 19,
-      "assigned": 18,
-      "orders": 1,
-      "orderDetail": [
-        {
-          "order": "110219288604",
-          "date": "9/19",
-          "iso": "2026-09-19",
-          "lines": 1,
-          "status": "Active"
-        }
-      ]
+      "assigned": 19,
+      "orders": 0,
+      "orderDetail": []
     },
     {
       "store": "10218769 : 478 Hamilton Ave",
@@ -2199,6 +2191,16 @@
       "at": "2026-09-25T15:47:58.284Z",
       "week": "09/19/2026",
       "order": "110219290753"
+    },
+    {
+      "code": "ohf63653",
+      "lines": 1,
+      "store": "10202216 : 810 Oley St",
+      "mm": "Barby (text)",
+      "market": "Barby",
+      "at": "2026-09-25T15:49:38.534Z",
+      "week": "09/19/2026",
+      "order": "110219288604"
     }
   ]
 }
