@@ -56,17 +56,9 @@
         "market": "Metro Southeast",
         "geo": "Metro Ft Lauderdale Central",
         "total": 10,
-        "assigned": 9,
-        "orders": 1,
-        "orderDetail": [
-          {
-            "order": "110219450358",
-            "date": "9/24",
-            "iso": "2026-09-24",
-            "lines": 1,
-            "status": "Active"
-          }
-        ]
+        "assigned": 10,
+        "orders": 0,
+        "orderDetail": []
       }
     ],
     "manualAssignments": [
@@ -746,6 +738,16 @@
         "at": "2026-09-26T15:08:56.730Z",
         "week": "09/19/2026",
         "order": "110219439590"
+      },
+      {
+        "code": "lvk99152",
+        "lines": 1,
+        "store": "10328798 : 1483 N Federal Hwy",
+        "mm": "Islam (text)",
+        "market": "Islam",
+        "at": "2026-09-26T15:10:12.250Z",
+        "week": "09/19/2026",
+        "order": "110219450358"
       }
     ]
   }
