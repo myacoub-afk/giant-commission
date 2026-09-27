@@ -1,7 +1,7 @@
 {
   "meta": {
     "period": "Sep 26, 2026 - Oct 2, 2026",
-    "published": "Sep 27, 7:14 PM",
+    "published": "Sep 27, 7:44 PM",
     "autoPublished": true
   },
   "mrc": {
@@ -22,7 +22,7 @@
     },
     "fju17533": {
       "name": "Damaris",
-      "mrc": 306,
+      "mrc": 321,
       "hint": 1
     },
     "hlt40846": {
@@ -72,7 +72,7 @@
     },
     "pxa12423": {
       "name": "GUADALUPE",
-      "mrc": 1055,
+      "mrc": 1079,
       "hint": 2
     },
     "qbg74740": {
@@ -87,7 +87,7 @@
     },
     "qsg27987": {
       "name": "Mirna",
-      "mrc": 944,
+      "mrc": 984,
       "hint": 2
     },
     "ypa85364": {
@@ -202,7 +202,7 @@
     },
     "gbn62354": {
       "name": "angie",
-      "mrc": 453,
+      "mrc": 473,
       "hint": 0
     },
     "gnw12226": {
@@ -1219,21 +1219,21 @@
   "emp": {
     "qsg27987": {
       "name": "Mirna",
-      "acc": 936.31,
+      "acc": 945.31,
       "hint": 2,
       "store": "NATIONS FORD",
       "repName": "Mirna"
     },
     "fju17533": {
       "name": "Damaris",
-      "acc": 565.88,
+      "acc": 597.87,
       "hint": 1,
       "store": "NATIONS FORD",
       "repName": "Damaris"
     },
     "pxa12423": {
       "name": "GUADALUPE",
-      "acc": 887.94,
+      "acc": 954.94,
       "hint": 2,
       "store": "CENTRAL",
       "repName": "GUADALUPE"
@@ -3163,8 +3163,8 @@
       "name": "Mirna",
       "lastName": "",
       "store": "NATIONS FORD",
-      "mrc": 944,
-      "acc": 936.31,
+      "mrc": 984,
+      "acc": 945.31,
       "hint": 2,
       "mim": 0,
       "mtd_lines": 0,
@@ -3190,8 +3190,8 @@
       "name": "GUADALUPE",
       "lastName": "",
       "store": "CENTRAL",
-      "mrc": 1055,
-      "acc": 887.94,
+      "mrc": 1079,
+      "acc": 954.94,
       "hint": 2,
       "mim": 0,
       "mtd_lines": 0,
@@ -3210,7 +3210,7 @@
       "qualifies": false,
       "needs": "+1 MIM",
       "rank": 2,
-      "close_order": 2
+      "close_order": 1
     },
     {
       "code": "nmt86860",
@@ -3237,7 +3237,7 @@
       "qualifies": false,
       "needs": "+1 MIM",
       "rank": 3,
-      "close_order": 1
+      "close_order": 2
     },
     {
       "code": "rey11296",
@@ -3352,8 +3352,8 @@
       "name": "Damaris",
       "lastName": "",
       "store": "NATIONS FORD",
-      "mrc": 306,
-      "acc": 565.88,
+      "mrc": 321,
+      "acc": 597.87,
       "hint": 1,
       "mim": 0,
       "mtd_lines": 0,
@@ -3365,14 +3365,14 @@
       "hint_spiff": 15,
       "mim_spiff": 0,
       "total": 15,
-      "mrc_gap": 194,
-      "acc_gap": 134.12,
+      "mrc_gap": 179,
+      "acc_gap": 102.13,
       "hint_gap": 0,
       "mim_gap": 1,
       "qualifies": false,
-      "needs": "+$194 MRC, +$134.12 acc, +1 MIM",
+      "needs": "+$179 MRC, +$102.13 acc, +1 MIM",
       "rank": 8,
-      "close_order": 15
+      "close_order": 14
     },
     {
       "code": "pqm31381",
@@ -3993,7 +3993,7 @@
       "qualifies": false,
       "needs": "+$145 MRC, +$128.15 acc, +1 MIM",
       "rank": 31,
-      "close_order": 14
+      "close_order": 15
     },
     {
       "code": "opu09387",
@@ -6997,7 +6997,7 @@
       "name": "angie",
       "lastName": "",
       "store": "CLEARLAKE 1",
-      "mrc": 453,
+      "mrc": 473,
       "acc": 1045.77,
       "hint": 0,
       "mim": 0,
@@ -7010,12 +7010,12 @@
       "hint_spiff": 0,
       "mim_spiff": 0,
       "total": 0,
-      "mrc_gap": 47,
+      "mrc_gap": 27,
       "acc_gap": 0,
       "hint_gap": 1,
       "mim_gap": 1,
       "qualifies": false,
-      "needs": "+$47 MRC, +1 HINT, +1 MIM",
+      "needs": "+$27 MRC, +1 HINT, +1 MIM",
       "rank": 143,
       "close_order": 11
     },
@@ -10643,7 +10643,7 @@
     "qualified": 0,
     "total_payout": 1170,
     "total_spiffs": 1170,
-    "below_acc": 271,
+    "below_acc": 270,
     "below_mrc": 266,
     "no_hint": 206,
     "no_mim": 277,
