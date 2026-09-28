@@ -673,17 +673,9 @@
         "market": "Metro Southeast",
         "geo": "Metro Brevard",
         "total": 16,
-        "assigned": 13,
-        "orders": 1,
-        "orderDetail": [
-          {
-            "order": "110219496779",
-            "date": "9/25",
-            "iso": "2026-09-25",
-            "lines": 3,
-            "status": "Active"
-          }
-        ]
+        "assigned": 16,
+        "orders": 0,
+        "orderDetail": []
       },
       {
         "store": "10223905 : 1601 Broadway Blvd SE",
@@ -1420,6 +1412,16 @@
         "at": "2026-09-28T15:40:58.314Z",
         "week": "09/19/2026",
         "order": "110219355235"
+      },
+      {
+        "code": "jxc44764",
+        "lines": 3,
+        "store": "10199458 : 806 W New Haven Ave",
+        "mm": "Shailine (text)",
+        "market": "Shailine",
+        "at": "2026-09-28T19:41:07.636Z",
+        "week": "09/19/2026",
+        "order": "110219496779"
       }
     ],
     "refreshed": "2026-09-28T18:35:50.980Z"
