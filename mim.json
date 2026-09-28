@@ -443,6 +443,12 @@
       "postpaid": 1,
       "store": "6801-C West Colonial Drive Unit C",
       "lastName": "Bastien"
+    },
+    {
+      "code": "ywu60512",
+      "postpaid": 1,
+      "store": "1313 W Boynton Beach Blvd Ste R13B",
+      "lastName": ""
     }
   ],
   "mtdMap": {},
@@ -452,17 +458,9 @@
       "market": "Metro Southeast",
       "geo": "Metro Boca Raton",
       "total": 4,
-      "assigned": 3,
-      "orders": 1,
-      "orderDetail": [
-        {
-          "order": "110219556926",
-          "date": "9/27",
-          "iso": "2026-09-27",
-          "lines": 1,
-          "status": "Pending or Canceled"
-        }
-      ]
+      "assigned": 4,
+      "orders": 0,
+      "orderDetail": []
     },
     {
       "store": "10202217 : 9 S 60th St",
@@ -1425,5 +1423,17 @@
       }
     ],
     "refreshed": "2026-09-28T18:35:50.980Z"
-  }
+  },
+  "manualAssignments": [
+    {
+      "code": "ywu60512",
+      "lines": 1,
+      "store": "10227349 : 1313 W Boynton Beach Blvd Ste R13B",
+      "mm": "Suhail (text)",
+      "market": "Suhail",
+      "at": "2026-09-28T19:40:53.772Z",
+      "week": "09/26/2026",
+      "order": "110219556926"
+    }
+  ]
 }
