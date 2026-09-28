@@ -11,15 +11,6 @@
     "period": "September 19 – 25, 2026",
     "unassigned": [
       {
-        "store": "10215779 : 2091 Saxon Blvd",
-        "market": "Metro Southeast",
-        "geo": "Metro Daytona Beach",
-        "total": 1,
-        "assigned": 1,
-        "orders": 0,
-        "orderDetail": []
-      },
-      {
         "store": "10328821 : 6906 Market Street",
         "market": "Metro Northeast",
         "geo": "Metro Philadelphia Southwest",
@@ -42,15 +33,6 @@
             "status": "Active"
           }
         ]
-      },
-      {
-        "store": "10328798 : 1483 N Federal Hwy",
-        "market": "Metro Southeast",
-        "geo": "Metro Ft Lauderdale Central",
-        "total": 10,
-        "assigned": 10,
-        "orders": 0,
-        "orderDetail": []
       }
     ],
     "manualAssignments": [
@@ -751,6 +733,7 @@
         "week": "09/19/2026",
         "order": "110219412154"
       }
-    ]
+    ],
+    "refreshed": "2026-09-28T12:33:26.720Z"
   }
 }
