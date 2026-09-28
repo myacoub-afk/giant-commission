@@ -461,6 +461,12 @@
       "postpaid": 3,
       "store": "2711 Clearlake Rd",
       "lastName": ""
+    },
+    {
+      "code": "dlv09725",
+      "postpaid": 2,
+      "store": "5920 Metropolis Way 107",
+      "lastName": ""
     }
   ],
   "mtdMap": {},
@@ -564,17 +570,9 @@
       "market": "Metro Southeast",
       "geo": "Metro Orlando West",
       "total": 4,
-      "assigned": 2,
-      "orders": 1,
-      "orderDetail": [
-        {
-          "order": "110219522755",
-          "date": "9/26",
-          "iso": "2026-09-26",
-          "lines": 2,
-          "status": "Pending or Canceled"
-        }
-      ]
+      "assigned": 4,
+      "orders": 0,
+      "orderDetail": []
     },
     {
       "store": "10223766 : 2711 Clearlake Rd",
@@ -1452,6 +1450,16 @@
       "at": "2026-09-28T20:14:44.993Z",
       "week": "09/26/2026",
       "order": "110219533020"
+    },
+    {
+      "code": "dlv09725",
+      "lines": 2,
+      "store": "10194890 : 5920 Metropolis Way 107",
+      "mm": "Tiffany (text)",
+      "market": "Tiffany",
+      "at": "2026-09-28T22:13:07.412Z",
+      "week": "09/26/2026",
+      "order": "110219522755"
     }
   ]
 }
