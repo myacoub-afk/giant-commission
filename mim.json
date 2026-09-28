@@ -15,17 +15,9 @@
         "market": "Metro Northeast",
         "geo": "Metro Philadelphia Southwest",
         "total": 17,
-        "assigned": 12,
-        "orders": 1,
-        "orderDetail": [
-          {
-            "order": "110219355235",
-            "date": "9/21",
-            "iso": "2026-09-21",
-            "lines": 5,
-            "status": "Active"
-          }
-        ]
+        "assigned": 17,
+        "orders": 0,
+        "orderDetail": []
       }
     ],
     "manualAssignments": [
@@ -735,6 +727,16 @@
         "at": "2026-09-28T15:38:47.596Z",
         "week": "09/19/2026",
         "order": "110219393279"
+      },
+      {
+        "code": "grd89946",
+        "lines": 5,
+        "store": "10328821 : 6906 Market Street",
+        "mm": "Khalil (text)",
+        "market": "Khalil",
+        "at": "2026-09-28T15:40:58.314Z",
+        "week": "09/19/2026",
+        "order": "110219355235"
       }
     ],
     "refreshed": "2026-09-28T12:33:26.720Z"
