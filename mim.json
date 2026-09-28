@@ -455,6 +455,12 @@
       "postpaid": 3,
       "store": "1435 W 49th Street",
       "lastName": ""
+    },
+    {
+      "code": "xnp16921",
+      "postpaid": 3,
+      "store": "2711 Clearlake Rd",
+      "lastName": ""
     }
   ],
   "mtdMap": {},
@@ -575,17 +581,9 @@
       "market": "Metro Southeast",
       "geo": "Metro Brevard",
       "total": 7,
-      "assigned": 4,
-      "orders": 1,
-      "orderDetail": [
-        {
-          "order": "110219533020",
-          "date": "9/26",
-          "iso": "2026-09-26",
-          "lines": 3,
-          "status": "Pending or Canceled"
-        }
-      ]
+      "assigned": 7,
+      "orders": 0,
+      "orderDetail": []
     },
     {
       "store": "10328821 : 6906 Market Street",
@@ -1444,6 +1442,16 @@
       "at": "2026-09-28T19:52:58.061Z",
       "week": "09/26/2026",
       "order": "110219526586"
+    },
+    {
+      "code": "xnp16921",
+      "lines": 3,
+      "store": "10223766 : 2711 Clearlake Rd",
+      "mm": "Shailine (text)",
+      "market": "Shailine",
+      "at": "2026-09-28T20:14:44.993Z",
+      "week": "09/26/2026",
+      "order": "110219533020"
     }
   ]
 }
