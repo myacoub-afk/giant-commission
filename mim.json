@@ -15,16 +15,9 @@
         "market": "Metro Northeast",
         "geo": "Metro Philadelphia Southwest",
         "total": 17,
-        "assigned": 11,
-        "orders": 2,
+        "assigned": 12,
+        "orders": 1,
         "orderDetail": [
-          {
-            "order": "110219393279",
-            "date": "9/22",
-            "iso": "2026-09-22",
-            "lines": 1,
-            "status": "Active"
-          },
           {
             "order": "110219355235",
             "date": "9/21",
@@ -732,6 +725,16 @@
         "at": "2026-09-28T12:16:40.484Z",
         "week": "09/19/2026",
         "order": "110219412154"
+      },
+      {
+        "code": "tkx23323",
+        "lines": 1,
+        "store": "10328821 : 6906 Market Street",
+        "mm": "Khalil (text)",
+        "market": "Khalil",
+        "at": "2026-09-28T15:38:47.596Z",
+        "week": "09/19/2026",
+        "order": "110219393279"
       }
     ],
     "refreshed": "2026-09-28T12:33:26.720Z"
