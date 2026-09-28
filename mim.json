@@ -449,6 +449,12 @@
       "postpaid": 1,
       "store": "1313 W Boynton Beach Blvd Ste R13B",
       "lastName": ""
+    },
+    {
+      "code": "lzs17620",
+      "postpaid": 3,
+      "store": "1435 W 49th Street",
+      "lastName": ""
     }
   ],
   "mtdMap": {},
@@ -603,17 +609,9 @@
       "market": "Metro Southeast",
       "geo": "Metro Hialeah",
       "total": 9,
-      "assigned": 6,
-      "orders": 1,
-      "orderDetail": [
-        {
-          "order": "110219526586",
-          "date": "9/26",
-          "iso": "2026-09-26",
-          "lines": 3,
-          "status": "Pending or Canceled"
-        }
-      ]
+      "assigned": 9,
+      "orders": 0,
+      "orderDetail": []
     }
   ],
   "prior": {
@@ -1436,6 +1434,16 @@
       "at": "2026-09-28T19:40:53.772Z",
       "week": "09/26/2026",
       "order": "110219556926"
+    },
+    {
+      "code": "lzs17620",
+      "lines": 3,
+      "store": "10328797 : 1435 W 49th Street",
+      "mm": "Islam (text)",
+      "market": "Islam",
+      "at": "2026-09-28T19:52:58.061Z",
+      "week": "09/26/2026",
+      "order": "110219526586"
     }
   ]
 }
