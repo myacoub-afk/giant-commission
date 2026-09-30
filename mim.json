@@ -63,7 +63,7 @@
     },
     {
       "code": "bsc75544",
-      "postpaid": 4,
+      "postpaid": 7,
       "store": "9 S 60th St",
       "lastName": "Kumar"
     },
@@ -965,17 +965,9 @@
       "market": "Metro Northeast",
       "geo": "Metro Philadelphia South",
       "total": 7,
-      "assigned": 4,
-      "orders": 1,
-      "orderDetail": [
-        {
-          "order": "110219549791",
-          "date": "9/27",
-          "iso": "2026-09-27",
-          "lines": 3,
-          "status": "Active"
-        }
-      ]
+      "assigned": 7,
+      "orders": 0,
+      "orderDetail": []
     },
     {
       "store": "10202204 : 3712 N Broad St",
@@ -2056,6 +2048,16 @@
       "at": "2026-09-30T21:28:51.483Z",
       "week": "09/26/2026",
       "order": "110219553815"
+    },
+    {
+      "code": "bsc75544",
+      "lines": 3,
+      "store": "10202217 : 9 S 60th St",
+      "mm": "Khalil (text)",
+      "market": "Khalil",
+      "at": "2026-09-30T21:29:20.567Z",
+      "week": "09/26/2026",
+      "order": "110219549791"
     }
   ]
 }
