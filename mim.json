@@ -75,7 +75,7 @@
     },
     {
       "code": "byg53736",
-      "postpaid": 2,
+      "postpaid": 4,
       "store": "810 Oley St",
       "lastName": "Gomez"
     },
@@ -1027,17 +1027,9 @@
       "market": "Metro Northeast",
       "geo": "Metro Lancaster/York",
       "total": 8,
-      "assigned": 6,
-      "orders": 1,
-      "orderDetail": [
-        {
-          "order": "110219520177",
-          "date": "9/26",
-          "iso": "2026-09-26",
-          "lines": 2,
-          "status": "Active"
-        }
-      ]
+      "assigned": 8,
+      "orders": 0,
+      "orderDetail": []
     },
     {
       "store": "10218769 : 478 Hamilton Ave",
@@ -2083,6 +2075,16 @@
       "at": "2026-09-30T22:18:42.815Z",
       "week": "09/26/2026",
       "order": "110219561766"
+    },
+    {
+      "code": "byg53736",
+      "lines": 2,
+      "store": "10202216 : 810 Oley St",
+      "mm": "Barby (text)",
+      "market": "Barby",
+      "at": "2026-09-30T22:24:07.151Z",
+      "week": "09/26/2026",
+      "order": "110219520177"
     }
   ]
 }
