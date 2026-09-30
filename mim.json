@@ -960,6 +960,12 @@
       "postpaid": 3,
       "store": "1515 Palm Bay Rd Suite 109",
       "lastName": ""
+    },
+    {
+      "code": "iud71090",
+      "postpaid": 2,
+      "store": "715 Vine Street East Ste 4",
+      "lastName": ""
     }
   ],
   "mtdMap": {},
@@ -1093,17 +1099,9 @@
       "market": "Metro Southeast",
       "geo": "Metro Orlando South",
       "total": 5,
-      "assigned": 3,
-      "orders": 1,
-      "orderDetail": [
-        {
-          "order": "110219609717",
-          "date": "9/29",
-          "iso": "2026-09-29",
-          "lines": 2,
-          "status": "Active"
-        }
-      ]
+      "assigned": 5,
+      "orders": 0,
+      "orderDetail": []
     },
     {
       "store": "10328797 : 1435 W 49th Street",
@@ -2103,6 +2101,16 @@
       "at": "2026-09-30T23:07:30.021Z",
       "week": "09/26/2026",
       "order": "110219591973"
+    },
+    {
+      "code": "iud71090",
+      "lines": 2,
+      "store": "10328827 : 715 Vine Street East Ste 4",
+      "mm": "David (text)",
+      "market": "David",
+      "at": "2026-09-30T23:47:24.253Z",
+      "week": "09/26/2026",
+      "order": "110219609717"
     }
   ]
 }
