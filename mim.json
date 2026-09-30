@@ -954,6 +954,12 @@
       "postpaid": 1,
       "store": "113 E Commerce St",
       "lastName": ""
+    },
+    {
+      "code": "jbq70909",
+      "postpaid": 3,
+      "store": "1515 Palm Bay Rd Suite 109",
+      "lastName": ""
     }
   ],
   "mtdMap": {},
@@ -1060,17 +1066,9 @@
       "market": "Metro Southeast",
       "geo": "Metro Brevard",
       "total": 8,
-      "assigned": 5,
-      "orders": 1,
-      "orderDetail": [
-        {
-          "order": "110219591973",
-          "date": "9/28",
-          "iso": "2026-09-28",
-          "lines": 3,
-          "status": "Active"
-        }
-      ]
+      "assigned": 8,
+      "orders": 0,
+      "orderDetail": []
     },
     {
       "store": "10223766 : 2711 Clearlake Rd",
@@ -2095,6 +2093,16 @@
       "at": "2026-09-30T22:55:24.402Z",
       "week": "09/26/2026",
       "order": "110219592262"
+    },
+    {
+      "code": "jbq70909",
+      "lines": 3,
+      "store": "10203856 : 1515 Palm Bay Rd Suite 109",
+      "mm": "Shailine (text)",
+      "market": "Shailine",
+      "at": "2026-09-30T23:07:30.021Z",
+      "week": "09/26/2026",
+      "order": "110219591973"
     }
   ]
 }
