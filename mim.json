@@ -942,6 +942,12 @@
       "postpaid": 1,
       "store": "478 Hamilton Ave",
       "lastName": ""
+    },
+    {
+      "code": "zpa01550",
+      "postpaid": 2,
+      "store": "478 Hamilton Ave",
+      "lastName": ""
     }
   ],
   "mtdMap": {},
@@ -1038,17 +1044,9 @@
       "market": "Metro Northeast",
       "geo": "Metro Trenton",
       "total": 10,
-      "assigned": 8,
-      "orders": 1,
-      "orderDetail": [
-        {
-          "order": "110219561766",
-          "date": "9/27",
-          "iso": "2026-09-27",
-          "lines": 2,
-          "status": "Active"
-        }
-      ]
+      "assigned": 10,
+      "orders": 0,
+      "orderDetail": []
     },
     {
       "store": "10194890 : 5920 Metropolis Way 107",
@@ -2075,6 +2073,16 @@
       "at": "2026-09-30T22:18:30.450Z",
       "week": "09/26/2026",
       "order": "110219609677"
+    },
+    {
+      "code": "zpa01550",
+      "lines": 2,
+      "store": "10218769 : 478 Hamilton Ave",
+      "mm": "Barby (text)",
+      "market": "Barby",
+      "at": "2026-09-30T22:18:42.815Z",
+      "week": "09/26/2026",
+      "order": "110219561766"
     }
   ]
 }
