@@ -930,6 +930,12 @@
       "postpaid": 1,
       "store": "3712 N Broad St",
       "lastName": ""
+    },
+    {
+      "code": "ilx90312",
+      "postpaid": 3,
+      "store": "6906 Market Street",
+      "lastName": ""
     }
   ],
   "mtdMap": {},
@@ -1085,17 +1091,9 @@
       "market": "Metro Northeast",
       "geo": "Metro Philadelphia Southwest",
       "total": 14,
-      "assigned": 11,
-      "orders": 1,
-      "orderDetail": [
-        {
-          "order": "110219556016",
-          "date": "9/27",
-          "iso": "2026-09-27",
-          "lines": 3,
-          "status": "Pending or Canceled"
-        }
-      ]
+      "assigned": 14,
+      "orders": 0,
+      "orderDetail": []
     },
     {
       "store": "10328827 : 715 Vine Street East Ste 4",
@@ -2058,6 +2056,16 @@
       "at": "2026-09-30T21:29:20.567Z",
       "week": "09/26/2026",
       "order": "110219549791"
+    },
+    {
+      "code": "ilx90312",
+      "lines": 3,
+      "store": "10328821 : 6906 Market Street",
+      "mm": "Khalil (text)",
+      "market": "Khalil",
+      "at": "2026-09-30T21:31:25.240Z",
+      "week": "09/26/2026",
+      "order": "110219556016"
     }
   ]
 }
