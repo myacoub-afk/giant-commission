@@ -903,7 +903,7 @@
     },
     {
       "code": "ywu60512",
-      "postpaid": 1,
+      "postpaid": 4,
       "store": "1313 W Boynton Beach Blvd Ste R13B",
       "lastName": ""
     },
@@ -950,17 +950,9 @@
       "market": "Metro Southeast",
       "geo": "Metro Boca Raton",
       "total": 7,
-      "assigned": 4,
-      "orders": 1,
-      "orderDetail": [
-        {
-          "order": "110219592963",
-          "date": "9/28",
-          "iso": "2026-09-28",
-          "lines": 3,
-          "status": "Active"
-        }
-      ]
+      "assigned": 7,
+      "orders": 0,
+      "orderDetail": []
     },
     {
       "store": "10202217 : 9 S 60th St",
@@ -2041,6 +2033,16 @@
       "at": "2026-09-28T22:13:07.412Z",
       "week": "09/26/2026",
       "order": "110219522755"
+    },
+    {
+      "code": "ywu60512",
+      "lines": 3,
+      "store": "10227349 : 1313 W Boynton Beach Blvd Ste R13B",
+      "mm": "Suhail (text)",
+      "market": "Suhail",
+      "at": "2026-09-30T20:19:51.627Z",
+      "week": "09/26/2026",
+      "order": "110219592963"
     }
   ]
 }
