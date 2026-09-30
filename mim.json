@@ -1185,17 +1185,9 @@
         "market": "Metro Northeast",
         "geo": "Metro Lancaster/York",
         "total": 26,
-        "assigned": 25,
-        "orders": 1,
-        "orderDetail": [
-          {
-            "order": "110219488101",
-            "date": "9/25",
-            "iso": "2026-09-25",
-            "lines": 1,
-            "status": "Active"
-          }
-        ]
+        "assigned": 26,
+        "orders": 0,
+        "orderDetail": []
       },
       {
         "store": "10199458 : 806 W New Haven Ave",
@@ -1951,6 +1943,16 @@
         "at": "2026-09-28T19:41:07.636Z",
         "week": "09/19/2026",
         "order": "110219496779"
+      },
+      {
+        "code": "vrh98549",
+        "lines": 1,
+        "store": "10202216 : 810 Oley St",
+        "mm": "Barby (text)",
+        "market": "Barby",
+        "at": "2026-09-30T22:24:19.317Z",
+        "week": "09/19/2026",
+        "order": "110219488101"
       }
     ],
     "refreshed": "2026-09-28T18:35:50.980Z"
