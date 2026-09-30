@@ -948,6 +948,12 @@
       "postpaid": 2,
       "store": "478 Hamilton Ave",
       "lastName": ""
+    },
+    {
+      "code": "tas64368",
+      "postpaid": 1,
+      "store": "113 E Commerce St",
+      "lastName": ""
     }
   ],
   "mtdMap": {},
@@ -1132,17 +1138,9 @@
       "market": "Metro Northeast",
       "geo": "Metro New Jersey Shore",
       "total": 6,
-      "assigned": 5,
-      "orders": 1,
-      "orderDetail": [
-        {
-          "order": "110219592262",
-          "date": "9/28",
-          "iso": "2026-09-28",
-          "lines": 1,
-          "status": "Active"
-        }
-      ]
+      "assigned": 6,
+      "orders": 0,
+      "orderDetail": []
     }
   ],
   "prior": {
@@ -2087,6 +2085,16 @@
       "at": "2026-09-30T22:24:07.151Z",
       "week": "09/26/2026",
       "order": "110219520177"
+    },
+    {
+      "code": "tas64368",
+      "lines": 1,
+      "store": "10195307 : 113 E Commerce St",
+      "mm": "Barby (text)",
+      "market": "Barby",
+      "at": "2026-09-30T22:55:24.402Z",
+      "week": "09/26/2026",
+      "order": "110219592262"
     }
   ]
 }
