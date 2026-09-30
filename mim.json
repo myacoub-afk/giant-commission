@@ -141,7 +141,7 @@
     },
     {
       "code": "ecx36185",
-      "postpaid": 6,
+      "postpaid": 9,
       "store": "1434 Atlantic Ave",
       "lastName": "Alnoubani"
     },
@@ -1008,17 +1008,9 @@
       "market": "Metro Northeast",
       "geo": "Metro New Jersey Shore",
       "total": 9,
-      "assigned": 6,
-      "orders": 1,
-      "orderDetail": [
-        {
-          "order": "110219553815",
-          "date": "9/27",
-          "iso": "2026-09-27",
-          "lines": 3,
-          "status": "Pending or Canceled"
-        }
-      ]
+      "assigned": 9,
+      "orders": 0,
+      "orderDetail": []
     },
     {
       "store": "10202216 : 810 Oley St",
@@ -2054,6 +2046,16 @@
       "at": "2026-09-30T21:28:40.360Z",
       "week": "09/26/2026",
       "order": "110219611932"
+    },
+    {
+      "code": "ecx36185",
+      "lines": 3,
+      "store": "10195557 : 1434 Atlantic Ave",
+      "mm": "Khalil (text)",
+      "market": "Khalil",
+      "at": "2026-09-30T21:28:51.483Z",
+      "week": "09/26/2026",
+      "order": "110219553815"
     }
   ]
 }
