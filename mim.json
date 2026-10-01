@@ -1091,6 +1091,12 @@
       "postpaid": 2,
       "store": "715 Vine Street East Ste 4",
       "lastName": ""
+    },
+    {
+      "code": "erj51215",
+      "postpaid": 4,
+      "store": "2421 Enterprise Rd",
+      "lastName": ""
     }
   ],
   "mtdMap": {},
@@ -1197,17 +1203,9 @@
       "market": "Metro Southeast",
       "geo": "Metro Daytona Beach",
       "total": 4,
-      "assigned": 0,
-      "orders": 1,
-      "orderDetail": [
-        {
-          "order": "110219644772",
-          "date": "9/30",
-          "iso": "2026-09-30",
-          "lines": 4,
-          "status": "Pending or Canceled"
-        }
-      ]
+      "assigned": 4,
+      "orders": 0,
+      "orderDetail": []
     },
     {
       "store": "10199458 : 806 W New Haven Ave",
@@ -2311,6 +2309,16 @@
       "at": "2026-09-30T23:47:24.253Z",
       "week": "09/26/2026",
       "order": "110219609717"
+    },
+    {
+      "code": "erj51215",
+      "lines": 4,
+      "store": "10203846 : 2421 Enterprise Rd",
+      "mm": "David (text)",
+      "market": "David",
+      "at": "2026-10-01T20:10:39.766Z",
+      "week": "09/26/2026",
+      "order": "110219644772"
     }
   ]
 }
