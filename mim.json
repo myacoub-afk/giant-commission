@@ -1097,6 +1097,12 @@
       "postpaid": 4,
       "store": "2421 Enterprise Rd",
       "lastName": ""
+    },
+    {
+      "code": "ojq83158",
+      "postpaid": 10,
+      "store": "195 Malabar Rd NW",
+      "lastName": ""
     }
   ],
   "mtdMap": {},
@@ -1247,24 +1253,9 @@
       "market": "Metro Southeast",
       "geo": "Metro Brevard",
       "total": 24,
-      "assigned": 14,
-      "orders": 2,
-      "orderDetail": [
-        {
-          "order": "110219650227",
-          "date": "9/30",
-          "iso": "2026-09-30",
-          "lines": 5,
-          "status": "Active"
-        },
-        {
-          "order": "110219656062",
-          "date": "9/30",
-          "iso": "2026-09-30",
-          "lines": 5,
-          "status": "Active"
-        }
-      ]
+      "assigned": 24,
+      "orders": 0,
+      "orderDetail": []
     },
     {
       "store": "10328821 : 6906 Market Street",
@@ -2319,6 +2310,16 @@
       "at": "2026-10-01T20:10:39.766Z",
       "week": "09/26/2026",
       "order": "110219644772"
+    },
+    {
+      "code": "ojq83158",
+      "lines": 10,
+      "store": "10203812 : 195 Malabar Rd NW",
+      "mm": "Shailine (text)",
+      "market": "Shailine",
+      "at": "2026-10-01T20:27:12.303Z",
+      "week": "09/26/2026",
+      "order": "NOT NAMED"
     }
   ]
 }
