@@ -386,7 +386,7 @@
     },
     {
       "code": "jxc44764",
-      "postpaid": 8,
+      "postpaid": 9,
       "store": "195 Malabar Rd NW",
       "lastName": "Crespo"
     },
@@ -1218,17 +1218,9 @@
       "market": "Metro Southeast",
       "geo": "Metro Brevard",
       "total": 5,
-      "assigned": 4,
-      "orders": 1,
-      "orderDetail": [
-        {
-          "order": "110219638830",
-          "date": "9/30",
-          "iso": "2026-09-30",
-          "lines": 1,
-          "status": "Active"
-        }
-      ]
+      "assigned": 5,
+      "orders": 0,
+      "orderDetail": []
     },
     {
       "store": "10203856 : 1515 Palm Bay Rd Suite 109",
@@ -2320,6 +2312,16 @@
       "at": "2026-10-01T20:27:12.303Z",
       "week": "09/26/2026",
       "order": "NOT NAMED"
+    },
+    {
+      "code": "jxc44764",
+      "lines": 1,
+      "store": "10199458 : 806 W New Haven Ave",
+      "mm": "Shailine (text)",
+      "market": "Shailine",
+      "at": "2026-10-01T20:28:33.510Z",
+      "week": "09/26/2026",
+      "order": "110219638830"
     }
   ]
 }
