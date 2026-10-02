@@ -1,7 +1,7 @@
 {
   "meta": {
     "period": "Sep 26, 2026 - Oct 2, 2026",
-    "published": "Oct 2, 9:45 AM",
+    "published": "Oct 2, 10:15 AM",
     "autoPublished": true
   },
   "mrc": {
@@ -677,7 +677,7 @@
     },
     "xnp16921": {
       "name": "Gaige",
-      "mrc": 573,
+      "mrc": 628,
       "hint": 2
     },
     "xol42288": {
@@ -917,7 +917,7 @@
     },
     "sql23664": {
       "name": "charlie",
-      "mrc": 1498,
+      "mrc": 1518,
       "hint": 4
     },
     "tas64368": {
@@ -937,7 +937,7 @@
     },
     "uyr50973": {
       "name": "JARLIN",
-      "mrc": 712,
+      "mrc": 767,
       "hint": 1
     },
     "vst08358": {
@@ -1577,7 +1577,7 @@
     },
     "nkq42630": {
       "name": "amado",
-      "mrc": 730,
+      "mrc": 795,
       "hint": 1
     },
     "nnq24664": {
@@ -1662,7 +1662,7 @@
     },
     "uiz98042": {
       "name": "ALFREDO",
-      "mrc": 745,
+      "mrc": 820,
       "hint": 2
     },
     "uke21848": {
@@ -4164,7 +4164,7 @@
     },
     "nkq42630": {
       "name": "amado",
-      "acc": 574.81,
+      "acc": 669.78,
       "hint": 1,
       "store": "HOMESTEAD",
       "repName": "amado"
@@ -4414,7 +4414,7 @@
       "name": "charlie",
       "lastName": "Contrera",
       "store": "HAMILTON 2",
-      "mrc": 1498,
+      "mrc": 1518,
       "acc": 1554.6,
       "hint": 4,
       "mim": 8,
@@ -4423,10 +4423,10 @@
       "hint_gate": true,
       "mim_gate": true,
       "tier": 3,
-      "tier_comm": 382.99,
+      "tier_comm": 384.99,
       "hint_spiff": 60,
       "mim_spiff": 160,
-      "total": 602.99,
+      "total": 604.99,
       "mrc_gap": 0,
       "acc_gap": 0,
       "hint_gap": 0,
@@ -4731,7 +4731,7 @@
       "qualifies": false,
       "needs": "+$70.18 acc",
       "rank": 19,
-      "close_order": 54
+      "close_order": 55
     },
     {
       "code": "bsc75544",
@@ -5220,6 +5220,33 @@
       "close_order": 41
     },
     {
+      "code": "uiz98042",
+      "name": "ALFREDO",
+      "lastName": "Granado",
+      "store": "HOMESTEAD",
+      "mrc": 820,
+      "acc": 849.69,
+      "hint": 2,
+      "mim": 6,
+      "mtd_lines": 0,
+      "in_mim": true,
+      "hint_gate": true,
+      "mim_gate": true,
+      "tier": 1,
+      "tier_comm": 150.57,
+      "hint_spiff": 30,
+      "mim_spiff": 120,
+      "total": 300.57,
+      "mrc_gap": 0,
+      "acc_gap": 0,
+      "hint_gap": 0,
+      "mim_gap": 0,
+      "qualifies": true,
+      "needs": "Qualifies for Tier 1",
+      "rank": 38,
+      "close_order": 35
+    },
+    {
       "code": "kyn72180",
       "name": "ameer",
       "lastName": "Siam",
@@ -5243,7 +5270,7 @@
       "mim_gap": 0,
       "qualifies": true,
       "needs": "Qualifies for Tier 1",
-      "rank": 38,
+      "rank": 39,
       "close_order": 26
     },
     {
@@ -5270,7 +5297,7 @@
       "mim_gap": 0,
       "qualifies": true,
       "needs": "Qualifies for Tier 1",
-      "rank": 39,
+      "rank": 40,
       "close_order": 43
     },
     {
@@ -5297,7 +5324,7 @@
       "mim_gap": 0,
       "qualifies": false,
       "needs": "+$325 MRC, +$380.08 acc",
-      "rank": 40,
+      "rank": 41,
       "close_order": 141
     },
     {
@@ -5305,8 +5332,8 @@
       "name": "amado",
       "lastName": "Machado",
       "store": "HOMESTEAD",
-      "mrc": 730,
-      "acc": 574.81,
+      "mrc": 795,
+      "acc": 669.78,
       "hint": 1,
       "mim": 14,
       "mtd_lines": 0,
@@ -5319,13 +5346,13 @@
       "mim_spiff": 280,
       "total": 295,
       "mrc_gap": 0,
-      "acc_gap": 125.19,
+      "acc_gap": 30.22,
       "hint_gap": 0,
       "mim_gap": 0,
       "qualifies": false,
-      "needs": "+$125.19 acc",
-      "rank": 41,
-      "close_order": 59
+      "needs": "+$30.22 acc",
+      "rank": 42,
+      "close_order": 52
     },
     {
       "code": "eaa64615",
@@ -5351,35 +5378,8 @@
       "mim_gap": 0,
       "qualifies": false,
       "needs": "+$170.10 acc",
-      "rank": 42,
-      "close_order": 60
-    },
-    {
-      "code": "uiz98042",
-      "name": "ALFREDO",
-      "lastName": "Granado",
-      "store": "HOMESTEAD",
-      "mrc": 745,
-      "acc": 849.69,
-      "hint": 2,
-      "mim": 6,
-      "mtd_lines": 0,
-      "in_mim": true,
-      "hint_gate": true,
-      "mim_gate": true,
-      "tier": 1,
-      "tier_comm": 144.57,
-      "hint_spiff": 30,
-      "mim_spiff": 120,
-      "total": 294.57,
-      "mrc_gap": 0,
-      "acc_gap": 0,
-      "hint_gap": 0,
-      "mim_gap": 0,
-      "qualifies": true,
-      "needs": "Qualifies for Tier 1",
       "rank": 43,
-      "close_order": 35
+      "close_order": 60
     },
     {
       "code": "jxo67554",
@@ -5703,7 +5703,7 @@
       "qualifies": false,
       "needs": "+$98.15 acc",
       "rank": 55,
-      "close_order": 56
+      "close_order": 57
     },
     {
       "code": "bvv19749",
@@ -6088,7 +6088,7 @@
       "name": "Gaige",
       "lastName": "",
       "store": "CLEARLAKE 1",
-      "mrc": 573,
+      "mrc": 628,
       "acc": 862.23,
       "hint": 2,
       "mim": 3,
@@ -6097,10 +6097,10 @@
       "hint_gate": true,
       "mim_gate": true,
       "tier": 1,
-      "tier_comm": 132.06,
+      "tier_comm": 136.46,
       "hint_spiff": 30,
       "mim_spiff": 60,
-      "total": 222.06,
+      "total": 226.46,
       "mrc_gap": 0,
       "acc_gap": 0,
       "hint_gap": 0,
@@ -6435,6 +6435,33 @@
       "close_order": 155
     },
     {
+      "code": "uyr50973",
+      "name": "JARLIN",
+      "lastName": "Cruz",
+      "store": "HAMILTON",
+      "mrc": 767,
+      "acc": 719.77,
+      "hint": 1,
+      "mim": 2,
+      "mtd_lines": 0,
+      "in_mim": true,
+      "hint_gate": true,
+      "mim_gate": true,
+      "tier": 1,
+      "tier_comm": 133.34,
+      "hint_spiff": 15,
+      "mim_spiff": 40,
+      "total": 188.34,
+      "mrc_gap": 0,
+      "acc_gap": 0,
+      "hint_gap": 0,
+      "mim_gap": 0,
+      "qualifies": true,
+      "needs": "Qualifies for Tier 1",
+      "rank": 83,
+      "close_order": 46
+    },
+    {
       "code": "hrd40828",
       "name": "abram",
       "lastName": "Harris",
@@ -6452,33 +6479,6 @@
       "hint_spiff": 15,
       "mim_spiff": 40,
       "total": 184.77,
-      "mrc_gap": 0,
-      "acc_gap": 0,
-      "hint_gap": 0,
-      "mim_gap": 0,
-      "qualifies": true,
-      "needs": "Qualifies for Tier 1",
-      "rank": 83,
-      "close_order": 46
-    },
-    {
-      "code": "uyr50973",
-      "name": "JARLIN",
-      "lastName": "Cruz",
-      "store": "HAMILTON",
-      "mrc": 712,
-      "acc": 719.77,
-      "hint": 1,
-      "mim": 2,
-      "mtd_lines": 0,
-      "in_mim": true,
-      "hint_gate": true,
-      "mim_gate": true,
-      "tier": 1,
-      "tier_comm": 128.94,
-      "hint_spiff": 15,
-      "mim_spiff": 40,
-      "total": 183.94,
       "mrc_gap": 0,
       "acc_gap": 0,
       "hint_gap": 0,
@@ -7269,7 +7269,7 @@
       "qualifies": false,
       "needs": "+$70.23 acc",
       "rank": 113,
-      "close_order": 55
+      "close_order": 56
     },
     {
       "code": "gil32559",
@@ -7863,7 +7863,7 @@
       "qualifies": false,
       "needs": "+$56.18 acc",
       "rank": 135,
-      "close_order": 53
+      "close_order": 54
     },
     {
       "code": "cqd87558",
@@ -8025,7 +8025,7 @@
       "qualifies": false,
       "needs": "+$30.23 acc",
       "rank": 141,
-      "close_order": 52
+      "close_order": 53
     },
     {
       "code": "eve69052",
@@ -8538,7 +8538,7 @@
       "qualifies": false,
       "needs": "+$105.15 acc",
       "rank": 160,
-      "close_order": 57
+      "close_order": 58
     },
     {
       "code": "jib09598",
@@ -8781,7 +8781,7 @@
       "qualifies": false,
       "needs": "+$125.16 acc",
       "rank": 169,
-      "close_order": 58
+      "close_order": 59
     },
     {
       "code": "myo56375",
@@ -13890,7 +13890,7 @@
   "stats": {
     "reps": 358,
     "qualified": 47,
-    "total_payout": 42033.95,
+    "total_payout": 42050.75,
     "total_spiffs": 31580,
     "below_acc": 329,
     "below_mrc": 202,
