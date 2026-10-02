@@ -1,7 +1,7 @@
 {
   "meta": {
     "period": "Sep 26, 2026 - Oct 2, 2026",
-    "published": "Oct 1, 10:45 PM",
+    "published": "Oct 2, 9:15 AM",
     "autoPublished": true
   },
   "mrc": {
@@ -1714,7 +1714,7 @@
   "emp": {
     "fju17533": {
       "name": "Damaris",
-      "acc": 1244.7,
+      "acc": 1169.73,
       "hint": 2,
       "store": "NATIONS FORD",
       "repName": "Damaris"
@@ -1726,19 +1726,19 @@
       "store": "NATIONS FORD",
       "repName": "Mirna"
     },
+    "nyc90698": {
+      "name": "LUZ",
+      "acc": 934.69,
+      "hint": 2,
+      "store": "NATIONS FORD",
+      "repName": "LUZ"
+    },
     "pxa12423": {
       "name": "GUADALUPE",
       "acc": 1403.89,
       "hint": 2,
       "store": "CENTRAL",
       "repName": "GUADALUPE"
-    },
-    "nyc90698": {
-      "name": "LUZ",
-      "acc": 859.72,
-      "hint": 2,
-      "store": "NATIONS FORD",
-      "repName": "LUZ"
     },
     "wbe33773": {
       "name": "Monica",
@@ -4272,7 +4272,7 @@
       "qualifies": true,
       "needs": "Qualifies for Tier 1",
       "rank": 2,
-      "close_order": 19
+      "close_order": 20
     },
     {
       "code": "nmt86860",
@@ -4326,7 +4326,7 @@
       "qualifies": true,
       "needs": "Qualifies for Tier 1",
       "rank": 4,
-      "close_order": 27
+      "close_order": 28
     },
     {
       "code": "miw01822",
@@ -4407,7 +4407,7 @@
       "qualifies": true,
       "needs": "Qualifies for Tier 1",
       "rank": 7,
-      "close_order": 8
+      "close_order": 9
     },
     {
       "code": "sql23664",
@@ -4488,7 +4488,7 @@
       "qualifies": true,
       "needs": "Qualifies for Tier 1",
       "rank": 10,
-      "close_order": 9
+      "close_order": 10
     },
     {
       "code": "hse11348",
@@ -4542,7 +4542,7 @@
       "qualifies": true,
       "needs": "Qualifies for Tier 1",
       "rank": 12,
-      "close_order": 11
+      "close_order": 12
     },
     {
       "code": "xfp00643",
@@ -4569,7 +4569,7 @@
       "qualifies": true,
       "needs": "Qualifies for Tier 1",
       "rank": 13,
-      "close_order": 10
+      "close_order": 11
     },
     {
       "code": "tyo48742",
@@ -4623,7 +4623,7 @@
       "qualifies": true,
       "needs": "Qualifies for Tier 1",
       "rank": 15,
-      "close_order": 16
+      "close_order": 17
     },
     {
       "code": "opt62984",
@@ -4677,7 +4677,7 @@
       "qualifies": true,
       "needs": "Qualifies for Tier 1",
       "rank": 17,
-      "close_order": 7
+      "close_order": 8
     },
     {
       "code": "qbg74740",
@@ -4758,7 +4758,7 @@
       "qualifies": true,
       "needs": "Qualifies for Tier 1",
       "rank": 20,
-      "close_order": 17
+      "close_order": 18
     },
     {
       "code": "xdm79487",
@@ -4839,7 +4839,7 @@
       "qualifies": true,
       "needs": "Qualifies for Tier 1",
       "rank": 23,
-      "close_order": 18
+      "close_order": 19
     },
     {
       "code": "ijd66494",
@@ -4893,7 +4893,7 @@
       "qualifies": true,
       "needs": "Qualifies for Tier 1",
       "rank": 25,
-      "close_order": 28
+      "close_order": 29
     },
     {
       "code": "wbe33773",
@@ -4947,7 +4947,7 @@
       "qualifies": true,
       "needs": "Qualifies for Tier 1",
       "rank": 27,
-      "close_order": 12
+      "close_order": 13
     },
     {
       "code": "yvs34647",
@@ -5001,7 +5001,34 @@
       "qualifies": true,
       "needs": "Qualifies for Tier 1",
       "rank": 29,
-      "close_order": 22
+      "close_order": 23
+    },
+    {
+      "code": "nyc90698",
+      "name": "LUZ",
+      "lastName": "Gonzalez",
+      "store": "NATIONS FORD",
+      "mrc": 896,
+      "acc": 934.69,
+      "hint": 3,
+      "mim": 6,
+      "mtd_lines": 0,
+      "in_mim": true,
+      "hint_gate": true,
+      "mim_gate": true,
+      "tier": 1,
+      "tier_comm": 165.15,
+      "hint_spiff": 45,
+      "mim_spiff": 120,
+      "total": 330.15,
+      "mrc_gap": 0,
+      "acc_gap": 0,
+      "hint_gap": 0,
+      "mim_gap": 0,
+      "qualifies": true,
+      "needs": "Qualifies for Tier 1",
+      "rank": 30,
+      "close_order": 7
     },
     {
       "code": "rey11296",
@@ -5027,35 +5054,8 @@
       "mim_gap": 0,
       "qualifies": false,
       "needs": "+$425.08 acc",
-      "rank": 30,
-      "close_order": 79
-    },
-    {
-      "code": "nyc90698",
-      "name": "LUZ",
-      "lastName": "Gonzalez",
-      "store": "NATIONS FORD",
-      "mrc": 896,
-      "acc": 859.72,
-      "hint": 3,
-      "mim": 6,
-      "mtd_lines": 0,
-      "in_mim": true,
-      "hint_gate": true,
-      "mim_gate": true,
-      "tier": 1,
-      "tier_comm": 157.65,
-      "hint_spiff": 45,
-      "mim_spiff": 120,
-      "total": 322.65,
-      "mrc_gap": 0,
-      "acc_gap": 0,
-      "hint_gap": 0,
-      "mim_gap": 0,
-      "qualifies": true,
-      "needs": "Qualifies for Tier 1",
       "rank": 31,
-      "close_order": 29
+      "close_order": 79
     },
     {
       "code": "yvc60991",
@@ -5244,7 +5244,7 @@
       "qualifies": true,
       "needs": "Qualifies for Tier 1",
       "rank": 38,
-      "close_order": 25
+      "close_order": 26
     },
     {
       "code": "fqk57785",
@@ -5568,7 +5568,7 @@
       "qualifies": true,
       "needs": "Qualifies for Tier 1",
       "rank": 50,
-      "close_order": 20
+      "close_order": 21
     },
     {
       "code": "yhc49048",
@@ -5760,33 +5760,6 @@
       "close_order": 45
     },
     {
-      "code": "fju17533",
-      "name": "Damaris",
-      "lastName": "Alvarado",
-      "store": "NATIONS FORD",
-      "mrc": 716,
-      "acc": 1244.7,
-      "hint": 2,
-      "mim": 2,
-      "mtd_lines": 0,
-      "in_mim": true,
-      "hint_gate": true,
-      "mim_gate": true,
-      "tier": 1,
-      "tier_comm": 181.75,
-      "hint_spiff": 30,
-      "mim_spiff": 40,
-      "total": 251.75,
-      "mrc_gap": 0,
-      "acc_gap": 0,
-      "hint_gap": 0,
-      "mim_gap": 0,
-      "qualifies": true,
-      "needs": "Qualifies for Tier 1",
-      "rank": 58,
-      "close_order": 13
-    },
-    {
       "code": "lzs17620",
       "name": "yaleidy",
       "lastName": "",
@@ -5810,8 +5783,8 @@
       "mim_gap": 0,
       "qualifies": true,
       "needs": "Qualifies for Tier 1",
-      "rank": 59,
-      "close_order": 21
+      "rank": 58,
+      "close_order": 22
     },
     {
       "code": "ovv38388",
@@ -5837,7 +5810,7 @@
       "mim_gap": 0,
       "qualifies": true,
       "needs": "Qualifies for Tier 1",
-      "rank": 60,
+      "rank": 59,
       "close_order": 14
     },
     {
@@ -5864,8 +5837,8 @@
       "mim_gap": 0,
       "qualifies": true,
       "needs": "Qualifies for Tier 1",
-      "rank": 61,
-      "close_order": 15
+      "rank": 60,
+      "close_order": 16
     },
     {
       "code": "ilx90312",
@@ -5891,8 +5864,35 @@
       "mim_gap": 0,
       "qualifies": true,
       "needs": "Qualifies for Tier 1",
-      "rank": 62,
+      "rank": 61,
       "close_order": 37
+    },
+    {
+      "code": "fju17533",
+      "name": "Damaris",
+      "lastName": "Alvarado",
+      "store": "NATIONS FORD",
+      "mrc": 716,
+      "acc": 1169.73,
+      "hint": 2,
+      "mim": 2,
+      "mtd_lines": 0,
+      "in_mim": true,
+      "hint_gate": true,
+      "mim_gate": true,
+      "tier": 1,
+      "tier_comm": 174.25,
+      "hint_spiff": 30,
+      "mim_spiff": 40,
+      "total": 244.25,
+      "mrc_gap": 0,
+      "acc_gap": 0,
+      "hint_gap": 0,
+      "mim_gap": 0,
+      "qualifies": true,
+      "needs": "Qualifies for Tier 1",
+      "rank": 62,
+      "close_order": 15
     },
     {
       "code": "blv17592",
@@ -6081,7 +6081,7 @@
       "qualifies": true,
       "needs": "Qualifies for Tier 1",
       "rank": 69,
-      "close_order": 23
+      "close_order": 24
     },
     {
       "code": "xnp16921",
@@ -6270,7 +6270,7 @@
       "qualifies": true,
       "needs": "Qualifies for Tier 1",
       "rank": 76,
-      "close_order": 24
+      "close_order": 25
     },
     {
       "code": "pmp99400",
@@ -8646,7 +8646,7 @@
       "qualifies": false,
       "needs": "+1 MIM",
       "rank": 164,
-      "close_order": 26
+      "close_order": 27
     },
     {
       "code": "lnc23609",
@@ -13892,7 +13892,7 @@
     "qualified": 47,
     "total_payout": 42029.55,
     "total_spiffs": 31580,
-    "below_acc": 330,
+    "below_acc": 329,
     "below_mrc": 202,
     "no_hint": 159,
     "no_mim": 175,
