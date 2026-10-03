@@ -1276,40 +1276,20 @@
   "mtdMap": {},
   "unassigned": [
     {
-      "store": "10214682 : 534 Belvedere Rd",
-      "market": "Metro Southeast",
-      "geo": "Metro Palm Beach West",
-      "total": 5,
-      "assigned": 5,
-      "orders": 0,
-      "orderDetail": []
-    },
-    {
-      "store": "10227345 : 22749 State Rd 7 Suite B & C",
-      "market": "Metro Southeast",
-      "geo": "Metro Boca Raton",
-      "total": 8,
-      "assigned": 8,
-      "orders": 0,
-      "orderDetail": []
-    },
-    {
-      "store": "10211306 : 124 N Main St",
-      "market": "Metro Northeast",
-      "geo": "Metro Trenton",
-      "total": 23,
-      "assigned": 23,
-      "orders": 0,
-      "orderDetail": []
-    },
-    {
       "store": "10202215 : 6901 Stenton Ave",
       "market": "Metro Northeast",
       "geo": "Metro Philadelphia West",
-      "total": 10,
-      "assigned": 10,
-      "orders": 2,
+      "total": 15,
+      "assigned": 13,
+      "orders": 3,
       "orderDetail": [
+        {
+          "order": "110219488143",
+          "date": "9/25",
+          "iso": "2026-09-25",
+          "lines": 2,
+          "status": "Active"
+        },
         {
           "order": "110219412802",
           "date": "9/23",
@@ -1327,396 +1307,35 @@
       ]
     },
     {
-      "store": "10226484 : 1764 N Olden Avenue Ext",
-      "market": "Metro Northeast",
-      "geo": "Metro Trenton",
-      "total": 14,
-      "assigned": 14,
-      "orders": 0,
-      "orderDetail": []
-    },
-    {
-      "store": "10202211 : 535 Penn St",
-      "market": "Metro Northeast",
-      "geo": "Metro Lancaster/York",
-      "total": 8,
-      "assigned": 8,
-      "orders": 0,
-      "orderDetail": []
-    },
-    {
       "store": "10202216 : 810 Oley St",
       "market": "Metro Northeast",
       "geo": "Metro Lancaster/York",
-      "total": 22,
-      "assigned": 22,
+      "total": 26,
+      "assigned": 26,
       "orders": 0,
       "orderDetail": []
     },
     {
-      "store": "10218769 : 478 Hamilton Ave",
-      "market": "Metro Northeast",
-      "geo": "Metro Trenton",
-      "total": 20,
-      "assigned": 20,
+      "store": "10199458 : 806 W New Haven Ave",
+      "market": "Metro Southeast",
+      "geo": "Metro Brevard",
+      "total": 16,
+      "assigned": 16,
       "orders": 0,
       "orderDetail": []
     },
     {
-      "store": "10219698 : 2241 Beatties Ford Rd",
-      "market": "Metro Southeast",
-      "geo": "Metro NC Charlotte South",
-      "total": 24,
-      "assigned": 24,
-      "orders": 0,
-      "orderDetail": []
-    },
-    {
-      "store": "10217210 : 5401 South Blvd Ste A",
-      "market": "Metro Southeast",
-      "geo": "Metro NC Charlotte South",
-      "total": 22,
-      "assigned": 22,
-      "orders": 0,
-      "orderDetail": []
-    },
-    {
-      "store": "10228081 : 5810 S Orange Blossom Trl",
-      "market": "Metro Southeast",
-      "geo": "Metro Orlando West",
-      "total": 4,
-      "assigned": 4,
-      "orders": 1,
-      "orderDetail": [
-        {
-          "order": "110219284738",
-          "date": "9/19",
-          "iso": "2026-09-19",
-          "lines": 2,
-          "status": "Active"
-        }
-      ]
-    },
-    {
-      "store": "10215779 : 2091 Saxon Blvd",
-      "market": "Metro Southeast",
-      "geo": "Metro Daytona Beach",
+      "store": "10223905 : 1601 Broadway Blvd SE",
+      "market": "Metro South Central",
+      "geo": "Metro Albuquerque South",
       "total": 1,
       "assigned": 0,
       "orders": 1,
       "orderDetail": [
         {
-          "order": "110219412154",
-          "date": "9/23",
-          "iso": "2026-09-23",
-          "lines": 1,
-          "status": "Active"
-        }
-      ]
-    },
-    {
-      "store": "10198878 : 338 E New York Ave",
-      "market": "Metro Southeast",
-      "geo": "Metro Daytona Beach",
-      "total": 9,
-      "assigned": 9,
-      "orders": 0,
-      "orderDetail": []
-    },
-    {
-      "store": "10213574 : 504 N Dixie Fwy",
-      "market": "Metro Southeast",
-      "geo": "Metro Daytona Beach",
-      "total": 8,
-      "assigned": 8,
-      "orders": 0,
-      "orderDetail": []
-    },
-    {
-      "store": "10223451 : 2111 S Ridgewood Ave",
-      "market": "Metro Southeast",
-      "geo": "Metro Daytona Beach",
-      "total": 12,
-      "assigned": 12,
-      "orders": 1,
-      "orderDetail": [
-        {
-          "order": "110219307268",
-          "date": "9/19",
-          "iso": "2026-09-19",
-          "lines": 4,
-          "status": "Active"
-        }
-      ]
-    },
-    {
-      "store": "10194899 : 1477 S Nova Rd",
-      "market": "Metro Southeast",
-      "geo": "Metro Daytona Beach",
-      "total": 10,
-      "assigned": 10,
-      "orders": 1,
-      "orderDetail": [
-        {
-          "order": "110219290948",
-          "date": "9/19",
-          "iso": "2026-09-19",
-          "lines": 4,
-          "status": "Active"
-        }
-      ]
-    },
-    {
-      "store": "10194902 : 1490 Palm Coast Pkwy NW, Suite 2",
-      "market": "Metro Southeast",
-      "geo": "Metro Jacksonville South",
-      "total": 16,
-      "assigned": 16,
-      "orders": 1,
-      "orderDetail": [
-        {
-          "order": "110219325006",
-          "date": "9/20",
-          "iso": "2026-09-20",
-          "lines": 3,
-          "status": "Active"
-        }
-      ]
-    },
-    {
-      "store": "10198871 : 145 Palm Bay Rd NE",
-      "market": "Metro Southeast",
-      "geo": "Metro Brevard",
-      "total": 2,
-      "assigned": 2,
-      "orders": 0,
-      "orderDetail": []
-    },
-    {
-      "store": "10203996 : 1034 Clearlake Rd",
-      "market": "Metro Southeast",
-      "geo": "Metro Brevard",
-      "total": 25,
-      "assigned": 25,
-      "orders": 0,
-      "orderDetail": []
-    },
-    {
-      "store": "10209177 : 3701 San Mateo Blvd NE",
-      "market": "Metro South Central",
-      "geo": "Metro Albuquerque Santa Fe",
-      "total": 4,
-      "assigned": 4,
-      "orders": 1,
-      "orderDetail": [
-        {
-          "order": "110219398310",
-          "date": "9/22",
-          "iso": "2026-09-22",
-          "lines": 2,
-          "status": "Active"
-        }
-      ]
-    },
-    {
-      "store": "10207247 : 6417 Airport Rd Ste 103",
-      "market": "Metro South Central",
-      "geo": "Metro Albuquerque Santa Fe",
-      "total": 19,
-      "assigned": 19,
-      "orders": 0,
-      "orderDetail": []
-    },
-    {
-      "store": "10227682 : 6125 Montgomery Blvd NE Ste 3",
-      "market": "Metro South Central",
-      "geo": "Metro Albuquerque Santa Fe",
-      "total": 4,
-      "assigned": 4,
-      "orders": 0,
-      "orderDetail": []
-    },
-    {
-      "store": "10328817 : 249 Glenside Ave",
-      "market": "Metro Northeast",
-      "geo": "Metro Philadelphia Southwest",
-      "total": 8,
-      "assigned": 8,
-      "orders": 1,
-      "orderDetail": [
-        {
-          "order": "110219285569",
-          "date": "9/19",
-          "iso": "2026-09-19",
-          "lines": 1,
-          "status": "Active"
-        }
-      ]
-    },
-    {
-      "store": "10328821 : 6906 Market Street",
-      "market": "Metro Northeast",
-      "geo": "Metro Philadelphia Southwest",
-      "total": 17,
-      "assigned": 11,
-      "orders": 2,
-      "orderDetail": [
-        {
-          "order": "110219393279",
-          "date": "9/22",
-          "iso": "2026-09-22",
-          "lines": 1,
-          "status": "Active"
-        },
-        {
-          "order": "110219355235",
-          "date": "9/21",
-          "iso": "2026-09-21",
-          "lines": 5,
-          "status": "Active"
-        }
-      ]
-    },
-    {
-      "store": "10328825 : 1453 Sand Lake Road Unit D",
-      "market": "Metro Southeast",
-      "geo": "Metro Orlando South",
-      "total": 10,
-      "assigned": 10,
-      "orders": 0,
-      "orderDetail": []
-    },
-    {
-      "store": "10328829 : 2447 N. Wickham Road",
-      "market": "Metro Southeast",
-      "geo": "Metro Brevard",
-      "total": 9,
-      "assigned": 9,
-      "orders": 0,
-      "orderDetail": []
-    },
-    {
-      "store": "10328830 : 104 N. Nova Road",
-      "market": "Metro Southeast",
-      "geo": "Metro Daytona Beach",
-      "total": 7,
-      "assigned": 7,
-      "orders": 0,
-      "orderDetail": []
-    },
-    {
-      "store": "10328831 : 8925 J.M. Keynes Drive Suite 3",
-      "market": "Metro Southeast",
-      "geo": "Metro NC Charlotte South",
-      "total": 14,
-      "assigned": 14,
-      "orders": 1,
-      "orderDetail": [
-        {
-          "order": "110219320874",
-          "date": "9/20",
-          "iso": "2026-09-20",
-          "lines": 6,
-          "status": "Active"
-        }
-      ]
-    },
-    {
-      "store": "10328797 : 1435 W 49th Street",
-      "market": "Metro Southeast",
-      "geo": "Metro Hialeah",
-      "total": 29,
-      "assigned": 29,
-      "orders": 0,
-      "orderDetail": []
-    },
-    {
-      "store": "10328798 : 1483 N Federal Hwy",
-      "market": "Metro Southeast",
-      "geo": "Metro Ft Lauderdale Central",
-      "total": 10,
-      "assigned": 7,
-      "orders": 2,
-      "orderDetail": [
-        {
-          "order": "110219439590",
-          "date": "9/24",
-          "iso": "2026-09-24",
-          "lines": 2,
-          "status": "Active"
-        },
-        {
-          "order": "110219450358",
-          "date": "9/24",
-          "iso": "2026-09-24",
-          "lines": 1,
-          "status": "Active"
-        }
-      ]
-    },
-    {
-      "store": "10328800 : 7246 SW 117th Ave",
-      "market": "Metro Southeast",
-      "geo": "Metro Miami Southwest",
-      "total": 18,
-      "assigned": 18,
-      "orders": 0,
-      "orderDetail": []
-    },
-    {
-      "store": "10328802 : 9180 State Rd 84",
-      "market": "Metro Southeast",
-      "geo": "Metro Miramar",
-      "total": 30,
-      "assigned": 30,
-      "orders": 0,
-      "orderDetail": []
-    },
-    {
-      "store": "10328794 : 2907 N Dale Mabry",
-      "market": "Metro Southeast",
-      "geo": "Metro Tampa Central",
-      "total": 9,
-      "assigned": 9,
-      "orders": 2,
-      "orderDetail": [
-        {
-          "order": "110219416387",
-          "date": "9/23",
-          "iso": "2026-09-23",
-          "lines": 1,
-          "status": "Active"
-        },
-        {
-          "order": "110219390586",
-          "date": "9/22",
-          "iso": "2026-09-22",
-          "lines": 3,
-          "status": "Active"
-        }
-      ]
-    },
-    {
-      "store": "10195307 : 113 E Commerce St",
-      "market": "Metro Northeast",
-      "geo": "Metro New Jersey Shore",
-      "total": 10,
-      "assigned": 10,
-      "orders": 0,
-      "orderDetail": []
-    },
-    {
-      "store": "10191849 : 1255 Providence Blvd",
-      "market": "Metro Southeast",
-      "geo": "Metro Daytona Beach",
-      "total": 3,
-      "assigned": 3,
-      "orders": 1,
-      "orderDetail": [
-        {
-          "order": "110219294566",
-          "date": "9/19",
-          "iso": "2026-09-19",
+          "order": "110219489491",
+          "date": "9/25",
+          "iso": "2026-09-25",
           "lines": 1,
           "status": "Active"
         }
@@ -2390,6 +2009,76 @@
       "at": "2026-09-25T22:51:41.673Z",
       "week": "09/19/2026",
       "order": "110219414690"
+    },
+    {
+      "code": "kai37994",
+      "lines": 2,
+      "store": "10328798 : 1483 N Federal Hwy",
+      "mm": "Islam (text)",
+      "market": "Islam",
+      "at": "2026-09-26T15:08:56.730Z",
+      "week": "09/19/2026",
+      "order": "110219439590"
+    },
+    {
+      "code": "lvk99152",
+      "lines": 1,
+      "store": "10328798 : 1483 N Federal Hwy",
+      "mm": "Islam (text)",
+      "market": "Islam",
+      "at": "2026-09-26T15:10:12.250Z",
+      "week": "09/19/2026",
+      "order": "110219450358"
+    },
+    {
+      "code": "wgi31363",
+      "lines": 1,
+      "store": "10215779 : 2091 Saxon Blvd",
+      "mm": "David (text)",
+      "market": "David",
+      "at": "2026-09-28T12:16:40.484Z",
+      "week": "09/19/2026",
+      "order": "110219412154"
+    },
+    {
+      "code": "tkx23323",
+      "lines": 1,
+      "store": "10328821 : 6906 Market Street",
+      "mm": "Khalil (text)",
+      "market": "Khalil",
+      "at": "2026-09-28T15:38:47.596Z",
+      "week": "09/19/2026",
+      "order": "110219393279"
+    },
+    {
+      "code": "grd89946",
+      "lines": 5,
+      "store": "10328821 : 6906 Market Street",
+      "mm": "Khalil (text)",
+      "market": "Khalil",
+      "at": "2026-09-28T15:40:58.314Z",
+      "week": "09/19/2026",
+      "order": "110219355235"
+    },
+    {
+      "code": "jxc44764",
+      "lines": 3,
+      "store": "10199458 : 806 W New Haven Ave",
+      "mm": "Shailine (text)",
+      "market": "Shailine",
+      "at": "2026-09-28T19:41:07.636Z",
+      "week": "09/19/2026",
+      "order": "110219496779"
+    },
+    {
+      "code": "vrh98549",
+      "lines": 1,
+      "store": "10202216 : 810 Oley St",
+      "mm": "Barby (text)",
+      "market": "Barby",
+      "at": "2026-09-30T22:24:19.317Z",
+      "week": "09/19/2026",
+      "order": "110219488101"
     }
   ]
 }
