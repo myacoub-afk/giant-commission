@@ -1,7 +1,7 @@
 {
   "meta": {
     "period": "Sep 26, 2026 - Oct 2, 2026",
-    "published": "Oct 2, 9:15 PM",
+    "published": "Oct 2, 9:45 PM",
     "autoPublished": true
   },
   "mrc": {
@@ -997,12 +997,12 @@
     },
     "bvg22735": {
       "name": "Dominic",
-      "mrc": 151,
+      "mrc": 80,
       "hint": 0
     },
     "cqd87558": {
       "name": "Fransisco",
-      "mrc": 561,
+      "mrc": 601,
       "hint": 2
     },
     "gcn38880": {
@@ -1022,7 +1022,7 @@
     },
     "gml47539": {
       "name": "ARTURO ORTIZ",
-      "mrc": 1248,
+      "mrc": 1319,
       "hint": 3
     },
     "hcw68692": {
@@ -1067,7 +1067,7 @@
     },
     "taa92298": {
       "name": "YOLANDA",
-      "mrc": 945,
+      "mrc": 1036,
       "hint": 1
     },
     "ukm18426": {
@@ -1092,7 +1092,7 @@
     },
     "vyk61042": {
       "name": "Victoria",
-      "mrc": 288,
+      "mrc": 308,
       "hint": 2
     },
     "xei58440": {
@@ -1102,7 +1102,7 @@
     },
     "yhc49048": {
       "name": "Ashley",
-      "mrc": 1078,
+      "mrc": 1144,
       "hint": 2
     },
     "bfk31539": {
@@ -5693,6 +5693,33 @@
       "close_order": 71
     },
     {
+      "code": "taa92298",
+      "name": "YOLANDA",
+      "lastName": "Trejo",
+      "store": "SAN MATEO",
+      "mrc": 1036,
+      "acc": 957.77,
+      "hint": 1,
+      "mim": 3,
+      "mtd_lines": 0,
+      "in_mim": true,
+      "hint_gate": true,
+      "mim_gate": true,
+      "tier": 1,
+      "tier_comm": 178.66,
+      "hint_spiff": 15,
+      "mim_spiff": 60,
+      "total": 253.66,
+      "mrc_gap": 0,
+      "acc_gap": 0,
+      "hint_gap": 0,
+      "mim_gap": 0,
+      "qualifies": true,
+      "needs": "Qualifies for Tier 1",
+      "rank": 54,
+      "close_order": 35
+    },
+    {
       "code": "vst08358",
       "name": "alan",
       "lastName": "Perez",
@@ -5716,7 +5743,7 @@
       "mim_gap": 0,
       "qualifies": true,
       "needs": "Qualifies for Tier 1",
-      "rank": 54,
+      "rank": 55,
       "close_order": 52
     },
     {
@@ -5743,7 +5770,7 @@
       "mim_gap": 0,
       "qualifies": true,
       "needs": "Qualifies for Tier 1",
-      "rank": 55,
+      "rank": 56,
       "close_order": 68
     },
     {
@@ -5770,7 +5797,7 @@
       "mim_gap": 0,
       "qualifies": true,
       "needs": "Qualifies for Tier 1",
-      "rank": 56,
+      "rank": 57,
       "close_order": 54
     },
     {
@@ -5797,7 +5824,7 @@
       "mim_gap": 0,
       "qualifies": true,
       "needs": "Qualifies for Tier 1",
-      "rank": 57,
+      "rank": 58,
       "close_order": 55
     },
     {
@@ -5824,42 +5851,15 @@
       "mim_gap": 0,
       "qualifies": true,
       "needs": "Qualifies for Tier 1",
-      "rank": 58,
-      "close_order": 69
-    },
-    {
-      "code": "taa92298",
-      "name": "YOLANDA",
-      "lastName": "Trejo",
-      "store": "SAN MATEO",
-      "mrc": 945,
-      "acc": 957.77,
-      "hint": 1,
-      "mim": 3,
-      "mtd_lines": 0,
-      "in_mim": true,
-      "hint_gate": true,
-      "mim_gate": true,
-      "tier": 1,
-      "tier_comm": 171.38,
-      "hint_spiff": 15,
-      "mim_spiff": 60,
-      "total": 246.38,
-      "mrc_gap": 0,
-      "acc_gap": 0,
-      "hint_gap": 0,
-      "mim_gap": 0,
-      "qualifies": true,
-      "needs": "Qualifies for Tier 1",
       "rank": 59,
-      "close_order": 35
+      "close_order": 69
     },
     {
       "code": "yhc49048",
       "name": "Ashley",
       "lastName": "Roybal",
       "store": "CERRILLOS",
-      "mrc": 1078,
+      "mrc": 1144,
       "acc": 825.38,
       "hint": 2,
       "mim": 2,
@@ -5868,10 +5868,10 @@
       "hint_gate": true,
       "mim_gate": true,
       "tier": 1,
-      "tier_comm": 168.78,
+      "tier_comm": 174.06,
       "hint_spiff": 30,
       "mim_spiff": 40,
-      "total": 238.78,
+      "total": 244.06,
       "mrc_gap": 0,
       "acc_gap": 0,
       "hint_gap": 0,
@@ -6453,7 +6453,7 @@
       "name": "Victoria",
       "lastName": "Ortega",
       "store": "AIRPORT",
-      "mrc": 288,
+      "mrc": 308,
       "acc": 80.99,
       "hint": 2,
       "mim": 7,
@@ -6466,12 +6466,12 @@
       "hint_spiff": 30,
       "mim_spiff": 140,
       "total": 170,
-      "mrc_gap": 212,
+      "mrc_gap": 192,
       "acc_gap": 619.01,
       "hint_gap": 0,
       "mim_gap": 0,
       "qualifies": false,
-      "needs": "+$212 MRC, +$619.01 acc",
+      "needs": "+$192 MRC, +$619.01 acc",
       "rank": 82,
       "close_order": 208
     },
@@ -8046,7 +8046,7 @@
       "name": "Fransisco",
       "lastName": "Sepulveda",
       "store": "SAN MATEO",
-      "mrc": 561,
+      "mrc": 601,
       "acc": 271.98,
       "hint": 2,
       "mim": 2,
@@ -8910,7 +8910,7 @@
       "name": "ARTURO ORTIZ",
       "lastName": "",
       "store": "BROADWAY",
-      "mrc": 1248,
+      "mrc": 1319,
       "acc": 688.77,
       "hint": 3,
       "mim": 0,
@@ -13203,7 +13203,7 @@
       "name": "Dominic",
       "lastName": "",
       "store": "LOUISIANA",
-      "mrc": 151,
+      "mrc": 80,
       "acc": 171.49,
       "hint": 0,
       "mim": 0,
@@ -13216,12 +13216,12 @@
       "hint_spiff": 0,
       "mim_spiff": 0,
       "total": 0,
-      "mrc_gap": 349,
+      "mrc_gap": 420,
       "acc_gap": 528.51,
       "hint_gap": 1,
       "mim_gap": 1,
       "qualifies": false,
-      "needs": "+$349 MRC, +$528.51 acc, +1 HINT, +1 MIM",
+      "needs": "+$420 MRC, +$528.51 acc, +1 HINT, +1 MIM",
       "rank": 332,
       "close_order": 318
     },
@@ -14012,7 +14012,7 @@
   "stats": {
     "reps": 361,
     "qualified": 74,
-    "total_payout": 37781.69,
+    "total_payout": 37794.25,
     "total_spiffs": 21140,
     "below_acc": 311,
     "below_mrc": 154,
