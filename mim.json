@@ -686,7 +686,7 @@
     },
     {
       "code": "rdn78671",
-      "postpaid": 5,
+      "postpaid": 6,
       "store": "282 NE 8th Street",
       "lastName": "Juarez"
     },
@@ -1298,17 +1298,9 @@
       "market": "Metro Southeast",
       "geo": "Metro Miami South",
       "total": 61,
-      "assigned": 60,
-      "orders": 1,
-      "orderDetail": [
-        {
-          "order": "110219633711",
-          "date": "9/30",
-          "iso": "2026-09-30",
-          "lines": 1,
-          "status": "Active"
-        }
-      ]
+      "assigned": 61,
+      "orders": 0,
+      "orderDetail": []
     },
     {
       "store": "10195307 : 113 E Commerce St",
@@ -2322,6 +2314,16 @@
       "at": "2026-10-01T20:28:33.510Z",
       "week": "09/26/2026",
       "order": "110219638830"
+    },
+    {
+      "code": "rdn78671",
+      "lines": 1,
+      "store": "10328803 : 282 NE 8th Street",
+      "mm": "Islam (text)",
+      "market": "Islam",
+      "at": "2026-10-03T14:11:15.731Z",
+      "week": "09/26/2026",
+      "order": "110219633711"
     }
   ]
 }
