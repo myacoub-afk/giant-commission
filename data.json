@@ -1,7 +1,7 @@
 {
   "meta": {
     "period": "Oct 3, 2026 - Oct 9, 2026",
-    "published": "Oct 4, 6:15 PM",
+    "published": "Oct 4, 6:45 PM",
     "autoPublished": true
   },
   "mrc": {
@@ -67,8 +67,8 @@
     },
     "pxa12423": {
       "name": "GUADALUPE",
-      "mrc": 1460,
-      "hint": 3
+      "mrc": 1560,
+      "hint": 4
     },
     "qbg74740": {
       "name": "Adriana",
@@ -1279,7 +1279,7 @@
   "emp": {
     "qsg27987": {
       "name": "Mirna",
-      "acc": 785.28,
+      "acc": 860.25,
       "hint": 3,
       "store": "NATIONS FORD",
       "repName": "Mirna"
@@ -1398,8 +1398,8 @@
     },
     "pxa12423": {
       "name": "GUADALUPE",
-      "acc": 1061.74,
-      "hint": 3,
+      "acc": 1121.74,
+      "hint": 4,
       "store": "CENTRAL",
       "repName": "GUADALUPE"
     },
@@ -2343,7 +2343,7 @@
     },
     "aqd41062": {
       "name": "Carlos",
-      "acc": 83.98,
+      "acc": 113.97,
       "hint": 1,
       "store": "111 COORS ( JUMBO)",
       "repName": "Carlos"
@@ -3205,13 +3205,13 @@
   },
   "rows": [
     {
-      "code": "qsg27987",
-      "name": "Mirna",
+      "code": "pxa12423",
+      "name": "GUADALUPE",
       "lastName": "",
-      "store": "NATIONS FORD",
-      "mrc": 556,
-      "acc": 785.28,
-      "hint": 3,
+      "store": "CENTRAL",
+      "mrc": 1560,
+      "acc": 1121.74,
+      "hint": 4,
       "mim": 0,
       "mtd_lines": 0,
       "in_mim": false,
@@ -3219,9 +3219,9 @@
       "mim_gate": false,
       "tier": 1,
       "tier_comm": 0,
-      "hint_spiff": 45,
+      "hint_spiff": 60,
       "mim_spiff": 0,
-      "total": 45,
+      "total": 60,
       "mrc_gap": 0,
       "acc_gap": 0,
       "hint_gap": 0,
@@ -3229,15 +3229,15 @@
       "qualifies": false,
       "needs": "+1 MIM",
       "rank": 1,
-      "close_order": 4
+      "close_order": 0
     },
     {
-      "code": "pxa12423",
-      "name": "GUADALUPE",
+      "code": "qsg27987",
+      "name": "Mirna",
       "lastName": "",
-      "store": "CENTRAL",
-      "mrc": 1460,
-      "acc": 1061.74,
+      "store": "NATIONS FORD",
+      "mrc": 556,
+      "acc": 860.25,
       "hint": 3,
       "mim": 0,
       "mtd_lines": 0,
@@ -3256,7 +3256,7 @@
       "qualifies": false,
       "needs": "+1 MIM",
       "rank": 2,
-      "close_order": 0
+      "close_order": 4
     },
     {
       "code": "hdl15647",
@@ -3769,7 +3769,7 @@
       "qualifies": false,
       "needs": "+$241 MRC, +$595.04 acc, +1 MIM",
       "rank": 21,
-      "close_order": 68
+      "close_order": 69
     },
     {
       "code": "ohl37571",
@@ -3850,7 +3850,7 @@
       "qualifies": false,
       "needs": "+$289 MRC, +$612.03 acc, +1 MIM",
       "rank": 24,
-      "close_order": 70
+      "close_order": 71
     },
     {
       "code": "pqm31381",
@@ -4120,7 +4120,7 @@
       "qualifies": false,
       "needs": "+$329 MRC, +$602.33 acc, +1 MIM",
       "rank": 34,
-      "close_order": 69
+      "close_order": 70
     },
     {
       "code": "frt08051",
@@ -4830,7 +4830,7 @@
       "lastName": "",
       "store": "111 COORS ( JUMBO)",
       "mrc": 295,
-      "acc": 83.98,
+      "acc": 113.97,
       "hint": 1,
       "mim": 0,
       "mtd_lines": 0,
@@ -4843,13 +4843,13 @@
       "mim_spiff": 0,
       "total": 15,
       "mrc_gap": 205,
-      "acc_gap": 616.02,
+      "acc_gap": 586.03,
       "hint_gap": 0,
       "mim_gap": 1,
       "qualifies": false,
-      "needs": "+$205 MRC, +$616.02 acc, +1 MIM",
+      "needs": "+$205 MRC, +$586.03 acc, +1 MIM",
       "rank": 61,
-      "close_order": 71
+      "close_order": 68
     },
     {
       "code": "slf51610",
@@ -10633,13 +10633,13 @@
   "stats": {
     "reps": 275,
     "qualified": 0,
-    "total_payout": 1950,
-    "total_spiffs": 1950,
+    "total_payout": 1965,
+    "total_spiffs": 1965,
     "below_acc": 271,
     "below_mrc": 248,
     "no_hint": 175,
     "no_mim": 275,
-    "max_total": 45,
+    "max_total": 60,
     "closest_name": "GUADALUPE",
     "closest_needs": "+1 MIM"
   }
