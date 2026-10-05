@@ -9,59 +9,7 @@
   "prior": {
     "periodStart": "09/26/2026",
     "period": "September 26 – October 2, 2026",
-    "unassigned": [
-      {
-        "store": "10230176 : 7083 Collins Rd Ste 104",
-        "market": "Metro Southeast",
-        "geo": "Metro Jacksonville South",
-        "total": 4,
-        "assigned": 3,
-        "orders": 1,
-        "orderDetail": [
-          {
-            "order": "110219610271",
-            "date": "9/29",
-            "iso": "2026-09-29",
-            "lines": 1,
-            "status": "Active"
-          }
-        ]
-      },
-      {
-        "store": "10192080 : 5239 Frankford Ave",
-        "market": "Metro Northeast",
-        "geo": "Metro Philadelphia Northeast",
-        "total": 9,
-        "assigned": 7,
-        "orders": 1,
-        "orderDetail": [
-          {
-            "order": "110219521173",
-            "date": "9/26",
-            "iso": "2026-09-26",
-            "lines": 2,
-            "status": "Active"
-          }
-        ]
-      },
-      {
-        "store": "10328800 : 7246 SW 117th Ave",
-        "market": "Metro Southeast",
-        "geo": "Metro Miami Southwest",
-        "total": 36,
-        "assigned": 32,
-        "orders": 1,
-        "orderDetail": [
-          {
-            "order": "110219585447",
-            "date": "9/28",
-            "iso": "2026-09-28",
-            "lines": 4,
-            "status": "Active"
-          }
-        ]
-      }
-    ],
+    "unassigned": [],
     "manualAssignments": [
       {
         "code": "ywu60512",
@@ -263,6 +211,7 @@
         "week": "09/26/2026",
         "order": "110219633711"
       }
-    ]
+    ],
+    "refreshed": "2026-10-05T23:44:39.255Z"
   }
 }
