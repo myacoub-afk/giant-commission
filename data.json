@@ -1,7 +1,7 @@
 {
   "meta": {
     "period": "Oct 3, 2026 - Oct 9, 2026",
-    "published": "Oct 4, 7:45 PM",
+    "published": "Oct 4, 8:15 PM",
     "autoPublished": true
   },
   "mrc": {
@@ -82,8 +82,8 @@
     },
     "qsg27987": {
       "name": "Mirna",
-      "mrc": 556,
-      "hint": 3
+      "mrc": 711,
+      "hint": 4
     },
     "spz14948": {
       "name": "INGRID",
@@ -1280,7 +1280,7 @@
     "qsg27987": {
       "name": "Mirna",
       "acc": 860.25,
-      "hint": 3,
+      "hint": 4,
       "store": "NATIONS FORD",
       "repName": "Mirna"
     },
@@ -3205,6 +3205,33 @@
   },
   "rows": [
     {
+      "code": "qsg27987",
+      "name": "Mirna",
+      "lastName": "",
+      "store": "NATIONS FORD",
+      "mrc": 711,
+      "acc": 860.25,
+      "hint": 4,
+      "mim": 0,
+      "mtd_lines": 0,
+      "in_mim": false,
+      "hint_gate": true,
+      "mim_gate": false,
+      "tier": 1,
+      "tier_comm": 0,
+      "hint_spiff": 60,
+      "mim_spiff": 0,
+      "total": 60,
+      "mrc_gap": 0,
+      "acc_gap": 0,
+      "hint_gap": 0,
+      "mim_gap": 1,
+      "qualifies": false,
+      "needs": "+1 MIM",
+      "rank": 1,
+      "close_order": 4
+    },
+    {
       "code": "pxa12423",
       "name": "GUADALUPE",
       "lastName": "",
@@ -3228,35 +3255,8 @@
       "mim_gap": 1,
       "qualifies": false,
       "needs": "+1 MIM",
-      "rank": 1,
-      "close_order": 0
-    },
-    {
-      "code": "qsg27987",
-      "name": "Mirna",
-      "lastName": "",
-      "store": "NATIONS FORD",
-      "mrc": 556,
-      "acc": 860.25,
-      "hint": 3,
-      "mim": 0,
-      "mtd_lines": 0,
-      "in_mim": false,
-      "hint_gate": true,
-      "mim_gate": false,
-      "tier": 1,
-      "tier_comm": 0,
-      "hint_spiff": 45,
-      "mim_spiff": 0,
-      "total": 45,
-      "mrc_gap": 0,
-      "acc_gap": 0,
-      "hint_gap": 0,
-      "mim_gap": 1,
-      "qualifies": false,
-      "needs": "+1 MIM",
       "rank": 2,
-      "close_order": 4
+      "close_order": 0
     },
     {
       "code": "hdl15647",
@@ -10633,8 +10633,8 @@
   "stats": {
     "reps": 275,
     "qualified": 0,
-    "total_payout": 1965,
-    "total_spiffs": 1965,
+    "total_payout": 1980,
+    "total_spiffs": 1980,
     "below_acc": 271,
     "below_mrc": 248,
     "no_hint": 175,
