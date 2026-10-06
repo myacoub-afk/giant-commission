@@ -515,6 +515,12 @@
       "postpaid": 6,
       "store": "478 Hamilton Ave",
       "lastName": ""
+    },
+    {
+      "code": "tyj13028",
+      "postpaid": 4,
+      "store": "9180 State Rd 84",
+      "lastName": ""
     }
   ],
   "mtdMap": {},
@@ -542,17 +548,9 @@
       "market": "Metro Southeast",
       "geo": "Metro Miramar",
       "total": 16,
-      "assigned": 12,
-      "orders": 1,
-      "orderDetail": [
-        {
-          "order": "110219739671",
-          "date": "10/03",
-          "iso": "2026-10-03",
-          "lines": 4,
-          "status": "Active"
-        }
-      ]
+      "assigned": 16,
+      "orders": 0,
+      "orderDetail": []
     },
     {
       "store": "10217210 : 5401 South Blvd Ste A",
@@ -1104,6 +1102,16 @@
       "at": "2026-10-06T14:15:19.915Z",
       "week": "10/03/2026",
       "order": "110219745499"
+    },
+    {
+      "code": "tyj13028",
+      "lines": 4,
+      "store": "10328802 : 9180 State Rd 84",
+      "mm": "Islam (text)",
+      "market": "Islam",
+      "at": "2026-10-06T14:17:24.151Z",
+      "week": "10/03/2026",
+      "order": "110219739671"
     }
   ]
 }
