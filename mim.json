@@ -509,6 +509,12 @@
       "postpaid": 6,
       "store": "5519 W Colonial Dr",
       "lastName": ""
+    },
+    {
+      "code": "zpa01550",
+      "postpaid": 6,
+      "store": "478 Hamilton Ave",
+      "lastName": ""
     }
   ],
   "mtdMap": {},
@@ -518,17 +524,9 @@
       "market": "Metro Northeast",
       "geo": "Metro Trenton",
       "total": 7,
-      "assigned": 1,
-      "orders": 1,
-      "orderDetail": [
-        {
-          "order": "110219745499",
-          "date": "10/03",
-          "iso": "2026-10-03",
-          "lines": 6,
-          "status": "Pending or Canceled"
-        }
-      ]
+      "assigned": 7,
+      "orders": 0,
+      "orderDetail": []
     },
     {
       "store": "10234552 : 5519 W Colonial Dr",
@@ -1096,6 +1094,16 @@
       "at": "2026-10-06T14:10:51.624Z",
       "week": "10/03/2026",
       "order": "110219746232"
+    },
+    {
+      "code": "zpa01550",
+      "lines": 6,
+      "store": "10218769 : 478 Hamilton Ave",
+      "mm": "Barby (text)",
+      "market": "Barby",
+      "at": "2026-10-06T14:15:19.915Z",
+      "week": "10/03/2026",
+      "order": "110219745499"
     }
   ]
 }
