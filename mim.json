@@ -673,17 +673,9 @@
         "market": "Metro Southeast",
         "geo": "Metro Orlando South",
         "total": 25,
-        "assigned": 19,
-        "orders": 1,
-        "orderDetail": [
-          {
-            "order": "110219721030",
-            "date": "10/02",
-            "iso": "2026-10-02",
-            "lines": 6,
-            "status": "Pending or Canceled"
-          }
-        ]
+        "assigned": 25,
+        "orders": 0,
+        "orderDetail": []
       },
       {
         "store": "10328800 : 7246 SW 117th Ave",
@@ -1061,6 +1053,16 @@
         "at": "2026-10-06T14:51:44.310Z",
         "week": "09/26/2026",
         "order": "110219712784"
+      },
+      {
+        "code": "hzx37758",
+        "lines": 6,
+        "store": "10226726 : 882 Cypress Pkwy",
+        "mm": "David (text)",
+        "market": "David",
+        "at": "2026-10-06T14:51:50.576Z",
+        "week": "09/26/2026",
+        "order": "110219721030"
       }
     ],
     "refreshed": "2026-10-06T00:15:19.885Z"
