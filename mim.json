@@ -476,7 +476,7 @@
     },
     {
       "code": "qsg27987",
-      "postpaid": 5,
+      "postpaid": 6,
       "store": "8928 Nations Ford Rd",
       "lastName": "Erazo"
     },
@@ -597,17 +597,9 @@
       "market": "Metro Southeast",
       "geo": "Metro NC Charlotte South",
       "total": 7,
-      "assigned": 6,
-      "orders": 1,
-      "orderDetail": [
-        {
-          "order": "110219762745",
-          "date": "10/04",
-          "iso": "2026-10-04",
-          "lines": 1,
-          "status": "Pending or Canceled"
-        }
-      ]
+      "assigned": 7,
+      "orders": 0,
+      "orderDetail": []
     }
   ],
   "prior": {
@@ -1077,5 +1069,17 @@
       }
     ],
     "refreshed": "2026-10-06T00:15:19.885Z"
-  }
+  },
+  "manualAssignments": [
+    {
+      "code": "qsg27987",
+      "lines": 1,
+      "store": "10217281 : 8928 Nations Ford Rd",
+      "mm": "Omar (text)",
+      "market": "Omar",
+      "at": "2026-10-06T00:33:04.676Z",
+      "week": "10/03/2026",
+      "order": "110219762745"
+    }
+  ]
 }
