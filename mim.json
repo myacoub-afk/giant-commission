@@ -603,17 +603,9 @@
         "market": "Metro Northeast",
         "geo": "Metro Philadelphia Northeast",
         "total": 9,
-        "assigned": 7,
-        "orders": 1,
-        "orderDetail": [
-          {
-            "order": "110219521173",
-            "date": "9/26",
-            "iso": "2026-09-26",
-            "lines": 2,
-            "status": "Active"
-          }
-        ]
+        "assigned": 9,
+        "orders": 0,
+        "orderDetail": []
       },
       {
         "store": "10328797 : 1435 W 49th Street",
@@ -1058,6 +1050,16 @@
         "at": "2026-10-03T14:11:15.731Z",
         "week": "09/26/2026",
         "order": "110219633711"
+      },
+      {
+        "code": "fsy19164",
+        "lines": 2,
+        "store": "10192080 : 5239 Frankford Ave",
+        "mm": "Marwan (text)",
+        "market": "Marwan",
+        "at": "2026-10-06T00:38:00.954Z",
+        "week": "09/26/2026",
+        "order": "110219521173"
       }
     ],
     "refreshed": "2026-10-06T00:15:19.885Z"
