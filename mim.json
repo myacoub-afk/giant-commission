@@ -613,7 +613,267 @@
   "prior": {
     "periodStart": "09/26/2026",
     "period": "September 26 â October 2, 2026",
-    "unassigned": [],
+    "unassigned": [
+      {
+        "store": "10192080 : 5239 Frankford Ave",
+        "market": "Metro Northeast",
+        "geo": "Metro Philadelphia Northeast",
+        "total": 9,
+        "assigned": 7,
+        "orders": 1,
+        "orderDetail": [
+          {
+            "order": "110219521173",
+            "date": "9/26",
+            "iso": "2026-09-26",
+            "lines": 2,
+            "status": "Active"
+          }
+        ]
+      },
+      {
+        "store": "10328797 : 1435 W 49th Street",
+        "market": "Metro Southeast",
+        "geo": "Metro Hialeah",
+        "total": 66,
+        "assigned": 57,
+        "orders": 2,
+        "orderDetail": [
+          {
+            "order": "110219708914",
+            "date": "10/02",
+            "iso": "2026-10-02",
+            "lines": 4,
+            "status": "Active"
+          },
+          {
+            "order": "110219665276",
+            "date": "10/01",
+            "iso": "2026-10-01",
+            "lines": 5,
+            "status": "Active"
+          }
+        ]
+      },
+      {
+        "store": "10225286 : 130 Black Horse Pike Ste B4",
+        "market": "Metro Northeast",
+        "geo": "Metro New Jersey South",
+        "total": 17,
+        "assigned": 16,
+        "orders": 1,
+        "orderDetail": [
+          {
+            "order": "110219700223",
+            "date": "10/02",
+            "iso": "2026-10-02",
+            "lines": 1,
+            "status": "Active"
+          }
+        ]
+      },
+      {
+        "store": "10328818 : 200 W Oregon ave",
+        "market": "Metro Northeast",
+        "geo": "Metro Philadelphia South",
+        "total": 7,
+        "assigned": 6,
+        "orders": 1,
+        "orderDetail": [
+          {
+            "order": "110219670761",
+            "date": "10/01",
+            "iso": "2026-10-01",
+            "lines": 1,
+            "status": "Active"
+          }
+        ]
+      },
+      {
+        "store": "10203996 : 1034 Clearlake Rd",
+        "market": "Metro Southeast",
+        "geo": "Metro Brevard",
+        "total": 6,
+        "assigned": 3,
+        "orders": 1,
+        "orderDetail": [
+          {
+            "order": "110219685849",
+            "date": "10/01",
+            "iso": "2026-10-01",
+            "lines": 3,
+            "status": "Active"
+          }
+        ]
+      },
+      {
+        "store": "10226726 : 882 Cypress Pkwy",
+        "market": "Metro Southeast",
+        "geo": "Metro Orlando South",
+        "total": 25,
+        "assigned": 15,
+        "orders": 2,
+        "orderDetail": [
+          {
+            "order": "110219712784",
+            "date": "10/02",
+            "iso": "2026-10-02",
+            "lines": 4,
+            "status": "Active"
+          },
+          {
+            "order": "110219721030",
+            "date": "10/02",
+            "iso": "2026-10-02",
+            "lines": 6,
+            "status": "Pending or Canceled"
+          }
+        ]
+      },
+      {
+        "store": "10328800 : 7246 SW 117th Ave",
+        "market": "Metro Southeast",
+        "geo": "Metro Miami Southwest",
+        "total": 44,
+        "assigned": 39,
+        "orders": 2,
+        "orderDetail": [
+          {
+            "order": "110219687410",
+            "date": "10/01",
+            "iso": "2026-10-01",
+            "lines": 1,
+            "status": "Active"
+          },
+          {
+            "order": "110219585447",
+            "date": "9/28",
+            "iso": "2026-09-28",
+            "lines": 4,
+            "status": "Active"
+          }
+        ]
+      },
+      {
+        "store": "10230176 : 7083 Collins Rd Ste 104",
+        "market": "Metro Southeast",
+        "geo": "Metro Jacksonville South",
+        "total": 5,
+        "assigned": 4,
+        "orders": 1,
+        "orderDetail": [
+          {
+            "order": "110219610271",
+            "date": "9/29",
+            "iso": "2026-09-29",
+            "lines": 1,
+            "status": "Active"
+          }
+        ]
+      },
+      {
+        "store": "10188987 : 798 Edgewood Ave N",
+        "market": "Metro Southeast",
+        "geo": "Metro Jacksonville South",
+        "total": 8,
+        "assigned": 4,
+        "orders": 1,
+        "orderDetail": [
+          {
+            "order": "110219663283",
+            "date": "10/01",
+            "iso": "2026-10-01",
+            "lines": 4,
+            "status": "Pending or Canceled"
+          }
+        ]
+      },
+      {
+        "store": "10328799 : 1149 South Military Trail",
+        "market": "Metro Southeast",
+        "geo": "Metro Boca Raton",
+        "total": 5,
+        "assigned": 1,
+        "orders": 1,
+        "orderDetail": [
+          {
+            "order": "110219704047",
+            "date": "10/02",
+            "iso": "2026-10-02",
+            "lines": 4,
+            "status": "Pending or Canceled"
+          }
+        ]
+      },
+      {
+        "store": "10226085 : 5555 Zuni Rd SE Ste 5",
+        "market": "Metro South Central",
+        "geo": "Metro Albuquerque South",
+        "total": 6,
+        "assigned": 4,
+        "orders": 1,
+        "orderDetail": [
+          {
+            "order": "110219724675",
+            "date": "10/02",
+            "iso": "2026-10-02",
+            "lines": 2,
+            "status": "Pending or Canceled"
+          }
+        ]
+      },
+      {
+        "store": "10223905 : 1601 Broadway Blvd SE",
+        "market": "Metro South Central",
+        "geo": "Metro Albuquerque South",
+        "total": 1,
+        "assigned": 0,
+        "orders": 1,
+        "orderDetail": [
+          {
+            "order": "110219682041",
+            "date": "10/01",
+            "iso": "2026-10-01",
+            "lines": 1,
+            "status": "Active"
+          }
+        ]
+      },
+      {
+        "store": "10207241 : 2225 Wyoming Blvd NE",
+        "market": "Metro South Central",
+        "geo": "Metro Albuquerque Santa Fe",
+        "total": 2,
+        "assigned": 0,
+        "orders": 1,
+        "orderDetail": [
+          {
+            "order": "110219684249",
+            "date": "10/01",
+            "iso": "2026-10-01",
+            "lines": 2,
+            "status": "Active"
+          }
+        ]
+      },
+      {
+        "store": "10328820 : 2118 Cottman Ave 5",
+        "market": "Metro Northeast",
+        "geo": "Metro Philadelphia Northeast",
+        "total": 8,
+        "assigned": 4,
+        "orders": 1,
+        "orderDetail": [
+          {
+            "order": "110219715972",
+            "date": "10/02",
+            "iso": "2026-10-02",
+            "lines": 4,
+            "status": "Active"
+          }
+        ]
+      }
+    ],
     "manualAssignments": [
       {
         "code": "ywu60512",
@@ -816,6 +1076,6 @@
         "order": "110219633711"
       }
     ],
-    "refreshed": "2026-10-05T23:48:47.763Z"
+    "refreshed": "2026-10-06T00:15:19.885Z"
   }
 }
