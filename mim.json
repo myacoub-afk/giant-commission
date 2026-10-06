@@ -726,17 +726,9 @@
         "market": "Metro Southeast",
         "geo": "Metro Boca Raton",
         "total": 5,
-        "assigned": 1,
-        "orders": 1,
-        "orderDetail": [
-          {
-            "order": "110219704047",
-            "date": "10/02",
-            "iso": "2026-10-02",
-            "lines": 4,
-            "status": "Pending or Canceled"
-          }
-        ]
+        "assigned": 5,
+        "orders": 0,
+        "orderDetail": []
       },
       {
         "store": "10226085 : 5555 Zuni Rd SE Ste 5",
@@ -1069,6 +1061,16 @@
         "at": "2026-10-06T15:05:10.810Z",
         "week": "09/26/2026",
         "order": "110219585447"
+      },
+      {
+        "code": "tnl36939",
+        "lines": 4,
+        "store": "10328799 : 1149 South Military Trail",
+        "mm": "Suhail (text)",
+        "market": "Suhail",
+        "at": "2026-10-06T15:22:33.610Z",
+        "week": "09/26/2026",
+        "order": "110219704047"
       }
     ],
     "refreshed": "2026-10-06T00:15:19.885Z"
