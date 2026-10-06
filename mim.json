@@ -632,17 +632,9 @@
         "market": "Metro Northeast",
         "geo": "Metro Philadelphia South",
         "total": 7,
-        "assigned": 6,
-        "orders": 1,
-        "orderDetail": [
-          {
-            "order": "110219670761",
-            "date": "10/01",
-            "iso": "2026-10-01",
-            "lines": 1,
-            "status": "Active"
-          }
-        ]
+        "assigned": 7,
+        "orders": 0,
+        "orderDetail": []
       },
       {
         "store": "10203996 : 1034 Clearlake Rd",
@@ -1073,6 +1065,16 @@
         "at": "2026-10-06T18:44:20.351Z",
         "week": "09/26/2026",
         "order": "110219700223"
+      },
+      {
+        "code": "qix82959",
+        "lines": 1,
+        "store": "10328818 : 200 W Oregon ave",
+        "mm": "Rani (text)",
+        "market": "Rani",
+        "at": "2026-10-06T18:45:16.387Z",
+        "week": "09/26/2026",
+        "order": "110219670761"
       }
     ],
     "refreshed": "2026-10-06T00:15:19.885Z"
