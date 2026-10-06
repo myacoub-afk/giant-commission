@@ -74,7 +74,7 @@
     },
     {
       "code": "eve69052",
-      "postpaid": 2,
+      "postpaid": 5,
       "store": "5401 South Blvd Ste A",
       "lastName": "Almaraz"
     },
@@ -563,17 +563,9 @@
       "market": "Metro Southeast",
       "geo": "Metro NC Charlotte South",
       "total": 5,
-      "assigned": 2,
-      "orders": 1,
-      "orderDetail": [
-        {
-          "order": "110219766130",
-          "date": "10/04",
-          "iso": "2026-10-04",
-          "lines": 3,
-          "status": "Pending or Canceled"
-        }
-      ]
+      "assigned": 5,
+      "orders": 0,
+      "orderDetail": []
     },
     {
       "store": "10328797 : 1435 W 49th Street",
@@ -1080,6 +1072,16 @@
       "at": "2026-10-06T00:33:04.676Z",
       "week": "10/03/2026",
       "order": "110219762745"
+    },
+    {
+      "code": "eve69052",
+      "lines": 3,
+      "store": "10217210 : 5401 South Blvd Ste A",
+      "mm": "Omar (text)",
+      "market": "Omar",
+      "at": "2026-10-06T00:33:53.464Z",
+      "week": "10/03/2026",
+      "order": "110219766130"
     }
   ]
 }
