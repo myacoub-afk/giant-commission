@@ -668,17 +668,9 @@
         "market": "Metro Southeast",
         "geo": "Metro Brevard",
         "total": 6,
-        "assigned": 3,
-        "orders": 1,
-        "orderDetail": [
-          {
-            "order": "110219685849",
-            "date": "10/01",
-            "iso": "2026-10-01",
-            "lines": 3,
-            "status": "Active"
-          }
-        ]
+        "assigned": 6,
+        "orders": 0,
+        "orderDetail": []
       },
       {
         "store": "10226726 : 882 Cypress Pkwy",
@@ -1060,6 +1052,16 @@
         "at": "2026-10-06T00:39:02.559Z",
         "week": "09/26/2026",
         "order": "110219715972"
+      },
+      {
+        "code": "gbn62354",
+        "lines": 3,
+        "store": "10203996 : 1034 Clearlake Rd",
+        "mm": "Shailine (text)",
+        "market": "Shailine",
+        "at": "2026-10-06T14:12:48.299Z",
+        "week": "09/26/2026",
+        "order": "110219685849"
       }
     ],
     "refreshed": "2026-10-06T00:15:19.885Z"
