@@ -74,7 +74,7 @@
     },
     {
       "code": "cgt83292",
-      "postpaid": 4,
+      "postpaid": 11,
       "store": "5920 Metropolis Way 107",
       "lastName": "Brevil"
     },
@@ -783,17 +783,9 @@
       "market": "Metro Southeast",
       "geo": "Metro Orlando West",
       "total": 11,
-      "assigned": 4,
-      "orders": 1,
-      "orderDetail": [
-        {
-          "order": "110219800960",
-          "date": "10/05",
-          "iso": "2026-10-05",
-          "lines": 7,
-          "status": "Active"
-        }
-      ]
+      "assigned": 11,
+      "orders": 0,
+      "orderDetail": []
     },
     {
       "store": "10234552 : 5519 W Colonial Dr",
@@ -1461,6 +1453,16 @@
       "at": "2026-10-06T21:09:47.350Z",
       "week": "10/03/2026",
       "order": "110219793403"
+    },
+    {
+      "code": "cgt83292",
+      "lines": 7,
+      "store": "10194890 : 5920 Metropolis Way 107",
+      "mm": "Tiffany (text)",
+      "market": "Tiffany",
+      "at": "2026-10-06T21:14:40.915Z",
+      "week": "10/03/2026",
+      "order": "110219800960"
     }
   ]
 }
