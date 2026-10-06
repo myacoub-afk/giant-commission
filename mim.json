@@ -606,16 +606,9 @@
         "market": "Metro Southeast",
         "geo": "Metro Hialeah",
         "total": 66,
-        "assigned": 57,
-        "orders": 2,
+        "assigned": 61,
+        "orders": 1,
         "orderDetail": [
-          {
-            "order": "110219708914",
-            "date": "10/02",
-            "iso": "2026-10-02",
-            "lines": 4,
-            "status": "Active"
-          },
           {
             "order": "110219665276",
             "date": "10/01",
@@ -1063,6 +1056,16 @@
         "at": "2026-10-06T14:51:50.576Z",
         "week": "09/26/2026",
         "order": "110219721030"
+      },
+      {
+        "code": "lzs17620",
+        "lines": 4,
+        "store": "10328797 : 1435 W 49th Street",
+        "mm": "Islam (text)",
+        "market": "Islam",
+        "at": "2026-10-06T14:58:10.980Z",
+        "week": "09/26/2026",
+        "order": "110219708914"
       }
     ],
     "refreshed": "2026-10-06T00:15:19.885Z"
