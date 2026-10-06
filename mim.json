@@ -650,7 +650,7 @@
     },
     {
       "code": "xzb29885",
-      "postpaid": 1,
+      "postpaid": 3,
       "store": "612 N State St",
       "lastName": "Linick"
     },
@@ -820,17 +820,9 @@
       "market": "Metro Southeast",
       "geo": "Metro Jacksonville South",
       "total": 4,
-      "assigned": 2,
-      "orders": 1,
-      "orderDetail": [
-        {
-          "order": "110219788608",
-          "date": "10/05",
-          "iso": "2026-10-05",
-          "lines": 2,
-          "status": "Active"
-        }
-      ]
+      "assigned": 4,
+      "orders": 0,
+      "orderDetail": []
     },
     {
       "store": "10202090 : 4000 S BABCOCK ST, Unit B",
@@ -1451,6 +1443,16 @@
       "at": "2026-10-06T14:17:24.151Z",
       "week": "10/03/2026",
       "order": "110219739671"
+    },
+    {
+      "code": "xzb29885",
+      "lines": 2,
+      "store": "10225526 : 612 N State St",
+      "mm": "Shadaira (text)",
+      "market": "Shadaira",
+      "at": "2026-10-06T21:07:44.691Z",
+      "week": "10/03/2026",
+      "order": "110219788608"
     }
   ]
 }
