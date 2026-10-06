@@ -623,17 +623,9 @@
         "market": "Metro Northeast",
         "geo": "Metro New Jersey South",
         "total": 17,
-        "assigned": 16,
-        "orders": 1,
-        "orderDetail": [
-          {
-            "order": "110219700223",
-            "date": "10/02",
-            "iso": "2026-10-02",
-            "lines": 1,
-            "status": "Active"
-          }
-        ]
+        "assigned": 17,
+        "orders": 0,
+        "orderDetail": []
       },
       {
         "store": "10328818 : 200 W Oregon ave",
@@ -1071,6 +1063,16 @@
         "at": "2026-10-06T15:22:33.610Z",
         "week": "09/26/2026",
         "order": "110219704047"
+      },
+      {
+        "code": "pyn78573",
+        "lines": 1,
+        "store": "10225286 : 130 Black Horse Pike Ste B4",
+        "mm": "Rani (text)",
+        "market": "Rani",
+        "at": "2026-10-06T18:44:20.351Z",
+        "week": "09/26/2026",
+        "order": "110219700223"
       }
     ],
     "refreshed": "2026-10-06T00:15:19.885Z"
