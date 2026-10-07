@@ -881,6 +881,12 @@
       "postpaid": 3,
       "store": "4000 S BABCOCK ST, Unit B",
       "lastName": ""
+    },
+    {
+      "code": "tou81721",
+      "postpaid": 1,
+      "store": "5007 N Broad St",
+      "lastName": ""
     }
   ],
   "mtdMap": {},
@@ -907,17 +913,9 @@
       "market": "Metro Northeast",
       "geo": "Metro Philadelphia North",
       "total": 1,
-      "assigned": 0,
-      "orders": 1,
-      "orderDetail": [
-        {
-          "order": "110219853704",
-          "date": "10/06",
-          "iso": "2026-10-06",
-          "lines": 1,
-          "status": "Pending or Canceled"
-        }
-      ]
+      "assigned": 1,
+      "orders": 0,
+      "orderDetail": []
     },
     {
       "store": "10192080 : 5239 Frankford Ave",
@@ -1725,6 +1723,16 @@
       "at": "2026-10-06T21:34:50.183Z",
       "week": "10/03/2026",
       "order": "110219798641"
+    },
+    {
+      "code": "tou81721",
+      "lines": 1,
+      "store": "10202208 : 5007 N Broad St",
+      "mm": "Rani (text)",
+      "market": "Rani",
+      "at": "2026-10-07T21:07:29.103Z",
+      "week": "10/03/2026",
+      "order": "110219853704"
     }
   ]
 }
