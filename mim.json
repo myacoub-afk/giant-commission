@@ -242,7 +242,7 @@
     },
     {
       "code": "gwl05493",
-      "postpaid": 2,
+      "postpaid": 4,
       "store": "504 N Dixie Fwy",
       "lastName": "Delisser"
     },
@@ -1010,17 +1010,9 @@
       "market": "Metro Southeast",
       "geo": "Metro Daytona Beach",
       "total": 4,
-      "assigned": 2,
-      "orders": 1,
-      "orderDetail": [
-        {
-          "order": "110219857546",
-          "date": "10/06",
-          "iso": "2026-10-06",
-          "lines": 2,
-          "status": "Pending or Canceled"
-        }
-      ]
+      "assigned": 4,
+      "orders": 0,
+      "orderDetail": []
     },
     {
       "store": "10225526 : 612 N State St",
@@ -1733,6 +1725,16 @@
       "at": "2026-10-07T21:07:29.103Z",
       "week": "10/03/2026",
       "order": "110219853704"
+    },
+    {
+      "code": "gwl05493",
+      "lines": 2,
+      "store": "10213574 : 504 N Dixie Fwy",
+      "mm": "Shadaira (text)",
+      "market": "Shadaira",
+      "at": "2026-10-07T21:18:04.884Z",
+      "week": "10/03/2026",
+      "order": "110219857546"
     }
   ]
 }
