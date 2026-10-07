@@ -1,7 +1,7 @@
 {
   "meta": {
     "period": "Oct 3, 2026 - Oct 9, 2026",
-    "published": "Oct 7, 9:45 AM",
+    "published": "Oct 7, 10:15 AM",
     "autoPublished": true
   },
   "mrc": {
@@ -1087,7 +1087,7 @@
     },
     "ovv38388": {
       "name": "GHADAH",
-      "mrc": 697,
+      "mrc": 727,
       "hint": 1
     },
     "tpo36456": {
@@ -1152,7 +1152,7 @@
     },
     "byk16693": {
       "name": "HAROON",
-      "mrc": 1278,
+      "mrc": 1336,
       "hint": 2
     },
     "chu56044": {
@@ -1272,7 +1272,7 @@
     },
     "qix82959": {
       "name": "DIANA",
-      "mrc": 145,
+      "mrc": 180,
       "hint": 0
     },
     "rho22717": {
@@ -1322,7 +1322,7 @@
     },
     "vbh18700": {
       "name": "BERJIKA",
-      "mrc": 126,
+      "mrc": 162,
       "hint": 0
     },
     "vrh98549": {
@@ -2005,6 +2005,13 @@
       "store": "ENTERPRISE",
       "repName": "Kaysha"
     },
+    "pij89268": {
+      "name": "YARITSSA",
+      "acc": 0,
+      "hint": 0,
+      "store": "HOWLAND 2",
+      "repName": "YARITSSA"
+    },
     "uaa67856": {
       "name": "Ernesto",
       "acc": 179.96,
@@ -2214,13 +2221,6 @@
       "hint": 0,
       "store": "HOWLAND 2",
       "repName": "James"
-    },
-    "pij89268": {
-      "name": "YARITSSA",
-      "acc": 0,
-      "hint": 0,
-      "store": "HOWLAND 2",
-      "repName": "YARITSSA"
     },
     "nuu38600": {
       "name": "Brandon",
@@ -3946,7 +3946,7 @@
     },
     "tym90586": {
       "name": "Carlos",
-      "acc": 364.91,
+      "acc": 494.88,
       "hint": 0,
       "store": "KENDALL",
       "repName": "Carlos"
@@ -4399,7 +4399,7 @@
       "name": "HAROON",
       "lastName": "Khan",
       "store": "CHELTENHAM",
-      "mrc": 1278,
+      "mrc": 1336,
       "acc": 983.86,
       "hint": 2,
       "mim": 1,
@@ -4408,10 +4408,10 @@
       "hint_gate": true,
       "mim_gate": true,
       "tier": 1,
-      "tier_comm": 200.63,
+      "tier_comm": 205.27,
       "hint_spiff": 30,
       "mim_spiff": 20,
-      "total": 250.63,
+      "total": 255.27,
       "mrc_gap": 0,
       "acc_gap": 0,
       "hint_gap": 0,
@@ -4939,7 +4939,7 @@
       "name": "DIANA",
       "lastName": "Olmeda",
       "store": "OREGON",
-      "mrc": 145,
+      "mrc": 180,
       "acc": 170.99,
       "hint": 0,
       "mim": 6,
@@ -4952,12 +4952,12 @@
       "hint_spiff": 0,
       "mim_spiff": 120,
       "total": 120,
-      "mrc_gap": 355,
+      "mrc_gap": 320,
       "acc_gap": 529.01,
       "hint_gap": 1,
       "mim_gap": 0,
       "qualifies": false,
-      "needs": "+$355 MRC, +$529.01 acc, +1 HINT",
+      "needs": "+$320 MRC, +$529.01 acc, +1 HINT",
       "rank": 35,
       "close_order": 160
     },
@@ -5453,7 +5453,7 @@
       "lastName": "Delvalle",
       "store": "KENDALL",
       "mrc": 369,
-      "acc": 364.91,
+      "acc": 494.88,
       "hint": 0,
       "mim": 4,
       "mtd_lines": 0,
@@ -5466,13 +5466,13 @@
       "mim_spiff": 80,
       "total": 80,
       "mrc_gap": 131,
-      "acc_gap": 335.09,
+      "acc_gap": 205.12,
       "hint_gap": 1,
       "mim_gap": 0,
       "qualifies": false,
-      "needs": "+$131 MRC, +$335.09 acc, +1 HINT",
+      "needs": "+$131 MRC, +$205.12 acc, +1 HINT",
       "rank": 54,
-      "close_order": 122
+      "close_order": 112
     },
     {
       "code": "hff48510",
@@ -5958,7 +5958,7 @@
       "qualifies": false,
       "needs": "+$254 MRC, +$327.10 acc, +1 HINT",
       "rank": 72,
-      "close_order": 120
+      "close_order": 121
     },
     {
       "code": "jlk07221",
@@ -6012,7 +6012,7 @@
       "qualifies": false,
       "needs": "+$117 MRC, +$250.13 acc, +1 HINT",
       "rank": 74,
-      "close_order": 116
+      "close_order": 117
     },
     {
       "code": "xbn24151",
@@ -7875,7 +7875,7 @@
       "qualifies": false,
       "needs": "+$285 MRC, +$240.26 acc, +1 HINT",
       "rank": 143,
-      "close_order": 115
+      "close_order": 116
     },
     {
       "code": "cqd87558",
@@ -7929,7 +7929,7 @@
       "qualifies": false,
       "needs": "+$87 MRC, +$239.08 acc, +1 HINT",
       "rank": 145,
-      "close_order": 114
+      "close_order": 115
     },
     {
       "code": "lvk99152",
@@ -8037,7 +8037,7 @@
       "qualifies": false,
       "needs": "+$27 MRC, +$280.07 acc, +1 MIM",
       "rank": 149,
-      "close_order": 118
+      "close_order": 119
     },
     {
       "code": "pqm31381",
@@ -8307,7 +8307,7 @@
       "qualifies": false,
       "needs": "+$83 MRC, +$236.99 acc, +1 MIM",
       "rank": 159,
-      "close_order": 113
+      "close_order": 114
     },
     {
       "code": "frt08051",
@@ -8739,7 +8739,7 @@
       "qualifies": false,
       "needs": "+$220 MRC, +$288.06 acc, +1 MIM",
       "rank": 175,
-      "close_order": 119
+      "close_order": 120
     },
     {
       "code": "uyr50973",
@@ -9016,7 +9016,7 @@
       "name": "GHADAH",
       "lastName": "",
       "store": "BLANDING 1",
-      "mrc": 697,
+      "mrc": 727,
       "acc": 599.84,
       "hint": 1,
       "mim": 0,
@@ -9387,7 +9387,7 @@
       "qualifies": false,
       "needs": "+$255 MRC, +$327.52 acc, +1 MIM",
       "rank": 199,
-      "close_order": 121
+      "close_order": 122
     },
     {
       "code": "cqr03918",
@@ -9900,7 +9900,7 @@
       "qualifies": false,
       "needs": "+$224.18 acc, +1 HINT, +1 MIM",
       "rank": 218,
-      "close_order": 112
+      "close_order": 113
     },
     {
       "code": "wgi31363",
@@ -10521,7 +10521,7 @@
       "qualifies": false,
       "needs": "+$250.17 acc, +1 HINT, +1 MIM",
       "rank": 241,
-      "close_order": 117
+      "close_order": 118
     },
     {
       "code": "hzx37758",
@@ -12661,7 +12661,7 @@
       "name": "BERJIKA",
       "lastName": "",
       "store": "GREENWICH",
-      "mrc": 126,
+      "mrc": 162,
       "acc": 84.97,
       "hint": 0,
       "mim": 0,
@@ -12674,12 +12674,12 @@
       "hint_spiff": 0,
       "mim_spiff": 0,
       "total": 0,
-      "mrc_gap": 374,
+      "mrc_gap": 338,
       "acc_gap": 615.03,
       "hint_gap": 1,
       "mim_gap": 1,
       "qualifies": false,
-      "needs": "+$374 MRC, +$615.03 acc, +1 HINT, +1 MIM",
+      "needs": "+$338 MRC, +$615.03 acc, +1 HINT, +1 MIM",
       "rank": 321,
       "close_order": 286
     },
@@ -13227,7 +13227,7 @@
   "stats": {
     "reps": 341,
     "qualified": 17,
-    "total_payout": 15621.71,
+    "total_payout": 15626.35,
     "total_spiffs": 12490,
     "below_acc": 325,
     "below_mrc": 264,
