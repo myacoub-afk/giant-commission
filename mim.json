@@ -362,7 +362,7 @@
     },
     {
       "code": "kyn72180",
-      "postpaid": 1,
+      "postpaid": 4,
       "store": "5622 Germantown Ave",
       "lastName": "Siam"
     },
@@ -939,17 +939,9 @@
       "market": "Metro Northeast",
       "geo": "Metro Philadelphia North",
       "total": 4,
-      "assigned": 1,
-      "orders": 1,
-      "orderDetail": [
-        {
-          "order": "110219804257",
-          "date": "10/05",
-          "iso": "2026-10-05",
-          "lines": 3,
-          "status": "Active"
-        }
-      ]
+      "assigned": 4,
+      "orders": 0,
+      "orderDetail": []
     },
     {
       "store": "10218769 : 478 Hamilton Ave",
@@ -1735,6 +1727,16 @@
       "at": "2026-10-07T21:18:04.884Z",
       "week": "10/03/2026",
       "order": "110219857546"
+    },
+    {
+      "code": "kyn72180",
+      "lines": 3,
+      "store": "10200997 : 5622 Germantown Ave",
+      "mm": "Marwan (text)",
+      "market": "Marwan",
+      "at": "2026-10-08T14:48:05.005Z",
+      "week": "10/03/2026",
+      "order": "110219804257"
     }
   ]
 }
