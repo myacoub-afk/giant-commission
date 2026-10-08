@@ -893,6 +893,12 @@
       "postpaid": 1,
       "store": "5239 Frankford Ave",
       "lastName": ""
+    },
+    {
+      "code": "yys96009",
+      "postpaid": 2,
+      "store": "1629 N. Kings Hwy",
+      "lastName": ""
     }
   ],
   "mtdMap": {},
@@ -1044,17 +1050,9 @@
       "market": "Metro Northeast",
       "geo": "Metro New Jersey South",
       "total": 4,
-      "assigned": 2,
-      "orders": 1,
-      "orderDetail": [
-        {
-          "order": "110219792739",
-          "date": "10/05",
-          "iso": "2026-10-05",
-          "lines": 2,
-          "status": "Active"
-        }
-      ]
+      "assigned": 4,
+      "orders": 0,
+      "orderDetail": []
     },
     {
       "store": "10328797 : 1435 W 49th Street",
@@ -1745,6 +1743,16 @@
       "at": "2026-10-08T14:48:38.221Z",
       "week": "10/03/2026",
       "order": "110219841189"
+    },
+    {
+      "code": "yys96009",
+      "lines": 2,
+      "store": "10328823 : 1629 N. Kings Hwy",
+      "mm": "Rani (text)",
+      "market": "Rani",
+      "at": "2026-10-08T15:12:05.737Z",
+      "week": "10/03/2026",
+      "order": "110219792739"
     }
   ]
 }
