@@ -887,6 +887,12 @@
       "postpaid": 1,
       "store": "5007 N Broad St",
       "lastName": ""
+    },
+    {
+      "code": "fsy19164",
+      "postpaid": 1,
+      "store": "5239 Frankford Ave",
+      "lastName": ""
     }
   ],
   "mtdMap": {},
@@ -922,17 +928,9 @@
       "market": "Metro Northeast",
       "geo": "Metro Philadelphia Northeast",
       "total": 6,
-      "assigned": 5,
-      "orders": 1,
-      "orderDetail": [
-        {
-          "order": "110219841189",
-          "date": "10/06",
-          "iso": "2026-10-06",
-          "lines": 1,
-          "status": "Pending or Canceled"
-        }
-      ]
+      "assigned": 6,
+      "orders": 0,
+      "orderDetail": []
     },
     {
       "store": "10200997 : 5622 Germantown Ave",
@@ -1737,6 +1735,16 @@
       "at": "2026-10-08T14:48:05.005Z",
       "week": "10/03/2026",
       "order": "110219804257"
+    },
+    {
+      "code": "fsy19164",
+      "lines": 1,
+      "store": "10192080 : 5239 Frankford Ave",
+      "mm": "Marwan (text)",
+      "market": "Marwan",
+      "at": "2026-10-08T14:48:38.221Z",
+      "week": "10/03/2026",
+      "order": "110219841189"
     }
   ]
 }
