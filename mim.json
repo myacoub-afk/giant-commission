@@ -1169,17 +1169,9 @@
         "market": "Metro Southeast",
         "geo": "Metro Miami Southwest",
         "total": 44,
-        "assigned": 43,
-        "orders": 1,
-        "orderDetail": [
-          {
-            "order": "110219687410",
-            "date": "10/01",
-            "iso": "2026-10-01",
-            "lines": 1,
-            "status": "Active"
-          }
-        ]
+        "assigned": 44,
+        "orders": 0,
+        "orderDetail": []
       },
       {
         "store": "10230176 : 7083 Collins Rd Ste 104",
@@ -1585,6 +1577,16 @@
         "at": "2026-10-06T18:45:16.387Z",
         "week": "09/26/2026",
         "order": "110219670761"
+      },
+      {
+        "code": "tym90586",
+        "lines": 1,
+        "store": "10328800 : 7246 SW 117th Ave",
+        "mm": "Islam (text)",
+        "market": "Islam",
+        "at": "2026-10-09T15:20:30.190Z",
+        "week": "09/26/2026",
+        "order": "110219687410"
       }
     ],
     "refreshed": "2026-10-06T00:15:19.885Z"
