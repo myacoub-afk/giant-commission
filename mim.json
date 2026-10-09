@@ -1,10 +1,9 @@
 {
   "meta": {
-    "period": "October 3 Ã¢ÂÂ 9, 2026",
+    "period": "October 3 – 9, 2026",
     "periodStart": "10/03/2026",
-    "published": "Oct 8, 12:53 PM",
-    "mimNote": "MiM Data through 10/7",
-    "noteUpdated": "Oct 9, 12:30 PM"
+    "published": "Oct 9, 12:30 PM",
+    "mimNote": "MiM Data through 10/7"
   },
   "rows": [
     {
@@ -108,6 +107,12 @@
       "postpaid": 4,
       "store": "504 N Dixie Fwy",
       "lastName": "Delisser"
+    },
+    {
+      "code": "hdl15647",
+      "postpaid": 4,
+      "store": "2133 Rockford Street Suite 300",
+      "lastName": "Nesmith"
     },
     {
       "code": "hld91310",
@@ -258,6 +263,12 @@
       "postpaid": 3,
       "store": "3849 S Nova Rd",
       "lastName": "Plumb"
+    },
+    {
+      "code": "soi27276",
+      "postpaid": 7,
+      "store": "1015 Waughtown St",
+      "lastName": "Prudente"
     },
     {
       "code": "srr85303",
@@ -476,6 +487,12 @@
       "lastName": "Erazo"
     },
     {
+      "code": "scj96881",
+      "postpaid": 5,
+      "store": "3193 Peters Creek Pkwy Ste C",
+      "lastName": "Morton"
+    },
+    {
       "code": "spq79244",
       "postpaid": 3,
       "store": "535 Penn St",
@@ -492,6 +509,12 @@
       "postpaid": 2,
       "store": "108 N US Highway 17 92",
       "lastName": "Kardash"
+    },
+    {
+      "code": "zcm75025",
+      "postpaid": 4,
+      "store": "403 S Broad St",
+      "lastName": "Samuels"
     },
     {
       "code": "zvj50317",
@@ -734,6 +757,12 @@
       "lastName": "Chinea"
     },
     {
+      "code": "iml98910",
+      "postpaid": 1,
+      "store": "2133 Rockford Street Suite 300",
+      "lastName": "Morales"
+    },
+    {
       "code": "iwy09279",
       "postpaid": 1,
       "store": "2818 W Sugar Creek Rd",
@@ -762,6 +791,12 @@
       "postpaid": 2,
       "store": "121 Howland Blvd Suite 101B",
       "lastName": "Jagmohan"
+    },
+    {
+      "code": "osd66214",
+      "postpaid": 1,
+      "store": "1054 Crossroads Dr",
+      "lastName": "Stevenson"
     },
     {
       "code": "ovq51933",
@@ -875,12 +910,6 @@
       "code": "tyj13028",
       "postpaid": 4,
       "store": "9180 State Rd 84",
-      "lastName": ""
-    },
-    {
-      "code": "xbn24151",
-      "postpaid": 3,
-      "store": "4000 S BABCOCK ST, Unit B",
       "lastName": ""
     },
     {
@@ -1050,15 +1079,6 @@
       "geo": "Metro Orlando South",
       "total": 5,
       "assigned": 5,
-      "orders": 0,
-      "orderDetail": []
-    },
-    {
-      "store": "10202090 : 4000 S BABCOCK ST, Unit B",
-      "market": "Metro Southeast",
-      "geo": "Metro Brevard",
-      "total": 3,
-      "assigned": 3,
       "orders": 0,
       "orderDetail": []
     },
@@ -1771,6 +1791,17 @@
       "at": "2026-10-09T14:47:41.793Z",
       "week": "10/03/2026",
       "order": "110219858832"
+    }
+  ],
+  "absorbedNotices": [
+    {
+      "store": "10202090 : 4000 S BABCOCK ST, Unit B",
+      "addr": "4000 S BABCOCK ST, Unit B",
+      "code": "xbn24151",
+      "lines": 3,
+      "mm": "Shailine (text)",
+      "market": "Shailine",
+      "at": "2026-10-09T16:30:14.904Z"
     }
   ]
 }
