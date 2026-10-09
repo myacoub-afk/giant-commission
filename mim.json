@@ -1267,17 +1267,9 @@
         "market": "Metro South Central",
         "geo": "Metro Albuquerque Santa Fe",
         "total": 2,
-        "assigned": 0,
-        "orders": 1,
-        "orderDetail": [
-          {
-            "order": "110219684249",
-            "date": "10/01",
-            "iso": "2026-10-01",
-            "lines": 2,
-            "status": "Active"
-          }
-        ]
+        "assigned": 2,
+        "orders": 0,
+        "orderDetail": []
       },
       {
         "store": "10328820 : 2118 Cottman Ave 5",
@@ -1609,6 +1601,16 @@
         "at": "2026-10-09T22:00:22.164Z",
         "week": "09/26/2026",
         "order": "110219724675"
+      },
+      {
+        "code": "slf51610",
+        "lines": 2,
+        "store": "10207241 : 2225 Wyoming Blvd NE",
+        "mm": "Dom",
+        "market": "Dom",
+        "at": "2026-10-09T22:03:19.163Z",
+        "week": "09/26/2026",
+        "order": "110219684249"
       }
     ],
     "refreshed": "2026-10-06T00:15:19.885Z"
