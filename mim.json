@@ -1241,17 +1241,9 @@
         "market": "Metro South Central",
         "geo": "Metro Albuquerque South",
         "total": 6,
-        "assigned": 4,
-        "orders": 1,
-        "orderDetail": [
-          {
-            "order": "110219724675",
-            "date": "10/02",
-            "iso": "2026-10-02",
-            "lines": 2,
-            "status": "Pending or Canceled"
-          }
-        ]
+        "assigned": 6,
+        "orders": 0,
+        "orderDetail": []
       },
       {
         "store": "10223905 : 1601 Broadway Blvd SE",
@@ -1607,6 +1599,16 @@
         "at": "2026-10-09T15:20:30.190Z",
         "week": "09/26/2026",
         "order": "110219687410"
+      },
+      {
+        "code": "hcw68692",
+        "lines": 2,
+        "store": "10226085 : 5555 Zuni Rd SE Ste 5",
+        "mm": "Dom",
+        "market": "Dom",
+        "at": "2026-10-09T22:00:22.164Z",
+        "week": "09/26/2026",
+        "order": "110219724675"
       }
     ],
     "refreshed": "2026-10-06T00:15:19.885Z"
