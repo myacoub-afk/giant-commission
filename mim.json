@@ -705,7 +705,7 @@
     },
     {
       "code": "enx49961",
-      "postpaid": 2,
+      "postpaid": 5,
       "store": "1483 N Federal Hwy",
       "lastName": "Bolanos"
     },
@@ -987,17 +987,9 @@
       "market": "Metro Southeast",
       "geo": "Metro Ft Lauderdale Central",
       "total": 12,
-      "assigned": 9,
-      "orders": 1,
-      "orderDetail": [
-        {
-          "order": "110219858832",
-          "date": "10/06",
-          "iso": "2026-10-06",
-          "lines": 3,
-          "status": "Pending or Canceled"
-        }
-      ]
+      "assigned": 12,
+      "orders": 0,
+      "orderDetail": []
     },
     {
       "store": "10328803 : 282 NE 8th Street",
@@ -1767,6 +1759,16 @@
       "at": "2026-10-09T14:25:24.983Z",
       "week": "10/03/2026",
       "order": "110219767920"
+    },
+    {
+      "code": "enx49961",
+      "lines": 3,
+      "store": "10328798 : 1483 N Federal Hwy",
+      "mm": "Islam (text)",
+      "market": "Islam",
+      "at": "2026-10-09T14:47:41.793Z",
+      "week": "10/03/2026",
+      "order": "110219858832"
     }
   ]
 }
