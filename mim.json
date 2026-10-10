@@ -11,11 +11,253 @@
     "period": "October 3 – 9, 2026",
     "unassigned": [
       {
+        "store": "10328802 : 9180 State Rd 84",
+        "market": "Metro Southeast",
+        "geo": "Metro Miramar",
+        "total": 28,
+        "assigned": 26,
+        "orders": 2,
+        "orderDetail": [
+          {
+            "order": "110219939283",
+            "date": "10/09",
+            "iso": "2026-10-09",
+            "lines": 1,
+            "status": "Pending or Canceled"
+          },
+          {
+            "order": "110219950821",
+            "date": "10/09",
+            "iso": "2026-10-09",
+            "lines": 1,
+            "status": "Pending or Canceled"
+          }
+        ]
+      },
+      {
+        "store": "10328794 : 2907 N Dale Mabry",
+        "market": "Metro Southeast",
+        "geo": "Metro Tampa Central",
+        "total": 14,
+        "assigned": 8,
+        "orders": 3,
+        "orderDetail": [
+          {
+            "order": "110219932706",
+            "date": "10/09",
+            "iso": "2026-10-09",
+            "lines": 1,
+            "status": "Pending or Canceled"
+          },
+          {
+            "order": "110219906350",
+            "date": "10/08",
+            "iso": "2026-10-08",
+            "lines": 4,
+            "status": "Active"
+          },
+          {
+            "order": "110219875855",
+            "date": "10/07",
+            "iso": "2026-10-07",
+            "lines": 1,
+            "status": "Active"
+          }
+        ]
+      },
+      {
+        "store": "10194890 : 5920 Metropolis Way 107",
+        "market": "Metro Southeast",
+        "geo": "Metro Orlando West",
+        "total": 16,
+        "assigned": 15,
+        "orders": 1,
+        "orderDetail": [
+          {
+            "order": "110219889265",
+            "date": "10/07",
+            "iso": "2026-10-07",
+            "lines": 1,
+            "status": "Active"
+          }
+        ]
+      },
+      {
+        "store": "10199891 : 2484 Sanford Ave",
+        "market": "Metro Southeast",
+        "geo": "Metro Orlando North",
+        "total": 22,
+        "assigned": 20,
+        "orders": 1,
+        "orderDetail": [
+          {
+            "order": "110219883374",
+            "date": "10/07",
+            "iso": "2026-10-07",
+            "lines": 2,
+            "status": "Active"
+          }
+        ]
+      },
+      {
+        "store": "10328818 : 200 W Oregon ave",
+        "market": "Metro Northeast",
+        "geo": "Metro Philadelphia South",
+        "total": 23,
+        "assigned": 18,
+        "orders": 1,
+        "orderDetail": [
+          {
+            "order": "110219881202",
+            "date": "10/07",
+            "iso": "2026-10-07",
+            "lines": 5,
+            "status": "Active"
+          }
+        ]
+      },
+      {
+        "store": "10213574 : 504 N Dixie Fwy",
+        "market": "Metro Southeast",
+        "geo": "Metro Daytona Beach",
+        "total": 6,
+        "assigned": 4,
+        "orders": 1,
+        "orderDetail": [
+          {
+            "order": "110219876195",
+            "date": "10/07",
+            "iso": "2026-10-07",
+            "lines": 2,
+            "status": "Active"
+          }
+        ]
+      },
+      {
+        "store": "10328797 : 1435 W 49th Street",
+        "market": "Metro Southeast",
+        "geo": "Metro Hialeah",
+        "total": 28,
+        "assigned": 23,
+        "orders": 1,
+        "orderDetail": [
+          {
+            "order": "110219868075",
+            "date": "10/07",
+            "iso": "2026-10-07",
+            "lines": 5,
+            "status": "Pending or Canceled"
+          }
+        ]
+      },
+      {
+        "store": "10328822 : 50 E. State Street 2",
+        "market": "Metro Northeast",
+        "geo": "Metro Trenton",
+        "total": 9,
+        "assigned": 7,
+        "orders": 1,
+        "orderDetail": [
+          {
+            "order": "110219932762",
+            "date": "10/09",
+            "iso": "2026-10-09",
+            "lines": 2,
+            "status": "Pending or Canceled"
+          }
+        ]
+      },
+      {
+        "store": "10328803 : 282 NE 8th Street",
+        "market": "Metro Southeast",
+        "geo": "Metro Miami South",
+        "total": 55,
+        "assigned": 51,
+        "orders": 1,
+        "orderDetail": [
+          {
+            "order": "110219903309",
+            "date": "10/08",
+            "iso": "2026-10-08",
+            "lines": 4,
+            "status": "Active"
+          }
+        ]
+      },
+      {
+        "store": "10328829 : 2447 N. Wickham Road",
+        "market": "Metro Southeast",
+        "geo": "Metro Brevard",
+        "total": 11,
+        "assigned": 9,
+        "orders": 1,
+        "orderDetail": [
+          {
+            "order": "110219875288",
+            "date": "10/07",
+            "iso": "2026-10-07",
+            "lines": 2,
+            "status": "Active"
+          }
+        ]
+      },
+      {
+        "store": "10328800 : 7246 SW 117th Ave",
+        "market": "Metro Southeast",
+        "geo": "Metro Miami Southwest",
+        "total": 20,
+        "assigned": 17,
+        "orders": 1,
+        "orderDetail": [
+          {
+            "order": "110219881255",
+            "date": "10/07",
+            "iso": "2026-10-07",
+            "lines": 3,
+            "status": "Pending or Canceled"
+          }
+        ]
+      },
+      {
+        "store": "10191842 : 1105 S Woodland Blvd",
+        "market": "Metro Southeast",
+        "geo": "Metro Daytona Beach",
+        "total": 7,
+        "assigned": 4,
+        "orders": 1,
+        "orderDetail": [
+          {
+            "order": "110219922853",
+            "date": "10/08",
+            "iso": "2026-10-08",
+            "lines": 3,
+            "status": "Pending or Canceled"
+          }
+        ]
+      },
+      {
+        "store": "10207247 : 6417 Airport Rd Ste 103",
+        "market": "Metro South Central",
+        "geo": "Metro Albuquerque Santa Fe",
+        "total": 9,
+        "assigned": 8,
+        "orders": 1,
+        "orderDetail": [
+          {
+            "order": "110219878635",
+            "date": "10/07",
+            "iso": "2026-10-07",
+            "lines": 1,
+            "status": "Active"
+          }
+        ]
+      },
+      {
         "store": "10216100 : 203 Blanding Blvd",
         "market": "Metro Southeast",
         "geo": "Metro Jacksonville South",
-        "total": 5,
-        "assigned": 0,
+        "total": 11,
+        "assigned": 6,
         "orders": 1,
         "orderDetail": [
           {
@@ -31,8 +273,8 @@
         "store": "10328817 : 249 Glenside Ave",
         "market": "Metro Northeast",
         "geo": "Metro Philadelphia Southwest",
-        "total": 8,
-        "assigned": 7,
+        "total": 9,
+        "assigned": 8,
         "orders": 1,
         "orderDetail": [
           {
@@ -41,6 +283,125 @@
             "iso": "2026-10-05",
             "lines": 1,
             "status": "Active"
+          }
+        ]
+      },
+      {
+        "store": "10207246 : 1965 Cerrillos Rd",
+        "market": "Metro South Central",
+        "geo": "Metro Albuquerque Santa Fe",
+        "total": 8,
+        "assigned": 7,
+        "orders": 1,
+        "orderDetail": [
+          {
+            "order": "110219954558",
+            "date": "10/09",
+            "iso": "2026-10-09",
+            "lines": 1,
+            "status": "Pending or Canceled"
+          }
+        ]
+      },
+      {
+        "store": "10217616 : 4705 Central Ave",
+        "market": "Metro Southeast",
+        "geo": "Metro NC Charlotte South",
+        "total": 9,
+        "assigned": 7,
+        "orders": 1,
+        "orderDetail": [
+          {
+            "order": "110219871615",
+            "date": "10/07",
+            "iso": "2026-10-07",
+            "lines": 2,
+            "status": "Active"
+          }
+        ]
+      },
+      {
+        "store": "10202204 : 3712 N Broad St",
+        "market": "Metro Northeast",
+        "geo": "Metro Philadelphia North",
+        "total": 1,
+        "assigned": 0,
+        "orders": 1,
+        "orderDetail": [
+          {
+            "order": "110219867897",
+            "date": "10/07",
+            "iso": "2026-10-07",
+            "lines": 1,
+            "status": "Pending or Canceled"
+          }
+        ]
+      },
+      {
+        "store": "10328831 : 8925 J.M. Keynes Drive Suite 3",
+        "market": "Metro Southeast",
+        "geo": "Metro NC Charlotte South",
+        "total": 3,
+        "assigned": 0,
+        "orders": 1,
+        "orderDetail": [
+          {
+            "order": "110219891902",
+            "date": "10/07",
+            "iso": "2026-10-07",
+            "lines": 3,
+            "status": "Active"
+          }
+        ]
+      },
+      {
+        "store": "10226085 : 5555 Zuni Rd SE Ste 5",
+        "market": "Metro South Central",
+        "geo": "Metro Albuquerque South",
+        "total": 2,
+        "assigned": 0,
+        "orders": 1,
+        "orderDetail": [
+          {
+            "order": "110219924607",
+            "date": "10/08",
+            "iso": "2026-10-08",
+            "lines": 2,
+            "status": "Pending or Canceled"
+          }
+        ]
+      },
+      {
+        "store": "10199892 : 3635 S Orlando Dr",
+        "market": "Metro Southeast",
+        "geo": "Metro Orlando North",
+        "total": 1,
+        "assigned": 0,
+        "orders": 1,
+        "orderDetail": [
+          {
+            "order": "110219930607",
+            "date": "10/09",
+            "iso": "2026-10-09",
+            "lines": 1,
+            "status": "Active"
+          }
+        ]
+      },
+      {
+        "store": "10223898 : 600 Louisiana Blvd SE Ste D",
+        "market": "Metro South Central",
+        "geo": "Metro Albuquerque South",
+        "total": 7,
+        "assigned": 1,
+        "orders": 1,
+        "orderDetail": [
+          {
+            "order": "110219953764",
+            "date": "10/09",
+            "iso": "2026-10-09",
+            "lines": 6,
+            "status": "Pending or Canceled"
           }
         ]
       }
@@ -226,6 +587,7 @@
         "week": "10/03/2026",
         "order": "110219858832"
       }
-    ]
+    ],
+    "refreshed": "2026-10-10T19:56:06.621Z"
   }
 }
