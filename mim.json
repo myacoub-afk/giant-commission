@@ -330,7 +330,7 @@
         "market": "Metro Southeast",
         "geo": "Metro Orlando North",
         "total": 1,
-        "assigned": 0,
+        "assigned": 1,
         "orders": 0,
         "orderDetail": []
       },
@@ -613,6 +613,16 @@
         "undo": true,
         "week": "10/03/2026",
         "order": "110219930607"
+      },
+      {
+        "code": "dnu74648",
+        "lines": 1,
+        "store": "10199892 : 3635 S Orlando Dr",
+        "mm": "Moe (text)",
+        "market": "Moe",
+        "at": "2026-10-10T23:49:41.054Z",
+        "week": "10/03/2026",
+        "order": "NO ORDER IN EXPORT"
       }
     ],
     "refreshed": "2026-10-10T19:56:06.621Z"
