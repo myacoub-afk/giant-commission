@@ -70,17 +70,9 @@
         "market": "Metro Southeast",
         "geo": "Metro Orlando West",
         "total": 16,
-        "assigned": 15,
-        "orders": 1,
-        "orderDetail": [
-          {
-            "order": "110219889265",
-            "date": "10/07",
-            "iso": "2026-10-07",
-            "lines": 1,
-            "status": "Active"
-          }
-        ]
+        "assigned": 16,
+        "orders": 0,
+        "orderDetail": []
       },
       {
         "store": "10199891 : 2484 Sanford Ave",
@@ -588,6 +580,16 @@
         "at": "2026-10-10T20:14:14.798Z",
         "week": "10/03/2026",
         "order": "110219875288"
+      },
+      {
+        "code": "rre81618",
+        "lines": 1,
+        "store": "10194890 : 5920 Metropolis Way 107",
+        "mm": "Tiffany (text)",
+        "market": "Tiffany",
+        "at": "2026-10-10T20:17:16.953Z",
+        "week": "10/03/2026",
+        "order": "110219889265"
       }
     ],
     "refreshed": "2026-10-10T19:56:06.621Z"
