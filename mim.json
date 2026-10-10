@@ -39,8 +39,8 @@
         "market": "Metro Southeast",
         "geo": "Metro Tampa Central",
         "total": 14,
-        "assigned": 12,
-        "orders": 2,
+        "assigned": 13,
+        "orders": 1,
         "orderDetail": [
           {
             "order": "110219932706",
@@ -48,13 +48,6 @@
             "iso": "2026-10-09",
             "lines": 1,
             "status": "Pending or Canceled"
-          },
-          {
-            "order": "110219875855",
-            "date": "10/07",
-            "iso": "2026-10-07",
-            "lines": 1,
-            "status": "Active"
           }
         ]
       },
@@ -593,6 +586,16 @@
         "at": "2026-10-10T20:20:13.497Z",
         "week": "10/03/2026",
         "order": "110219906350"
+      },
+      {
+        "code": "hxy35671",
+        "lines": 1,
+        "store": "10328794 : 2907 N Dale Mabry",
+        "mm": "Nidal (text)",
+        "market": "Nidal",
+        "at": "2026-10-10T20:22:26.221Z",
+        "week": "10/03/2026",
+        "order": "110219875855"
       }
     ],
     "refreshed": "2026-10-10T19:56:06.621Z"
