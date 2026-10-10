@@ -330,17 +330,9 @@
         "market": "Metro Southeast",
         "geo": "Metro Orlando North",
         "total": 1,
-        "assigned": 0,
-        "orders": 1,
-        "orderDetail": [
-          {
-            "order": "110219930607",
-            "date": "10/09",
-            "iso": "2026-10-09",
-            "lines": 1,
-            "status": "Active"
-          }
-        ]
+        "assigned": 1,
+        "orders": 0,
+        "orderDetail": []
       },
       {
         "store": "10223898 : 600 Louisiana Blvd SE Ste D",
@@ -600,6 +592,16 @@
         "at": "2026-10-10T21:46:06.911Z",
         "week": "10/03/2026",
         "order": "110219876195"
+      },
+      {
+        "code": "gbn62354",
+        "lines": 1,
+        "store": "10199892 : 3635 S Orlando Dr",
+        "mm": "Moe (text)",
+        "market": "Moe",
+        "at": "2026-10-10T23:48:08.350Z",
+        "week": "10/03/2026",
+        "order": "110219930607"
       }
     ],
     "refreshed": "2026-10-10T19:56:06.621Z"
