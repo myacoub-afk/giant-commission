@@ -189,17 +189,9 @@
         "market": "Metro Southeast",
         "geo": "Metro Brevard",
         "total": 11,
-        "assigned": 9,
-        "orders": 1,
-        "orderDetail": [
-          {
-            "order": "110219875288",
-            "date": "10/07",
-            "iso": "2026-10-07",
-            "lines": 2,
-            "status": "Active"
-          }
-        ]
+        "assigned": 11,
+        "orders": 0,
+        "orderDetail": []
       },
       {
         "store": "10328800 : 7246 SW 117th Ave",
@@ -586,6 +578,16 @@
         "at": "2026-10-09T14:47:41.793Z",
         "week": "10/03/2026",
         "order": "110219858832"
+      },
+      {
+        "code": "uvp73646",
+        "lines": 2,
+        "store": "10328829 : 2447 N. Wickham Road",
+        "mm": "Shailine (text)",
+        "market": "Shailine",
+        "at": "2026-10-10T20:14:14.798Z",
+        "week": "10/03/2026",
+        "order": "110219875288"
       }
     ],
     "refreshed": "2026-10-10T19:56:06.621Z"
