@@ -91,17 +91,9 @@
         "market": "Metro Southeast",
         "geo": "Metro Daytona Beach",
         "total": 6,
-        "assigned": 4,
-        "orders": 1,
-        "orderDetail": [
-          {
-            "order": "110219876195",
-            "date": "10/07",
-            "iso": "2026-10-07",
-            "lines": 2,
-            "status": "Active"
-          }
-        ]
+        "assigned": 6,
+        "orders": 0,
+        "orderDetail": []
       },
       {
         "store": "10328797 : 1435 W 49th Street",
@@ -598,6 +590,16 @@
         "at": "2026-10-10T20:24:46.978Z",
         "week": "10/03/2026",
         "order": "110219932706"
+      },
+      {
+        "code": "fev02150",
+        "lines": 2,
+        "store": "10213574 : 504 N Dixie Fwy",
+        "mm": "Shadaira (text)",
+        "market": "Shadaira",
+        "at": "2026-10-10T21:46:06.911Z",
+        "week": "10/03/2026",
+        "order": "110219876195"
       }
     ],
     "refreshed": "2026-10-10T19:56:06.621Z"
