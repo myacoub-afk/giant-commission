@@ -262,17 +262,9 @@
         "market": "Metro Southeast",
         "geo": "Metro NC Charlotte South",
         "total": 9,
-        "assigned": 7,
-        "orders": 1,
-        "orderDetail": [
-          {
-            "order": "110219871615",
-            "date": "10/07",
-            "iso": "2026-10-07",
-            "lines": 2,
-            "status": "Active"
-          }
-        ]
+        "assigned": 9,
+        "orders": 0,
+        "orderDetail": []
       },
       {
         "store": "10202204 : 3712 N Broad St",
@@ -625,6 +617,16 @@
         "at": "2026-10-11T01:12:43.901Z",
         "week": "10/03/2026",
         "order": "110219891902"
+      },
+      {
+        "code": "pxa12423",
+        "lines": 2,
+        "store": "10217616 : 4705 Central Ave",
+        "mm": "Omar (text)",
+        "market": "Omar",
+        "at": "2026-10-11T01:13:36.518Z",
+        "week": "10/03/2026",
+        "order": "110219871615"
       }
     ],
     "refreshed": "2026-10-10T19:56:06.621Z"
