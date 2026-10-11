@@ -296,17 +296,9 @@
         "market": "Metro Southeast",
         "geo": "Metro NC Charlotte South",
         "total": 3,
-        "assigned": 0,
-        "orders": 1,
-        "orderDetail": [
-          {
-            "order": "110219891902",
-            "date": "10/07",
-            "iso": "2026-10-07",
-            "lines": 3,
-            "status": "Active"
-          }
-        ]
+        "assigned": 3,
+        "orders": 0,
+        "orderDetail": []
       },
       {
         "store": "10226085 : 5555 Zuni Rd SE Ste 5",
@@ -623,6 +615,16 @@
         "at": "2026-10-10T23:49:41.054Z",
         "week": "10/03/2026",
         "order": "NO ORDER IN EXPORT"
+      },
+      {
+        "code": "ypa85364",
+        "lines": 3,
+        "store": "10328831 : 8925 J.M. Keynes Drive Suite 3",
+        "mm": "Omar (text)",
+        "market": "Omar",
+        "at": "2026-10-11T01:12:43.901Z",
+        "week": "10/03/2026",
+        "order": "110219891902"
       }
     ],
     "refreshed": "2026-10-10T19:56:06.621Z"
