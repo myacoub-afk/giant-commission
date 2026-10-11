@@ -39,17 +39,9 @@
         "market": "Metro Southeast",
         "geo": "Metro Orlando North",
         "total": 22,
-        "assigned": 20,
-        "orders": 1,
-        "orderDetail": [
-          {
-            "order": "110219883374",
-            "date": "10/07",
-            "iso": "2026-10-07",
-            "lines": 2,
-            "status": "Active"
-          }
-        ]
+        "assigned": 22,
+        "orders": 0,
+        "orderDetail": []
       },
       {
         "store": "10328818 : 200 W Oregon ave",
@@ -568,6 +560,16 @@
         "at": "2026-10-11T19:31:16.909Z",
         "week": "10/03/2026",
         "order": "110219867897"
+      },
+      {
+        "code": "dho16121",
+        "lines": 2,
+        "store": "10199891 : 2484 Sanford Ave",
+        "mm": "Moe (text)",
+        "market": "Moe",
+        "at": "2026-10-11T20:06:28.401Z",
+        "week": "10/03/2026",
+        "order": "110219883374"
       }
     ],
     "refreshed": "2026-10-11T15:04:09.943Z"
