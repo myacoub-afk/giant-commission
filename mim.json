@@ -218,17 +218,9 @@
         "market": "Metro Northeast",
         "geo": "Metro Philadelphia North",
         "total": 1,
-        "assigned": 0,
-        "orders": 1,
-        "orderDetail": [
-          {
-            "order": "110219867897",
-            "date": "10/07",
-            "iso": "2026-10-07",
-            "lines": 1,
-            "status": "Pending or Canceled"
-          }
-        ]
+        "assigned": 1,
+        "orders": 0,
+        "orderDetail": []
       },
       {
         "store": "10226085 : 5555 Zuni Rd SE Ste 5",
@@ -566,6 +558,16 @@
         "at": "2026-10-11T17:32:03.998Z",
         "week": "10/03/2026",
         "order": "110219922853"
+      },
+      {
+        "code": "kqc67441",
+        "lines": 1,
+        "store": "10202204 : 3712 N Broad St",
+        "mm": "Rani (text)",
+        "market": "Rani",
+        "at": "2026-10-11T19:31:16.909Z",
+        "week": "10/03/2026",
+        "order": "110219867897"
       }
     ],
     "refreshed": "2026-10-11T15:04:09.943Z"
