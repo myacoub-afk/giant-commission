@@ -303,7 +303,7 @@
     },
     {
       "code": "taa92298",
-      "postpaid": 3,
+      "postpaid": 6,
       "store": "3701 San Mateo Blvd NE",
       "lastName": "Trejo"
     },
@@ -465,17 +465,9 @@
       "market": "Metro South Central",
       "geo": "Metro Albuquerque Santa Fe",
       "total": 3,
-      "assigned": 0,
-      "orders": 1,
-      "orderDetail": [
-        {
-          "order": "110219972579",
-          "date": "10/10",
-          "iso": "2026-10-10",
-          "lines": 3,
-          "status": "Pending or Canceled"
-        }
-      ]
+      "assigned": 3,
+      "orders": 0,
+      "orderDetail": []
     },
     {
       "store": "10328824 : 2401 W Cheltenham Ave Suite 225",
@@ -1029,6 +1021,16 @@
       "at": "2026-10-12T15:09:07.272Z",
       "week": "10/10/2026",
       "order": "110219977009"
+    },
+    {
+      "code": "taa92298",
+      "lines": 3,
+      "store": "10227682 : 6125 Montgomery Blvd NE Ste 3",
+      "mm": "Dom",
+      "market": "Dom",
+      "at": "2026-10-12T16:16:13.181Z",
+      "week": "10/10/2026",
+      "order": "110219972579"
     }
   ]
 }
