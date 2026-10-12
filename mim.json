@@ -648,17 +648,9 @@
         "market": "Metro South Central",
         "geo": "Metro Albuquerque South",
         "total": 7,
-        "assigned": 1,
-        "orders": 1,
-        "orderDetail": [
-          {
-            "order": "110219953764",
-            "date": "10/09",
-            "iso": "2026-10-09",
-            "lines": 6,
-            "status": "Pending or Canceled"
-          }
-        ]
+        "assigned": 7,
+        "orders": 0,
+        "orderDetail": []
       }
     ],
     "manualAssignments": [
@@ -1012,6 +1004,16 @@
         "at": "2026-10-12T14:09:22.613Z",
         "week": "10/03/2026",
         "order": "110219924607"
+      },
+      {
+        "code": "may13895",
+        "lines": 6,
+        "store": "10223898 : 600 Louisiana Blvd SE Ste D",
+        "mm": "Dom",
+        "market": "Dom",
+        "at": "2026-10-12T14:52:37.762Z",
+        "week": "10/03/2026",
+        "order": "110219953764"
       }
     ],
     "refreshed": "2026-10-12T14:52:00.589Z"
