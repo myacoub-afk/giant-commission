@@ -513,18 +513,11 @@
         "market": "Metro Southeast",
         "geo": "Metro Miramar",
         "total": 28,
-        "assigned": 26,
-        "orders": 2,
+        "assigned": 27,
+        "orders": 1,
         "orderDetail": [
           {
             "order": "110219939283",
-            "date": "10/09",
-            "iso": "2026-10-09",
-            "lines": 1,
-            "status": "Active"
-          },
-          {
-            "order": "110219950821",
             "date": "10/09",
             "iso": "2026-10-09",
             "lines": 1,
@@ -1007,6 +1000,16 @@
         "at": "2026-10-12T15:49:36.244Z",
         "week": "10/03/2026",
         "order": "110219881202"
+      },
+      {
+        "code": "lnc23609",
+        "lines": 1,
+        "store": "10328802 : 9180 State Rd 84",
+        "mm": "Islam (text)",
+        "market": "Islam",
+        "at": "2026-10-12T16:27:45.599Z",
+        "week": "10/03/2026",
+        "order": "110219950821"
       }
     ],
     "refreshed": "2026-10-12T14:52:00.589Z"
