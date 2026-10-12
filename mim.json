@@ -193,17 +193,9 @@
         "market": "Metro South Central",
         "geo": "Metro Albuquerque Santa Fe",
         "total": 8,
-        "assigned": 7,
-        "orders": 1,
-        "orderDetail": [
-          {
-            "order": "110219954558",
-            "date": "10/09",
-            "iso": "2026-10-09",
-            "lines": 1,
-            "status": "Pending or Canceled"
-          }
-        ]
+        "assigned": 8,
+        "orders": 0,
+        "orderDetail": []
       },
       {
         "store": "10202204 : 3712 N Broad St",
@@ -570,6 +562,16 @@
         "at": "2026-10-11T20:06:28.401Z",
         "week": "10/03/2026",
         "order": "110219883374"
+      },
+      {
+        "code": "yhc49048",
+        "lines": 1,
+        "store": "10207246 : 1965 Cerrillos Rd",
+        "mm": "Dom",
+        "market": "Dom",
+        "at": "2026-10-12T14:06:57.876Z",
+        "week": "10/03/2026",
+        "order": "110219954558"
       }
     ],
     "refreshed": "2026-10-11T15:04:09.943Z"
