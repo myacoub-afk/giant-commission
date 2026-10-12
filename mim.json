@@ -531,17 +531,9 @@
         "market": "Metro Northeast",
         "geo": "Metro Trenton",
         "total": 9,
-        "assigned": 7,
-        "orders": 1,
-        "orderDetail": [
-          {
-            "order": "110219932762",
-            "date": "10/09",
-            "iso": "2026-10-09",
-            "lines": 2,
-            "status": "Active"
-          }
-        ]
+        "assigned": 9,
+        "orders": 0,
+        "orderDetail": []
       },
       {
         "store": "10328803 : 282 NE 8th Street",
@@ -1016,6 +1008,16 @@
         "at": "2026-10-12T16:28:06.124Z",
         "week": "10/03/2026",
         "order": "110219939283"
+      },
+      {
+        "code": "kvr00316",
+        "lines": 2,
+        "store": "10328822 : 50 E. State Street 2",
+        "mm": "Barby (text)",
+        "market": "Barby",
+        "at": "2026-10-12T16:39:43.416Z",
+        "week": "10/03/2026",
+        "order": "110219932762"
       }
     ],
     "refreshed": "2026-10-12T14:52:00.589Z"
