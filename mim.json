@@ -545,17 +545,9 @@
         "market": "Metro Northeast",
         "geo": "Metro Philadelphia South",
         "total": 23,
-        "assigned": 18,
-        "orders": 1,
-        "orderDetail": [
-          {
-            "order": "110219881202",
-            "date": "10/07",
-            "iso": "2026-10-07",
-            "lines": 5,
-            "status": "Active"
-          }
-        ]
+        "assigned": 23,
+        "orders": 0,
+        "orderDetail": []
       },
       {
         "store": "10328822 : 50 E. State Street 2",
@@ -1013,6 +1005,16 @@
         "at": "2026-10-12T14:52:37.762Z",
         "week": "10/03/2026",
         "order": "110219953764"
+      },
+      {
+        "code": "uit78189",
+        "lines": 5,
+        "store": "10328818 : 200 W Oregon ave",
+        "mm": "Rani (text)",
+        "market": "Rani",
+        "at": "2026-10-12T15:49:36.244Z",
+        "week": "10/03/2026",
+        "order": "110219881202"
       }
     ],
     "refreshed": "2026-10-12T14:52:00.589Z"
