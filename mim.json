@@ -390,6 +390,12 @@
       "postpaid": 4,
       "store": "1517 W Orange Blossom Trl",
       "lastName": "Diaz"
+    },
+    {
+      "code": "bvv19749",
+      "postpaid": 1,
+      "store": "130 Black Horse Pike Ste B4",
+      "lastName": ""
     }
   ],
   "mtdMap": {},
@@ -399,17 +405,9 @@
       "market": "Metro Northeast",
       "geo": "Metro New Jersey South",
       "total": 1,
-      "assigned": 0,
-      "orders": 1,
-      "orderDetail": [
-        {
-          "order": "110219977009",
-          "date": "10/10",
-          "iso": "2026-10-10",
-          "lines": 1,
-          "status": "Pending or Canceled"
-        }
-      ]
+      "assigned": 1,
+      "orders": 0,
+      "orderDetail": []
     },
     {
       "store": "10202216 : 810 Oley St",
@@ -1018,5 +1016,17 @@
       }
     ],
     "refreshed": "2026-10-12T14:52:00.589Z"
-  }
+  },
+  "manualAssignments": [
+    {
+      "code": "bvv19749",
+      "lines": 1,
+      "store": "10225286 : 130 Black Horse Pike Ste B4",
+      "mm": "Rani (text)",
+      "market": "Rani",
+      "at": "2026-10-12T15:09:07.272Z",
+      "week": "10/10/2026",
+      "order": "110219977009"
+    }
+  ]
 }
