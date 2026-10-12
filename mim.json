@@ -556,17 +556,9 @@
         "market": "Metro Southeast",
         "geo": "Metro Miami South",
         "total": 55,
-        "assigned": 51,
-        "orders": 1,
-        "orderDetail": [
-          {
-            "order": "110219903309",
-            "date": "10/08",
-            "iso": "2026-10-08",
-            "lines": 4,
-            "status": "Active"
-          }
-        ]
+        "assigned": 55,
+        "orders": 0,
+        "orderDetail": []
       },
       {
         "store": "10328800 : 7246 SW 117th Ave",
@@ -1012,6 +1004,16 @@
         "at": "2026-10-12T16:27:55.073Z",
         "week": "10/03/2026",
         "order": "110219881255"
+      },
+      {
+        "code": "nkq42630",
+        "lines": 4,
+        "store": "10328803 : 282 NE 8th Street",
+        "mm": "Islam (text)",
+        "market": "Islam",
+        "at": "2026-10-12T16:28:00.529Z",
+        "week": "10/03/2026",
+        "order": "110219903309"
       }
     ],
     "refreshed": "2026-10-12T14:52:00.589Z"
