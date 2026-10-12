@@ -530,25 +530,16 @@
             "date": "10/09",
             "iso": "2026-10-09",
             "lines": 1,
-            "status": "Pending or Canceled"
+            "status": "Active"
           },
           {
             "order": "110219950821",
             "date": "10/09",
             "iso": "2026-10-09",
             "lines": 1,
-            "status": "Pending or Canceled"
+            "status": "Active"
           }
         ]
-      },
-      {
-        "store": "10199891 : 2484 Sanford Ave",
-        "market": "Metro Southeast",
-        "geo": "Metro Orlando North",
-        "total": 22,
-        "assigned": 22,
-        "orders": 0,
-        "orderDetail": []
       },
       {
         "store": "10328818 : 200 W Oregon ave",
@@ -568,23 +559,6 @@
         ]
       },
       {
-        "store": "10328797 : 1435 W 49th Street",
-        "market": "Metro Southeast",
-        "geo": "Metro Hialeah",
-        "total": 28,
-        "assigned": 23,
-        "orders": 1,
-        "orderDetail": [
-          {
-            "order": "110219868075",
-            "date": "10/07",
-            "iso": "2026-10-07",
-            "lines": 5,
-            "status": "Pending or Canceled"
-          }
-        ]
-      },
-      {
         "store": "10328822 : 50 E. State Street 2",
         "market": "Metro Northeast",
         "geo": "Metro Trenton",
@@ -597,7 +571,7 @@
             "date": "10/09",
             "iso": "2026-10-09",
             "lines": 2,
-            "status": "Pending or Canceled"
+            "status": "Active"
           }
         ]
       },
@@ -636,24 +610,6 @@
         ]
       },
       {
-        "store": "10191842 : 1105 S Woodland Blvd",
-        "market": "Metro Southeast",
-        "geo": "Metro Daytona Beach",
-        "total": 7,
-        "assigned": 7,
-        "orders": 0,
-        "orderDetail": []
-      },
-      {
-        "store": "10207247 : 6417 Airport Rd Ste 103",
-        "market": "Metro South Central",
-        "geo": "Metro Albuquerque Santa Fe",
-        "total": 9,
-        "assigned": 9,
-        "orders": 0,
-        "orderDetail": []
-      },
-      {
         "store": "10216100 : 203 Blanding Blvd",
         "market": "Metro Southeast",
         "geo": "Metro Jacksonville South",
@@ -686,33 +642,6 @@
             "status": "Active"
           }
         ]
-      },
-      {
-        "store": "10207246 : 1965 Cerrillos Rd",
-        "market": "Metro South Central",
-        "geo": "Metro Albuquerque Santa Fe",
-        "total": 8,
-        "assigned": 8,
-        "orders": 0,
-        "orderDetail": []
-      },
-      {
-        "store": "10202204 : 3712 N Broad St",
-        "market": "Metro Northeast",
-        "geo": "Metro Philadelphia North",
-        "total": 1,
-        "assigned": 1,
-        "orders": 0,
-        "orderDetail": []
-      },
-      {
-        "store": "10226085 : 5555 Zuni Rd SE Ste 5",
-        "market": "Metro South Central",
-        "geo": "Metro Albuquerque South",
-        "total": 2,
-        "assigned": 2,
-        "orders": 0,
-        "orderDetail": []
       },
       {
         "store": "10223898 : 600 Louisiana Blvd SE Ste D",
@@ -1085,6 +1014,6 @@
         "order": "110219924607"
       }
     ],
-    "refreshed": "2026-10-11T15:04:09.943Z"
+    "refreshed": "2026-10-12T14:52:00.589Z"
   }
 }
