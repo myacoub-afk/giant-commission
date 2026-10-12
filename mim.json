@@ -142,17 +142,9 @@
         "market": "Metro South Central",
         "geo": "Metro Albuquerque Santa Fe",
         "total": 9,
-        "assigned": 8,
-        "orders": 1,
-        "orderDetail": [
-          {
-            "order": "110219878635",
-            "date": "10/07",
-            "iso": "2026-10-07",
-            "lines": 1,
-            "status": "Active"
-          }
-        ]
+        "assigned": 9,
+        "orders": 0,
+        "orderDetail": []
       },
       {
         "store": "10216100 : 203 Blanding Blvd",
@@ -572,6 +564,16 @@
         "at": "2026-10-12T14:06:57.876Z",
         "week": "10/03/2026",
         "order": "110219954558"
+      },
+      {
+        "code": "vyk61042",
+        "lines": 1,
+        "store": "10207247 : 6417 Airport Rd Ste 103",
+        "mm": "Dom",
+        "market": "Dom",
+        "at": "2026-10-12T14:08:27.344Z",
+        "week": "10/03/2026",
+        "order": "110219878635"
       }
     ],
     "refreshed": "2026-10-11T15:04:09.943Z"
