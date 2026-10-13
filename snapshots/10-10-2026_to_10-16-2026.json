@@ -1,7 +1,7 @@
 {
   "meta": {
     "period": "Oct 10, 2026 - Oct 16, 2026",
-    "published": "Oct 12, 9:15 PM",
+    "published": "Oct 12, 9:45 PM",
     "autoPublished": true
   },
   "mrc": {
@@ -237,8 +237,8 @@
     },
     "gbn62354": {
       "name": "angie",
-      "mrc": 970,
-      "hint": 3
+      "mrc": 1020,
+      "hint": 4
     },
     "gkt82031": {
       "name": "LAELLANI",
@@ -892,7 +892,7 @@
     },
     "ggv08751": {
       "name": "Blanca",
-      "mrc": 275,
+      "mrc": 345,
       "hint": 0
     },
     "hcw68692": {
@@ -912,7 +912,7 @@
     },
     "may13895": {
       "name": "ADRIAN",
-      "mrc": 280,
+      "mrc": 295,
       "hint": 1
     },
     "pxc14116": {
@@ -2373,7 +2373,7 @@
     "gbn62354": {
       "name": "angie",
       "acc": 1764.63,
-      "hint": 2,
+      "hint": 3,
       "store": "CLEARLAKE 1",
       "repName": "angie"
     },
@@ -3833,19 +3833,19 @@
       "name": "angie",
       "lastName": "Rezazadeh",
       "store": "CLEARLAKE 1",
-      "mrc": 970,
+      "mrc": 1020,
       "acc": 1764.63,
-      "hint": 3,
+      "hint": 4,
       "mim": 1,
       "mtd_lines": 0,
       "in_mim": true,
       "hint_gate": true,
       "mim_gate": true,
-      "tier": 2,
-      "tier_comm": 299.06,
-      "hint_spiff": 45,
+      "tier": 3,
+      "tier_comm": 366.69,
+      "hint_spiff": 60,
       "mim_spiff": 20,
-      "total": 364.06,
+      "total": 446.69,
       "mrc_gap": 0,
       "acc_gap": 0,
       "hint_gap": 0,
@@ -3853,7 +3853,7 @@
       "qualifies": true,
       "needs": "Qualifies for Tier 1",
       "rank": 1,
-      "close_order": 1
+      "close_order": 0
     },
     {
       "code": "opu09387",
@@ -3880,7 +3880,7 @@
       "qualifies": true,
       "needs": "Qualifies for Tier 1",
       "rank": 2,
-      "close_order": 0
+      "close_order": 1
     },
     {
       "code": "eqt51823",
@@ -5345,7 +5345,7 @@
       "name": "Blanca",
       "lastName": "Marquez",
       "store": "AIRPORT",
-      "mrc": 275,
+      "mrc": 345,
       "acc": 171.74,
       "hint": 0,
       "mim": 2,
@@ -5358,12 +5358,12 @@
       "hint_spiff": 0,
       "mim_spiff": 40,
       "total": 40,
-      "mrc_gap": 225,
+      "mrc_gap": 155,
       "acc_gap": 528.26,
       "hint_gap": 1,
       "mim_gap": 0,
       "qualifies": false,
-      "needs": "+$225 MRC, +$528.26 acc, +1 HINT",
+      "needs": "+$155 MRC, +$528.26 acc, +1 HINT",
       "rank": 57,
       "close_order": 87
     },
@@ -6722,7 +6722,7 @@
       "name": "ADRIAN",
       "lastName": "",
       "store": "BROADWAY",
-      "mrc": 280,
+      "mrc": 295,
       "acc": 145.89,
       "hint": 1,
       "mim": 0,
@@ -6735,12 +6735,12 @@
       "hint_spiff": 15,
       "mim_spiff": 0,
       "total": 15,
-      "mrc_gap": 220,
+      "mrc_gap": 205,
       "acc_gap": 554.11,
       "hint_gap": 0,
       "mim_gap": 1,
       "qualifies": false,
-      "needs": "+$220 MRC, +$554.11 acc, +1 MIM",
+      "needs": "+$205 MRC, +$554.11 acc, +1 MIM",
       "rank": 108,
       "close_order": 90
     },
@@ -12796,14 +12796,14 @@
   "stats": {
     "reps": 332,
     "qualified": 2,
-    "total_payout": 6706.43,
-    "total_spiffs": 6240,
+    "total_payout": 6789.06,
+    "total_spiffs": 6255,
     "below_acc": 323,
     "below_mrc": 300,
     "no_hint": 243,
     "no_mim": 266,
-    "max_total": 364.06,
-    "closest_name": "estefani",
+    "max_total": 446.69,
+    "closest_name": "angie",
     "closest_needs": "Qualifies for Tier 1"
   }
 }
