@@ -984,6 +984,12 @@
       "postpaid": 1,
       "store": "535 Penn St",
       "lastName": ""
+    },
+    {
+      "code": "jpm70905",
+      "postpaid": 4,
+      "store": "1453 Sand Lake Road Unit D",
+      "lastName": ""
     }
   ],
   "mtdMap": {},
@@ -1159,17 +1165,9 @@
       "market": "Metro Southeast",
       "geo": "Metro Orlando South",
       "total": 9,
-      "assigned": 5,
-      "orders": 1,
-      "orderDetail": [
-        {
-          "order": "110220082676",
-          "date": "10/13",
-          "iso": "2026-10-13",
-          "lines": 4,
-          "status": "Pending or Canceled"
-        }
-      ]
+      "assigned": 9,
+      "orders": 0,
+      "orderDetail": []
     },
     {
       "store": "10328826 : 6801-C West Colonial Drive Unit C",
@@ -1833,6 +1831,16 @@
       "at": "2026-10-14T19:42:14.806Z",
       "week": "10/10/2026",
       "order": "110220066572"
+    },
+    {
+      "code": "jpm70905",
+      "lines": 4,
+      "store": "10328825 : 1453 Sand Lake Road Unit D",
+      "mm": "Tiffany (text)",
+      "market": "Tiffany",
+      "at": "2026-10-14T23:10:16.204Z",
+      "week": "10/10/2026",
+      "order": "110220082676"
     }
   ]
 }
