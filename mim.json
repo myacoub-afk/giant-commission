@@ -405,7 +405,7 @@
     },
     {
       "code": "nfk44997",
-      "postpaid": 4,
+      "postpaid": 6,
       "store": "4701 S Orange Blossom Trl",
       "lastName": "Machado"
     },
@@ -905,17 +905,9 @@
       "market": "Metro Southeast",
       "geo": "Metro Orlando West",
       "total": 9,
-      "assigned": 7,
-      "orders": 1,
-      "orderDetail": [
-        {
-          "order": "110219981008",
-          "date": "10/10",
-          "iso": "2026-10-10",
-          "lines": 2,
-          "status": "Active"
-        }
-      ]
+      "assigned": 9,
+      "orders": 0,
+      "orderDetail": []
     },
     {
       "store": "10227682 : 6125 Montgomery Blvd NE Ste 3",
@@ -1555,6 +1547,16 @@
       "at": "2026-10-14T15:41:10.208Z",
       "week": "10/10/2026",
       "order": "110219985531"
+    },
+    {
+      "code": "nfk44997",
+      "lines": 2,
+      "store": "10194628 : 4701 S Orange Blossom Trl",
+      "mm": "Tiffany (text)",
+      "market": "Tiffany",
+      "at": "2026-10-14T15:45:22.824Z",
+      "week": "10/10/2026",
+      "order": "110219981008"
     }
   ]
 }
