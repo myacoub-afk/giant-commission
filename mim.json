@@ -639,7 +639,7 @@
     },
     {
       "code": "rre81618",
-      "postpaid": 4,
+      "postpaid": 8,
       "store": "5920 Metropolis Way 107",
       "lastName": "Escandell"
     },
@@ -1072,17 +1072,9 @@
       "market": "Metro Southeast",
       "geo": "Metro Orlando West",
       "total": 12,
-      "assigned": 8,
-      "orders": 1,
-      "orderDetail": [
-        {
-          "order": "110220083352",
-          "date": "10/13",
-          "iso": "2026-10-13",
-          "lines": 4,
-          "status": "Active"
-        }
-      ]
+      "assigned": 12,
+      "orders": 0,
+      "orderDetail": []
     },
     {
       "store": "10210981 : 7081 S Orange Blossom Trl",
@@ -1829,6 +1821,16 @@
       "at": "2026-10-14T19:16:41.703Z",
       "week": "10/10/2026",
       "order": "110220066054"
+    },
+    {
+      "code": "rre81618",
+      "lines": 4,
+      "store": "10194890 : 5920 Metropolis Way 107",
+      "mm": "Tiffany (text)",
+      "market": "Tiffany",
+      "at": "2026-10-14T19:42:01.028Z",
+      "week": "10/10/2026",
+      "order": "110220083352"
     }
   ]
 }
