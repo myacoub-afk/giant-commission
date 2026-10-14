@@ -363,7 +363,7 @@
     },
     {
       "code": "kix04441",
-      "postpaid": 2,
+      "postpaid": 5,
       "store": "5519 W Colonial Dr",
       "lastName": "Hernanadez"
     },
@@ -1089,17 +1089,9 @@
       "market": "Metro Southeast",
       "geo": "Metro Orlando West",
       "total": 3,
-      "assigned": 0,
-      "orders": 1,
-      "orderDetail": [
-        {
-          "order": "110220066054",
-          "date": "10/13",
-          "iso": "2026-10-13",
-          "lines": 3,
-          "status": "Active"
-        }
-      ]
+      "assigned": 3,
+      "orders": 0,
+      "orderDetail": []
     },
     {
       "store": "10194902 : 1490 Palm Coast Pkwy NW, Suite 2",
@@ -1827,6 +1819,16 @@
       "at": "2026-10-14T17:12:57.644Z",
       "week": "10/10/2026",
       "order": "110220023666"
+    },
+    {
+      "code": "kix04441",
+      "lines": 3,
+      "store": "10210981 : 7081 S Orange Blossom Trl",
+      "mm": "Tiffany (text)",
+      "market": "Tiffany",
+      "at": "2026-10-14T19:16:41.703Z",
+      "week": "10/10/2026",
+      "order": "110220066054"
     }
   ]
 }
