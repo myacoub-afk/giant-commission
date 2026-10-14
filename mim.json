@@ -249,7 +249,7 @@
     },
     {
       "code": "ifg69036",
-      "postpaid": 6,
+      "postpaid": 10,
       "store": "6801-C West Colonial Drive Unit C",
       "lastName": "Wilder"
     },
@@ -948,17 +948,9 @@
       "market": "Metro Southeast",
       "geo": "Metro Orlando West",
       "total": 15,
-      "assigned": 11,
-      "orders": 1,
-      "orderDetail": [
-        {
-          "order": "110219985531",
-          "date": "10/11",
-          "iso": "2026-10-11",
-          "lines": 4,
-          "status": "Active"
-        }
-      ]
+      "assigned": 15,
+      "orders": 0,
+      "orderDetail": []
     },
     {
       "store": "10328797 : 1435 W 49th Street",
@@ -1553,6 +1545,16 @@
       "at": "2026-10-12T16:52:42.268Z",
       "week": "10/10/2026",
       "order": "110219973506"
+    },
+    {
+      "code": "ifg69036",
+      "lines": 4,
+      "store": "10328826 : 6801-C West Colonial Drive Unit C",
+      "mm": "Tiffany (text)",
+      "market": "Tiffany",
+      "at": "2026-10-14T15:41:10.208Z",
+      "week": "10/10/2026",
+      "order": "110219985531"
     }
   ]
 }
