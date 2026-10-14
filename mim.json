@@ -828,6 +828,12 @@
       "postpaid": 2,
       "store": "5727 N Sharon Amity Rd",
       "lastName": ""
+    },
+    {
+      "code": "spq79244",
+      "postpaid": 1,
+      "store": "535 Penn St",
+      "lastName": ""
     }
   ],
   "mtdMap": {},
@@ -861,17 +867,9 @@
       "market": "Metro Northeast",
       "geo": "Metro Lancaster/York",
       "total": 2,
-      "assigned": 1,
-      "orders": 1,
-      "orderDetail": [
-        {
-          "order": "110220023666",
-          "date": "10/12",
-          "iso": "2026-10-12",
-          "lines": 1,
-          "status": "Pending or Canceled"
-        }
-      ]
+      "assigned": 2,
+      "orders": 0,
+      "orderDetail": []
     },
     {
       "store": "10225286 : 130 Black Horse Pike Ste B4",
@@ -1557,6 +1555,16 @@
       "at": "2026-10-14T15:45:22.824Z",
       "week": "10/10/2026",
       "order": "110219981008"
+    },
+    {
+      "code": "spq79244",
+      "lines": 1,
+      "store": "10202211 : 535 Penn St",
+      "mm": "Barby (text)",
+      "market": "Barby",
+      "at": "2026-10-14T17:12:57.644Z",
+      "week": "10/10/2026",
+      "order": "110220023666"
     }
   ]
 }
