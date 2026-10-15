@@ -1122,6 +1122,12 @@
       "postpaid": 1,
       "store": "5891 S Military Trl Ste 11A",
       "lastName": ""
+    },
+    {
+      "code": "xtx25464",
+      "postpaid": 2,
+      "store": "1545 W Blue Heron Blvd",
+      "lastName": ""
     }
   ],
   "mtdMap": {},
@@ -1140,17 +1146,9 @@
       "market": "Metro Southeast",
       "geo": "Metro Palm Beach North",
       "total": 2,
-      "assigned": 0,
-      "orders": 1,
-      "orderDetail": [
-        {
-          "order": "110220098538",
-          "date": "10/14",
-          "iso": "2026-10-14",
-          "lines": 2,
-          "status": "Active"
-        }
-      ]
+      "assigned": 2,
+      "orders": 0,
+      "orderDetail": []
     },
     {
       "store": "10202793 : 1024 1/2 S Broad St",
@@ -2019,6 +2017,16 @@
       "at": "2026-10-15T20:29:51.170Z",
       "week": "10/10/2026",
       "order": "110220095284"
+    },
+    {
+      "code": "xtx25464",
+      "lines": 2,
+      "store": "10217396 : 1545 W Blue Heron Blvd",
+      "mm": "Suhail (text)",
+      "market": "Suhail",
+      "at": "2026-10-15T20:30:01.376Z",
+      "week": "10/10/2026",
+      "order": "110220098538"
     }
   ]
 }
