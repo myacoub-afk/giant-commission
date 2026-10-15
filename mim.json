@@ -989,6 +989,12 @@
       "postpaid": 4,
       "store": "1453 Sand Lake Road Unit D",
       "lastName": ""
+    },
+    {
+      "code": "hkg70674",
+      "postpaid": 3,
+      "store": "1600 Nay Aug Ave # 3",
+      "lastName": ""
     }
   ],
   "mtdMap": {},
@@ -1173,17 +1179,9 @@
       "market": "Metro Northeast",
       "geo": "Metro Scranton/Wilkes/Barre PA",
       "total": 3,
-      "assigned": 0,
-      "orders": 1,
-      "orderDetail": [
-        {
-          "order": "110220073194",
-          "date": "10/13",
-          "iso": "2026-10-13",
-          "lines": 3,
-          "status": "Pending or Canceled"
-        }
-      ]
+      "assigned": 3,
+      "orders": 0,
+      "orderDetail": []
     },
     {
       "store": "10210981 : 7081 S Orange Blossom Trl",
@@ -1840,6 +1838,16 @@
       "at": "2026-10-14T23:10:16.204Z",
       "week": "10/10/2026",
       "order": "110220082676"
+    },
+    {
+      "code": "hkg70674",
+      "lines": 3,
+      "store": "10221426 : 1600 Nay Aug Ave # 3",
+      "mm": "Barby (text)",
+      "market": "Barby",
+      "at": "2026-10-15T14:16:39.917Z",
+      "week": "10/10/2026",
+      "order": "110220073194"
     }
   ]
 }
