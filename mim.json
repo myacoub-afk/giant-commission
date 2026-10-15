@@ -1128,6 +1128,12 @@
       "postpaid": 2,
       "store": "1545 W Blue Heron Blvd",
       "lastName": ""
+    },
+    {
+      "code": "tyo48742",
+      "postpaid": 1,
+      "store": "1024 1/2 S Broad St",
+      "lastName": ""
     }
   ],
   "mtdMap": {},
@@ -1155,17 +1161,9 @@
       "market": "Metro Northeast",
       "geo": "Metro Trenton",
       "total": 9,
-      "assigned": 8,
-      "orders": 1,
-      "orderDetail": [
-        {
-          "order": "110220097224",
-          "date": "10/14",
-          "iso": "2026-10-14",
-          "lines": 1,
-          "status": "Pending or Canceled"
-        }
-      ]
+      "assigned": 9,
+      "orders": 0,
+      "orderDetail": []
     },
     {
       "store": "10202217 : 9 S 60th St",
@@ -2027,6 +2025,16 @@
       "at": "2026-10-15T20:30:01.376Z",
       "week": "10/10/2026",
       "order": "110220098538"
+    },
+    {
+      "code": "tyo48742",
+      "lines": 1,
+      "store": "10202793 : 1024 1/2 S Broad St",
+      "mm": "Barby (text)",
+      "market": "Barby",
+      "at": "2026-10-15T20:38:20.983Z",
+      "week": "10/10/2026",
+      "order": "110220097224"
     }
   ]
 }
