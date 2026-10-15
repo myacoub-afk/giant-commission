@@ -1116,6 +1116,12 @@
       "postpaid": 3,
       "store": "1600 Nay Aug Ave # 3",
       "lastName": ""
+    },
+    {
+      "code": "gil32559",
+      "postpaid": 1,
+      "store": "5891 S Military Trl Ste 11A",
+      "lastName": ""
     }
   ],
   "mtdMap": {},
@@ -1125,17 +1131,9 @@
       "market": "Metro Southeast",
       "geo": "Metro Boca Raton",
       "total": 3,
-      "assigned": 2,
-      "orders": 1,
-      "orderDetail": [
-        {
-          "order": "110220095284",
-          "date": "10/14",
-          "iso": "2026-10-14",
-          "lines": 1,
-          "status": "Active"
-        }
-      ]
+      "assigned": 3,
+      "orders": 0,
+      "orderDetail": []
     },
     {
       "store": "10217396 : 1545 W Blue Heron Blvd",
@@ -2011,6 +2009,16 @@
       "at": "2026-10-15T14:16:39.917Z",
       "week": "10/10/2026",
       "order": "110220073194"
+    },
+    {
+      "code": "gil32559",
+      "lines": 1,
+      "store": "10193375 : 5891 S Military Trl Ste 11A",
+      "mm": "Suhail (text)",
+      "market": "Suhail",
+      "at": "2026-10-15T20:29:51.170Z",
+      "week": "10/10/2026",
+      "order": "110220095284"
     }
   ]
 }
