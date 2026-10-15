@@ -1,7 +1,7 @@
 {
   "meta": {
     "period": "Oct 10, 2026 - Oct 16, 2026",
-    "published": "Oct 14, 10:46 PM",
+    "published": "Oct 15, 9:16 AM",
     "autoPublished": true
   },
   "mrc": {
@@ -2317,19 +2317,19 @@
       "store": "ORLANDO",
       "repName": "Angelica"
     },
-    "txa41077": {
-      "name": "Alisha",
-      "acc": 205.93,
-      "hint": 0,
-      "store": "ORLANDO",
-      "repName": "Alisha"
-    },
     "cfg22286": {
       "name": "Carlos",
       "acc": 234.92,
       "hint": 0,
       "store": "ORLANDO",
       "repName": "Carlos"
+    },
+    "txa41077": {
+      "name": "Alisha",
+      "acc": 205.93,
+      "hint": 0,
+      "store": "ORLANDO",
+      "repName": "Alisha"
     },
     "wuv76454": {
       "name": "Victor",
@@ -11525,33 +11525,6 @@
       "close_order": 248
     },
     {
-      "code": "txa41077",
-      "name": "Alisha",
-      "lastName": "",
-      "store": "ORLANDO",
-      "mrc": 302,
-      "acc": 205.93,
-      "hint": 0,
-      "mim": 0,
-      "mtd_lines": 0,
-      "in_mim": false,
-      "hint_gate": false,
-      "mim_gate": false,
-      "tier": 0,
-      "tier_comm": 0,
-      "hint_spiff": 0,
-      "mim_spiff": 0,
-      "total": 0,
-      "mrc_gap": 198,
-      "acc_gap": 494.07,
-      "hint_gap": 1,
-      "mim_gap": 1,
-      "qualifies": false,
-      "needs": "+$198 MRC, +$494.07 acc, +1 HINT, +1 MIM",
-      "rank": 274,
-      "close_order": 278
-    },
-    {
       "code": "cfg22286",
       "name": "Carlos",
       "lastName": "",
@@ -11575,8 +11548,35 @@
       "mim_gap": 1,
       "qualifies": false,
       "needs": "+$126 MRC, +$465.08 acc, +1 HINT, +1 MIM",
-      "rank": 275,
+      "rank": 274,
       "close_order": 271
+    },
+    {
+      "code": "txa41077",
+      "name": "Alisha",
+      "lastName": "",
+      "store": "ORLANDO",
+      "mrc": 302,
+      "acc": 205.93,
+      "hint": 0,
+      "mim": 0,
+      "mtd_lines": 0,
+      "in_mim": false,
+      "hint_gate": false,
+      "mim_gate": false,
+      "tier": 0,
+      "tier_comm": 0,
+      "hint_spiff": 0,
+      "mim_spiff": 0,
+      "total": 0,
+      "mrc_gap": 198,
+      "acc_gap": 494.07,
+      "hint_gap": 1,
+      "mim_gap": 1,
+      "qualifies": false,
+      "needs": "+$198 MRC, +$494.07 acc, +1 HINT, +1 MIM",
+      "rank": 275,
+      "close_order": 278
     },
     {
       "code": "qda45668",
