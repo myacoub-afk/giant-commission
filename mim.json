@@ -1134,6 +1134,12 @@
       "postpaid": 1,
       "store": "1024 1/2 S Broad St",
       "lastName": ""
+    },
+    {
+      "code": "gml47539",
+      "postpaid": 2,
+      "store": "1601 Broadway Blvd SE",
+      "lastName": ""
     }
   ],
   "mtdMap": {},
@@ -1206,17 +1212,9 @@
       "market": "Metro South Central",
       "geo": "Metro Albuquerque South",
       "total": 10,
-      "assigned": 8,
-      "orders": 1,
-      "orderDetail": [
-        {
-          "order": "110220078827",
-          "date": "10/13",
-          "iso": "2026-10-13",
-          "lines": 2,
-          "status": "Active"
-        }
-      ]
+      "assigned": 10,
+      "orders": 0,
+      "orderDetail": []
     },
     {
       "store": "10328825 : 1453 Sand Lake Road Unit D",
@@ -2041,6 +2039,16 @@
       "at": "2026-10-16T18:07:36.739Z",
       "week": "10/10/2026",
       "order": "110220065674"
+    },
+    {
+      "code": "gml47539",
+      "lines": 2,
+      "store": "10223905 : 1601 Broadway Blvd SE",
+      "mm": "Dom",
+      "market": "Dom",
+      "at": "2026-10-16T18:09:13.105Z",
+      "week": "10/10/2026",
+      "order": "110220078827"
     }
   ]
 }
