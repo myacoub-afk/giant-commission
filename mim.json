@@ -531,7 +531,7 @@
     },
     {
       "code": "xdm79487",
-      "postpaid": 4,
+      "postpaid": 8,
       "store": "6906 Market Street",
       "lastName": "Rivera"
     },
@@ -1276,17 +1276,9 @@
       "market": "Metro Northeast",
       "geo": "Metro Philadelphia Southwest",
       "total": 14,
-      "assigned": 10,
-      "orders": 1,
-      "orderDetail": [
-        {
-          "order": "110220065674",
-          "date": "10/13",
-          "iso": "2026-10-13",
-          "lines": 4,
-          "status": "Active"
-        }
-      ]
+      "assigned": 14,
+      "orders": 0,
+      "orderDetail": []
     },
     {
       "store": "10194902 : 1490 Palm Coast Pkwy NW, Suite 2",
@@ -2039,6 +2031,16 @@
       "at": "2026-10-16T14:10:10.744Z",
       "week": "10/10/2026",
       "order": "110219959227"
+    },
+    {
+      "code": "xdm79487",
+      "lines": 4,
+      "store": "10328821 : 6906 Market Street",
+      "mm": "Khalil (text)",
+      "market": "Khalil",
+      "at": "2026-10-16T18:07:36.739Z",
+      "week": "10/10/2026",
+      "order": "110220065674"
     }
   ]
 }
