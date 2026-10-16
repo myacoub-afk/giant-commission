@@ -1140,6 +1140,12 @@
       "postpaid": 2,
       "store": "1601 Broadway Blvd SE",
       "lastName": ""
+    },
+    {
+      "code": "yhc49048",
+      "postpaid": 1,
+      "store": "1965 Cerrillos Rd",
+      "lastName": ""
     }
   ],
   "mtdMap": {},
@@ -1319,17 +1325,9 @@
       "market": "Metro South Central",
       "geo": "Metro Albuquerque Santa Fe",
       "total": 2,
-      "assigned": 1,
-      "orders": 1,
-      "orderDetail": [
-        {
-          "order": "110220084543",
-          "date": "10/13",
-          "iso": "2026-10-13",
-          "lines": 1,
-          "status": "Active"
-        }
-      ]
+      "assigned": 2,
+      "orders": 0,
+      "orderDetail": []
     },
     {
       "store": "10217396 : 1545 W Blue Heron Blvd",
@@ -2049,6 +2047,16 @@
       "at": "2026-10-16T18:09:13.105Z",
       "week": "10/10/2026",
       "order": "110220078827"
+    },
+    {
+      "code": "yhc49048",
+      "lines": 1,
+      "store": "10207246 : 1965 Cerrillos Rd",
+      "mm": "Dom",
+      "market": "Dom",
+      "at": "2026-10-16T18:13:49.636Z",
+      "week": "10/10/2026",
+      "order": "110220084543"
     }
   ]
 }
