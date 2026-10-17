@@ -32,17 +32,9 @@
         "market": "Metro Southeast",
         "geo": "Metro Miami South",
         "total": 64,
-        "assigned": 59,
-        "orders": 1,
-        "orderDetail": [
-          {
-            "order": "110220148715",
-            "date": "10/15",
-            "iso": "2026-10-15",
-            "lines": 5,
-            "status": "Active"
-          }
-        ]
+        "assigned": 64,
+        "orders": 0,
+        "orderDetail": []
       },
       {
         "store": "10202216 : 810 Oley St",
@@ -460,6 +452,16 @@
         "at": "2026-10-17T21:00:06.454Z",
         "week": "10/10/2026",
         "order": "110219987306"
+      },
+      {
+        "code": "cbs70284",
+        "lines": 5,
+        "store": "10328803 : 282 NE 8th Street",
+        "mm": "Islam (text)",
+        "market": "Islam",
+        "at": "2026-10-17T21:21:21.947Z",
+        "week": "10/10/2026",
+        "order": "110220148715"
       }
     ],
     "refreshed": "2026-10-17T19:06:14.934Z"
