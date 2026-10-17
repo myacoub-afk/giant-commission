@@ -158,17 +158,9 @@
         "market": "Metro Southeast",
         "geo": "Metro Tampa Central",
         "total": 6,
-        "assigned": 5,
-        "orders": 1,
-        "orderDetail": [
-          {
-            "order": "110220149830",
-            "date": "10/15",
-            "iso": "2026-10-15",
-            "lines": 1,
-            "status": "Active"
-          }
-        ]
+        "assigned": 6,
+        "orders": 0,
+        "orderDetail": []
       },
       {
         "store": "10225701 : 2818 W Sugar Creek Rd",
@@ -449,6 +441,16 @@
         "at": "2026-10-17T20:13:05.898Z",
         "week": "10/10/2026",
         "order": "110220173131"
+      },
+      {
+        "code": "hxy35671",
+        "lines": 1,
+        "store": "10328794 : 2907 N Dale Mabry",
+        "mm": "Nidal (text)",
+        "market": "Nidal",
+        "at": "2026-10-17T20:13:11.842Z",
+        "week": "10/10/2026",
+        "order": "110220149830"
       }
     ],
     "refreshed": "2026-10-17T19:06:14.934Z"
