@@ -100,17 +100,9 @@
         "market": "Metro Southeast",
         "geo": "Metro Miami Southwest",
         "total": 33,
-        "assigned": 32,
-        "orders": 1,
-        "orderDetail": [
-          {
-            "order": "110219987306",
-            "date": "10/11",
-            "iso": "2026-10-11",
-            "lines": 1,
-            "status": "Active"
-          }
-        ]
+        "assigned": 33,
+        "orders": 0,
+        "orderDetail": []
       },
       {
         "store": "10328821 : 6906 Market Street",
@@ -458,6 +450,16 @@
         "at": "2026-10-17T20:59:59.808Z",
         "week": "10/10/2026",
         "order": "110220199203"
+      },
+      {
+        "code": "yfe60320",
+        "lines": 1,
+        "store": "10328800 : 7246 SW 117th Ave",
+        "mm": "Islam (text)",
+        "market": "Islam",
+        "at": "2026-10-17T21:00:06.454Z",
+        "week": "10/10/2026",
+        "order": "110219987306"
       }
     ],
     "refreshed": "2026-10-17T19:06:14.934Z"
