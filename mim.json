@@ -184,17 +184,9 @@
         "market": "Metro Southeast",
         "geo": "Metro Orlando North",
         "total": 8,
-        "assigned": 7,
-        "orders": 1,
-        "orderDetail": [
-          {
-            "order": "110220147323",
-            "date": "10/15",
-            "iso": "2026-10-15",
-            "lines": 1,
-            "status": "Active"
-          }
-        ]
+        "assigned": 8,
+        "orders": 0,
+        "orderDetail": []
       },
       {
         "store": "10216470 : 1015 Waughtown St",
@@ -451,6 +443,16 @@
         "at": "2026-10-17T20:13:11.842Z",
         "week": "10/10/2026",
         "order": "110220149830"
+      },
+      {
+        "code": "ane71534",
+        "lines": 1,
+        "store": "10210165 : 210 S French Ave",
+        "mm": "Moe (text)",
+        "market": "Moe",
+        "at": "2026-10-17T20:17:58.097Z",
+        "week": "10/10/2026",
+        "order": "110220147323"
       }
     ],
     "refreshed": "2026-10-17T19:06:14.934Z"
