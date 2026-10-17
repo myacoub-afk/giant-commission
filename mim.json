@@ -41,17 +41,9 @@
         "market": "Metro Northeast",
         "geo": "Metro Lancaster/York",
         "total": 14,
-        "assigned": 12,
-        "orders": 1,
-        "orderDetail": [
-          {
-            "order": "110220150271",
-            "date": "10/15",
-            "iso": "2026-10-15",
-            "lines": 2,
-            "status": "Active"
-          }
-        ]
+        "assigned": 14,
+        "orders": 0,
+        "orderDetail": []
       },
       {
         "store": "10328825 : 1453 Sand Lake Road Unit D",
@@ -462,6 +454,16 @@
         "at": "2026-10-17T21:21:21.947Z",
         "week": "10/10/2026",
         "order": "110220148715"
+      },
+      {
+        "code": "njq37426",
+        "lines": 2,
+        "store": "10202216 : 810 Oley St",
+        "mm": "Barby (text)",
+        "market": "Barby",
+        "at": "2026-10-17T23:43:16.286Z",
+        "week": "10/10/2026",
+        "order": "110220150271"
       }
     ],
     "refreshed": "2026-10-17T19:06:14.934Z"
