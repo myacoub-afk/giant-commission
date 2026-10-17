@@ -100,16 +100,9 @@
         "market": "Metro Southeast",
         "geo": "Metro Miami Southwest",
         "total": 33,
-        "assigned": 30,
-        "orders": 2,
+        "assigned": 32,
+        "orders": 1,
         "orderDetail": [
-          {
-            "order": "110220199203",
-            "date": "10/16",
-            "iso": "2026-10-16",
-            "lines": 2,
-            "status": "Active"
-          },
           {
             "order": "110219987306",
             "date": "10/11",
@@ -455,6 +448,16 @@
         "at": "2026-10-17T20:18:06.843Z",
         "week": "10/10/2026",
         "order": "110220190189"
+      },
+      {
+        "code": "byj10806",
+        "lines": 2,
+        "store": "10328800 : 7246 SW 117th Ave",
+        "mm": "Islam (text)",
+        "market": "Islam",
+        "at": "2026-10-17T20:59:59.808Z",
+        "week": "10/10/2026",
+        "order": "110220199203"
       }
     ],
     "refreshed": "2026-10-17T19:06:14.934Z"
