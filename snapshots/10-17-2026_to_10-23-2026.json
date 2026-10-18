@@ -1,7 +1,7 @@
 {
   "meta": {
     "period": "Oct 17, 2026 - Oct 23, 2026",
-    "published": "Oct 17, 9:46 PM",
+    "published": "Oct 17, 10:16 PM",
     "autoPublished": true
   },
   "mrc": {
@@ -1770,19 +1770,19 @@
       "store": "SAN MATEO",
       "repName": "ARTURO ORTIZ"
     },
+    "taa92298": {
+      "name": "YOLANDA",
+      "acc": 110,
+      "hint": 0,
+      "store": "SAN MATEO",
+      "repName": "YOLANDA"
+    },
     "may13895": {
       "name": "ADRIAN",
       "acc": 127.5,
       "hint": 0,
       "store": "WYOMING",
       "repName": "ADRIAN"
-    },
-    "taa92298": {
-      "name": "YOLANDA",
-      "acc": 110,
-      "hint": 0,
-      "store": "WYOMING",
-      "repName": "YOLANDA"
     },
     "vrn27514": {
       "name": "Manuel",
@@ -6480,6 +6480,33 @@
       "close_order": 144
     },
     {
+      "code": "taa92298",
+      "name": "YOLANDA",
+      "lastName": "",
+      "store": "SAN MATEO",
+      "mrc": 0,
+      "acc": 110,
+      "hint": 0,
+      "mim": 0,
+      "mtd_lines": 0,
+      "in_mim": false,
+      "hint_gate": false,
+      "mim_gate": false,
+      "tier": 0,
+      "tier_comm": 0,
+      "hint_spiff": 0,
+      "mim_spiff": 0,
+      "total": 0,
+      "mrc_gap": 500,
+      "acc_gap": 590,
+      "hint_gap": 1,
+      "mim_gap": 1,
+      "qualifies": false,
+      "needs": "+$500 MRC, +$590.00 acc, +1 HINT, +1 MIM",
+      "rank": 152,
+      "close_order": 100
+    },
+    {
       "code": "may13895",
       "name": "ADRIAN",
       "lastName": "",
@@ -6503,35 +6530,8 @@
       "mim_gap": 1,
       "qualifies": false,
       "needs": "+$193 MRC, +$572.50 acc, +1 HINT, +1 MIM",
-      "rank": 152,
-      "close_order": 93
-    },
-    {
-      "code": "taa92298",
-      "name": "YOLANDA",
-      "lastName": "",
-      "store": "WYOMING",
-      "mrc": 0,
-      "acc": 110,
-      "hint": 0,
-      "mim": 0,
-      "mtd_lines": 0,
-      "in_mim": false,
-      "hint_gate": false,
-      "mim_gate": false,
-      "tier": 0,
-      "tier_comm": 0,
-      "hint_spiff": 0,
-      "mim_spiff": 0,
-      "total": 0,
-      "mrc_gap": 500,
-      "acc_gap": 590,
-      "hint_gap": 1,
-      "mim_gap": 1,
-      "qualifies": false,
-      "needs": "+$500 MRC, +$590.00 acc, +1 HINT, +1 MIM",
       "rank": 153,
-      "close_order": 100
+      "close_order": 93
     },
     {
       "code": "vrn27514",
