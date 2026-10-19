@@ -339,7 +339,7 @@
     },
     {
       "code": "gbn62354",
-      "postpaid": 3,
+      "postpaid": 1,
       "store": "1034 Clearlake Rd",
       "lastName": "Rezazadeh"
     },
@@ -604,7 +604,7 @@
       "market": "Metro Southeast",
       "geo": "Metro Brevard",
       "total": 3,
-      "assigned": 3,
+      "assigned": 1,
       "orders": 0,
       "orderDetail": []
     },
@@ -1144,6 +1144,17 @@
       "mm": "Shailine (text)",
       "market": "Shailine",
       "at": "2026-10-19T22:59:20.127Z",
+      "week": "10/17/2026",
+      "order": "110220240588"
+    },
+    {
+      "code": "gbn62354",
+      "lines": -2,
+      "store": "10203996 : 1034 Clearlake Rd",
+      "mm": "Shailine (text)",
+      "market": "Shailine",
+      "at": "2026-10-19T23:33:33.584Z",
+      "undo": true,
       "week": "10/17/2026",
       "order": "110220240588"
     }
