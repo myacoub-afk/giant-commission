@@ -462,6 +462,12 @@
       "postpaid": 4,
       "store": "200 W Oregon ave",
       "lastName": ""
+    },
+    {
+      "code": "juz89838",
+      "postpaid": 1,
+      "store": "1490 Palm Coast Pkwy NW, Suite 2",
+      "lastName": ""
     }
   ],
   "mtdMap": {},
@@ -556,17 +562,9 @@
       "market": "Metro Southeast",
       "geo": "Metro Jacksonville South",
       "total": 8,
-      "assigned": 7,
-      "orders": 1,
-      "orderDetail": [
-        {
-          "order": "110220245604",
-          "date": "10/18",
-          "iso": "2026-10-18",
-          "lines": 1,
-          "status": "Active"
-        }
-      ]
+      "assigned": 8,
+      "orders": 0,
+      "orderDetail": []
     },
     {
       "store": "10328818 : 200 W Oregon ave",
@@ -1128,6 +1126,16 @@
       "at": "2026-10-19T19:45:27.852Z",
       "week": "10/17/2026",
       "order": "110220237580"
+    },
+    {
+      "code": "juz89838",
+      "lines": 1,
+      "store": "10194902 : 1490 Palm Coast Pkwy NW, Suite 2",
+      "mm": "Shadaira (text)",
+      "market": "Shadaira",
+      "at": "2026-10-19T19:50:56.905Z",
+      "week": "10/17/2026",
+      "order": "110220245604"
     }
   ]
 }
