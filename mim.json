@@ -468,6 +468,12 @@
       "postpaid": 1,
       "store": "1490 Palm Coast Pkwy NW, Suite 2",
       "lastName": ""
+    },
+    {
+      "code": "yvc60991",
+      "postpaid": 6,
+      "store": "108 N US Highway 17 92",
+      "lastName": ""
     }
   ],
   "mtdMap": {},
@@ -477,17 +483,9 @@
       "market": "Metro Southeast",
       "geo": "Metro Orlando North",
       "total": 10,
-      "assigned": 4,
-      "orders": 1,
-      "orderDetail": [
-        {
-          "order": "110220215524",
-          "date": "10/17",
-          "iso": "2026-10-17",
-          "lines": 6,
-          "status": "Active"
-        }
-      ]
+      "assigned": 10,
+      "orders": 0,
+      "orderDetail": []
     },
     {
       "store": "10217212 : 3581 N Patterson Ave",
@@ -1136,6 +1134,16 @@
       "at": "2026-10-19T19:50:56.905Z",
       "week": "10/17/2026",
       "order": "110220245604"
+    },
+    {
+      "code": "yvc60991",
+      "lines": 6,
+      "store": "10194906 : 108 N US Highway 17 92",
+      "mm": "Moe (text)",
+      "market": "Moe",
+      "at": "2026-10-19T22:29:07.110Z",
+      "week": "10/17/2026",
+      "order": "110220215524"
     }
   ]
 }
