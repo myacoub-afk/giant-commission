@@ -59,17 +59,9 @@
         "market": "Metro Southeast",
         "geo": "Metro Orlando South",
         "total": 9,
-        "assigned": 6,
-        "orders": 1,
-        "orderDetail": [
-          {
-            "order": "110220151688",
-            "date": "10/15",
-            "iso": "2026-10-15",
-            "lines": 3,
-            "status": "Active"
-          }
-        ]
+        "assigned": 9,
+        "orders": 0,
+        "orderDetail": []
       },
       {
         "store": "10328800 : 7246 SW 117th Ave",
@@ -466,6 +458,16 @@
         "at": "2026-10-18T17:57:08.584Z",
         "week": "10/10/2026",
         "order": "110220179400"
+      },
+      {
+        "code": "xkm82888",
+        "lines": 3,
+        "store": "10203847 : 3006 Michigan Ave",
+        "mm": "David (text)",
+        "market": "David",
+        "at": "2026-10-19T14:30:53.487Z",
+        "week": "10/10/2026",
+        "order": "110220151688"
       }
     ],
     "refreshed": "2026-10-17T19:06:14.934Z"
