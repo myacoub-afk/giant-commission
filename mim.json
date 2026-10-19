@@ -42,17 +42,9 @@
         "market": "Metro Southeast",
         "geo": "Metro Orlando South",
         "total": 23,
-        "assigned": 20,
-        "orders": 1,
-        "orderDetail": [
-          {
-            "order": "110220182003",
-            "date": "10/16",
-            "iso": "2026-10-16",
-            "lines": 3,
-            "status": "Active"
-          }
-        ]
+        "assigned": 23,
+        "orders": 0,
+        "orderDetail": []
       },
       {
         "store": "10203847 : 3006 Michigan Ave",
@@ -468,6 +460,16 @@
         "at": "2026-10-19T14:30:53.487Z",
         "week": "10/10/2026",
         "order": "110220151688"
+      },
+      {
+        "code": "jpm70905",
+        "lines": 3,
+        "store": "10328825 : 1453 Sand Lake Road Unit D",
+        "mm": "Tiffany (text)",
+        "market": "Tiffany",
+        "at": "2026-10-19T17:30:36.676Z",
+        "week": "10/10/2026",
+        "order": "110220182003"
       }
     ],
     "refreshed": "2026-10-17T19:06:14.934Z"
