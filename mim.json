@@ -456,6 +456,12 @@
       "postpaid": 2,
       "store": "1255 Providence Blvd",
       "lastName": ""
+    },
+    {
+      "code": "fre77959",
+      "postpaid": 4,
+      "store": "200 W Oregon ave",
+      "lastName": ""
     }
   ],
   "mtdMap": {},
@@ -567,17 +573,9 @@
       "market": "Metro Northeast",
       "geo": "Metro Philadelphia South",
       "total": 11,
-      "assigned": 7,
-      "orders": 1,
-      "orderDetail": [
-        {
-          "order": "110220237580",
-          "date": "10/18",
-          "iso": "2026-10-18",
-          "lines": 4,
-          "status": "Pending or Canceled"
-        }
-      ]
+      "assigned": 11,
+      "orders": 0,
+      "orderDetail": []
     },
     {
       "store": "10220265 : 1163 E State St",
@@ -1120,6 +1118,16 @@
       "at": "2026-10-19T19:36:38.317Z",
       "week": "10/17/2026",
       "order": "110220237639"
+    },
+    {
+      "code": "fre77959",
+      "lines": 4,
+      "store": "10328818 : 200 W Oregon ave",
+      "mm": "Rani (text)",
+      "market": "Rani",
+      "at": "2026-10-19T19:45:27.852Z",
+      "week": "10/17/2026",
+      "order": "110220237580"
     }
   ]
 }
