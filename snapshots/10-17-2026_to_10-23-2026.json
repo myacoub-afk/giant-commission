@@ -1,7 +1,7 @@
 {
   "meta": {
     "period": "Oct 17, 2026 - Oct 23, 2026",
-    "published": "Oct 18, 7:46 PM",
+    "published": "Oct 18, 8:16 PM",
     "autoPublished": true
   },
   "mrc": {
@@ -17,8 +17,8 @@
     },
     "fju17533": {
       "name": "Damaris",
-      "mrc": 928,
-      "hint": 4
+      "mrc": 978,
+      "hint": 5
     },
     "hlt40846": {
       "name": "RUBY",
@@ -1174,7 +1174,7 @@
   "emp": {
     "pxa12423": {
       "name": "GUADALUPE",
-      "acc": 1041.93,
+      "acc": 1116.91,
       "hint": 4,
       "store": "NATIONS FORD",
       "repName": "GUADALUPE"
@@ -1182,7 +1182,7 @@
     "fju17533": {
       "name": "Damaris",
       "acc": 765.75,
-      "hint": 4,
+      "hint": 5,
       "store": "NATIONS FORD",
       "repName": "Damaris"
     },
@@ -3051,13 +3051,13 @@
   },
   "rows": [
     {
-      "code": "pxa12423",
-      "name": "GUADALUPE",
+      "code": "fju17533",
+      "name": "Damaris",
       "lastName": "",
       "store": "NATIONS FORD",
-      "mrc": 955,
-      "acc": 1041.93,
-      "hint": 4,
+      "mrc": 978,
+      "acc": 765.75,
+      "hint": 5,
       "mim": 0,
       "mtd_lines": 0,
       "in_mim": false,
@@ -3065,9 +3065,9 @@
       "mim_gate": false,
       "tier": 1,
       "tier_comm": 0,
-      "hint_spiff": 60,
+      "hint_spiff": 75,
       "mim_spiff": 0,
-      "total": 60,
+      "total": 75,
       "mrc_gap": 0,
       "acc_gap": 0,
       "hint_gap": 0,
@@ -3075,15 +3075,15 @@
       "qualifies": false,
       "needs": "+1 MIM",
       "rank": 1,
-      "close_order": 0
+      "close_order": 3
     },
     {
-      "code": "fju17533",
-      "name": "Damaris",
+      "code": "pxa12423",
+      "name": "GUADALUPE",
       "lastName": "",
       "store": "NATIONS FORD",
-      "mrc": 928,
-      "acc": 765.75,
+      "mrc": 955,
+      "acc": 1116.91,
       "hint": 4,
       "mim": 0,
       "mtd_lines": 0,
@@ -3102,7 +3102,7 @@
       "qualifies": false,
       "needs": "+1 MIM",
       "rank": 2,
-      "close_order": 3
+      "close_order": 0
     },
     {
       "code": "nmt86860",
@@ -10290,13 +10290,13 @@
   "stats": {
     "reps": 268,
     "qualified": 0,
-    "total_payout": 1215,
-    "total_spiffs": 1215,
+    "total_payout": 1230,
+    "total_spiffs": 1230,
     "below_acc": 264,
     "below_mrc": 258,
     "no_hint": 204,
     "no_mim": 268,
-    "max_total": 60,
+    "max_total": 75,
     "closest_name": "GUADALUPE",
     "closest_needs": "+1 MIM"
   }
