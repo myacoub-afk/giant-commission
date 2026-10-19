@@ -444,6 +444,12 @@
       "postpaid": 8,
       "store": "4701 S Orange Blossom Trl",
       "lastName": "Perez"
+    },
+    {
+      "code": "tnl36939",
+      "postpaid": 1,
+      "store": "1149 South Military Trail",
+      "lastName": ""
     }
   ],
   "mtdMap": {},
@@ -623,17 +629,9 @@
       "market": "Metro Southeast",
       "geo": "Metro Boca Raton",
       "total": 1,
-      "assigned": 0,
-      "orders": 1,
-      "orderDetail": [
-        {
-          "order": "110220241143",
-          "date": "10/18",
-          "iso": "2026-10-18",
-          "lines": 1,
-          "status": "Pending or Canceled"
-        }
-      ]
+      "assigned": 1,
+      "orders": 0,
+      "orderDetail": []
     }
   ],
   "prior": {
@@ -1103,5 +1101,17 @@
       }
     ],
     "refreshed": "2026-10-17T19:06:14.934Z"
-  }
+  },
+  "manualAssignments": [
+    {
+      "code": "tnl36939",
+      "lines": 1,
+      "store": "10328799 : 1149 South Military Trail",
+      "mm": "Suhail (text)",
+      "market": "Suhail",
+      "at": "2026-10-19T19:32:35.757Z",
+      "week": "10/17/2026",
+      "order": "110220241143"
+    }
+  ]
 }
