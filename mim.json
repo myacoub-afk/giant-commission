@@ -450,6 +450,12 @@
       "postpaid": 1,
       "store": "1149 South Military Trail",
       "lastName": ""
+    },
+    {
+      "code": "eza29014",
+      "postpaid": 2,
+      "store": "1255 Providence Blvd",
+      "lastName": ""
     }
   ],
   "mtdMap": {},
@@ -595,17 +601,9 @@
       "market": "Metro Southeast",
       "geo": "Metro Daytona Beach",
       "total": 2,
-      "assigned": 0,
-      "orders": 1,
-      "orderDetail": [
-        {
-          "order": "110220237639",
-          "date": "10/18",
-          "iso": "2026-10-18",
-          "lines": 2,
-          "status": "Pending or Canceled"
-        }
-      ]
+      "assigned": 2,
+      "orders": 0,
+      "orderDetail": []
     },
     {
       "store": "10203996 : 1034 Clearlake Rd",
@@ -1112,6 +1110,16 @@
       "at": "2026-10-19T19:32:35.757Z",
       "week": "10/17/2026",
       "order": "110220241143"
+    },
+    {
+      "code": "eza29014",
+      "lines": 2,
+      "store": "10191849 : 1255 Providence Blvd",
+      "mm": "David (text)",
+      "market": "David",
+      "at": "2026-10-19T19:36:38.317Z",
+      "week": "10/17/2026",
+      "order": "110220237639"
     }
   ]
 }
