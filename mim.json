@@ -474,6 +474,12 @@
       "postpaid": 6,
       "store": "108 N US Highway 17 92",
       "lastName": ""
+    },
+    {
+      "code": "qrn91642",
+      "postpaid": 2,
+      "store": "1034 Clearlake Rd",
+      "lastName": ""
     }
   ],
   "mtdMap": {},
@@ -596,7 +602,7 @@
       "market": "Metro Southeast",
       "geo": "Metro Brevard",
       "total": 3,
-      "assigned": 1,
+      "assigned": 3,
       "orders": 0,
       "orderDetail": []
     },
@@ -1159,6 +1165,16 @@
       "at": "2026-10-20T00:46:47.628Z",
       "week": "10/17/2026",
       "order": "110220211907"
+    },
+    {
+      "code": "qrn91642",
+      "lines": 2,
+      "store": "10203996 : 1034 Clearlake Rd",
+      "mm": "Shailine (text)",
+      "market": "Shailine",
+      "at": "2026-10-20T14:12:35.719Z",
+      "week": "10/17/2026",
+      "order": "NO ORDER IN EXPORT"
     }
   ]
 }
