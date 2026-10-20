@@ -428,7 +428,7 @@
     },
     {
       "code": "yfe60320",
-      "postpaid": 1,
+      "postpaid": 2,
       "store": "7246 SW 117th Ave",
       "lastName": "Pino"
     },
@@ -506,17 +506,9 @@
       "market": "Metro Southeast",
       "geo": "Metro Miami Southwest",
       "total": 9,
-      "assigned": 8,
-      "orders": 1,
-      "orderDetail": [
-        {
-          "order": "110220205046",
-          "date": "10/17",
-          "iso": "2026-10-17",
-          "lines": 1,
-          "status": "Active"
-        }
-      ]
+      "assigned": 9,
+      "orders": 0,
+      "orderDetail": []
     },
     {
       "store": "10328803 : 282 NE 8th Street",
@@ -1182,6 +1174,16 @@
       "at": "2026-10-20T14:12:35.719Z",
       "week": "10/17/2026",
       "order": "NO ORDER IN EXPORT"
+    },
+    {
+      "code": "yfe60320",
+      "lines": 1,
+      "store": "10328800 : 7246 SW 117th Ave",
+      "mm": "Islam (text)",
+      "market": "Islam",
+      "at": "2026-10-20T19:23:39.802Z",
+      "week": "10/17/2026",
+      "order": "110220205046"
     }
   ]
 }
