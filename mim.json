@@ -129,7 +129,7 @@
     },
     {
       "code": "kqt40874",
-      "postpaid": 2,
+      "postpaid": 7,
       "store": "3581 N Patterson Ave",
       "lastName": "Elfawair"
     },
@@ -492,17 +492,9 @@
       "market": "Metro Southeast",
       "geo": "Metro Greeensboro-Roanoke",
       "total": 7,
-      "assigned": 2,
-      "orders": 1,
-      "orderDetail": [
-        {
-          "order": "110220211907",
-          "date": "10/17",
-          "iso": "2026-10-17",
-          "lines": 5,
-          "status": "Active"
-        }
-      ]
+      "assigned": 7,
+      "orders": 0,
+      "orderDetail": []
     },
     {
       "store": "10328800 : 7246 SW 117th Ave",
@@ -1157,6 +1149,16 @@
       "undo": true,
       "week": "10/17/2026",
       "order": "110220240588"
+    },
+    {
+      "code": "kqt40874",
+      "lines": 5,
+      "store": "10217212 : 3581 N Patterson Ave",
+      "mm": "Omar (text)",
+      "market": "Omar",
+      "at": "2026-10-20T00:46:47.628Z",
+      "week": "10/17/2026",
+      "order": "110220211907"
     }
   ]
 }
