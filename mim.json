@@ -479,6 +479,12 @@
       "postpaid": 2,
       "store": "1034 Clearlake Rd",
       "lastName": ""
+    },
+    {
+      "code": "izc81037",
+      "postpaid": 2,
+      "store": "282 NE 8th Street",
+      "lastName": ""
     }
   ],
   "mtdMap": {},
@@ -515,17 +521,9 @@
       "market": "Metro Southeast",
       "geo": "Metro Miami South",
       "total": 22,
-      "assigned": 20,
-      "orders": 1,
-      "orderDetail": [
-        {
-          "order": "110220230071",
-          "date": "10/17",
-          "iso": "2026-10-17",
-          "lines": 2,
-          "status": "Active"
-        }
-      ]
+      "assigned": 22,
+      "orders": 0,
+      "orderDetail": []
     },
     {
       "store": "10202216 : 810 Oley St",
@@ -1184,6 +1182,16 @@
       "at": "2026-10-20T19:23:39.802Z",
       "week": "10/17/2026",
       "order": "110220205046"
+    },
+    {
+      "code": "izc81037",
+      "lines": 2,
+      "store": "10328803 : 282 NE 8th Street",
+      "mm": "Islam (text)",
+      "market": "Islam",
+      "at": "2026-10-20T19:27:46.323Z",
+      "week": "10/17/2026",
+      "order": "110220230071"
     }
   ]
 }
