@@ -872,7 +872,7 @@
     },
     {
       "code": "gcn38880",
-      "postpaid": 1,
+      "postpaid": 5,
       "store": "1965 Cerrillos Rd",
       "lastName": ""
     },
@@ -1079,17 +1079,9 @@
       "market": "Metro South Central",
       "geo": "Metro Albuquerque Santa Fe",
       "total": 9,
-      "assigned": 5,
-      "orders": 1,
-      "orderDetail": [
-        {
-          "order": "110220282503",
-          "date": "10/19",
-          "iso": "2026-10-19",
-          "lines": 4,
-          "status": "Active"
-        }
-      ]
+      "assigned": 9,
+      "orders": 0,
+      "orderDetail": []
     },
     {
       "store": "10226085 : 5555 Zuni Rd SE Ste 5",
@@ -1800,6 +1792,16 @@
       "at": "2026-10-21T21:16:30.356Z",
       "week": "10/17/2026",
       "order": "110220277643"
+    },
+    {
+      "code": "gcn38880",
+      "lines": 4,
+      "store": "10207247 : 6417 Airport Rd Ste 103",
+      "mm": "Dom",
+      "market": "Dom",
+      "at": "2026-10-21T21:22:40.874Z",
+      "week": "10/17/2026",
+      "order": "110220282503"
     }
   ]
 }
