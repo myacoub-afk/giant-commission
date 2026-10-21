@@ -875,6 +875,12 @@
       "postpaid": 1,
       "store": "1965 Cerrillos Rd",
       "lastName": ""
+    },
+    {
+      "code": "hcw68692",
+      "postpaid": 4,
+      "store": "5555 Zuni Rd SE Ste 5",
+      "lastName": ""
     }
   ],
   "mtdMap": {},
@@ -1090,17 +1096,9 @@
       "market": "Metro South Central",
       "geo": "Metro Albuquerque South",
       "total": 5,
-      "assigned": 1,
-      "orders": 1,
-      "orderDetail": [
-        {
-          "order": "110220277643",
-          "date": "10/19",
-          "iso": "2026-10-19",
-          "lines": 4,
-          "status": "Active"
-        }
-      ]
+      "assigned": 5,
+      "orders": 0,
+      "orderDetail": []
     },
     {
       "store": "10217212 : 3581 N Patterson Ave",
@@ -1792,6 +1790,16 @@
       "at": "2026-10-21T21:13:56.713Z",
       "week": "10/17/2026",
       "order": "110220292391"
+    },
+    {
+      "code": "hcw68692",
+      "lines": 4,
+      "store": "10226085 : 5555 Zuni Rd SE Ste 5",
+      "mm": "Dom",
+      "market": "Dom",
+      "at": "2026-10-21T21:16:30.356Z",
+      "week": "10/17/2026",
+      "order": "110220277643"
     }
   ]
 }
