@@ -764,7 +764,7 @@
     },
     {
       "code": "xzb29885",
-      "postpaid": 1,
+      "postpaid": 2,
       "store": "612 N State St",
       "lastName": "Linick"
     },
@@ -1014,17 +1014,9 @@
       "market": "Metro Southeast",
       "geo": "Metro Jacksonville South",
       "total": 2,
-      "assigned": 1,
-      "orders": 1,
-      "orderDetail": [
-        {
-          "order": "110220272616",
-          "date": "10/19",
-          "iso": "2026-10-19",
-          "lines": 1,
-          "status": "Active"
-        }
-      ]
+      "assigned": 2,
+      "orders": 0,
+      "orderDetail": []
     },
     {
       "store": "10194902 : 1490 Palm Coast Pkwy NW, Suite 2",
@@ -1782,6 +1774,16 @@
       "at": "2026-10-21T19:35:34.384Z",
       "week": "10/17/2026",
       "order": "110220299274"
+    },
+    {
+      "code": "xzb29885",
+      "lines": 1,
+      "store": "10225526 : 612 N State St",
+      "mm": "Shadaira (text)",
+      "market": "Shadaira",
+      "at": "2026-10-21T19:53:36.447Z",
+      "week": "10/17/2026",
+      "order": "110220272616"
     }
   ]
 }
