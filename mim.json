@@ -869,6 +869,12 @@
       "postpaid": 1,
       "store": "195 Malabar Rd NW",
       "lastName": ""
+    },
+    {
+      "code": "gcn38880",
+      "postpaid": 1,
+      "store": "1965 Cerrillos Rd",
+      "lastName": ""
     }
   ],
   "mtdMap": {},
@@ -1058,17 +1064,9 @@
       "market": "Metro South Central",
       "geo": "Metro Albuquerque Santa Fe",
       "total": 2,
-      "assigned": 1,
-      "orders": 1,
-      "orderDetail": [
-        {
-          "order": "110220292391",
-          "date": "10/20",
-          "iso": "2026-10-20",
-          "lines": 1,
-          "status": "Active"
-        }
-      ]
+      "assigned": 2,
+      "orders": 0,
+      "orderDetail": []
     },
     {
       "store": "10207247 : 6417 Airport Rd Ste 103",
@@ -1784,6 +1782,16 @@
       "at": "2026-10-21T19:53:36.447Z",
       "week": "10/17/2026",
       "order": "110220272616"
+    },
+    {
+      "code": "gcn38880",
+      "lines": 1,
+      "store": "10207246 : 1965 Cerrillos Rd",
+      "mm": "Dom",
+      "market": "Dom",
+      "at": "2026-10-21T21:13:56.713Z",
+      "week": "10/17/2026",
+      "order": "110220292391"
     }
   ]
 }
