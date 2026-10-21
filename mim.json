@@ -887,6 +887,12 @@
       "postpaid": 3,
       "store": "2907 N Dale Mabry",
       "lastName": ""
+    },
+    {
+      "code": "wgi31363",
+      "postpaid": 6,
+      "store": "2091 Saxon Blvd",
+      "lastName": ""
     }
   ],
   "mtdMap": {},
@@ -980,17 +986,9 @@
       "market": "Metro Southeast",
       "geo": "Metro Daytona Beach",
       "total": 15,
-      "assigned": 9,
-      "orders": 1,
-      "orderDetail": [
-        {
-          "order": "110220306374",
-          "date": "10/20",
-          "iso": "2026-10-20",
-          "lines": 6,
-          "status": "Pending or Canceled"
-        }
-      ]
+      "assigned": 15,
+      "orders": 0,
+      "orderDetail": []
     },
     {
       "store": "10216604 : 1643 Rinehart Rd",
@@ -1810,6 +1808,16 @@
       "at": "2026-10-21T21:29:43.917Z",
       "week": "10/17/2026",
       "order": "110220269592"
+    },
+    {
+      "code": "wgi31363",
+      "lines": 6,
+      "store": "10215779 : 2091 Saxon Blvd",
+      "mm": "David (text)",
+      "market": "David",
+      "at": "2026-10-21T21:44:34.072Z",
+      "week": "10/17/2026",
+      "order": "110220306374"
     }
   ]
 }
