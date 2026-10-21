@@ -881,6 +881,12 @@
       "postpaid": 4,
       "store": "5555 Zuni Rd SE Ste 5",
       "lastName": ""
+    },
+    {
+      "code": "hxy35671",
+      "postpaid": 3,
+      "store": "2907 N Dale Mabry",
+      "lastName": ""
     }
   ],
   "mtdMap": {},
@@ -1150,17 +1156,9 @@
       "market": "Metro Southeast",
       "geo": "Metro Tampa Central",
       "total": 3,
-      "assigned": 0,
-      "orders": 1,
-      "orderDetail": [
-        {
-          "order": "110220269592",
-          "date": "10/19",
-          "iso": "2026-10-19",
-          "lines": 3,
-          "status": "Active"
-        }
-      ]
+      "assigned": 3,
+      "orders": 0,
+      "orderDetail": []
     }
   ],
   "prior": {
@@ -1802,6 +1800,16 @@
       "at": "2026-10-21T21:22:40.874Z",
       "week": "10/17/2026",
       "order": "110220282503"
+    },
+    {
+      "code": "hxy35671",
+      "lines": 3,
+      "store": "10328794 : 2907 N Dale Mabry",
+      "mm": "Nidal (text)",
+      "market": "Nidal",
+      "at": "2026-10-21T21:29:43.917Z",
+      "week": "10/17/2026",
+      "order": "110220269592"
     }
   ]
 }
