@@ -893,6 +893,12 @@
       "postpaid": 6,
       "store": "2091 Saxon Blvd",
       "lastName": ""
+    },
+    {
+      "code": "jxo67554",
+      "postpaid": 3,
+      "store": "2031 S Ridgewood Ave",
+      "lastName": ""
     }
   ],
   "mtdMap": {},
@@ -1013,17 +1019,9 @@
       "market": "Metro Southeast",
       "geo": "Metro Daytona Beach",
       "total": 7,
-      "assigned": 4,
-      "orders": 1,
-      "orderDetail": [
-        {
-          "order": "110220287526",
-          "date": "10/20",
-          "iso": "2026-10-20",
-          "lines": 3,
-          "status": "Pending or Canceled"
-        }
-      ]
+      "assigned": 7,
+      "orders": 0,
+      "orderDetail": []
     },
     {
       "store": "10225526 : 612 N State St",
@@ -1818,6 +1816,16 @@
       "at": "2026-10-21T21:44:34.072Z",
       "week": "10/17/2026",
       "order": "110220306374"
+    },
+    {
+      "code": "jxo67554",
+      "lines": 3,
+      "store": "10215777 : 2031 S Ridgewood Ave",
+      "mm": "Shadaira (text)",
+      "market": "Shadaira",
+      "at": "2026-10-21T21:50:40.810Z",
+      "week": "10/17/2026",
+      "order": "110220287526"
     }
   ]
 }
