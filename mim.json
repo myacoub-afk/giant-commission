@@ -188,7 +188,7 @@
     },
     {
       "code": "frt08051",
-      "postpaid": 9,
+      "postpaid": 12,
       "store": "1643 Rinehart Rd",
       "lastName": "Jackson"
     },
@@ -979,17 +979,9 @@
       "market": "Metro Southeast",
       "geo": "Metro Orlando North",
       "total": 18,
-      "assigned": 15,
-      "orders": 1,
-      "orderDetail": [
-        {
-          "order": "110220299274",
-          "date": "10/20",
-          "iso": "2026-10-20",
-          "lines": 3,
-          "status": "Active"
-        }
-      ]
+      "assigned": 18,
+      "orders": 0,
+      "orderDetail": []
     },
     {
       "store": "10194906 : 108 N US Highway 17 92",
@@ -1780,6 +1772,16 @@
       "at": "2026-10-21T19:19:57.780Z",
       "week": "10/17/2026",
       "order": "110220279922"
+    },
+    {
+      "code": "frt08051",
+      "lines": 3,
+      "store": "10216604 : 1643 Rinehart Rd",
+      "mm": "Moe (text)",
+      "market": "Moe",
+      "at": "2026-10-21T19:35:34.384Z",
+      "week": "10/17/2026",
+      "order": "110220299274"
     }
   ]
 }
