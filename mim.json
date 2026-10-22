@@ -1246,17 +1246,9 @@
         "market": "Metro Southeast",
         "geo": "Metro NC Charlotte South",
         "total": 3,
-        "assigned": 2,
-        "orders": 1,
-        "orderDetail": [
-          {
-            "order": "110220191732",
-            "date": "10/16",
-            "iso": "2026-10-16",
-            "lines": 1,
-            "status": "Pending or Canceled"
-          }
-        ]
+        "assigned": 3,
+        "orders": 0,
+        "orderDetail": []
       },
       {
         "store": "10210165 : 210 S French Ave",
@@ -1606,6 +1598,16 @@
         "at": "2026-10-22T16:27:02.260Z",
         "week": "10/10/2026",
         "order": "110220148559"
+      },
+      {
+        "code": "spz14948",
+        "lines": 1,
+        "store": "10225701 : 2818 W Sugar Creek Rd",
+        "mm": "Omar (text)",
+        "market": "Omar",
+        "at": "2026-10-22T16:27:56.664Z",
+        "week": "10/10/2026",
+        "order": "110220191732"
       }
     ],
     "refreshed": "2026-10-17T19:06:14.934Z"
