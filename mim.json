@@ -911,6 +911,12 @@
       "postpaid": 3,
       "store": "3712 N Broad St",
       "lastName": ""
+    },
+    {
+      "code": "fhp17230",
+      "postpaid": 1,
+      "store": "810 Oley St",
+      "lastName": ""
     }
   ],
   "mtdMap": {},
@@ -956,17 +962,9 @@
       "market": "Metro Northeast",
       "geo": "Metro Lancaster/York",
       "total": 8,
-      "assigned": 7,
-      "orders": 1,
-      "orderDetail": [
-        {
-          "order": "110220243046",
-          "date": "10/18",
-          "iso": "2026-10-18",
-          "lines": 1,
-          "status": "Active"
-        }
-      ]
+      "assigned": 8,
+      "orders": 0,
+      "orderDetail": []
     },
     {
       "store": "10194902 : 1490 Palm Coast Pkwy NW, Suite 2",
@@ -1851,6 +1849,16 @@
       "at": "2026-10-22T18:10:59.323Z",
       "week": "10/17/2026",
       "order": "110220258466"
+    },
+    {
+      "code": "fhp17230",
+      "lines": 1,
+      "store": "10202216 : 810 Oley St",
+      "mm": "Barby (text)",
+      "market": "Barby",
+      "at": "2026-10-22T20:07:08.115Z",
+      "week": "10/17/2026",
+      "order": "110220243046"
     }
   ]
 }
