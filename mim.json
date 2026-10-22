@@ -1272,17 +1272,9 @@
         "market": "Metro Southeast",
         "geo": "Metro Western NC",
         "total": 4,
-        "assigned": 1,
-        "orders": 1,
-        "orderDetail": [
-          {
-            "order": "110220148559",
-            "date": "10/15",
-            "iso": "2026-10-15",
-            "lines": 3,
-            "status": "Active"
-          }
-        ]
+        "assigned": 4,
+        "orders": 0,
+        "orderDetail": []
       },
       {
         "store": "10216604 : 1643 Rinehart Rd",
@@ -1604,6 +1596,16 @@
         "at": "2026-10-19T17:30:36.676Z",
         "week": "10/10/2026",
         "order": "110220182003"
+      },
+      {
+        "code": "soi27276",
+        "lines": 3,
+        "store": "10216470 : 1015 Waughtown St",
+        "mm": "Omar (text)",
+        "market": "Omar",
+        "at": "2026-10-22T16:27:02.260Z",
+        "week": "10/10/2026",
+        "order": "110220148559"
       }
     ],
     "refreshed": "2026-10-17T19:06:14.934Z"
