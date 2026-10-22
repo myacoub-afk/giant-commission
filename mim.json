@@ -899,6 +899,12 @@
       "postpaid": 3,
       "store": "2031 S Ridgewood Ave",
       "lastName": ""
+    },
+    {
+      "code": "fnx88145",
+      "postpaid": 3,
+      "store": "3581 N Patterson Ave",
+      "lastName": ""
     }
   ],
   "mtdMap": {},
@@ -917,17 +923,9 @@
       "market": "Metro Southeast",
       "geo": "Metro Greeensboro-Roanoke",
       "total": 10,
-      "assigned": 7,
-      "orders": 1,
-      "orderDetail": [
-        {
-          "order": "110220269443",
-          "date": "10/19",
-          "iso": "2026-10-19",
-          "lines": 3,
-          "status": "Active"
-        }
-      ]
+      "assigned": 10,
+      "orders": 0,
+      "orderDetail": []
     },
     {
       "store": "10328800 : 7246 SW 117th Ave",
@@ -1831,6 +1829,16 @@
       "at": "2026-10-22T16:22:30.020Z",
       "week": "10/17/2026",
       "order": "110220277760"
+    },
+    {
+      "code": "fnx88145",
+      "lines": 3,
+      "store": "10217212 : 3581 N Patterson Ave",
+      "mm": "Omar (text)",
+      "market": "Omar",
+      "at": "2026-10-22T16:26:19.366Z",
+      "week": "10/17/2026",
+      "order": "110220269443"
     }
   ]
 }
