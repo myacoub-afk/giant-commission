@@ -926,7 +926,7 @@
     },
     {
       "code": "yfe60320",
-      "postpaid": 2,
+      "postpaid": 8,
       "store": "7246 SW 117th Ave",
       "lastName": "Pino"
     },
@@ -1299,17 +1299,9 @@
       "market": "Metro Southeast",
       "geo": "Metro Miami Southwest",
       "total": 21,
-      "assigned": 15,
-      "orders": 1,
-      "orderDetail": [
-        {
-          "order": "110220330221",
-          "date": "10/21",
-          "iso": "2026-10-21",
-          "lines": 6,
-          "status": "Pending or Canceled"
-        }
-      ]
+      "assigned": 21,
+      "orders": 0,
+      "orderDetail": []
     },
     {
       "store": "10328802 : 9180 State Rd 84",
@@ -2072,6 +2064,16 @@
       "at": "2026-10-23T14:19:32.105Z",
       "week": "10/17/2026",
       "order": "110220327816"
+    },
+    {
+      "code": "yfe60320",
+      "lines": 6,
+      "store": "10328800 : 7246 SW 117th Ave",
+      "mm": "Islam (text)",
+      "market": "Islam",
+      "at": "2026-10-23T14:19:58.443Z",
+      "week": "10/17/2026",
+      "order": "110220330221"
     }
   ]
 }
