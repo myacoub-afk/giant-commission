@@ -746,7 +746,7 @@
     },
     {
       "code": "tyj13028",
-      "postpaid": 1,
+      "postpaid": 5,
       "store": "9180 State Rd 84",
       "lastName": "Salas"
     },
@@ -1316,17 +1316,9 @@
       "market": "Metro Southeast",
       "geo": "Metro Miramar",
       "total": 16,
-      "assigned": 12,
-      "orders": 1,
-      "orderDetail": [
-        {
-          "order": "110220327816",
-          "date": "10/21",
-          "iso": "2026-10-21",
-          "lines": 4,
-          "status": "Active"
-        }
-      ]
+      "assigned": 16,
+      "orders": 0,
+      "orderDetail": []
     },
     {
       "store": "10328803 : 282 NE 8th Street",
@@ -2070,6 +2062,16 @@
       "at": "2026-10-22T20:07:08.115Z",
       "week": "10/17/2026",
       "order": "110220243046"
+    },
+    {
+      "code": "tyj13028",
+      "lines": 4,
+      "store": "10328802 : 9180 State Rd 84",
+      "mm": "Islam (text)",
+      "market": "Islam",
+      "at": "2026-10-23T14:19:32.105Z",
+      "week": "10/17/2026",
+      "order": "110220327816"
     }
   ]
 }
