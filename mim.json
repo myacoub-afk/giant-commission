@@ -1046,7 +1046,7 @@
     },
     {
       "code": "jel79739",
-      "postpaid": 3,
+      "postpaid": 4,
       "store": "1965 Cerrillos Rd",
       "lastName": "Mora"
     },
@@ -1419,17 +1419,9 @@
       "market": "Metro South Central",
       "geo": "Metro Albuquerque Santa Fe",
       "total": 6,
-      "assigned": 5,
-      "orders": 1,
-      "orderDetail": [
-        {
-          "order": "110220367172",
-          "date": "10/22",
-          "iso": "2026-10-22",
-          "lines": 1,
-          "status": "Pending or Canceled"
-        }
-      ]
+      "assigned": 6,
+      "orders": 0,
+      "orderDetail": []
     },
     {
       "store": "10202204 : 3712 N Broad St",
@@ -2269,6 +2261,16 @@
       "at": "2026-10-23T14:19:58.443Z",
       "week": "10/17/2026",
       "order": "110220330221"
+    },
+    {
+      "code": "jel79739",
+      "lines": 1,
+      "store": "10207246 : 1965 Cerrillos Rd",
+      "mm": "Dom",
+      "market": "Dom",
+      "at": "2026-10-23T21:47:05.835Z",
+      "week": "10/17/2026",
+      "order": "110220367172"
     }
   ]
 }
