@@ -590,7 +590,7 @@
     },
     {
       "code": "miw01822",
-      "postpaid": 15,
+      "postpaid": 22,
       "store": "282 NE 8th Street",
       "lastName": "Escalante"
     },
@@ -1472,17 +1472,9 @@
       "market": "Metro Southeast",
       "geo": "Metro Miami South",
       "total": 68,
-      "assigned": 61,
-      "orders": 1,
-      "orderDetail": [
-        {
-          "order": "110220361939",
-          "date": "10/22",
-          "iso": "2026-10-22",
-          "lines": 7,
-          "status": "Active"
-        }
-      ]
+      "assigned": 68,
+      "orders": 0,
+      "orderDetail": []
     },
     {
       "store": "10328794 : 2907 N Dale Mabry",
@@ -2271,6 +2263,16 @@
       "at": "2026-10-23T21:47:05.835Z",
       "week": "10/17/2026",
       "order": "110220367172"
+    },
+    {
+      "code": "miw01822",
+      "lines": 7,
+      "store": "10328803 : 282 NE 8th Street",
+      "mm": "Islam (text)",
+      "market": "Islam",
+      "at": "2026-10-24T14:13:11.294Z",
+      "week": "10/17/2026",
+      "order": "110220361939"
     }
   ]
 }
