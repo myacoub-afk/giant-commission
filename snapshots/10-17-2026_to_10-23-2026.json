@@ -1,7 +1,7 @@
 {
   "meta": {
     "period": "Oct 17, 2026 - Oct 23, 2026",
-    "published": "Oct 23, 9:17 PM",
+    "published": "Oct 23, 9:47 PM",
     "autoPublished": true
   },
   "mrc": {
@@ -1027,7 +1027,7 @@
     },
     "flr25015": {
       "name": "Nicole",
-      "mrc": 835,
+      "mrc": 848,
       "hint": 2
     },
     "gcn38880": {
@@ -2360,7 +2360,7 @@
     },
     "gbn62354": {
       "name": "angie",
-      "acc": 1865.44,
+      "acc": 1895.42,
       "hint": 4,
       "store": "CLEARLAKE 1",
       "repName": "angie"
@@ -2561,6 +2561,13 @@
       "store": "OBT 3",
       "repName": "Omar"
     },
+    "ifg69036": {
+      "name": "Katrina",
+      "acc": 109.98,
+      "hint": 0,
+      "store": "OBT 3",
+      "repName": "Katrina"
+    },
     "pat75067": {
       "name": "Zeid",
       "acc": 219.93,
@@ -2644,13 +2651,6 @@
       "hint": 0,
       "store": "KIRKMAN",
       "repName": "David"
-    },
-    "ifg69036": {
-      "name": "Katrina",
-      "acc": 109.98,
-      "hint": 0,
-      "store": "SAND LAKE",
-      "repName": "Katrina"
     },
     "axx97896": {
       "name": "STACEY",
@@ -3361,7 +3361,7 @@
     },
     "flr25015": {
       "name": "Nicole",
-      "acc": 509.87,
+      "acc": 544.86,
       "hint": 2,
       "store": "SOUTHERN",
       "repName": "Nicole"
@@ -4317,7 +4317,7 @@
       "lastName": "Rezazadeh",
       "store": "CLEARLAKE 1",
       "mrc": 1515,
-      "acc": 1865.44,
+      "acc": 1895.42,
       "hint": 4,
       "mim": 6,
       "mtd_lines": 0,
@@ -4325,10 +4325,10 @@
       "hint_gate": true,
       "mim_gate": true,
       "tier": 3,
-      "tier_comm": 431.32,
+      "tier_comm": 435.81,
       "hint_spiff": 60,
       "mim_spiff": 120,
-      "total": 611.32,
+      "total": 615.81,
       "mrc_gap": 0,
       "acc_gap": 0,
       "hint_gap": 0,
@@ -6688,6 +6688,33 @@
       "close_order": 247
     },
     {
+      "code": "ifg69036",
+      "name": "Katrina",
+      "lastName": "Wilder",
+      "store": "OBT 3",
+      "mrc": 265,
+      "acc": 109.98,
+      "hint": 0,
+      "mim": 6,
+      "mtd_lines": 0,
+      "in_mim": true,
+      "hint_gate": false,
+      "mim_gate": true,
+      "tier": 0,
+      "tier_comm": 0,
+      "hint_spiff": 0,
+      "mim_spiff": 120,
+      "total": 120,
+      "mrc_gap": 235,
+      "acc_gap": 590.02,
+      "hint_gap": 1,
+      "mim_gap": 0,
+      "qualifies": false,
+      "needs": "+$235 MRC, +$590.02 acc, +1 HINT",
+      "rank": 91,
+      "close_order": 251
+    },
+    {
       "code": "hse11348",
       "name": "Maxwell",
       "lastName": "Segura",
@@ -6711,35 +6738,8 @@
       "mim_gap": 0,
       "qualifies": false,
       "needs": "+$174 MRC, +$365.08 acc, +1 HINT",
-      "rank": 91,
-      "close_order": 188
-    },
-    {
-      "code": "ifg69036",
-      "name": "Katrina",
-      "lastName": "Wilder",
-      "store": "SAND LAKE",
-      "mrc": 265,
-      "acc": 109.98,
-      "hint": 0,
-      "mim": 6,
-      "mtd_lines": 0,
-      "in_mim": true,
-      "hint_gate": false,
-      "mim_gate": true,
-      "tier": 0,
-      "tier_comm": 0,
-      "hint_spiff": 0,
-      "mim_spiff": 120,
-      "total": 120,
-      "mrc_gap": 235,
-      "acc_gap": 590.02,
-      "hint_gap": 1,
-      "mim_gap": 0,
-      "qualifies": false,
-      "needs": "+$235 MRC, +$590.02 acc, +1 HINT",
       "rank": 92,
-      "close_order": 251
+      "close_order": 188
     },
     {
       "code": "hxf28883",
@@ -7144,7 +7144,7 @@
       "qualifies": false,
       "needs": "+$155.19 acc, +1 HINT",
       "rank": 107,
-      "close_order": 102
+      "close_order": 103
     },
     {
       "code": "wql96426",
@@ -7630,7 +7630,7 @@
       "qualifies": false,
       "needs": "+$175.28 acc, +1 HINT",
       "rank": 125,
-      "close_order": 103
+      "close_order": 104
     },
     {
       "code": "jel79739",
@@ -9527,8 +9527,8 @@
       "name": "Nicole",
       "lastName": "",
       "store": "SOUTHERN",
-      "mrc": 835,
-      "acc": 509.87,
+      "mrc": 848,
+      "acc": 544.86,
       "hint": 2,
       "mim": 0,
       "mtd_lines": 0,
@@ -9541,13 +9541,13 @@
       "mim_spiff": 0,
       "total": 30,
       "mrc_gap": 0,
-      "acc_gap": 190.13,
+      "acc_gap": 155.14,
       "hint_gap": 0,
       "mim_gap": 1,
       "qualifies": false,
-      "needs": "+$190.13 acc, +1 MIM",
+      "needs": "+$155.14 acc, +1 MIM",
       "rank": 196,
-      "close_order": 104
+      "close_order": 102
     },
     {
       "code": "dxu32635",
@@ -13954,7 +13954,7 @@
   "stats": {
     "reps": 359,
     "qualified": 51,
-    "total_payout": 31566.38,
+    "total_payout": 31570.87,
     "total_spiffs": 22365,
     "below_acc": 330,
     "below_mrc": 215,
